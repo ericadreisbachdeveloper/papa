@@ -1,0 +1,70 @@
+
+// Mixins
+
+@mixin clear {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+// set in pixels or ems
+@mixin blur($amount) {
+  -webkit-filter: blur($amount);
+   -moz-filter: blur($amount);
+    -o-filter: blur($amount);
+     -ms-filter: blur($amount);
+      filter: blur($amount);
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	 -moz-transition: $transition-property $transition-time $method;
+	  -ms-transition: $transition-property $transition-time $method;
+	   -o-transition: $transition-property $transition-time $method;
+	    transition: $transition-property $transition-time $method;
+}
+
+@mixin border-radius ($rad) {
+  border-radius: ($rad);
+}
+
+@mixin translate($horiz,$vert) {
+	-webkit-transform: translate($horiz,$vert);
+	 -moz-transform: translate($horiz,$vert);
+	  -ms-transform: translate($horiz,$vert);
+	   -o-transform: translate($horiz,$vert);
+	   transform: translate($horiz,$vert);
+}
+
+@mixin opacity($opac) {
+	opacity: $opac !important;
+   filter: alpha(opacity= $opac * 100 ) !important; /* For IE8 and earlier */
+}
+
+@mixin translatey($y) {
+	-webkit-transform: translateY($y);
+	 -ms-transform: translateY($y);
+	  transform: translateY($y);
+}
+
+@mixin hover {
+  &:hover{ @content; }
+	 &:active{ @content; }
+	  &:focus{ @content; }
+	   &:target{ @content; }
+}
+
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}

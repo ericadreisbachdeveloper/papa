@@ -1,0 +1,78 @@
+// Nav
+
+#nav>.wrapper>.nav>.location.show >.subnav,
+#nav>.wrapper>.nav>.location.hover >.subnav {
+	 left: -.28em;
+}
+
+
+#nav {
+	width: 100%;
+	background: white;
+	border-bottom: 1px solid #ddd;
+	font-size: 2em;
+	padding: .5em 0;
+	position: fixed;
+	 top: 0;
+
+	&>.wrapper > #name {
+		background-image: url('../img/logo.svg');
+		background-repeat: no-repeat;
+		background-position: 0 50%;
+		background-size: contain;
+		display: inline;
+
+		&> .link {
+			border: none;
+			padding-left: 1.44em;
+		}
+	}
+
+	&> .wrapper > .nav {
+		display: none;
+		float: right;
+		list-style-type: none;
+		margin: 0 0 0 1.44em;
+		padding: 0;
+
+		&> .location {
+			display: inline;
+			font-size: .7em;
+			position: relative;
+			text-transform: lowercase;
+
+			&> .link {
+				border: none;
+				padding: .9em .5em .7em;
+			}
+
+			&> .subnav {
+				width: 15em;
+				background: rgba(255,255,255,.95);
+				border-top: 2px solid white;
+				border-right: 1px solid rgba(0,0,0,.1);
+				border-bottom: 1px solid rgba(0,0,0,.1);
+				border-left: 1px solid rgba(0,0,0,.1);
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				 top: 1.9em;
+				 left: -9999em;
+
+				&> .location {
+
+					&> .link {
+						border: none;
+						display: block;
+						padding: .4em .8em;
+					}
+
+					&:last-child {
+						padding-bottom: .5em;
+					}
+				}
+			}
+		}
+	}
+}

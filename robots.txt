@@ -1,0 +1,16 @@
+User-agent: *
+# Exclude irrelevant directories below
+Disallow: /sass/
+Disallow: /casey/
+Disallow: /deck/
+Disallow: /fight/
+Disallow: /greenohm/
+Disallow: /leinenkugels/
+Disallow: /lendsquare/
+Disallow: /niek/
+Disallow: /savorynav/
+Disallow: /thesocialheir/
+Disallow: /zebra/
+
+
+Crawl-delay: 10
