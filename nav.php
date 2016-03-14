@@ -5,7 +5,7 @@
   <ul class="nav">
    <li class="location haschildren"><a class="link" aria-haspopup="true" href="#work">work </a>
      <ul class="subnav" aria-expanded="false" aria-hidden="true">
-       <li class="location"><a class="link" href="#">Sentegrity </a></li>
+       <li class="location"><a class="link" href="sentegrity">Sentegrity </a></li>
        <li class="location"><a class="link" href="#educare">Educare </a></li>
        <li class="location"><a class="link" href="#portionpac">PortionPac </a></li>
        <li class="location"><a class="link" href="#welltrail">WellTrail </a></li>

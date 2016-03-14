@@ -24,40 +24,53 @@
  <div id="work-wrapper" class="wrapper">
 
    <div class="project one">
-    <a href="#" class="link"><img class="img" src="img/casey-well.jpg" alt="Casey Gunschel | Mobile design by Erica Dreisbach" /></a>
-    <h3 class="title">Casey Gunschel</h3>
-    <h4 class="descrip">Responsive mobile site</h4>
+    <a href="sentegrity" class="link"><img class="img" src="img/sq-sentegrity.jpg" alt="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" /></a>
+    <h3 class="title">Sentegrity </h3>
+    <h4 class="descrip">Wordpress/Bootstrap theme </h4>
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="#" class="link"><img class="img" src="img/savory-well.jpg" alt="Savory Living | Design and development" /></a>
-    <h3 class="title">Savory Living</h3>
-    <h4 class="descrip">Design and development </h4>
+    <a href="educare" class="link"><img class="img" src="img/sq-educare.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" /></a>
+    <h3 class="title">Educare </h3>
+    <h4 class="descrip">Wordpress/Bootstrap development</h4>
    </div><!-- .well -->
 
    <div class="project one">
-    <a href="" class="link"><img class="img" src="img/wilmington-well.jpg" alt="Wilmington Ballet Academy of the Dance | Wordpress redesign by Erica Dreisbach" /></a>
-    <h3 class="title">Wilmington Ballet Academy of&nbsp;the&nbsp;Dance</h3>
-    <h4 class="descrip">Wordpress redesign </h4>
+    <a href="portionpac" class="link"><img class="img" src="img/sq-portionpac.jpg" alt="PortionPac | Wordpress redesign by Erica Dreisbach" /></a>
+    <h3 class="title">PortionPac </h3>
+    <h4 class="descrip">Wordpress theme development</h4>
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="" class="link"><img class="img" src="img/nearby-well.jpg" alt="Nearby Registry | CSS, jQuery, social media plugins by Erica Dreisbach" /></a>
-    <h3 class="title">Nearby Registry</h3>
-    <h4 class="descrip">CSS, jQuery, social media plugins</h4>
+    <a href="" class="link"><img class="img" src="img/sq-welltrail.jpg" alt="WellTrail | Wordpress mobile development by Erica Dreisbach" /></a>
+    <h3 class="title">WellTrail </h3>
+    <h4 class="descrip">Mobile/adaptive Wordpress&nbsp;theme </h4>
    </div><!-- .well -->
 
    <div class="project one">
-    <a href="" class="link"><img class="img" src="img/sai-well.jpg" alt="Social Accountability International | Mobile design by Erica Dreisbach" /></a>
-    <h3 class="title">Social Accountability International</h3>
-    <h4 class="descrip">Front&#8209;end development </h4>
+    <a href="gem" class="link"><img class="img" src="img/sq-gem.jpg" alt="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" /></a>
+    <h3 class="title">Government Energy Management </h3>
+    <h4 class="descrip">Wordpress design and&nbsp;development </h4>
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="" class="link"><img class="img" src="img/sugarglen-well.jpg" alt="Sugar Glen Farm | Wordpress blog responsive design and development by Erica Dreisbach" /></a>
+    <a href="wilmington" class="link"><img class="img" src="img/sq-wilmington.jpg" alt="Wilmington Ballet Academy of the Dance | Wordpress theme design and development by Erica Dreisbach" /></a>
+    <h3 class="title">Wilmington Ballet Academy of&nbsp;the&nbsp;Dance </h3>
+    <h4 class="descrip">Wordpress design and&nbsp;development </h4>
+   </div><!-- .well -->
+
+   <div class="project one">
+    <a href="nearby" class="link"><img class="img" src="img/sq-nearby.jpg" alt="Nearby Registry | CSS and plugin development by Erica Dreisbach" /></a>
+    <h3 class="title">Nearby Registry </h3>
+    <h4 class="descrip">CSS &amp; social media&nbsp;plugins </h4>
+   </div><!-- .well -->
+
+   <div class="project two">
+    <a href="sugarglenfarm" class="link"><img class="img" src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" /></a>
     <h3 class="title">Sugar Glen Farm </h3>
-    <h4 class="descrip">Responsive Wordpress blog design and&nbsp;development </h4>
+    <h4 class="descrip">Wordpress blog </h4>
    </div><!-- .well -->
+
 
  </div><!-- .wrapper -->
 </section><!-- /#work -->
