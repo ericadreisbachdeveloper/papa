@@ -9,6 +9,10 @@ boom kaboom.
 
 @media screen and (min-width: 720px) {
 
+	.button {
+		font-size: 1.1em;
+	}
+
 	#nav > .wrapper >  .nav {
 		display: block;
 	}
@@ -28,7 +32,7 @@ boom kaboom.
 	}
 
 	#work>.wrapper>.project .link {
-		width: 60%;
+		width: 50%;
 	}
 
 	#about>.wrapper>.middle>.sectiontitle {
@@ -49,12 +53,52 @@ boom kaboom.
 		}
 	}
 
+
+	// Pages
+
+	.page-buttons {
+		width: auto;
+		margin-top: 0;
+	}
+
+	.page-text {
+
+		&>.-large {
+			font-size: 2em;
+		}
+		&>.-medium {
+			font-size: 1.44em;
+			line-height: 1.66;
+		}
+	}
+
+	.owl-theme > .owl-controls .owl-page > span {
+		width: 1em;
+		height: 1em;
+		@include border-radius(1em);
+	}
+
+	#carousel {
+		padding: 2em 0 1em;
+	}
+
+
 	#sitemap>.wrapper>.nav {
 		width: 50%;
 		float: left;
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 910px) {
 

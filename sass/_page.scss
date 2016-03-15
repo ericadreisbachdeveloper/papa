@@ -1,0 +1,78 @@
+/*
+
+Pages
+
+*/
+
+.page-top {
+  padding: 1em 0  ;
+}
+
+// h1
+.page-title {
+  float: left;
+  font-size: 3em;
+}
+
+.page-buttons {
+  width: 100%;
+  float: right;
+  margin-top: 1em;
+
+  .button {
+    display: block;
+    width: auto;
+    float: left;
+    margin-top: .5em;
+    text-align: center;
+
+    &+ .button {
+      margin-left: .3em;
+    }
+  }
+
+  &:last-child {
+    &:after {
+      clear: both;
+      content: '';
+      display: block;
+    }
+  }
+}
+
+.page-text {
+  &> .p {
+    display: block;
+    line-height: 1.44;
+    margin: 0 auto;
+    padding: 1em 0;
+  }
+
+  &> .-large {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  &> .-slightlylarge {
+    font-size: 1.1em;
+  }
+}
+
+
+#carousel {
+  clear: both;
+  overflow: hidden;
+  padding: 0;
+
+  .owl-item > img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.owl-theme .owl-controls .owl-page span {
+  width: 1.44em;
+  height: 1.44em;
+  @include border-radius(1.44em);
+}

@@ -1,6 +1,6 @@
 <nav id="nav" style="display: none;" role="navigation">
  <div class="wrapper">
-  <div id="name"><a class="link" href="#">ericadreisbach</a></div>
+  <div id="name"><a class="link" href="/papa">ericadreisbach</a></div>
 
   <ul class="nav">
    <li class="location haschildren"><a class="link" aria-haspopup="true" href="#work">work </a>

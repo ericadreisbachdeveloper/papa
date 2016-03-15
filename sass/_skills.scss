@@ -1,0 +1,28 @@
+// Skills
+
+#skills {
+	@include verticals;
+
+	&> .wrapper {
+		margin: 0 auto;
+
+		&> .title, &> .p {
+			text-align: center;
+		}
+
+		&> .title {
+			font-size: 1.8em;
+			margin-bottom: .6em;
+		}
+
+		&> .p {
+			display: block;
+			line-height: 1.44;
+			margin: 0 auto;
+
+			&.-narrow {
+				//width: 10%;
+			}
+		}
+	}
+}

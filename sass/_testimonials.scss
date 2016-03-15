@@ -1,0 +1,26 @@
+// Testimonials
+#testimonials {
+
+	&> .wrapper > .block {
+		width: 70%;
+		margin: 3em auto 1em;
+
+		&> .p {
+			margin: 0;
+		}
+
+		&> .quote {
+			font-size: 1.8em;
+			line-height: 1.44;
+		}
+
+		&> .attrib {
+			font-size: 1.2em;
+			text-align: right;
+
+			&> .name {
+				font-size: 1.1em;
+			}
+		}
+	}
+}
