@@ -54,6 +54,9 @@
 	   &:target{ @content; }
 }
 
+// Animations are a three part thing
+// this is Part One
+
 @mixin keyframes($animationName) {
     @-webkit-keyframes #{$animationName} {
         @content;
@@ -68,3 +71,49 @@
         @content;
     }
 }
+
+// timing: linear;  duration in s
+@mixin cssanimate($animation, $timing, $iterations, $duration) {
+  -webkit-animation-name: $animation;
+  -webkit-animation-timing-function: $timing;
+  -webkit-animation-iteration-count: $iterations;
+  -webkit-animation-duration: $duration;
+
+  animation-name: $animation;
+  animation-timing-function: $timing;
+  animation-iteration-count: $iterations;
+  animation-duration: $duration;
+}
+
+
+// Part Two: name the animation
+
+@include keyframes(logrow) {
+
+    50% {
+      transform: scale(1.2); transform-origin: center center;
+    }
+
+    0%, 100% {
+      transform: scale(1); transform-origin: center center;
+    }
+}
+
+
+// Part Three: apply it in SCSS file a la
+
+/*
+#animated-div {
+
+  -webkit-animation-name: fadeout;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-duration: 4s;
+
+  animation-name: fadeout;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+
+}
+*/

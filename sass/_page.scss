@@ -5,13 +5,16 @@ Pages
 */
 
 .page-top {
-  padding: 1em 0  ;
+  padding: 8em 0 3em;
 }
 
 // h1
 .page-title {
-  float: left;
   font-size: 3em;
+
+  &.-float {
+    float: left;
+  }
 }
 
 .page-buttons {
@@ -53,10 +56,9 @@ Pages
     text-align: center;
   }
 
-  &> .-slightlylarge {
-    font-size: 1.1em;
-  }
+
 }
+
 
 
 #carousel {
@@ -75,4 +77,41 @@ Pages
   width: 1.44em;
   height: 1.44em;
   @include border-radius(1.44em);
+}
+
+
+
+// HOW I WORK
+.process {
+
+  &> .p {
+    line-height: 1.44;
+    margin: 0;
+  }
+
+  &> .-q {
+    font-size: 1.8em;
+    padding: 1em 0 .3em;
+
+  }
+  &> .-a {
+    font-size: 1.15em;
+    padding: .5em 0;
+
+    &> .-small {
+      font-size: .8em;
+    }
+  }
+}
+
+
+#button-section {
+  padding-top: 7em;
+  padding-bottom: 1px;
+}
+
+
+.-fullwidth {
+  width: 100%;
+  padding: 2em 0;
 }

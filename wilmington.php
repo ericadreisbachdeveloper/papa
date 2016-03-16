@@ -1,13 +1,13 @@
-<?php $page = 'WellTrail'; include('header.php'); ?>
+<?php $page = 'Wilmington'; $project = '1'; include('header.php'); ?>
 
-<section id="work">
+<section>
 
   <div class="wrapper page-top">
-    <h1 class="page-title">Wilmington Ballet Academy of&nbsp;the&nbsp;Dance </h1>
+    <h1 class="page-title -float">Wilmington Ballet Academy of&nbsp;the&nbsp;Dance </h1>
 
-    <div class="page-buttons">
+    <!-- <div class="page-buttons">
       <a class="button" href="http://www.wilmingtonballet.org" target="_blank" rel="nofollow">Visit this site</a>
-    </div>
+    </div> -->
   </div><!-- /.wrapper -->
 
   <div id="carousel">
@@ -25,7 +25,7 @@
 
     <p class="p -medium">Custom theme built in Wordpress. Includes three page templates. Design includes sticky footer, lightbox gallery, and Google map toggle in the footer powered by jQuery. Also performed content migration and optimization for&nbsp;search. </p>
 
-    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>    
+    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>
   </div>
 
 </section>

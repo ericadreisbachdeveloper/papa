@@ -1,6 +1,8 @@
 // Sitemap
 
 #sitemap {
+	padding: 6em 0 3em;
+
 	&> .wrapper {
 
 		&> .nav {
@@ -23,17 +25,13 @@
 				text-align: center;
 
 				&.nolink {
-					padding-bottom: 1em;
+					padding: .5em 0;
 				}
 
 				&.title {
 					font-size: 1.44em;
 					letter-spacing: 2px;
 					text-transform: uppercase;
-				}
-
-				&.title > .link {
-					margin-top: -.5em;
 				}
 
 				&> .link {

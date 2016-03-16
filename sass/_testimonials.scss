@@ -1,25 +1,40 @@
 // Testimonials
+
 #testimonials {
 
-	&> .wrapper > .block {
-		width: 70%;
-		margin: 3em auto 1em;
+	&> .quote:first-child {
+		padding-top: 2em;
+	}
+
+	&> .quote:last-child {
+		padding-bottom: 0;
+	}
+
+	&> .quote {
+		line-height: 1.44;
+		padding-bottom: 5em;
 
 		&> .p {
 			margin: 0;
 		}
 
-		&> .quote {
-			font-size: 1.8em;
-			line-height: 1.44;
+		&> .-huge {
+			font-size: 1.7em;
+			padding-bottom: 0;
+		}
+
+		&> .-slightlylarge {
+			font-size: 1.1em;
 		}
 
 		&> .attrib {
-			font-size: 1.2em;
-			text-align: right;
+			padding-top: 0;
 
 			&> .name {
-				font-size: 1.1em;
+				font-size: 1.44em;
+			}
+			&> .org {
+				letter-spacing: 1px;
 			}
 		}
 	}

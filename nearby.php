@@ -1,9 +1,9 @@
-<?php $page = 'Nearby Registry'; include('header.php'); ?>
+<?php $page = 'Nearby Registry'; $project = '1'; include('header.php'); ?>
 
-<section id="work">
+<section>
 
   <div class="wrapper page-top">
-    <h1 class="page-title">Nearby Registry </h1>
+    <h1 class="page-title -float">Nearby Registry </h1>
 
     <div class="page-buttons">
       <a class="button" href="http://www.nearbyregistry.com" target="_blank" rel="nofollow">Visit this site</a>

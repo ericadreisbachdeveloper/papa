@@ -50,9 +50,9 @@
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="wilmington.php" class="link"><img class="img" src="img/sq-wilmington.jpg" alt="Wilmington Ballet Academy of the Dance | Wordpress theme design and development by Erica Dreisbach" /></a>
-    <h3 class="title">Wilmington Ballet Academy of&nbsp;the&nbsp;Dance </h3>
-    <h4 class="descrip">Wordpress design and&nbsp;development </h4>
+    <a href="savory.php" class="link"><img class="img" src="img/sq-savory.jpg" alt="Savory Living | web design by Erica Dreisbach" /></a>
+    <h3 class="title">Savory Living </h3>
+    <h4 class="descrip">design &amp; development </h4>
    </div><!-- .well -->
 
    <div class="project one">
@@ -88,7 +88,7 @@
 </section><!-- #about -->
 
 <section id="skills">
-  <div class="wrapper">
+  <div class="wrapper -narrowcol">
     <h2 class="hidden">Skills </h2>
 
     <p class="p -bigpadding"><a href="pdf/ericadreisbach-resume-web.pdf" class="button">Download Resume (PDF) </a></p>
@@ -107,7 +107,7 @@
 
 
 <section id="typing" class="slide">
-  <h2 class="hidden">erica dresbach - web developer for YOU! </h2>
+  <h2 class="hidden">erica dresbach - web developer </h2>
   <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/typing.jpg" data-position="top right" data-class-name="-short"></div>
 </section>
 

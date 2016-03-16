@@ -1,9 +1,8 @@
-<?php $page = 'Educare'; include('header.php'); ?>
+<?php $page = 'Educare'; $project = '1'; include('header.php'); ?>
 
-<section id="work">
-
+<section>
   <div class="wrapper page-top">
-    <h1 class="page-title">Educare </h1>
+    <h1 class="page-title -float">Educare </h1>
 
     <div class="page-buttons">
       <a class="button" href="http://www.educareschools.org" target="_blank" rel="nofollow">Visit this site</a>
@@ -28,7 +27,7 @@
 
     <p class="p -medium">Custom Wordpress theme built with for a national network of schools that work with young at&#8209;risk children. Theme includes several templates for section pages, school profiles, news items, and an interactive US&nbsp;map. Development makes extensive use of <a href="https://codex.wordpress.org/Post_Types" target="_blank">Custom&nbsp;Post&nbsp;Types</a> and <a href="http://www.advancedcustomfields.com/" target="_blank">Advanced&nbsp;Custom&nbsp;Fields</a> to seamlessly maintain and integrate school profile, news, events, and page&nbsp;content.  Design&nbsp;by&nbsp;<a href="http://www.teamodea.com" target="_blank" rel="nofollow">Odea</a>. </p>
 
-    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>    
+    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>
   </div>
 
 </section>

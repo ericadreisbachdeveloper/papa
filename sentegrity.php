@@ -1,9 +1,9 @@
-<?php $page = 'Sentegrity'; include('header.php'); ?>
+<?php $page = 'Sentegrity'; $project = '1'; include('header.php'); ?>
 
-<section id="work">
+<section>
 
   <div class="wrapper page-top">
-    <h1 class="page-title">Sentegrity </h1>
+    <h1 class="page-title -float">Sentegrity </h1>
 
     <div class="page-buttons">
       <a class="button" href="http://www.sentegrity.com" target="_blank" rel="nofollow">Visit this site</a>

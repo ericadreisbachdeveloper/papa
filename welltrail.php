@@ -1,9 +1,9 @@
-<?php $page = 'WellTrail'; include('header.php'); ?>
+<?php $page = 'WellTrail'; $project = '1'; include('header.php'); ?>
 
-<section id="work">
+<section>
 
   <div class="wrapper page-top">
-    <h1 class="page-title">WellTrail </h1>
+    <h1 class="page-title -float">WellTrail </h1>
 
     <div class="page-buttons">
       <a class="button" href="http://www.welltrail.com" target="_blank" rel="nofollow">Visit this site</a>

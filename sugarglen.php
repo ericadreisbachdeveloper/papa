@@ -1,9 +1,9 @@
-<?php $page = 'Sugar Glen Farm'; include('header.php'); ?>
+<?php $page = 'Sugar Glen Farm'; $project = '1'; include('header.php'); ?>
 
-<section id="work">
+<section>
 
   <div class="wrapper page-top">
-    <h1 class="page-title">Sugar Glen Farm </h1>
+    <h1 class="page-title -float">Sugar Glen Farm </h1>
 
     <div class="page-buttons">
       <a class="button" href="http://www.sugarglenfarm.com" target="_blank" rel="nofollow">Visit this site</a>
@@ -11,9 +11,9 @@
   </div><!-- /.wrapper -->
 
   <div id="carousel">
-    <img src="img/sugarglen-about.jpg" class="lazyOwl" alt="Sugar Glen Farm | About | Wordpress blog design by erica dreisbach" title="Sugar Glen Farm | About | Wordpress blog design by erica dreisbach" />
-
     <img src="img/sugarglen-iphone.jpg" class="lazyOwl" alt="Sugar Glen Farm | mobile design by Chicago freelance web developer erica dreisbach" title="Sugar Glen Farm | mobile design by Chicago freelance web developer erica dreisbach" />
+
+    <img src="img/sugarglen-about.jpg" class="lazyOwl" alt="Sugar Glen Farm | About | Wordpress blog design by erica dreisbach" title="Sugar Glen Farm | About | Wordpress blog design by erica dreisbach" />
 
     <img src="img/sugarglen-hank.jpg" class="lazyOwl" alt="Sugar Glen Farm | Hank | Chicago freelance web design by erica dreisbach" title="Sugar Glen Farm | Hank | Chicago freelance web design by erica dreisbach" />
   </div><!-- /#carousel -->

@@ -1,9 +1,9 @@
-<?php $page = 'Government Energy Management'; include('header.php'); ?>
+<?php $page = 'Government Energy Management'; $project = '1'; include('header.php'); ?>
 
-<section id="work">
+<section>
 
   <div class="wrapper page-top">
-    <h1 class="page-title">Government Energy Management </h1>
+    <h1 class="page-title -float">Government Energy Management </h1>
 
     <div class="page-buttons">
       <a class="button" href="http://www.govenergymgt.com" target="_blank" rel="nofollow">Visit this site</a>
