@@ -3,7 +3,7 @@
 #skills {
 	@include verticals;
 
-	&> .wrapper {
+	&> .text {
 		margin: 0 auto;
 
 		&> .title, &> .p {
@@ -19,9 +19,6 @@
 			display: block;
 			line-height: 1.44;
 			margin: 0 auto;
-
-			&.-narrow {
-			}
 		}
 	}
 }

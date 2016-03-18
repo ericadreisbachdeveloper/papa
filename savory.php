@@ -11,12 +11,11 @@
   </div><!-- /.wrapper -->
 
   <div id="carousel">
-    <img src="img/savoryliving.jpg" class="lazyOwl" alt="Savory Living | Home | web design and development by Chicago freelance web developer erica dreisbach" title="Savory Living | Home | web design and development by Chicago freelance web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/savoryliving.jpg" alt="Savory Living | Home | web design and development by Chicago freelance web developer erica dreisbach" title="Savory Living | Home | web design and development by Chicago freelance web developer erica dreisbach" />
 
-    <img src="img/savory-mobile.jpg" class="lazyOwl" alt="Savory Living | mobile web design by erica dreisbach" title="Savory Living | mobile web design by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/savory-mobile.jpg" alt="Savory Living | mobile web design by erica dreisbach" title="Savory Living | mobile web design by erica dreisbach" />
 
-    <img src="img/savory-blog.jpg" class="lazyOwl" alt="Savory Living | Blog | Wordpress web design and development by Chicago freelance web developer erica dreisbach" title="Savory Living | Blog | Wordpress web design and development by Chicago freelance web developer erica dreisbach" />
-
+    <img class="owl-lazy" data-src="img/savory-blog.jpg" alt="Savory Living | Blog | Wordpress web design and development by Chicago freelance web developer erica dreisbach" title="Savory Living | Blog | Wordpress web design and development by Chicago freelance web developer erica dreisbach" />
   </div><!-- /#carousel -->
 
   <div class="wrapper page-text">
@@ -25,6 +24,7 @@
     <p class="p -medium">Four rounds of concept design on homepage, section pages, and blog. Site uses jQuery Cycles for slideshow and rotating testimonials. Client is able to easily update both from within the&nbsp;CMS. </p>
 
     <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>
+
   </div>
 
 </section>

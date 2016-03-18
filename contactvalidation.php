@@ -1,5 +1,8 @@
 <?php
 
+// define variables and set to empty values
+$name = $email = $website = $experience = $allcaps = $clientproject = "";
+$nameErr = $emailErr = $websiteErr = $experienceErr = $allcapsErr = $clientprojectErr = "";
 $success = '<p id="thankyou">Thank you! We&#39;ll be in touch soon.</p>';
 
 function test_input($data) {
@@ -24,21 +27,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
  if (isset($_REQUEST['email'])) {
 
-  //if "email" is filled out, proceed
-  //check if the email address is invalid
-  //if not, then display error message
+   if (empty($_POST["email"])) {
+    $nameErr = "Name is required";
+   } else {
+    $name = test_input($_POST['name']);
+   }
+
   $mailcheck = spamcheck($_REQUEST['email']);
   if ($mailcheck==FALSE) { $emailErr = "Please enter a valid email address."; }
  }
 
  if (empty($_POST["email"])) {
-  $emailErr = "Please enter your email address.";
+  $emailErr = "Email is required";
  } else {
   $email = test_input($_POST["email"]);
  }
 
  if (empty($_POST["experience"])) {
-  $experienceErr = "This question is required.";
+  $experienceErr = "This question is required";
  } else {
   $experience = test_input($_POST["experience"]);
  }
@@ -50,38 +56,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  }
 
  if (empty($_POST["project"])) {
-  $projectErr = "This question is required.";
+  $clientprojectErr = "";
  } else {
-  $project = test_input($_POST["project"]);
+  $clientproject = test_input($_POST["clientproject"]);
  }
 
- if (empty($_POST["kcups"])) {
-  $kcupsErr = "This question is required.";
- } else {
-  $kcups = test_input($_POST["kcups"]);
- }
-
- if (empty($_POST["reflect"])) {
-  $reflectErr = "This question is required.";
- } else {
-   $reflect = test_input($_POST["reflect"]);
- }
 
  // If all values exist, send the email
- if ( $email && $experience && $allcaps && $project && $kcups && $reflect ) {
+ if ( $name && $email && $experience && $allcaps && $project ) {
 
   $name = $_REQUEST['name'] ;
   $email = $_REQUEST['email'] ;
+  $website = $_REQUEST['website'] ;
   $experience = $_REQUEST['experience'] ;
   $allcaps = $_REQUEST['allcaps'] ;
   $project = $_REQUEST['project'] ;
-  $kcups = $_REQUEST['kcups'] ;
-  $reflect = $_REQUEST['reflect'] ;
-  $description = $_REQUEST['description'] ;
 
-  mail("erica@ericadreisbach.com", "web design/development", "Experience: $experience   All caps: $allcaps    Project priorities: $project   K-cups: $kcups       Reflects poorly on: $reflect    $description", "From: $name <$email>");
+  mail("erica@ericadreisbach.com", "web design/development", "Experience: $experience   All caps: $allcaps    Project priorities: $project   K-cups: $kcups       Reflects poorly on: $reflect        $website          $description", "From: $name <$email>");
 
-  echo "<script type='text/javascript'> $(window).load(function(){ $('.form').css('display','none'); $('#submit').css('display','none'); }); </script>";
+  echo "";
   echo $success;
  }
 }

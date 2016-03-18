@@ -11,11 +11,11 @@
   </div><!-- /.wrapper -->
 
   <div id="carousel">
-    <img src="img/sugarglen-iphone.jpg" class="lazyOwl" alt="Sugar Glen Farm | mobile design by Chicago freelance web developer erica dreisbach" title="Sugar Glen Farm | mobile design by Chicago freelance web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/sugarglen-iphone.jpg" alt="Sugar Glen Farm | mobile design by Chicago freelance web developer erica dreisbach" title="Sugar Glen Farm | mobile design by Chicago freelance web developer erica dreisbach" />
 
-    <img src="img/sugarglen-about.jpg" class="lazyOwl" alt="Sugar Glen Farm | About | Wordpress blog design by erica dreisbach" title="Sugar Glen Farm | About | Wordpress blog design by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/sugarglen-about.jpg" alt="Sugar Glen Farm | About | Wordpress blog design by erica dreisbach" title="Sugar Glen Farm | About | Wordpress blog design by erica dreisbach" />
 
-    <img src="img/sugarglen-hank.jpg" class="lazyOwl" alt="Sugar Glen Farm | Hank | Chicago freelance web design by erica dreisbach" title="Sugar Glen Farm | Hank | Chicago freelance web design by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/sugarglen-hank.jpg" alt="Sugar Glen Farm | Hank | Chicago freelance web design by erica dreisbach" title="Sugar Glen Farm | Hank | Chicago freelance web design by erica dreisbach" />
   </div><!-- /#carousel -->
 
   <div class="wrapper page-text">

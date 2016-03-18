@@ -11,15 +11,15 @@
   </div><!-- /.wrapper -->
 
   <div id="carousel">
-    <img src="img/portionpac-home.jpg" class="lazyOwl" alt="PortionPac | Home | web development by Chicago freelance web developer erica dreisbach" title="PortionPac | Home | web development by Chicago freelance web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/portionpac-home.jpg" alt="PortionPac | Home | web development by Chicago freelance web developer erica dreisbach" title="PortionPac | Home | web development by Chicago freelance web developer erica dreisbach" />
 
-    <img src="img/portionpac-mobile.jpg" class="lazyOwl" alt="PortionPac | mobile responsive web development by Chicago freelance web developer erica dreisbach" title="PortionPac | mobile responsive web development by Chicago freelance web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/portionpac-mobile.jpg" alt="PortionPac | mobile responsive web development by Chicago freelance web developer erica dreisbach" title="PortionPac | mobile responsive web development by Chicago freelance web developer erica dreisbach" />
 
-    <img src="img/portionpac-corpo.jpg" class="lazyOwl" alt="PortionPac | Corporate Responsibility | custom Wordpress theme by erica dreisbach" title="PortionPac | Corporate Responsibility | custom Wordpress theme by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/portionpac-corpo.jpg" alt="PortionPac | Corporate Responsibility | custom Wordpress theme by erica dreisbach" title="PortionPac | Corporate Responsibility | custom Wordpress theme by erica dreisbach" />
 
-    <img src="img/portionpac-product.jpg" class="lazyOwl" alt="PortionPac | Product | Wordpress web development by erica dreisbach" title="PortionPac | Product | Wordpress web development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/portionpac-product.jpg" alt="PortionPac | Product | Wordpress web development by erica dreisbach" title="PortionPac | Product | Wordpress web development by erica dreisbach" />
 
-    <img src="img/portionpac-home-two.jpg" class="lazyOwl" alt="PortionPac | Home | custom mobile Wordpress theme development by erica dreisbach" title="PortionPac | Home | custom mobile Wordpress theme development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/portionpac-home-two.jpg" alt="PortionPac | Home | custom mobile Wordpress theme development by erica dreisbach" title="PortionPac | Home | custom mobile Wordpress theme development by erica dreisbach" />
   </div><!-- /#carousel -->
 
   <div class="wrapper page-text">

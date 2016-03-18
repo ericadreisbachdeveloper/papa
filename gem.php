@@ -11,13 +11,13 @@
   </div><!-- /.wrapper -->
 
   <div id="carousel">
-    <img src="img/gem-home-sq.jpg" class="lazyOwl" alt="Government Energy Management | Home | web design and development by erica dreisbach" title="Government Energy Management | Home | web design and development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/gem-home-sq.jpg" alt="Government Energy Management | Home | web design and development by erica dreisbach" title="Government Energy Management | Home | web design and development by erica dreisbach" />
 
-    <img src="img/gem-technology-sq.jpg" class="lazyOwl" alt="Government Energy Management | Technology | website design and development by erica dreisbach" title="Government Energy Management | Technology | website design and development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/gem-technology-sq.jpg" alt="Government Energy Management | Technology | website design and development by erica dreisbach" title="Government Energy Management | Technology | website design and development by erica dreisbach" />
 
-    <img src="img/gem-contact-sq.jpg" class="lazyOwl" alt="Government Energy Management | Contact | design and development by freelance web developer erica dreisbach" title="Government Energy Management | Contact | design and development by freelance web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/gem-contact-sq.jpg" alt="Government Energy Management | Contact | design and development by freelance web developer erica dreisbach" title="Government Energy Management | Contact | design and development by freelance web developer erica dreisbach" />
 
-    <img src="img/gem-search-results-sq.jpg" class="lazyOwl" alt="Government Energy Management | Search Results | Wordpress template development by erica dreisbach" title="Government Energy Management | Search Results | Wordpress template development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/gem-search-results-sq.jpg" alt="Government Energy Management | Search Results | Wordpress template development by erica dreisbach" title="Government Energy Management | Search Results | Wordpress template development by erica dreisbach" />
   </div><!-- /#carousel -->
 
   <div class="wrapper page-text">

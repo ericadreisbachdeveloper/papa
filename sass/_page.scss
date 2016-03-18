@@ -55,21 +55,25 @@ Pages
     font-size: 1.3em;
     text-align: center;
   }
-
-
 }
 
 
 
 #carousel {
   clear: both;
+  color: rgba(255,255,255,0);
   overflow: hidden;
   padding: 0;
 
-  .owl-item > img{
-    display: block;
-    width: 100%;
-    height: auto;
+  .owl-item {
+    background: rgba(0,0,0,.1);
+    //  max-height: 30em;
+
+    &> img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
   }
 }
 

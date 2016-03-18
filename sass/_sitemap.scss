@@ -5,7 +5,7 @@
 
 	&> .wrapper {
 
-		&> .nav {
+		&> .sitemap-ul {
 			width: 100%;
 			list-style-type: none;
 			margin: 0;
@@ -41,6 +41,10 @@
 					float: left;
 					padding-top: .5em;
 					padding-bottom: .5em;
+
+					&.current {
+						color: red;
+					}
 				}
 			}
 		}

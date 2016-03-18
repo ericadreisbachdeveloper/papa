@@ -11,15 +11,15 @@
   </div><!-- /.wrapper -->
 
   <div id="carousel">
-    <img src="img/sentegrity-iphones.jpg" class="lazyOwl" alt="Sentegrity | mobile development by erica dreisbach" title="Sentegrity | mobile development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/sentegrity-iphones.jpg" alt="Sentegrity | mobile development by erica dreisbach" title="Sentegrity | mobile development by erica dreisbach" />
 
-    <img src="img/sentegrity-home-one.jpg" class="lazyOwl" alt="Sentegrity homepage | web development by Chicago web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/sentegrity-home-one.jpg" alt="Sentegrity homepage | web development by Chicago web developer erica dreisbach" />
 
-    <img src="img/sentegrity-home-two.jpg" class="lazyOwl" alt="Sentegrity | Traditional Authentication | Wordpress web development by erica dreisbach" title="Sentegrity | Traditional Authentication | Wordpress web development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/sentegrity-home-two.jpg" alt="Sentegrity | Traditional Authentication | Wordpress web development by erica dreisbach" title="Sentegrity | Traditional Authentication | Wordpress web development by erica dreisbach" />
 
-    <img src="img/sentegrity-home-three.jpg" class="lazyOwl" alt="Sentegrity | Solution | Bootstrap/Wordpress development by Chicago freelance developer erica dreisbach" title="Sentegrity | Solution | Bootstrap/Wordpress development by Chicago freelance developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/sentegrity-home-three.jpg" alt="Sentegrity | Solution | Bootstrap/Wordpress development by Chicago freelance developer erica dreisbach" title="Sentegrity | Solution | Bootstrap/Wordpress development by Chicago freelance developer erica dreisbach" />
 
-    <img src="img/sentegrity-home-four.jpg" class="lazyOwl" alt="Sentegrity | Contact form | responsive Wordpress development by erica dreisbach" title="Sentegrity | Contact form | responsive Wordpress development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/sentegrity-home-four.jpg" alt="Sentegrity | Contact form | responsive Wordpress development by erica dreisbach" title="Sentegrity | Contact form | responsive Wordpress development by erica dreisbach" />
   </div><!-- /#carousel -->
 
 

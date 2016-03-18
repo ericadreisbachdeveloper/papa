@@ -1,0 +1,92 @@
+// Contact
+
+
+#contact {
+
+  &> .wrapper  {
+
+    &> .p {
+      line-height: 1.44;
+    }
+
+    &>.-large {
+      font-size: 2.5em;
+      margin-bottom: 0;
+    }
+    &>.-medium {
+      font-size: 1.44em;
+      margin-top: 0;
+      margin-bottom: 2em;
+    }
+
+    &>.form > .button {
+      font-size: 1em;
+      @include hover { cursor: pointer; }
+    }
+
+    &>.form > .question {
+      padding-bottom: 1.8em;
+
+      &:after {
+        clear: both;
+        content: '';
+        display: block;
+      }
+
+      &>.p {
+        line-height: 1.44;
+        margin-top: 0;
+        margin-bottom: .3em;
+      }
+
+      &>.col > .error, .error {
+        color: #ff4500;
+        font-style: italic;
+        margin: 0 0 .8em;
+      }
+
+      &> .radio {
+        width: 1.44em;
+        height: 1.44em;
+        margin-top: .8em;
+        margin-right: .5em;
+      }
+
+      &>.p,
+      &>.col > .label,
+      &>.label {
+        font-size: 1em;
+      }
+
+      &>.textarea,
+      &>.col > input[type="name"],
+      &>.col > input[type="email"],
+      &>.col > input[type="url"] {
+        border: 1px solid rgba(0,0,0,.25);
+        font-family: serif;
+        font-size: 1em;
+        margin: .3em 0;
+      }
+
+      &>.textarea {
+        width: 98%;
+        resize: none;
+      }
+
+      &> .col {
+
+        &> .label {
+          clear: left;
+        }
+
+        &>input[type="name"],
+        &>input[type="email"],
+        &>input[type="url"] {
+          width: 100%;
+          padding-top: .4em;
+          padding-bottom: .4em;
+        }
+      }
+    }
+  }
+}

@@ -1,12 +1,12 @@
 <?php $home = 'yes'; include('header.php'); ?>
 
-<section id="web" class="slide -top" style="min-height: 20em;">
+<section id="web" class="slide -top section" style="display: none;">
    <div class="parallax-window -top septagon" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-z-index="90" data-class-name="-top septagon"></div>
   </div>
 </section>
 
 
-<section id="home" class="slide -top" style="min-height: 20em;">
+<section id="home" class="slide -top">
  <div class="wrapper display-table">
   <div class="display-table-cell middle hometext" style="height: 20em; opacity: .1; filter: alpha(opacity= 10)">
    <h1 class="title">erica dreisbach</h1>
@@ -16,7 +16,7 @@
 </section>
 
 
-<section id="work">
+<section id="work" class="section" style="display: none;">
  <div id="work-wrapper" class="wrapper">
 
    <div class="project one">
@@ -38,19 +38,19 @@
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="welltrail.php" class="link"><img class="img" src="img/sq-welltrail.jpg" alt="WellTrail | Wordpress mobile development by Erica Dreisbach" /></a>
+    <a href="welltrail" class="link"><img class="img" src="img/sq-welltrail.jpg" alt="WellTrail | Wordpress mobile development by Erica Dreisbach" /></a>
     <h3 class="title">WellTrail </h3>
     <h4 class="descrip">Mobile/adaptive Wordpress&nbsp;theme </h4>
    </div><!-- .well -->
 
    <div class="project one">
-    <a href="gem.php" class="link"><img class="img" src="img/sq-gem.jpg" alt="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" /></a>
+    <a href="gem" class="link"><img class="img" src="img/sq-gem.jpg" alt="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" /></a>
     <h3 class="title">Government Energy Management </h3>
     <h4 class="descrip">Wordpress design and&nbsp;development </h4>
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="savory.php" class="link"><img class="img" src="img/sq-savory.jpg" alt="Savory Living | web design by Erica Dreisbach" /></a>
+    <a href="savory" class="link"><img class="img" src="img/sq-savory.jpg" alt="Savory Living | web design by Erica Dreisbach" /></a>
     <h3 class="title">Savory Living </h3>
     <h4 class="descrip">design &amp; development </h4>
    </div><!-- .well -->
@@ -62,36 +62,39 @@
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="sugarglen.php" class="link"><img class="img" src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" /></a>
+    <a href="sugarglen" class="link"><img class="img" src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" /></a>
     <h3 class="title">Sugar Glen Farm </h3>
     <h4 class="descrip">Wordpress blog </h4>
    </div><!-- .well -->
 
-
  </div><!-- .wrapper -->
 </section><!-- /#work -->
 
-<section id="headshot">
+<section id="headshot" class="section" style="display: none;">
   <h2 class="hidden">erica dresbach - headshot </h2>
   <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/erica-headshot.jpg" data-position=" top left" data-class-name="-short"></div>
 </section>
 
-<section id="about" class="-lean">
- <div class="wrapper display-table">
-  <div class="display-table-cell middle">
+<section id="about" class="-lean section" style="display: none;">
+ <div class="wrapper text">
    <h2 class="sectiontitle">hello! </h2>
    <p class="p">I'm a freelance web designer and developer based in Chicago, working on projects from all over the US. I've built websites for clients in New&nbsp;York, Portland (Oregon), Boston, San&nbsp;Francisco, Los&nbsp;Angeles, and here in&nbsp;Chicago. </p>
    <p class="p">My obsessive email habit plus phone or Skype conferences as needed combine for an optimal remote working&nbsp;relationship. </p>
    <p class="p">I'm also available for on&#8209;site work in Chicago and Evanston. Especially if you have&nbsp;coffee. </p>
- </div><!-- .display-table-cell.middle -->
- </div><!-- .wrapper.display-table -->
+ </div>
+
+ <div class="wrapper">
+   <p class="p -bigpadding -txtcenter">
+     <a href="how-i-work" class="button">&nbsp;How I Work&nbsp; </a>
+     &nbsp; &nbsp; &nbsp;
+     <a href="testimonials" class="button">Testimonials </a>
+   </p>
+ </div><!-- .wrapper.text -->
 </section><!-- #about -->
 
-<section id="skills">
-  <div class="wrapper -narrowcol">
+<section id="skills" class="section" style="display: none;">
+  <div class="wrapper text -narrowcol">
     <h2 class="hidden">Skills </h2>
-
-    <p class="p -bigpadding"><a href="pdf/ericadreisbach-resume-web.pdf" class="button">Download Resume (PDF) </a></p>
 
     <p class="title">Strong Front‑End Development Skills </p>
     <p class="p -narrow">HTML / HTML5  &nbsp;&bull;&nbsp;  CSS / CSS3 / SASS  &nbsp;&bull;&nbsp;  PHP  &nbsp;&bull;&nbsp;  jQuery / Javascript  &nbsp;&bull;&nbsp;  Wordpress  &nbsp;&bull;&nbsp;  Bootstrap  &nbsp;&bull;&nbsp;  Photoshop / Illustrator  &nbsp;&bull;&nbsp;  responsive / mobile  &nbsp;&bull;&nbsp;  SEO  &nbsp;&bull;&nbsp;  HTML email </p>
@@ -101,26 +104,31 @@
 
     <p class="title">Currently Learning </p>
     <p class="p -narrow">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel   &nbsp;&bull;&nbsp;  Django </p>
+  </div>
 
+  <div class="wrapper">
+    <p class="p -bigpadding -txtcenter"><a href="pdf/ericadreisbach-resume-web.pdf" target="_blank" class="button">Download Resume (PDF) </a></p>
   </div>
 </section>
 
 
-<section id="typing" class="slide">
+<section id="typing" class="slide section" style="display: none;">
   <h2 class="hidden">erica dresbach - web developer </h2>
-  <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/typing.jpg" data-position="top right" data-class-name="-short"></div>
+  <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/typing.jpg" data-position="top center" data-class-name="-short"></div>
 </section>
 
 
-<section id="contact" class="-standard"><h2 class="hidden">Contact </h2>
- <div class="wrapper">
-   <?php include('quizform.php'); ?>
-
+<section id="contact" class="-standard section" style="display: none;">
+ <h2 class="hidden">Contact </h2>
+ <div class="wrapper -verynarrowcol">
+  <p class="p -large -txtcenter">Thank you for visiting!</p>
+  <p class="p -medium -txtcenter">Contact erica by answering this short&nbsp;quiz.</p>
+  <?php include('contact.php'); ?>
  </div><!-- .wrapper -->
 </section><!-- #contact.slide.static -->
 
 
-<section id="chicago" class="slide">
+<section id="chicago" class="slide section" style="display: none;">
   <h2 class="hidden">Chicago freelance web developer erica dreisbach</h2>
   <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/chicago-skyview.jpg" data-position="top left" data-class-name="-short"></div>
 </section>

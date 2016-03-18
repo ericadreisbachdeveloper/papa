@@ -10,15 +10,15 @@
   </div><!-- /.wrapper -->
 
   <div id="carousel">
-    <img src="img/educare-mobile.jpg" class="lazyOwl" alt="Educare | mobile web development by Chicago freelance web developer erica dreisbach" title="Educare | mobile web development by Chicago freelance web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/educare-mobile.jpg" alt="Educare | mobile web development by Chicago freelance web developer erica dreisbach" title="Educare | mobile web development by Chicago freelance web developer erica dreisbach" />
 
-    <img src="img/educare-home-one.jpg" class="lazyOwl" alt="Educare | homepage | web development by erica dreisbach" title="Educare | homepage | web development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/educare-home-one.jpg" alt="Educare | homepage | web development by erica dreisbach" title="Educare | homepage | web development by erica dreisbach" />
 
-    <img src="img/educare-home-two.jpg" class="lazyOwl" alt="Educare | Home | Bootstrap web development by erica dreisbach" title="Educare | Home | Bootstrap web development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/educare-home-two.jpg" alt="Educare | Home | Bootstrap web development by erica dreisbach" title="Educare | Home | Bootstrap web development by erica dreisbach" />
 
-    <img src="img/educare-tulsa.jpg" class="lazyOwl" alt="Educare | Tulsa schools | custom Wordpress theme by erica dreisbach" title="Educare | Tulsa schools | custom Wordpress theme by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/educare-tulsa.jpg" alt="Educare | Tulsa schools | custom Wordpress theme by erica dreisbach" title="Educare | Tulsa schools | custom Wordpress theme by erica dreisbach" />
 
-    <img src="img/educare-news.jpg" class="lazyOwl" alt="Educare | News | advanced custom fields and custom post types implemented by erica dreisbach" title="Educare | News | advanced custom fields and custom post types implemented by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/educare-news.jpg" alt="Educare | News | advanced custom fields and custom post types implemented by erica dreisbach" title="Educare | News | advanced custom fields and custom post types implemented by erica dreisbach" />
   </div><!-- /#carousel -->
 
 

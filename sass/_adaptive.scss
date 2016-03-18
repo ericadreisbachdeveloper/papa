@@ -31,19 +31,35 @@ boom kaboom.
 		width: 50%;
 	}
 
-	#about>.wrapper>.middle>.sectiontitle {
+	#about>.text>.sectiontitle {
 		font-size: 3.66em;
 	}
-	#about>.wrapper>.middle>.p {
+	#about>.wrapper.text>.p {
 		font-size: 1.3em;
 	}
+
+	#about > .wrapper > .p > .button {
+			clear: none;
+			display: inline;
+		}
 
 	.wrapper.-narrowcol {
 		width: 60%;
 		margin: 0 20%;
 	}
 
-	#skills>.wrapper {
+	.wrapper.-verynarrowcol {
+		width: 46%;
+		margin: 0 27%;
+	}
+
+
+	#skills {
+		margin-top: -6em;
+		padding-top: 6em;
+	}
+
+	#skills>.text {
 		&> .title {
 			font-size: 2.4em;
 		}
@@ -52,6 +68,26 @@ boom kaboom.
 			font-size: 1.44em;
 		}
 	}
+
+	#contact > .wrapper > .form > .question {
+		>.p,
+		&>.col > .label {
+			font-size: 1.2em;
+		}
+
+		&>.label {
+			font-size: 1.1em;
+		}
+	}
+
+	#contact > .wrapper > .form > .button {
+	  font-size: 1.2em;
+	}
+
+	.-bigpadding > .button {
+			font-size: 1.44em;
+		}
+
 
 
 	// Pages
@@ -72,7 +108,7 @@ boom kaboom.
 		}
 	}
 
-	.owl-theme > .owl-controls .owl-page > span {
+	.owl-theme > .owl-dots > .owl-dot span {
 		width: 1em;
 		height: 1em;
 		@include border-radius(1em);
@@ -82,8 +118,7 @@ boom kaboom.
 		padding: 2em 0 1em;
 	}
 
-
-	#sitemap>.wrapper>.nav {
+	#sitemap>.wrapper>.sitemap-ul {
 		width: 50%;
 		float: left;
 	}

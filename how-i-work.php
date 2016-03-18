@@ -28,11 +28,11 @@
 
     <p class="p -q">What's your background? </p>
     <p class="p -a">I grew up in northeastern Vermont (the Northeast&nbsp;Kingdom). After college I had a five&#8209;year mini&#8209;career in marketing for nonprofits that plan conferences for socially responsible business&nbsp;leaders*. <br />
-    <span class="-small">*think: Ben from Ben & Jerry's, Tom from Tom's of Maine&nbsp;&hellip; </span> </p>
+    <span class="-small">*think: Ben from Ben&nbsp;&amp;&nbsp;Jerry's, Tom from Tom's&nbsp;of&nbsp;Maine </span> </p>
 
     <p class="p -a">Eventually I was more focused on hacking around on the website and coding the monthly enewsletter than on messaging and branding and other important marketing&nbsp;things. </p>
 
-    <p class="p -a">Since 2009 I've been a full time freelance coder&#8209;designer&#8209;developer, with a short stint in 2010 writing <a href="http://www.seogonewild.tublr.com" target="_blank">SEO&nbsp;blogs</a>. In January 2016 I incorporated as <a href="http://www.darkblackllc.com" target="_blank">Dark&nbsp;Black&nbsp;LLC</a>. </p>
+    <p class="p -a">Since 2009 I've been a full time freelance coder&#8209;designer&#8209;developer, with a short stint in 2010 writing <a href="http://www.seogonewild.tumblr.com" target="_blank">SEO&nbsp;blogs</a>. In January 2016 I incorporated as <a href="http://www.darkblackllc.com" target="_blank">Dark&nbsp;Black&nbsp;LLC</a>. </p>
 
     <p class="p -q">What do you post on Twitter? </p>
     <p class="p -a">Follow <a href="http://www.twitter.com/ericadreisbach" target="_blank">@ericadreisbach</a> and <a href="http://www.twitter.com/darkblackllc" target="_blank">@darkblackllc</a> on Twitter where I post my favorite web design links and resources! Check it out if you're interested. Also, if you follow me on Twitter, then unlike Spinoza's twitter, I will follow you&nbsp;back. </p>

@@ -5,7 +5,7 @@
     <h1 class="page-title -txtcenter">Testimonials </h1>
   </div>
 
-  <div id="testimonials" class="wrapper page-text -narrowcol">
+  <div id="testimonials" class="wrapper page-text -verynarrowcol">
 
     <div class="quote mark">
       <p class="p -huge">&ldquo;I strongly recommend Erica&nbsp;&mdash;truly a pleasure to work&nbsp;with.&rdquo;</p>
@@ -20,14 +20,6 @@
       <p class="p attrib -txtright">
         <span class="name"> &mdash;Joe Schmitt</span><br />
         <span class="org"> New Control</span>
-      </p>
-    </div>
-
-    <div class="quote kathy">
-      <p class="p -huge">&ldquo;We are delighted with the artistic flair and functionality of Erica's&nbsp;design!&rdquo; </p>
-      <p class="p attrib -txtright">
-        <span class="name"> &mdash;Kathryn Wegner</span><br />
-        <span class="org"> Wilmington Ballet Academy of the Dance</span>
       </p>
     </div>
 

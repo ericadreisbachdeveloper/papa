@@ -11,15 +11,15 @@
   </div><!-- /.wrapper -->
 
   <div id="carousel">
-    <img src="img/nearby-home.jpg" class="lazyOwl" alt="Nearby Registry | Home | CSS and jQuery development by erica dreisbach" title="Nearby Registry | Home | CSS and jQuery development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/nearby-home.jpg" alt="Nearby Registry | Home | CSS and jQuery development by erica dreisbach" title="Nearby Registry | Home | CSS and jQuery development by erica dreisbach" />
 
-    <img src="img/nearby-biz-page.jpg" class="lazyOwl" alt="Nearby Registry | Business Page | jQuery and social media plugin development by erica dreisbach" title="Nearby Registry | Business Page | jQuery and social media plugin development by erica dreisbach" />
+    <img class="owl-lazy" data-src="img/nearby-biz-page.jpg" alt="Nearby Registry | Business Page | jQuery and social media plugin development by erica dreisbach" title="Nearby Registry | Business Page | jQuery and social media plugin development by erica dreisbach" />
 
-    <img src="img/nearby-the-sweetness.jpg" class="lazyOwl" alt="Nearby Registry | The Sweetness | web development by freelance web developer erica dreisbach" title="Nearby Registry | The Sweetness | web development by freelance web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/nearby-the-sweetness.jpg" alt="Nearby Registry | The Sweetness | web development by freelance web developer erica dreisbach" title="Nearby Registry | The Sweetness | web development by freelance web developer erica dreisbach" />
 
-    <img src="img/nearby-item-page.jpg" class="lazyOwl" alt="Nearby Registry | Item Page | web developer erica dreisbach" title="Nearby Registry | Item Page | web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/nearby-item-page.jpg" alt="Nearby Registry | Item Page | web developer erica dreisbach" title="Nearby Registry | Item Page | web developer erica dreisbach" />
 
-    <img src="img/nearby-modal.jpg" class="lazyOwl" alt="Nearby Registry | modal form | web development by Chicago freelance web developer erica dreisbach" title="Nearby Registry | modal form | web development by Chicago freelance web developer erica dreisbach" />
+    <img class="owl-lazy" data-src="img/nearby-modal.jpg" alt="Nearby Registry | modal form | web development by Chicago freelance web developer erica dreisbach" title="Nearby Registry | modal form | web development by Chicago freelance web developer erica dreisbach" />
   </div><!-- /#carousel -->
 
   <div class="wrapper page-text">

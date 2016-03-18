@@ -7,6 +7,12 @@ yuss.
 *******/
 
 
+.noscroll {
+	height: 100%;
+	overflow: hidden;
+}
+
+
 .hidden {
 	font-size: 0;
 	line-height: 0;
@@ -16,18 +22,15 @@ yuss.
 	 left: -9999px;
 }
 
-/*.noblur {
-	@include blur(0);
-	@include transition(-webkit-filter,1s,ease-in-out);
-}*/
+img:not([src]){ display:none; }
 
 $sectionbg: transparent;
 $linkcolor: #ff4500;
 $contentpadding: 4em 0 6em;
 
 @mixin verticals {
-	margin-top: -4em;
-	padding-top: 6em;
+	margin-top: -3em;
+	padding-top: 5em;
 	padding-bottom: 6em;
 }
 
@@ -56,7 +59,7 @@ $contentpadding: 4em 0 6em;
 	clip-path: polygon(100% 0, 100% 97%, 55% 97%, 50% 100%, 45% 97%, 0 97%, 0 0);
 }
 
-input {
+input[type="submit"] {
 	-webkit-appearance: none;
 }
 
@@ -91,9 +94,24 @@ section {
 	width: 96%;
 	margin: 0 2%;
 
+	&.-verynarrowcol {
+		width: 95%;
+	}
+
 	&:after {
 		@include clear;
 	}
+}
+
+.col-half {
+	width: 48%;
+	float: left;
+}
+
+.col-space {
+	width: 4%;
+	height: 1px;
+	float: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -149,8 +167,12 @@ a {
 }
 
 .-bigpadding {
-	padding-top: 2em;
+	padding-top: 4em;
 	padding-bottom: 2em;
+
+	&> .button {
+		font-size: 1em;
+	}
 }
 
 .-yellowbg {
@@ -196,8 +218,14 @@ a {
 // About
 
 #about {
-	&> .wrapper > .middle > .p {
+	&> .wrapper.text > .p {
 		line-height: 1.44;
+	}
+	&> .wrapper > .p > .button {
+		clear: left;
+		display: block;
+		position: relative;
+		 z-index: 5;
 	}
 }
 
