@@ -2,12 +2,23 @@
 
 #nav {
 	width: 100%;
-	background: white;
-	border-bottom: 1px solid rgba(0,0,0,.1);
+	//background: white;
 	font-size: 2em;
 	padding: .5em 0;
 	position: fixed;
 	 top: 0;
+
+	&:before {
+		height: 2.2em;
+		width: 100%;
+		content: '';
+		background: white;
+		border-bottom: 1px solid rgba(0,0,0,.1);
+		display: block;
+		position: absolute;
+		 top: 0;
+		 left: 0;
+	}
 
 	.navbutton {
 		display: block;
@@ -15,6 +26,8 @@
 		height: 1.2em;
 		background: gray;
 		float: right;
+		position: relative;
+		z-index: 10;
 		@include border-radius(.08em);
 		@include transition(background, .1s, ease-in-out);
 		@include hover { background: #333; cursor: pointer; @include transition(background, .1s, ease-in-out); }
@@ -48,38 +61,65 @@
 	}
 
 	&> .wrapper > .nav {
-		background: white;
 		height: 100vh;
 		display: none;
 		list-style-type: none;
 		margin: .4em -2% 0;
 		padding: 0;
+		position: relative;
+		z-index: 11;
+		@include lineargradient(white, rgba(255,255,255,.9));
 
 		&> .location {
+			border-bottom: 1px solid rgba(0,0,0,.1);
 			display: block;
 			font-size: .7em;
+			letter-spacing: 3px;
+			padding: .5em 0;
 			position: relative;
-			text-transform: lowercase;
 
 			&> .link {
-				border-bottom: 1px solid rgba(0,0,0,.1);
+				border: none;
 				display: block;
-				padding: .5em 2em .5em 2.5em;
+				padding: .5em 0 .5em 1em;
+
+				&.current {
+					color: red;
+				}
 			}
 
 			&> .subnav {
-				background: rgba(255,255,255,.98);
-				display: none;
+				//display: none;
 				list-style-type: none;
 				margin: 0;
-				padding: 0;
+				padding: 0 0 0 1em;
+
+				&:after {
+					display: block;
+					content: '';
+					clear: both;
+				}
+
 
 				&> .location {
+					width: 48%;
+					margin-right: 2%;
+					float: left;
+				}
+
+				&> .location {
+					font-size: .8em;
+					letter-spacing: 0;
+					text-transform: none;
 
 					&> .link {
-						border-bottom: 1px solid rgba(0,0,0,.1);
+						border: none;
 						display: block;
-						padding: .5em 2em .5em 4em;
+						padding: .5em 0;
+
+						&.current {
+							color: red;
+						}
 					}
 				}
 			}

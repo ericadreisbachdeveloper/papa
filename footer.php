@@ -1,4 +1,5 @@
-<section id="sitemap" class="section" style="display: none;">
+
+<section id="sitemap" style="display: none;">
   <div class="wrapper">
 
     <ul class="sitemap-ul">
@@ -39,28 +40,19 @@
 
   <?php if(isset($project)) : ?><p class="p">Lightweight mobile/adaptive carousel from <a href="http://owlgraphic.com/owlcarousel/" target="_blank">Owl&nbsp;Carousel</a>. </p>
   <?php elseif (isset($home)) : ?><p class="p">This page uses <a href="http://pixelcog.github.io/parallax.js/" target="_blank" rel="nofollow">Parallax.js</a> for a buttery&#8209;smooth parallax effect on&nbsp;desktop.  </p>
-  <??php else : ?>
   <?php endif; ?>
 
-  <p>&copy;2009-2016 <a href="http://www.ericadreisbach.com" title="erica dreisbach | freelance web designer + developer">erica&nbsp;dreisbach</a> and <a href="http://www.darkblackllc.com" target="_blank">Dark&nbsp;Black&nbsp;LLC</a>. </p>
+  <p class="p">&copy;2009-2016 <a href="http://www.ericadreisbach.com" title="erica dreisbach | freelance web designer + developer">erica&nbsp;dreisbach</a> and <a href="http://www.darkblackllc.com" target="_blank">Dark&nbsp;Black&nbsp;LLC</a>. </p>
 
  </div><!-- .wrapper -->
 </section><!-- #credits -->
 
-<script type="text/javascript" src="js/jquery-2.1.4.js"> </script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+
 
 <?php if (isset($home)) : ?>
-<script type="text/javascript" src="js/parallax.min.js"> </script>
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.contactbutton').click(function(){
-
-    return false;
-  });
-});
-</script>
-
+<script type="text/javascript" src="js/papa.min.js"> </script>
 <?php endif; ?>
 
 <?php if (isset($page)) : ?>
@@ -95,81 +87,35 @@ function goBack() {
  // READY
  $(document).ready(function(){
 
-   // keyboard drop down
-   /*
-   (function($) {
-     $(document).ready(function(){
-       $("#nav").accessibleDropDown();
-     });
-
-     $.fn.accessibleDropDown = function (){
-       var el = $(this);
-
-       $("li", el).mouseover(function() {
-         $(this).addClass("hover");
-       }).mouseout(function() {
-         $(this).removeClass("hover");
-       });
-
-       $("a", el).focus(function() {
-         $(this).parents("li").addClass("show");
-       }).blur(function() {
-         $(this).parents("li").removeClass("show");
-       });
-     }
-   })(jQuery); */
-
   var windowh = $(window).height();
   var windoww = $(window).width();
 
-  if (windoww < 330) {
-    $('.-top').each(function(){
-      $(this).css('height','30em');
-    });
-
-    $('.-short').each(function(){
-      $(this).css('height','15em');
-    });
-  }
-
-  else if (windoww < 768) {
-    $('.-top').each(function(){
-      $(this).css('height','30em');
-    });
-
-    $('.-short').each(function(){
-      $(this).css('height','15em');
-    });
-  }
-
-  else {
-    $('.-top').each(function(){
-      $(this).css('height','44em');
-    });
-
-    $('.-short').each(function(){
-      $(this).css('height','28em');
-    });
-  }
-
   if (windoww < 999) {
     $('.nav').addClass('hamburger');
+  }
+  else {
   }
 
 
   // handwritten mobile nav
   $('.navbutton').click(function(){
-    $('.nav').slideToggle();
-    $('body').toggleClass('noscroll');
-    $('body').bind('touchmove', function(e){e.preventDefault()});
+    $('.hamburger').slideToggle(function(){
+      if ( $('.hamburger').is(':visible') ) {
+        $('body').addClass('noscroll');
+        $('body').bind('touchmove', function(e){e.preventDefault()});
+      }
+      else {
+        $('body').removeClass('noscroll');
+        $('body').unbind('touchmove', function(e){e.preventDefault()});
+      }
+    });
   });
 
+
   $('.hamburger').find('.link').click(function(){
-    $('.nav').slideUp();
-    if ($('body').hasClass('noscroll')) {
-      $('body').removeClass('noscroll');
-    }
-    $('body').unbind('touchmove');
+    $('.hamburger').slideUp();
+    $('body').removeClass('noscroll');
+    $('body').unbind('touchmove', function(e){e.preventDefault()});
   });
 
  });
@@ -180,55 +126,71 @@ function goBack() {
  $(window).load(function(){
    $('.hometext').addClass('fadein');
    $('.section').each(function(){
-    $(this).css('display','block');
-  });
+     $(this).css('display','block');
+   });
+
+   var windoww = $(window).width();
+   if (windoww > 999) {
+     $('#sitemap').css('display','block');
+   }
+
+
+
+
+   if ( $('.navbutton').is(':visible') ) {
+     $('.nav').addClass('hamburger');
+   }
+   else {
+     $('.nav').removeClass('hamburger');
+   }
+
+
  });
+
 
   // RESIZE
   $(window).resize(function(){
     var windoww = $(window).width();
 
-    if (windoww < 999) {
+    // Disable parallax on resize
+    $('.parallax-mirror').each(function(){
+      $(this).css('display','none');
+    });
+
+    $('.parallax-window').each(function(){
+      var imgurl = $(this).attr('data-image-src');
+      $(this).css('background-image', 'url(' + imgurl + ')');
+      $(this).css('background-size','cover');
+    });
+
+
+
+    if ( $('.navbutton').is(':visible') ) {
       $('.nav').addClass('hamburger');
     }
-
     else {
       $('.nav').removeClass('hamburger');
     }
 
-    var windoww = $(window).width();
 
-    if (windoww < 330) {
-      $('.-top').each(function(){
-        $(this).css('height','30em');
-      });
-
-      $('.-short').each(function(){
-        $(this).css('height','15em');
-      });
+    if ( $('.hamburger').is(':visible') ) {
+      $('body').addClass('noscroll');
+      $('body').bind('touchmove', function(e){e.preventDefault()});
     }
 
-    else if (windoww < 768) {
-      $('.-top').each(function(){
-        $(this).css('height','30em');
-      });
 
-      $('.-short').each(function(){
-        $(this).css('height','15em');
-      });
+
+    if (windoww < 999) {
+      $('#sitemap').hide();
     }
 
     else {
-      $('.-top').each(function(){
-        $(this).css('height','44em');
-      });
+      $('#sitemap').show();
 
-      $('.-short').each(function(){
-        $(this).css('height','28em');
-      });
-
-      if ($('.nav').hasClass('hamburger')) { $('.nav').removeClass('hamburger'); }
-      if ($('body').hasClass('noscroll')) { $('body').removeClass('noscroll'); }
+      if ($('body').hasClass('noscroll')) {
+        $('body').removeClass('noscroll');
+      }
+      $('body').unbind('touchmove');
     }
 
   });

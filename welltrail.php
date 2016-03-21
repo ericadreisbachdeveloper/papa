@@ -3,7 +3,7 @@
 <section>
 
   <div class="wrapper page-top">
-    <h1 class="page-title -float">WellTrail </h1>
+    <h1 id="maincontent" class="page-title -float">WellTrail </h1>
 
     <div class="page-buttons">
       <a class="button" href="http://www.welltrail.com" target="_blank" rel="nofollow">Visit this site</a>

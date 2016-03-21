@@ -2,7 +2,7 @@
 
 <section>
   <div class="wrapper page-top">
-    <h1 class="page-title -txtcenter">Testimonials </h1>
+    <h1 id="maincontent" class="page-title -txtcenter">Testimonials </h1>
   </div>
 
   <div id="testimonials" class="wrapper page-text -verynarrowcol">
@@ -42,9 +42,10 @@
   </div><!-- /.wrapper -->
 </section>
 
-<section id="button-section">
+<section class="-button-section">
+  <h2 class="hidden">Home </h2>
   <div class="wrapper">
-    <p class="-txtcenter"><a class="button" href="./">Go Home</a></p>
+    <p class="-txtcenter"><a class="button"  onclick="goBack();" href="#">Go Back </a></p>
   </div>
 </section>
 

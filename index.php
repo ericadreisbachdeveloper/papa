@@ -9,7 +9,7 @@
 <section id="home" class="slide -top">
  <div class="wrapper display-table">
   <div class="display-table-cell middle hometext" style="height: 20em; opacity: .1; filter: alpha(opacity= 10)">
-   <h1 class="title">erica dreisbach</h1>
+   <h1 class="title" id="maincontent">erica dreisbach</h1>
    <h2 class="subtitle">web designer + developer</h2>
   </div><!-- .display-table-cell.middle -->
  </div><!-- .wrapper.display-table -->
@@ -70,7 +70,7 @@
  </div><!-- .wrapper -->
 </section><!-- /#work -->
 
-<section id="headshot" class="section" style="display: none;">
+<section id="headshot" class="section -parallax" style="display: none;">
   <h2 class="hidden">erica dresbach - headshot </h2>
   <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/erica-headshot.jpg" data-position=" top left" data-class-name="-short"></div>
 </section>
@@ -86,7 +86,7 @@
  <div class="wrapper">
    <p class="p -bigpadding -txtcenter">
      <a href="how-i-work" class="button">&nbsp;How I Work&nbsp; </a>
-     &nbsp; &nbsp; &nbsp;
+     <span class="mobile-break"></span>
      <a href="testimonials" class="button">Testimonials </a>
    </p>
  </div><!-- .wrapper.text -->
@@ -112,7 +112,7 @@
 </section>
 
 
-<section id="typing" class="slide section" style="display: none;">
+<section id="typing" class="slide section -parallax" style="display: none;">
   <h2 class="hidden">erica dresbach - web developer </h2>
   <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/typing.jpg" data-position="top center" data-class-name="-short"></div>
 </section>
@@ -125,12 +125,25 @@
   <p class="p -medium -txtcenter">Contact erica by answering this short&nbsp;quiz.</p>
   <?php include('contact.php'); ?>
  </div><!-- .wrapper -->
-</section><!-- #contact.slide.static -->
+</section><!-- #contact.-standard.section -->
 
+
+<section id="social" class="section" style="display: none;">
+
+</section><!-- /#contact -->
 
 <section id="chicago" class="slide section" style="display: none;">
   <h2 class="hidden">Chicago freelance web developer erica dreisbach</h2>
   <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/chicago-skyview.jpg" data-position="top left" data-class-name="-short"></div>
+
+  <div id="social" class="wrapper">
+    <ul class="ul">
+      <li class="li"><a class="a" href="http://www.twitter.com/ericadreisbach" target="_blank"><i class="fa fa-twitter"> </i></a></li>
+      <li class="li"><a class="a" href="http://www.pinterest.com/darkblackllc" target="_blank"><i class="fa fa-pinterest"> </i></a></a></li>
+      <li class="li"><a class="a" href="http://linkedin.com/in/ericadreisbach" target="_blank"><i class="fa fa-linkedin"> </i></a></a></li>
+      <li class="li"><a class="a" href="#" target="_blank"><i class="fa fa-github"> </i></a></a></li>
+    </ul>
+  </div>
 </section>
 
 

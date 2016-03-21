@@ -54,6 +54,45 @@
 	   &:target{ @content; }
 }
 
+/*
+@mixin linear-gradient ($colora, $stopa, $colorb, $stopb) {
+  background-image: -webkit-gradient(
+   linear,
+   right top,
+   left top,
+   color-stop($stopa * .01, $colora),
+   color-stop($stopb * .01, $colorb)
+  );
+  background-image: -o-linear-gradient(left, $colora $stopa%, $colorb $stopb%);
+  background-image: -moz-linear-gradient(left, $colora $stopa%, $colorb $stopb%);
+  background-image: -webkit-linear-gradient(left, $colora $stopa%, $colorb $stopb%);
+  background-image: -ms-linear-gradient(left, $colora $stopa%, $colorb $stopb%);
+  background-image: linear-gradient(left, $colora $stopa%, $colorb $stopb%);
+} */
+
+
+
+@mixin lineargradient($colora, $colorb) {
+  background-image: -webkit-gradient(
+   linear,
+   right top,
+   left top,
+   color-stop(.5,$colora),
+   color-stop(1,$colorb)
+  );
+  background-image: -o-linear-gradient(top, $colora 50%, $colorb 100%);
+  background-image: -moz-linear-gradient(top, $colora 50%, $colorb 100%);
+  background-image: -webkit-linear-gradient(top, $colora 50%, $colorb 100%);
+  background-image: -ms-linear-gradient(top, $colora 50%, $colorb 100%);
+  background-image: linear-gradient(top, $colora 50%, $colorb 100%);
+}
+
+
+
+
+
+
+
 // Animations are a three part thing
 // this is Part One
 
@@ -72,7 +111,7 @@
     }
 }
 
-// timing: linear;  duration in s
+// Timing: linear;  duration in s
 @mixin cssanimate($animation, $timing, $iterations, $duration) {
   -webkit-animation-name: $animation;
   -webkit-animation-timing-function: $timing;

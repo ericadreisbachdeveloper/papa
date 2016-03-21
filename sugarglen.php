@@ -3,7 +3,7 @@
 <section>
 
   <div class="wrapper page-top">
-    <h1 class="page-title -float">Sugar Glen Farm </h1>
+    <h1 id="maincontent" class="page-title -float">Sugar Glen Farm </h1>
 
     <div class="page-buttons">
       <a class="button" href="http://www.sugarglenfarm.com" target="_blank" rel="nofollow">Visit this site</a>

@@ -1,5 +1,5 @@
 <?php include('contactvalidation.php'); ?>
-<form method="post" class="form" action="">
+<form method="post" class="form" action="#contact">
 
   <div class="question contactinfo">
     <div class="col col-half">

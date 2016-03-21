@@ -13,12 +13,8 @@ function test_input($data) {
 }
 
 function spamcheck($field) {
- //filter_var() sanitizes the e-mail
- //address using FILTER_SANITIZE_EMAIL
  $field=filter_var($field, FILTER_SANITIZE_EMAIL);
 
- //filter_var() validates the e-mail
- //using FILTER_VALIDATE_EMAIL
  if(filter_var($field, FILTER_VALIDATE_EMAIL)) { return TRUE; }
  else { return FALSE; }
 }
@@ -62,8 +58,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  }
 
 
- // If all values exist, send the email
- if ( $name && $email && $experience && $allcaps && $project ) {
+ // If all required values exist, send the email
+ if ( $name && $email && $experience && $allcaps ) {
 
   $name = $_REQUEST['name'] ;
   $email = $_REQUEST['email'] ;
@@ -72,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $allcaps = $_REQUEST['allcaps'] ;
   $project = $_REQUEST['project'] ;
 
-  mail("erica@ericadreisbach.com", "web design/development", "Experience: $experience   All caps: $allcaps    Project priorities: $project   K-cups: $kcups       Reflects poorly on: $reflect        $website          $description", "From: $name <$email>");
+  mail("erica@ericadreisbach.com", "web design/development", "Experience: $experience   All caps: $allcaps    Project priorities: $project         $website          $description", "From: $name <$email>");
 
   echo "";
   echo $success;

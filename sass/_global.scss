@@ -30,13 +30,13 @@ $contentpadding: 4em 0 6em;
 
 @mixin verticals {
 	margin-top: -3em;
-	padding-top: 5em;
+	padding-top: 4em;
 	padding-bottom: 6em;
 }
 
 @mixin leanverticals {
 	margin-top: -4em;
-	padding-top: 8em;
+	padding-top: 6em;
 	padding-bottom: 1em;
 }
 
@@ -61,6 +61,10 @@ $contentpadding: 4em 0 6em;
 
 input[type="submit"] {
 	-webkit-appearance: none;
+}
+
+.-toppad {
+	padding-top: 4em;
 }
 
 body {
@@ -166,9 +170,14 @@ a {
 	@include hover { background: white; border: .1em solid red; color: red; @include transition(all,.2s,ease-in-out); }
 }
 
+.button-section {
+	padding-top: 2em;
+}
+
 .-bigpadding {
-	padding-top: 4em;
-	padding-bottom: 2em;
+	padding-top: 1.4em;
+  padding-bottom: 0;
+
 
 	&> .button {
 		font-size: 1em;
@@ -181,6 +190,14 @@ a {
 
 
 // Home
+
+.-top {
+	height: calc(100vh - 3em);
+}
+
+.-short {
+	height: calc(70vh);
+}
 
 .fadein {
 	@include opacity(1);
@@ -222,10 +239,12 @@ a {
 		line-height: 1.44;
 	}
 	&> .wrapper > .p > .button {
-		clear: left;
-		display: block;
 		position: relative;
 		 z-index: 5;
+	}
+	&> .wrapper > .p > .mobile-break {
+		display: block;
+		height: 2em;
 	}
 }
 
@@ -239,6 +258,7 @@ a {
 // Credits
 
 #credits {
+	padding-top: 1em;
 
 	.p {
 		line-height: 1.44;
@@ -247,10 +267,10 @@ a {
 }
 
 
-// Z-Indices
 
-// down arrown on top (index)
-// .downarrow { z-index: 110; }
+
+
+// Z-Indices
 
 // erica dreisbach text below down arrow
 #home { z-index: 100; }

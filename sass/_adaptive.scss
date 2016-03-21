@@ -13,6 +13,11 @@ boom kaboom.
 		font-size: 1.1em;
 	}
 
+	.-bigpadding {
+		padding-top: 4em;
+		padding-bottom: 2em;
+	}
+
 	#home>.wrapper>.hometext {
 		&>.title {
 			font-size: 6em;
@@ -39,9 +44,15 @@ boom kaboom.
 	}
 
 	#about > .wrapper > .p > .button {
-			clear: none;
-			display: inline;
-		}
+		clear: none;
+		display: inline;
+	}
+
+	#about > .wrapper > .p > .mobile-break {
+		display: inline-block;
+		width: 2em;
+		height: 0;
+	}
 
 	.wrapper.-narrowcol {
 		width: 60%;
@@ -85,9 +96,22 @@ boom kaboom.
 	}
 
 	.-bigpadding > .button {
-			font-size: 1.44em;
-		}
+		font-size: 1.44em;
+	}
 
+	#social.wrapper>.ul {
+		margin-left: 0;
+	}
+	#social.wrapper>.ul>.li {
+		margin: 0 .7em;
+	}
+	#social.wrapper>.ul>.li>.a {
+		font-size: 3em;
+	}
+
+	#sitemap {
+		display: block;
+	}
 
 
 	// Pages
@@ -118,10 +142,15 @@ boom kaboom.
 		padding: 2em 0 1em;
 	}
 
+	#work-image {
+	  display: block !important;
+	}
+
 	#sitemap>.wrapper>.sitemap-ul {
 		width: 50%;
 		float: left;
 	}
+
 }
 
 
@@ -139,6 +168,15 @@ boom kaboom.
 	.wrapper {
 		width: 900px;
 		margin: 0 auto;
+	}
+
+	#social.wrapper>.ul {
+		width: 900px;
+	}
+
+	#nav > .wrapper {
+		width: 96%;
+		margin: 0 2%;
 	}
 
 
@@ -176,6 +214,11 @@ boom kaboom.
 
 	#nav .navbutton {
 		display: none;
+	}
+
+	#nav>.wrapper>.nav>.location {
+		border: none;
+		letter-spacing: 0;
 	}
 
 	#nav>.wrapper>.nav>.location.show,
@@ -233,16 +276,7 @@ boom kaboom.
 		padding: .4em .8em;
 	}
 
-	#nav>.wrapper>.nav>.location>.subnav.-work>.location>.link {
-		//text-indent: 62.6%;
-	}
-
-	#nav>.wrapper>.nav>.location>.subnav.-about>.location>.link {
-		//text-indent: 67%;
-	}
-
 	#nav>.wrapper>.nav>.location>.subnav>.location:last-child {
 		padding-bottom: .5em;
 	}
-
 }

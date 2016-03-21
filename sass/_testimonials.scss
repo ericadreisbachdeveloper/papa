@@ -7,7 +7,7 @@
 	}
 
 	&> .quote:last-child {
-		padding-bottom: 0;
+		padding-bottom: 2em;
 	}
 
 	&> .quote {
@@ -24,14 +24,14 @@
 		}
 
 		&> .-slightlylarge {
-			font-size: 1.1em;
+			font-size: 1em;
 		}
 
 		&> .attrib {
 			padding-top: 0;
 
 			&> .name {
-				font-size: 1.44em;
+				font-size: 1.2em;
 			}
 			&> .org {
 				letter-spacing: 1px;
