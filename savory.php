@@ -23,11 +23,11 @@
 
     <p class="p -medium">Four rounds of concept design on homepage, section pages, and blog. Site uses jQuery Cycles for slideshow and rotating testimonials. Client is able to easily update both from within the&nbsp;CMS. </p>
 
-    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>
+    <p class="-txtcenter -slightlylarge">
+      <input value="Go Back" type="button" class="button" onclick="goBack();">
+    </p>
 
   </div>
-
 </section>
-
 
 <?php include('footer.php'); ?>

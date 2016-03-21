@@ -23,10 +23,11 @@
 
     <p class="p -medium">Wordpress blog theme built for (full disclosure) my mom. Design includes adaptive/mobile styling and custom image header. CSS built with&nbsp;<a href="http://get-sass.lang" target="_blank">SASS</a>. </p>
 
-    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>
+    <p class="-txtcenter -slightlylarge">
+      <input value="Go Back" type="button" class="button" onclick="goBack();">
+    </p>
 
   </div>
 </section>
-
 
 <?php include('footer.php'); ?>

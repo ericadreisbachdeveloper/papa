@@ -39,7 +39,7 @@
   <p class="p">This site built with <a href="http://www.sass-lang.com" target="_blank">SASS</a> and&nbsp;<a href="http://www.gruntjs.com" target="_blank">Grunt</a>&nbsp;&mdash; the web&nbsp;development tools and also their homophonic&nbsp;cognates.  </p>
 
   <?php if(isset($project)) : ?><p class="p">Lightweight mobile/adaptive carousel from <a href="http://owlgraphic.com/owlcarousel/" target="_blank">Owl&nbsp;Carousel</a>. </p>
-  <?php elseif (isset($home)) : ?><p class="p">This page uses <a href="http://pixelcog.github.io/parallax.js/" target="_blank" rel="nofollow">Parallax.js</a> for a buttery&#8209;smooth parallax effect on&nbsp;desktop.  </p>
+  <?php elseif (isset($home)) : ?><p class="p">This page uses <a href="http://pixelcog.github.io/parallax.js/" target="_blank" rel="nofollow">Parallax.js</a> for a buttery&#8209;smooth parallax effect where&nbsp;supported.  </p>
   <?php endif; ?>
 
   <p class="p">&copy;2009-2016 <a href="http://www.ericadreisbach.com" title="erica dreisbach | freelance web designer + developer">erica&nbsp;dreisbach</a> and <a href="http://www.darkblackllc.com" target="_blank">Dark&nbsp;Black&nbsp;LLC</a>. </p>
@@ -50,10 +50,22 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
 
-
 <?php if (isset($home)) : ?>
-<script type="text/javascript" src="js/papa.min.js"> </script>
+
 <?php endif; ?>
+
+
+<?php if( isset($home)  && preg_match('/(Chrome|CriOS)\//i',$_SERVER['HTTP_USER_AGENT'])
+ && !preg_match('/(Aviator|ChromePlus|coc_|Dragon|Edge|Flock|Iron|Kinza|Maxthon|MxNitro|Nichrome|OPR|Perk|Rockmelt|Seznam|Sleipnir|Spark|UBrowser|Vivaldi|WebExplorer|YaBrowser)/i',$_SERVER['HTTP_USER_AGENT'])){
+   echo '<script type="text/javascript" src="js/papa.min.js"> </script>';
+} else {
+
+  echo "<script type='text/javascript'>    $('.parallax-window').each(function(){
+        var imgurl = $(this).attr('data-image-src');
+        $(this).css('background-image', 'url(' + imgurl + ')');
+        $(this).css('background-size','cover');
+      });</script>";
+} ?>
 
 <?php if (isset($page)) : ?>
 <script type="text/javascript" src="js/owl.carousel.min.js"> </script>
@@ -95,6 +107,9 @@ function goBack() {
   }
   else {
   }
+
+
+
 
 
   // handwritten mobile nav
@@ -140,7 +155,6 @@ function goBack() {
 
 
 
-
    if ( $('.navbutton').is(':visible') ) {
      $('.nav').addClass('hamburger');
    }
@@ -157,7 +171,7 @@ function goBack() {
   $(window).resize(function(){
     var windoww = $(window).width();
 
-    // Disable parallax on resize
+    // disable parallax
     $('.parallax-mirror').each(function(){
       $(this).css('display','none');
     });
@@ -168,32 +182,37 @@ function goBack() {
       $(this).css('background-size','cover');
     });
 
-
-
+    // if .navbutton is visible give .nav mobile menu class .hamburger
+    // to coordinate mobile nav onclick behavior
     if ( $('.navbutton').is(':visible') ) {
       $('.nav').addClass('hamburger');
     }
+
+    // else remove mobile class and undo .depressed on
+    // .navbutton for good measure
     else {
       $('.nav').removeClass('hamburger');
       $('.navbutton').removeClass('depressed');
     }
 
-
+    // if .hamburger (mobile menu) is visible
+    // disable scroll and keep .navbutton depressed
     if ( $('.hamburger').is(':visible') ) {
       $('body').addClass('noscroll');
       $('.navbutton').addClass('depressed');
       $('body').bind('touchmove', function(e){e.preventDefault()});
     }
 
-
-
+    // questionable UI/UX choice: remove sitemap on mobile
     if (windoww < 999) {
       $('#sitemap').hide();
     }
 
     else {
+      // show sitemap on large screens
       $('#sitemap').show();
 
+      // for good measure remove .noscroll on body if resized to large screen
       if ($('body').hasClass('noscroll')) {
         $('body').removeClass('noscroll');
       }

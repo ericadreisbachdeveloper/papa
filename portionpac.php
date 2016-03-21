@@ -27,10 +27,11 @@
 
     <p class="p -medium">Custom mobile/responsive Wordpress theme built for a green cleaning solutions company. Theme development relies heavily on jQuery/Javascript for product display, along with of <a href="https://codex.wordpress.org/Post_Types" target="_blank">Custom&nbsp;Post&nbsp;Types</a> and <a href="http://www.advancedcustomfields.com/" target="_blank">Advanced&nbsp;Custom&nbsp;Fields</a>. Also includes blog, section page templates, and customized <a href="http://www.gravityforms.com/" target="_blank">Gravity forms</a>. Design&nbsp;by&nbsp;<a href="http://www.teamodea.com" target="_blank" rel="nofollow">Odea</a>. </p>
 
-    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>
+    <p class="-txtcenter -slightlylarge">
+      <input value="Go Back" type="button" class="button" onclick="goBack();">
+    </p>
+
   </div>
-
 </section>
-
 
 <?php include('footer.php'); ?>

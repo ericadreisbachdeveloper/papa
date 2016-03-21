@@ -25,10 +25,11 @@
 
     <p class="p -medium">Developed and implemented responsive/mobile Wordpress theme built from the ground up from the <a href="https://wordpress.org/themes/twentythirteen/" target="blank" rel="nofollow">Twenty&nbsp;Thirteen&nbsp;theme</a>. Includes unique accent colors for five separate page templates and a custom contact form. Design&nbsp;by&nbsp;<a href="http://www.goweetu.com" target="_blank">Weetu</a>. </p>
 
-    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>
+    <p class="-txtcenter -slightlylarge">
+      <input value="Go Back" type="button" class="button" onclick="goBack();">
+    </p>
+
   </div>
-
 </section>
-
 
 <?php include('footer.php'); ?>

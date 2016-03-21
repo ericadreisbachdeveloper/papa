@@ -131,7 +131,6 @@ boom kaboom.
 	}
 
 	.page-text {
-
 		&>.-large {
 			font-size: 2em;
 		}
@@ -154,6 +153,12 @@ boom kaboom.
 	#work-image {
 	  display: block !important;
 	}
+
+	.wrapper > .-slightlylarge > .button {
+		font-size: 1.44em;
+	}
+
+
 
 	#sitemap>.wrapper>.sitemap-ul {
 		width: 50%;

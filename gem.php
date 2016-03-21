@@ -25,10 +25,11 @@
 
     <p class="p -medium">Designed, developed, and implemented Wordpress site for renewable energy vendor. Includes homepage sections built with <a href="http://www.advancedcustomfields.com/" target="_blank">Advanced&nbsp;Custom&nbsp;Fields</a>, contact form, and custom search results styling. All icons are retina&#8209;ready vector graphics, fully supported with gif backups to accommodate GEM's user&nbsp;base. </p>
 
-    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>
+    <p class="-txtcenter -slightlylarge">
+      <input value="Go Back" type="button" class="button" onclick="goBack();">
+    </p>
+
   </div>
-
 </section>
-
 
 <?php include('footer.php'); ?>

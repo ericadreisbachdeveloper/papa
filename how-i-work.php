@@ -44,7 +44,7 @@
     <p class="p -a">Follow <a href="http://www.twitter.com/ericadreisbach" target="_blank">@ericadreisbach</a> and <a href="http://www.twitter.com/darkblackllc" target="_blank">@darkblackllc</a> on Twitter where I post my favorite web design links and resources! Check it out if you're interested. Also, if you follow me on Twitter, then unlike Spinoza's twitter, I will follow you&nbsp;back. </p>
 
     <p class="p -q">What's the best way to get in touch? </p>
-    <p class="p -a">I love email. You may have once heard an oracle tell of true-hearted web developers that maintain an empty inbox. I am one of whom the oracle spake. </p>
+    <p class="p -a"><a href="./#contact">I love email</a>. You may have once heard an oracle tell of true-hearted web developers that maintain an empty inbox. I am one of whom the oracle spake. </p>
 
     <p class="p -a">You can expect an email reply within an hour during Central business hours, and usually within more like 20 minutes. I'm also open and flexible about making appointments for real&#8209;time&nbsp;conversation. </p>
 
@@ -55,7 +55,9 @@
 
 <section id="button-section" class="-toppad">
   <div class="wrapper">
-    <p class="-txtcenter"><a class="button" onclick="goBack();" href="#">Go Back </a></p>
+    <p class="-txtcenter -slightlylarge">
+      <input value="Go Back" type="button" class="button" onclick="goBack();">
+    </p>
   </div>
 </section>
 

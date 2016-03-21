@@ -162,12 +162,12 @@ a {
 	border: .1em solid red;
 	color: white;
 	font-family: 'Helvetica NeueLight', sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 	padding: .7em 1.7em;
 	text-transform: uppercase;
 	@include border-radius(1.5em);
 	@include transition(all,.2s,ease-in-out);
-	@include hover { background: white; border: .1em solid red; color: red; @include transition(all,.2s,ease-in-out); }
+	@include hover { background: white; border: .1em solid red; color: red; cursor: pointer; @include transition(all,.2s,ease-in-out); }
 }
 
 .button-section {

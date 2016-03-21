@@ -42,10 +42,10 @@
   </div><!-- /.wrapper -->
 </section>
 
-<section class="-button-section">
-  <h2 class="hidden">Home </h2>
+<section>
+  <h2 class="hidden">Go Back</h2>
   <div class="wrapper">
-    <p class="-txtcenter"><a class="button"  onclick="goBack();" href="#">Go Back </a></p>
+    <p class="-txtcenter -slightlylarge"><a class="button"  onclick="goBack();" href="#">Go Back </a></p>
   </div>
 </section>
 

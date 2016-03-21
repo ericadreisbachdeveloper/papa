@@ -25,10 +25,11 @@
 
     <p class="p -medium">Custom theme built in Wordpress. Includes three page templates. Design includes sticky footer, lightbox gallery, and Google map toggle in the footer powered by jQuery. Also performed content migration and optimization for&nbsp;search. </p>
 
-    <p class="-txtcenter -slightlylarge"><a class="button" onclick="goBack();" href="#">Go Back</a></p>
+    <p class="-txtcenter -slightlylarge">
+      <input value="Go Back" type="button" class="button" onclick="goBack();">
+    </p>
+
   </div>
-
 </section>
-
 
 <?php include('footer.php'); ?>

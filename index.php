@@ -1,4 +1,4 @@
-<?php $home = 'yes'; include('header.php'); ?>
+<?php  $metadescription = 'Portfolio for Chicago-based freelance web designer and developer Erica Dreisbach, specializing in Wordpress and Bootstrap.'; $home = 'yes'; include('header.php'); ?>
 
 <section id="web" class="slide -top section" style="display: none;">
    <div class="parallax-window -top septagon" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-z-index="90" data-class-name="-top septagon"></div>
@@ -72,7 +72,7 @@
 
 <section id="headshot" class="section -parallax" style="display: none;">
   <h2 class="hidden">erica dresbach - headshot </h2>
-  <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/erica-headshot.jpg" data-position=" top left" data-class-name="-short"></div>
+  <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/erica-headshot.jpg" data-position="top left" data-class-name="-short"></div>
 </section>
 
 <section id="about" class="-lean section" style="display: none;">
@@ -127,10 +127,6 @@
  </div><!-- .wrapper -->
 </section><!-- #contact.-standard.section -->
 
-
-<section id="social" class="section" style="display: none;">
-
-</section><!-- /#contact -->
 
 <section id="chicago" class="slide section" style="display: none;">
   <h2 class="hidden">Chicago freelance web developer erica dreisbach</h2>
