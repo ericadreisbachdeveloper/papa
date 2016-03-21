@@ -99,12 +99,14 @@ function goBack() {
 
   // handwritten mobile nav
   $('.navbutton').click(function(){
+    $('.navbutton').addClass('depressed');
     $('.hamburger').slideToggle(function(){
       if ( $('.hamburger').is(':visible') ) {
         $('body').addClass('noscroll');
         $('body').bind('touchmove', function(e){e.preventDefault()});
       }
       else {
+        $('.navbutton').removeClass('depressed');
         $('body').removeClass('noscroll');
         $('body').unbind('touchmove', function(e){e.preventDefault()});
       }
@@ -113,7 +115,9 @@ function goBack() {
 
 
   $('.hamburger').find('.link').click(function(){
+    console.log('yes')
     $('.hamburger').slideUp();
+    $('.navbutton').removeClass('depressed');
     $('body').removeClass('noscroll');
     $('body').unbind('touchmove', function(e){e.preventDefault()});
   });
@@ -142,6 +146,7 @@ function goBack() {
    }
    else {
      $('.nav').removeClass('hamburger');
+     $('.navbutton').removeClass('depressed');
    }
 
 
@@ -170,11 +175,13 @@ function goBack() {
     }
     else {
       $('.nav').removeClass('hamburger');
+      $('.navbutton').removeClass('depressed');
     }
 
 
     if ( $('.hamburger').is(':visible') ) {
       $('body').addClass('noscroll');
+      $('.navbutton').addClass('depressed');
       $('body').bind('touchmove', function(e){e.preventDefault()});
     }
 
@@ -198,7 +205,6 @@ function goBack() {
 
   // SCROLL
   $(window).scroll(function(){
-
 
 
   });

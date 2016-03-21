@@ -5,8 +5,21 @@
   margin-top: -3em;
   padding-top: 4em;
   padding-bottom: 4em;
-  
+
   &> .wrapper  {
+
+    &> #thankyou {
+      font-size: 2.5em;
+      padding-top: 1em;
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+    &>.thankyou-phone {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
 
     &> .p {
       line-height: 1.44;
@@ -16,6 +29,7 @@
       font-size: 2.5em;
       margin-bottom: 0;
     }
+    
     &>.-medium {
       font-size: 1.44em;
       margin-top: 0;
@@ -64,11 +78,16 @@
       &>.textarea,
       &>.col > input[type="name"],
       &>.col > input[type="email"],
+      &>.col > input[type="text"],
       &>.col > input[type="url"] {
         border: 1px solid rgba(0,0,0,.25);
         font-family: serif;
         font-size: 1em;
         margin: .3em 0;
+
+        &.errorinput {
+          background: red;
+        }
       }
 
       &>.textarea {
@@ -84,6 +103,7 @@
 
         &>input[type="name"],
         &>input[type="email"],
+        &>input[type="text"],
         &>input[type="url"] {
           width: 100%;
           padding-top: .4em;

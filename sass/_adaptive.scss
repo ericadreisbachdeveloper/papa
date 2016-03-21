@@ -84,8 +84,13 @@ boom kaboom.
 		>.p,
 		&>.col > .label {
 			font-size: 1.2em;
+
+			&> .-small {
+				font-size: .8em;
+			}
 		}
 
+		// the labels for the radios are a little smaller
 		&>.label {
 			font-size: 1.1em;
 		}
@@ -93,6 +98,10 @@ boom kaboom.
 
 	#contact > .wrapper > .form > .button {
 	  font-size: 1.2em;
+	}
+
+	#contact > .wrapper > #thankyou {
+		font-size: 3em;
 	}
 
 	.-bigpadding > .button {

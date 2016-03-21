@@ -121,8 +121,8 @@
 <section id="contact" class="-standard section" style="display: none;">
  <h2 class="hidden">Contact </h2>
  <div class="wrapper -verynarrowcol">
-  <p class="p -large -txtcenter">Thank you for visiting!</p>
-  <p class="p -medium -txtcenter">Contact erica by answering this short&nbsp;quiz.</p>
+  <p class="p -large -txtcenter -successhide">Thank you for visiting!</p>
+  <p class="p -medium -txtcenter -successhide">Contact me by answering this short&nbsp;quiz.</p>
   <?php include('contact.php'); ?>
  </div><!-- .wrapper -->
 </section><!-- #contact.-standard.section -->
@@ -138,10 +138,10 @@
 
   <div id="social" class="wrapper">
     <ul class="ul">
-      <li class="li"><a class="a" href="http://www.twitter.com/ericadreisbach" target="_blank"><i class="fa fa-twitter"> </i></a></li>
-      <li class="li"><a class="a" href="http://www.pinterest.com/darkblackllc" target="_blank"><i class="fa fa-pinterest"> </i></a></a></li>
-      <li class="li"><a class="a" href="http://linkedin.com/in/ericadreisbach" target="_blank"><i class="fa fa-linkedin"> </i></a></a></li>
-      <li class="li"><a class="a" href="#" target="_blank"><i class="fa fa-github"> </i></a></a></li>
+      <li class="li"><a class="a" href="http://www.twitter.com/ericadreisbach" target="_blank"><span class="span">twitter.com/ericadreisbach</span> <i class="fa fa-twitter"></i></a></li>
+      <li class="li"><a class="a" href="http://www.pinterest.com/darkblackllc" target="_blank"><span class="span">pinterest.com/darkblackllc</span>  <i class="fa fa-pinterest"></i></a></a></li>
+      <li class="li"><a class="a" href="http://linkedin.com/in/ericadreisbach" target="_blank"><span class="span">linkedin.com/in/ericadreisbach</span>  <i class="fa fa-linkedin"></i></a></a></li>
+      <li class="li"><a class="a" href="https://github.com/rockygulliver" target="_blank"><span class="span">github.com/rockygulliver</span>  <i class="fa fa-github"></i></a></a></li>
     </ul>
   </div>
 </section>
