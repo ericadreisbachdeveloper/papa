@@ -90,10 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message .= 'Ok to send an alll caps email: ' . $allcaps . '<br><br>';
   $message .= $clientproject;
 
-
-  $headers = 'From: ' . $name . '<' . $email . '>';
-
-  mail("erica@ericadreisbach.com", "web design/development", $message, $headers);
+  mail("erica@ericadreisbach.com", "web design/development", $message, 'From: $name <$email>');
 
   echo "<style type='text/css'>#contact>.wrapper>.-successhide{display: none;}</style>";
   echo $success;
