@@ -86,11 +86,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $clientproject = $_REQUEST['clientproject'] ;
 
   $message = 'From: ' . $name . ' ' . $email . '<br>';
-  $message .= 'Prior experience with developers: ' . $experience . '<br>';
-  $message .= 'Ok to send an alll caps email: ' . $allcaps . '<br><br>';
-  $message .= $clientproject;
 
-  mail("erica@ericadreisbach.com", "web design/development", $message, 'From: $name <$email>');
+
+  mail('erica@ericadreisbach.com', 'web design/development', $message, 'From: $name <$email>');
 
   echo "<style type='text/css'>#contact>.wrapper>.-successhide{display: none;}</style>";
   echo $success;
