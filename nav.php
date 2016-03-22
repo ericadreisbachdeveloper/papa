@@ -21,7 +21,7 @@
          <li class="location"><a class="link<?php if(isset($page) && $page == 'Savory Living'):?> current<?php endif;?>" href="savory.php">Savory Living </a></li>
          <li class="location"><a class="link<?php if(isset($page) && $page == 'Nearby Registry'):?> current<?php endif;?>" href="nearby.php">Nearby Registry </a></li>
          <li class="location"><a class="link<?php if(isset($page) && $page == 'Sugar Glen Farm'):?> current<?php endif;?>" href="sugarglen.php">Sugar Glen Farm </a></li>
-         <li class="location"><a class="link<?php if(isset($page) && $page == 'Government Energy Management'):?> current<?php endif;?>" href="gem">Gov't Energy Management </a></li>
+         <li class="location"><a class="link<?php if(isset($page) && $page == 'Government Energy Management'):?> current<?php endif;?>" href="gem.php">Gov't Energy Management </a></li>
         </ul>
       </li>
 
