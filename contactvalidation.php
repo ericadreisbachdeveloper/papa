@@ -74,6 +74,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $clientproject = test_input($_POST["clientproject"]);
  }
 
+ $referrer = "http://search.yahoo.com/search?p=www.stack+overflow%2Ccom&ei=utf-8&fr=slv8-msgr&xargs=0&pstart=1&b=61&xa=nSFc5KjbV2gQCZejYJqWdQ--,1259335755";
+ $referrer_query = parse_url($referrer);
+ $referrer_query = $referrer_query['query'];
+ $q = "[q|p]"; //Yahoo uses both query strings, I am using switch() for each search engine
+ preg_match('/'.$q.'=(.*?)&/',$referrer,$keyword);
+ $keyword = urldecode($keyword[1]);
+
 
  // If all required values exist, send the email
  if ( $name && $email && $experience && $allcaps ) {
@@ -93,7 +100,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message .= 'All caps emails are ok: ' . $allcaps . '
 
 ';
-  $message .=$clientproject;
+  $message .= 'Keywords: ' . $keyword . '
+';
+  $message .= $clientproject;
 
 
   mail('erica@ericadreisbach.com', 'web design/development', $message, 'From:' . $name . '<' . $email . '>');
