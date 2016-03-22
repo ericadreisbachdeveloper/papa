@@ -6,12 +6,18 @@ Global style.
 yuss.
 *******/
 
+.noscroll.yesscroll {
+	overflow: scroll;
+}
 
 .noscroll {
 	height: 100%;
 	overflow: hidden;
 }
 
+.fixed {
+	position: fixed;
+}
 
 .hidden {
 	font-size: 0;
@@ -22,7 +28,10 @@ yuss.
 	 left: -9999px;
 }
 
-img:not([src]){ display:none; }
+img:not([src]){
+	display:none;
+	@include transition(all,1s,ease-in-out);
+}
 
 $sectionbg: transparent;
 $linkcolor: #ff4500;
@@ -35,8 +44,8 @@ $contentpadding: 4em 0 6em;
 }
 
 @mixin leanverticals {
-	margin-top: -4em;
-	padding-top: 6em;
+	margin-top: 0em;
+	padding-top: 5em;
 	padding-bottom: 1em;
 }
 
@@ -59,8 +68,19 @@ $contentpadding: 4em 0 6em;
 	clip-path: polygon(100% 0, 100% 97%, 55% 97%, 50% 100%, 45% 97%, 0 97%, 0 0);
 }
 
-input[type="submit"] {
+input[type="name"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+input[type="button"],
+textarea {
 	-webkit-appearance: none;
+}
+input[type="name"],
+input[type="email"],
+input[type="text"],
+textarea {
+	@include border-radius(0);
 }
 
 .-toppad {
@@ -108,13 +128,14 @@ section {
 }
 
 .col-half {
-	width: 48%;
+	width: 100%;
+	clear: left;
 	float: left;
 }
 
 .col-space {
 	width: 4%;
-	height: 1px;
+	height: 2em;
 	float: left;
 }
 
@@ -192,7 +213,7 @@ a {
 // Home
 
 .-top {
-	height: calc(100vh - 3em);
+	height: calc(100vh - 5em);
 }
 
 .-short {

@@ -1,7 +1,7 @@
 <?php $page = 'Testimonials'; include('header.php'); ?>
 
 <section>
-  <div class="wrapper page-top">
+  <div class="wrapper pagecontent-top">
     <h1 id="maincontent" class="page-title -txtcenter">Testimonials </h1>
   </div>
 
@@ -45,7 +45,9 @@
 <section>
   <h2 class="hidden">Go Back</h2>
   <div class="wrapper">
-    <p class="-txtcenter -slightlylarge"><a class="button"  onclick="goBack();" href="#">Go Back </a></p>
+    <p class="-txtcenter -slightlylarge">
+      <input value="Go Back" type="button" class="button" onclick="goBack();">
+    </p>
   </div>
 </section>
 

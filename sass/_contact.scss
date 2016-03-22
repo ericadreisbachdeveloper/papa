@@ -29,7 +29,7 @@
       font-size: 2.5em;
       margin-bottom: 0;
     }
-    
+
     &>.-medium {
       font-size: 1.44em;
       margin-top: 0;
@@ -75,15 +75,22 @@
         font-size: 1em;
       }
 
+      &>.col > input[type="name"],
+      &>.col > input[type="email"],
+      &>.col > input[type="text"] {
+        width: 94%;
+      }
+
       &>.textarea,
       &>.col > input[type="name"],
       &>.col > input[type="email"],
-      &>.col > input[type="text"],
-      &>.col > input[type="url"] {
+      &>.col > input[type="text"]{
         border: 1px solid rgba(0,0,0,.25);
         font-family: serif;
         font-size: 1em;
         margin: .3em 0;
+        padding-top: .4em;
+        padding-bottom: .4em;
 
         &.errorinput {
           background: red;
@@ -91,23 +98,18 @@
       }
 
       &>.textarea {
-        width: 98%;
+        width: 97%;
         resize: none;
       }
 
       &> .col {
-
         &> .label {
           clear: left;
         }
 
         &>input[type="name"],
-        &>input[type="email"],
-        &>input[type="text"],
-        &>input[type="url"] {
-          width: 100%;
-          padding-top: .4em;
-          padding-bottom: .4em;
+        &>input[type="email"]{
+
         }
       }
     }

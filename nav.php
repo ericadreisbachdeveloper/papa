@@ -1,4 +1,4 @@
-<nav id="nav" class="section" style="display: none;" role="navigation">
+<nav id="nav" class="section fixed" style="display: none;" role="navigation">
 
   <a href="#maincontent" class="hidden">Skip Navigation </a>
 

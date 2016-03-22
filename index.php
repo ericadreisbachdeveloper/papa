@@ -1,4 +1,4 @@
-<?php  $metadescription = 'Portfolio for Chicago-based freelance web designer and developer Erica Dreisbach, specializing in Wordpress and Bootstrap.'; $home = 'yes'; include('header.php'); ?>
+<?php $metadescription = 'Portfolio for Chicago-based freelance web designer and developer Erica Dreisbach, specializing in Wordpress and Bootstrap.'; $home = 'yes'; include('header.php'); ?>
 
 <section id="web" class="slide -top section" style="display: none;">
    <div class="parallax-window -top septagon" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-z-index="90" data-class-name="-top septagon"></div>
@@ -8,7 +8,7 @@
 
 <section id="home" class="slide -top">
  <div class="wrapper display-table">
-  <div class="display-table-cell middle hometext" style="height: 20em; opacity: .1; filter: alpha(opacity= 10)">
+  <div class="display-table-cell middle hometext" style="min-height: 20em; opacity: .1; filter: alpha(opacity= 10)">
    <h1 class="title" id="maincontent">erica dreisbach</h1>
    <h2 class="subtitle">web designer + developer</h2>
   </div><!-- .display-table-cell.middle -->

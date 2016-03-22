@@ -1,4 +1,3 @@
-
 <section id="sitemap" style="display: none;">
   <div class="wrapper">
 
@@ -49,6 +48,7 @@
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+
 
 <?php if (isset($home)) : ?>
 
@@ -102,39 +102,39 @@ function goBack() {
   var windowh = $(window).height();
   var windoww = $(window).width();
 
+  // add mobile nav class .hamburger
+  // on narrow windows
   if (windoww < 999) {
     $('.nav').addClass('hamburger');
   }
-  else {
-  }
+  else {}
 
 
 
-
-
-  // handwritten mobile nav
+  // mobile nav
   $('.navbutton').click(function(){
-    $('.navbutton').addClass('depressed');
-    $('.hamburger').slideToggle(function(){
-      if ( $('.hamburger').is(':visible') ) {
-        $('body').addClass('noscroll');
-        $('body').bind('touchmove', function(e){e.preventDefault()});
-      }
-      else {
-        $('.navbutton').removeClass('depressed');
-        $('body').removeClass('noscroll');
-        $('body').unbind('touchmove', function(e){e.preventDefault()});
-      }
-    });
+
+    if ( $('.hamburger').is(':visible') ) {
+      $('.navbutton').removeClass('depressed');
+      $('.hamburger').slideUp();
+      $('body').removeClass('noscroll');
+      $('body').unbind();
+    }
+    else {
+      $('.navbutton').addClass('depressed');
+      $('.hamburger').slideDown();
+      $('body').addClass('noscroll');
+      $('body').bind('touchmove', function(e){e.preventDefault()});
+    }
   });
 
-
+  // if user clicks mobile nav homepage links, which are anchors
+  // mobile nav slides up
   $('.hamburger').find('.link').click(function(){
-    console.log('yes')
-    $('.hamburger').slideUp();
     $('.navbutton').removeClass('depressed');
+    $('.hamburger').slideUp();
     $('body').removeClass('noscroll');
-    $('body').unbind('touchmove', function(e){e.preventDefault()});
+    $('body').unbind();
   });
 
  });
@@ -143,35 +143,31 @@ function goBack() {
 
  // LOAD
  $(window).load(function(){
+
+   // lage load content sections 
    $('.hometext').addClass('fadein');
    $('.section').each(function(){
      $(this).css('display','block');
    });
 
+   // #sitemap is special due to conditional load for mobile
+   // (again, my questions UX/UI choice)
    var windoww = $(window).width();
    if (windoww > 999) {
      $('#sitemap').css('display','block');
    }
-
-
-
-   if ( $('.navbutton').is(':visible') ) {
-     $('.nav').addClass('hamburger');
-   }
-   else {
-     $('.nav').removeClass('hamburger');
-     $('.navbutton').removeClass('depressed');
-   }
-
-
  });
+
+
+
+
 
 
   // RESIZE
   $(window).resize(function(){
     var windoww = $(window).width();
 
-    // disable parallax
+    // 1. disable parallax
     $('.parallax-mirror').each(function(){
       $(this).css('display','none');
     });
@@ -182,41 +178,33 @@ function goBack() {
       $(this).css('background-size','cover');
     });
 
-    // if .navbutton is visible give .nav mobile menu class .hamburger
-    // to coordinate mobile nav onclick behavior
-    if ( $('.navbutton').is(':visible') ) {
-      $('.nav').addClass('hamburger');
-    }
 
-    // else remove mobile class and undo .depressed on
-    // .navbutton for good measure
-    else {
-      $('.nav').removeClass('hamburger');
-      $('.navbutton').removeClass('depressed');
-    }
+    // 2. tuck mobile nav away
+    $('.navbutton').removeClass('depressed');
+    $('.hamburger').hide();
+    $('body').removeClass('noscroll');
+    $('body').unbind();
 
-    // if .hamburger (mobile menu) is visible
-    // disable scroll and keep .navbutton depressed
-    if ( $('.hamburger').is(':visible') ) {
-      $('body').addClass('noscroll');
-      $('.navbutton').addClass('depressed');
-      $('body').bind('touchmove', function(e){e.preventDefault()});
-    }
 
-    // questionable UI/UX choice: remove sitemap on mobile
+    // 3. if screen is resized narrow
     if (windoww < 999) {
+
+      // a. remove sitemap on mobile
       $('#sitemap').hide();
+
+      // b. make sure mobile has .hamburger
+      $('.nav').addClass('hamburger');
+
     }
 
     else {
-      // show sitemap on large screens
+
+      // c. show sitemap
       $('#sitemap').show();
 
-      // for good measure remove .noscroll on body if resized to large screen
-      if ($('body').hasClass('noscroll')) {
-        $('body').removeClass('noscroll');
-      }
-      $('body').unbind('touchmove');
+      // d. remove .hamburger
+      $('.nav').removeClass('hamburger');
+
     }
 
   });

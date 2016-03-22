@@ -15,8 +15,7 @@
 
 <title><?php if(isset($page)) { echo $page . ' | '; } else { ;} ?>erica dreisbach | web designer + developer </title>
 
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="icon" sizes="16x16 32x32 48x48" href="favicon.ico">
+<?php include('favicons.php'); ?>
 
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
@@ -25,14 +24,6 @@
  document.createElement("nav");
  document.createElement("section");
 </script>
-
-<!-- for ancient browsers that don't believe in jQuery 2 -->
-<script type="text/javascript">
-if(document.documentElement.getAttribute('data-browser') !== null ){
-    alert('hi');
-}
-</script>
-
 
 </head>
 

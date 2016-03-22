@@ -5,12 +5,17 @@ Pages
 */
 
 .page-top {
-  padding: 8em 0 3em;
+  padding: 5em 0 3em;
+}
+
+.pagecontent-top {
+  padding: 5em 0 0;
 }
 
 // h1
 .page-title {
-  font-size: 3em;
+  font-size: 2em;
+  line-height: 1.44;
 
   &.-float {
     float: left;
@@ -18,15 +23,12 @@ Pages
 }
 
 .page-buttons {
-  width: 100%;
   float: right;
-  margin-top: 1em;
 
   .button {
     display: block;
     width: auto;
     float: left;
-    margin-top: .5em;
     text-align: center;
 
     &+ .button {
@@ -41,6 +43,11 @@ Pages
       display: block;
     }
   }
+}
+
+
+.wrapper > .-slightlylarge > .button {
+  font-size: 1.1em;
 }
 
 .page-text {
@@ -99,7 +106,7 @@ Pages
 
   }
   &> .-a {
-    font-size: 1.15em;
+    font-size: 1em;
     padding: .5em 0;
 
     &> .-small {

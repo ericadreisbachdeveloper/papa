@@ -1,7 +1,7 @@
 <?php $page = 'How I Work'; include('header.php'); ?>
 
 <section>
-  <div class="wrapper page-top">
+  <div class="wrapper pagecontent-top">
     <h1 id="maincontent" class="page-title -txtcenter">How I Work </h1>
     <h2 class="subtitle -txtcenter">and other frequently asked questions </h2>
   </div>
@@ -30,7 +30,7 @@
     <p class="p -a">Generally I'm only available on a project basis, but that's flexible depending on the client and how well we work&nbsp;together. </p>
 
     <p class="p -q">What are your specialties? </p>
-    <p class="p -a">My sweet spot is front&nbsp;end development (HTML, CSS, jQuery)&nbsp;&mdash; as opposed to graphic&nbsp;design or back&nbsp;end programming. I'm expert at turning a PSD into working&nbsp;code. </p>
+    <p class="p -a">Most of my sites are built with Wordpres and Bootstrap. My sweet spot is front&nbsp;end development (HTML, CSS, jQuery)&nbsp;&mdash; as opposed to graphic&nbsp;design or back&nbsp;end programming. I'm expert at turning a PSD into working&nbsp;code. </p>
 
     <p class="p -q">What's your background? </p>
     <p class="p -a">I grew up in northeastern Vermont (the Northeast&nbsp;Kingdom). After college I had a five&#8209;year mini&#8209;career in marketing for nonprofits that plan conferences for socially responsible business&nbsp;leaders*. <br />

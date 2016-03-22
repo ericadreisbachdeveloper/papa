@@ -7,15 +7,42 @@ boom kaboom.
 *******/
 
 
+
+// if portrait
+@media screen and (orientation:portrait) {
+	#nav>.wrapper>.nav>.location>.subnav>.location {
+		width: 48%;
+	}
+}
+
+// if landscape
+@media screen and (orientation:landscape) {
+	#nav>.wrapper>.nav>.location>.subnav>.location {
+		width: 30%;
+	}
+}
+
+
+
 @media screen and (min-width: 720px) {
 
 	.button {
 		font-size: 1.1em;
 	}
 
+	.-slightlylarge {
+		font-size: 1.2em;
+	}
+
 	.-bigpadding {
 		padding-top: 4em;
 		padding-bottom: 2em;
+	}
+
+
+
+	#nav>.wrapper>.nav {
+		font-size: 1.44em;
 	}
 
 	#home>.wrapper>.hometext {
@@ -80,6 +107,8 @@ boom kaboom.
 		}
 	}
 
+
+
 	#contact > .wrapper > .form > .question {
 		>.p,
 		&>.col > .label {
@@ -104,6 +133,10 @@ boom kaboom.
 		font-size: 3em;
 	}
 
+	.col-half {
+		width: 100%;
+	}
+
 	.-bigpadding > .button {
 		font-size: 1.44em;
 	}
@@ -124,6 +157,10 @@ boom kaboom.
 
 
 	// Pages
+
+	.page-title {
+	  font-size: 3em;
+	}
 
 	.page-buttons {
 		width: auto;
@@ -154,8 +191,8 @@ boom kaboom.
 	  display: block !important;
 	}
 
-	.wrapper > .-slightlylarge > .button {
-		font-size: 1.44em;
+	.process > .-a {
+		font-size: 1.3em;
 	}
 
 
@@ -164,7 +201,6 @@ boom kaboom.
 		width: 50%;
 		float: left;
 	}
-
 }
 
 
@@ -226,12 +262,24 @@ boom kaboom.
 
 @media screen and (min-width: 999px) {
 
+	.page-top {
+		padding: 8em 0 3em;
+	}
+
+	#nav {
+		padding: .5em 0;
+		&:before {
+			height: 2.2em;
+		}
+	}
+
 	#nav .navbutton {
 		display: none;
 	}
 
 	#nav>.wrapper>.nav>.location {
 		border: none;
+		font-size: .7em;
 		letter-spacing: 0;
 	}
 
@@ -261,10 +309,13 @@ boom kaboom.
 		border: none;
 		display: block !important;
 		float: right;
+		font-size: 1em;
 		margin: 0 0 0 1.44em;
 	}
 
 	#nav>.wrapper>.nav>.location {
+		font-size: .7em;
+		padding: 0;
 		position: static;
 		display: inline;
 	}
@@ -272,6 +323,7 @@ boom kaboom.
 	#nav>.wrapper>.nav>.location>.link {
 		border: none;
 		display: inline;
+		padding: 0;
 		padding: .9em .5em .7em;
 	}
 
@@ -292,5 +344,18 @@ boom kaboom.
 
 	#nav>.wrapper>.nav>.location>.subnav>.location:last-child {
 		padding-bottom: .5em;
+	}
+
+	.-lean {
+		margin-top: -4em;
+		padding-top: 7em;
+	}
+
+	.col-half {
+		width: 48%;
+		clear: none;
+	}
+	.col-space {
+		width: 1%;
 	}
 }

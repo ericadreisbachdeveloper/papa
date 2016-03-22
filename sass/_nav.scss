@@ -1,15 +1,15 @@
 // Nav
 
+
+
 #nav {
 	width: 100%;
-	//background: white;
 	font-size: 2em;
-	padding: .5em 0;
-	position: fixed;
+	padding: .2em 0;
 	 top: 0;
 
 	&:before {
-		height: 2.2em;
+		height: 1.7em;
 		width: 100%;
 		content: '';
 		background: white;
@@ -22,11 +22,12 @@
 
 	.navbutton {
 		display: block;
-		width: 1.2em;
-		height: 1.2em;
+		width: 1em;
+		height: 1em;
 		background: gray;
-		float: right;
-		position: relative;
+		position: absolute;
+		 top: .3em;
+		 right: .5em;
 		z-index: 10;
 		@include border-radius(.08em);
 		@include transition(background, .1s, ease-in-out);
@@ -38,9 +39,9 @@
 
 		&> .white {
 			display: block;
-			width: .85em;
-			margin: .21em auto;
-			height: .1em;
+			width: .7em;
+			margin: .17em auto;
+			height: .11em;
 			background: #ddd;
 		}
 	}
@@ -68,7 +69,10 @@
 		height: 100vh;
 		display: none;
 		list-style-type: none;
-		margin: .4em -2% 0;
+		margin-top: .2em;
+		margin-right: -2.5%;
+		margin-bottom: 0;
+		margin-left: -2.5%;
 		padding: 0;
 		position: relative;
 		z-index: 11;
@@ -77,10 +81,15 @@
 		&> .location {
 			border-bottom: 1px solid rgba(0,0,0,.1);
 			display: block;
-			font-size: .7em;
+			font-size: .5em;
 			letter-spacing: 3px;
-			padding: .5em 0;
+			//padding: .5em 0;
+			padding: 0;
 			position: relative;
+
+			&:last-child {
+				border: none;
+			}
 
 			&> .link {
 				border: none;
@@ -93,7 +102,6 @@
 			}
 
 			&> .subnav {
-				//display: none;
 				list-style-type: none;
 				margin: 0;
 				padding: 0 0 0 1em;
@@ -104,16 +112,11 @@
 					clear: both;
 				}
 
-
 				&> .location {
-					width: 48%;
-					margin-right: 2%;
 					float: left;
-				}
-
-				&> .location {
-					font-size: .8em;
+					font-size: .9em;
 					letter-spacing: 0;
+					margin-right: 2%;
 					text-transform: none;
 
 					&> .link {
