@@ -49,7 +49,7 @@
    <p class="p">3. In a few sentences, describe your project. <br />
      <span class="small"><em>Limit: 300 characters</em> </span>
    </p>
-   <textarea class="textarea" name="clientproject" rows="4" maxlength="300"><?php echo $clientproject;?> </textarea>
+   <textarea class="textarea" name="clientproject" rows="4" maxlength="300"><?php echo $clientproject;?></textarea>
  </div><!-- /.project -->
 
  <input type="submit" name="submit" value="Submit" class="contactbutton button">

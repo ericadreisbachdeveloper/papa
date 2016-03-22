@@ -31,7 +31,7 @@
 <section id="credits" class="section" style="display: none;">
  <div class="wrapper">
 
-  <?php if(isset($page)) :?><p class="p">Screenshots courtesy clients. </p>
+  <?php if(isset($page) && $page != '404 | Page not found |') :?><p class="p">Screenshots courtesy clients. </p>
 
   <?php else : ?><p class="p">Photo credits: <a href="http://www.publicdomainpictures.net/view-image.php?image=61690&picture=building-web" target="_blank">spider web</a> courtesy <a href="http://www.zonerama.com/Profile/23267" target="_blank">Rostislav&nbsp;Kralik</a>; <a href="http://www.publicdomainpictures.net/view-image.php?image=28116&picture=chicago-skyview" target="_blank">Chicago&nbsp;skyline</a> courtesy <a href="http://www.goodfreephotos.com/" target="_blank">Yinan&nbsp;Chen</a>. Screenshots courtesy&nbsp;clients. </p><?php endif; ?>
 
@@ -144,7 +144,7 @@ function goBack() {
  // LOAD
  $(window).load(function(){
 
-   // lage load content sections 
+   // lage load content sections
    $('.hometext').addClass('fadein');
    $('.section').each(function(){
      $(this).css('display','block');
