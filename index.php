@@ -6,7 +6,7 @@
 </section>
 
 
-<section id="home" class="slide -top">
+<section id="home" class="slide -top septagon" style="background: rgba(0,0,0,.2);">
  <div class="wrapper display-table">
   <div class="display-table-cell middle hometext" style="min-height: 20em; opacity: .1; filter: alpha(opacity= 10)">
    <h1 class="title" id="maincontent">erica dreisbach</h1>
