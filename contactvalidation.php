@@ -85,8 +85,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $allcaps = $_REQUEST['allcaps'] ;
   $clientproject = $_REQUEST['clientproject'] ;
 
-  $message = 'From: ' . $name . ' ' . $email . ' 
-  ';
+  $message = 'From: ' . $name . ' ' . $email . '
+
+';
+  $message .= 'Prior experience was: ' . $experience . '
+';
+  $message .= 'All caps emails are ok: ' . $allcaps . '
+';
   $message .= $clientproject;
 
 
