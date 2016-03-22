@@ -90,8 +90,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message .= 'Ok to send an alll caps email: ' . $allcaps . '\r\n';
   $message .= $clientproject;
 
-  $headers  = 'MIME-Version: 1.0' . "\r\n";
-  $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+  $headers  = 'MIME-Version: 1.0' . '\r\n';
+  $headers .= 'Content-type: text/html; charset=iso-8859-1' . '\r\n';
   $headers .= 'From: ' . $name . '<' . $email . '>';
 
   mail("erica@ericadreisbach.com", "web design/development", $message, $headers);
