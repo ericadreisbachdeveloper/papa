@@ -85,7 +85,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $allcaps = $_REQUEST['allcaps'] ;
   $clientproject = $_REQUEST['clientproject'] ;
 
-  $message = 'From: ' . $name . ' ' . $email . ' \r\n';
+  $message = 'From: ' . $name . ' ' . $email . ' 
+  ';
   $message .= $clientproject;
 
 
