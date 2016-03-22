@@ -5,7 +5,7 @@
       <li class="location title nolink">Index </li>
       <li class="location"><a class="link<?php if(isset($home)) : ?> current<?php endif; ?>" href="<?php if(isset($page)){ echo './'; } else { echo '#top'; } ?>">Home </a></li>
       <li class="location"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>#about">About </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'How I Work'):?> current<?php endif;?>" href="how-i-work">How I Work </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'How I Work'):?> current<?php endif;?>" href="how-i-work.php">How I Work </a></li>
       <li class="location"><a class="link<?php if(isset($page) && $page == 'Testimonials'):?> current<?php endif;?>" href="testimonials.php">Testimonials </a></li>
       <li class="location"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>#skills">Skills </a></li>
       <li class="location"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>pdf/ericadreisbach-resume-web.pdf" target="_blank">Resume </a></li>
