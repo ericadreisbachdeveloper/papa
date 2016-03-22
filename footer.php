@@ -6,23 +6,23 @@
       <li class="location"><a class="link<?php if(isset($home)) : ?> current<?php endif; ?>" href="<?php if(isset($page)){ echo './'; } else { echo '#top'; } ?>">Home </a></li>
       <li class="location"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>#about">About </a></li>
       <li class="location"><a class="link<?php if(isset($page) && $page == 'How I Work'):?> current<?php endif;?>" href="how-i-work">How I Work </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'Testimonials'):?> current<?php endif;?>" href="testimonials">Testimonials </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'Testimonials'):?> current<?php endif;?>" href="testimonials.php">Testimonials </a></li>
       <li class="location"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>#skills">Skills </a></li>
       <li class="location"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>pdf/ericadreisbach-resume-web.pdf" target="_blank">Resume </a></li>
-      <li class="location"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>testimonials">Testimonials </a></li>
+      <li class="location"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>testimonials.php">Testimonials </a></li>
       <li class="location"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>#contact">Contact </a></li>
     </ul>
 
     <ul class="sitemap-ul">
       <li class="location title"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>#work">Work </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'Sentegrity'):?> current<?php endif;?>" href="sentegrity" class="current">Sentegrity </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'Educare'):?> current<?php endif;?>" href="educare" class="">Educare </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'PortionPac'):?> current<?php endif;?>" href="portionpac" class="">PortionPac </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'WellTrail'):?> current<?php endif;?>" href="welltrail" class="">WellTrail </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'Government Energy Management'):?> current<?php endif;?>" href="gem">Government Energy Management </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'Savory Living'):?> current<?php endif;?>" href="savory">Savory Living </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'Nearby Registry'):?> current<?php endif;?>" href="nearby">Nearby Registry </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'Sugar Glen Farm'):?> current<?php endif;?>" href="sugarglen">Sugar Glen Farm </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'Sentegrity'):?> current<?php endif;?>" href="sentegrity.php" class="current">Sentegrity </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'Educare'):?> current<?php endif;?>" href="educare.php" class="">Educare </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'PortionPac'):?> current<?php endif;?>" href="portionpac.php" class="">PortionPac </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'WellTrail'):?> current<?php endif;?>" href="welltrail.php" class="">WellTrail </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'Government Energy Management'):?> current<?php endif;?>" href="gem.php">Government Energy Management </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'Savory Living'):?> current<?php endif;?>" href="savory.php">Savory Living </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'Nearby Registry'):?> current<?php endif;?>" href="nearby.php">Nearby Registry </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'Sugar Glen Farm'):?> current<?php endif;?>" href="sugarglen.php">Sugar Glen Farm </a></li>
     </ul>
 
   </div>
