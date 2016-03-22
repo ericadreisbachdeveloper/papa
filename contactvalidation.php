@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message .= 'All caps emails are ok: ' . $allcaps . '
 
 ';
-  $message .= $clientproject;
+  $message .=$clientproject;
 
 
   mail('erica@ericadreisbach.com', 'web design/development', $message, 'From:' . $name . '<' . $email . '>');
