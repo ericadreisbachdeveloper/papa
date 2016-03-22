@@ -58,8 +58,8 @@
     <p class="-txtcenter -slightlylarge">
       <input value="Go Back" type="button" class="button" onclick="goBack();">
     </p>
+    <p class="hidden">test</p>
   </div>
 </section>
-
 
 <?php include('footer.php'); ?>
