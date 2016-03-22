@@ -28,20 +28,21 @@
   </div>
 </section>
 
-<section id="credits" class="section" style="display: none;">
- <div class="wrapper">
+<section id="credits" class="section">
+ <div class="wrapper -narrowcol">
+   <p class="p">
+     <?php if(isset($home)) : ?>
+     Photo credits: <a href="http://www.publicdomainpictures.net/view-image.php?image=61690&picture=building-web" target="_blank">spider web</a> courtesy <a href="http://www.zonerama.com/Profile/23267" target="_blank">Rostislav&nbsp;Kralik</a>; <a href="http://www.publicdomainpictures.net/view-image.php?image=28116&picture=chicago-skyview" target="_blank">Chicago&nbsp;skyline</a> courtesy <a href="http://www.goodfreephotos.com/" target="_blank">Yinan&nbsp;Chen</a>. This page uses <a href="#">Parallax&nbsp;JS</a> for a buttery&#8209;smooth parallax effect where&nbsp;supported. <?php endif; ?>
 
-  <?php if(isset($page) && $page != '404 | Page not found |') :?><p class="p">Screenshots courtesy clients. </p>
+     <?php if(!isset($page) || isset($project)) : ?>Screenshots courtesy client<?php if(isset($home)) { echo 's'; } elseif (isset($project)) { echo ''; } else {} ?>. <?php endif; ?>
 
-  <?php else : ?><p class="p">Photo credits: <a href="http://www.publicdomainpictures.net/view-image.php?image=61690&picture=building-web" target="_blank">spider web</a> courtesy <a href="http://www.zonerama.com/Profile/23267" target="_blank">Rostislav&nbsp;Kralik</a>; <a href="http://www.publicdomainpictures.net/view-image.php?image=28116&picture=chicago-skyview" target="_blank">Chicago&nbsp;skyline</a> courtesy <a href="http://www.goodfreephotos.com/" target="_blank">Yinan&nbsp;Chen</a>. Screenshots courtesy&nbsp;clients. </p><?php endif; ?>
+     <?php if(isset($project)) : ?>Lightweight mobile/adaptive carousel from <a href="http://owlgraphic.com/owlcarousel/" target="_blank">Owl&nbsp;Carousel</a>. <?php endif; ?>
 
-  <p class="p">This site built with <a href="http://www.sass-lang.com" target="_blank">SASS</a> and&nbsp;<a href="http://www.gruntjs.com" target="_blank">Grunt</a>&nbsp;&mdash; the web&nbsp;development tools and also their homophonic&nbsp;cognates.  </p>
+     This site built with <a href="http://www.sass-lang.com" target="_blank">SASS</a> and&nbsp;<a href="http://www.gruntjs.com" target="_blank">Grunt</a>&nbsp;&mdash; the web&nbsp;development tools and also their homophonic&nbsp;cognates.
 
-  <?php if(isset($project)) : ?><p class="p">Lightweight mobile/adaptive carousel from <a href="http://owlgraphic.com/owlcarousel/" target="_blank">Owl&nbsp;Carousel</a>. </p>
-  <?php elseif (isset($home)) : ?><p class="p">This page uses <a href="http://pixelcog.github.io/parallax.js/" target="_blank" rel="nofollow">Parallax.js</a> for a buttery&#8209;smooth parallax effect where&nbsp;supported.  </p>
-  <?php endif; ?>
+   </p>
 
-  <p class="p">&copy;2009-2016 <a href="http://www.ericadreisbach.com" title="erica dreisbach | freelance web designer + developer">erica&nbsp;dreisbach</a> and <a href="http://www.darkblackllc.com" target="_blank">Dark&nbsp;Black&nbsp;LLC</a>. </p>
+   <p class="p">&copy;2009-2016 <a href="http://www.ericadreisbach.com" title="erica dreisbach | freelance web designer + developer">erica&nbsp;dreisbach</a> and <a href="http://www.darkblackllc.com" target="_blank">Dark&nbsp;Black&nbsp;LLC</a>. </p>
 
  </div><!-- .wrapper -->
 </section><!-- #credits -->
