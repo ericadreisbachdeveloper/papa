@@ -74,12 +74,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $clientproject = test_input($_POST["clientproject"]);
  }
 
- $referrer = "http://search.yahoo.com/search?p=www.stack+overflow%2Ccom&ei=utf-8&fr=slv8-msgr&xargs=0&pstart=1&b=61&xa=nSFc5KjbV2gQCZejYJqWdQ--,1259335755";
- $referrer_query = parse_url($referrer);
- $referrer_query = $referrer_query['query'];
- $q = "[q|p]"; //Yahoo uses both query strings, I am using switch() for each search engine
- preg_match('/'.$q.'=(.*?)&/',$referrer,$keyword);
- $keyword = urldecode($keyword[1]);
+ if( isset($_SERVER['HTTP_REFERER']) && $_SERVER['HTTP_REFERER']) {
+     $query = getSeQuery($_SERVER['HTTP_REFERER']);
+     echo $query;
+ } else {
+     echo "I think they spelled REFERER wrong? Anyways, your browser says you don't have one.";
+ }
+
+
+
+ function getSeQuery($url = false) {
+     $segments = parse_url($url);
+     $keywords = null;
+     if($query = isset($segments['query']) ? $segments['query'] : (isset($segments['fragment']) ? $segments['fragment'] : null)) {
+     parse_str($query, $segments);
+     $keywords = isset($segments['q']) ? $segments['q'] : (isset($segments['p']) ? $segments['p'] : null);
+     }
+     return $keywords;
+ }
 
 
  // If all required values exist, send the email
@@ -100,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message .= 'All caps emails are ok: ' . $allcaps . '
 
 ';
-  $message .= 'Keywords: ' . $keyword . '
+  $message .= 'Keywords: ' . $keywords . '
 ';
   $message .= $clientproject;
 
