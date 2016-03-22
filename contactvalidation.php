@@ -74,25 +74,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $clientproject = test_input($_POST["clientproject"]);
  }
 
- if( isset($_SERVER['HTTP_REFERER']) && $_SERVER['HTTP_REFERER']) {
-     $query = getSeQuery($_SERVER['HTTP_REFERER']);
-     echo $query;
- } else {
-     echo "I think they spelled REFERER wrong? Anyways, your browser says you don't have one.";
- }
 
-
-
- function getSeQuery($url = false) {
-     $segments = parse_url($url);
-     $keywords = null;
-     if($query = isset($segments['query']) ? $segments['query'] : (isset($segments['fragment']) ? $segments['fragment'] : null)) {
-     parse_str($query, $segments);
-     $keywords = isset($segments['q']) ? $segments['q'] : (isset($segments['p']) ? $segments['p'] : null);
-     }
-     return $keywords;
- }
-
+$refer = parse_url($_SERVER['HTTP_REFERER']);
 
  // If all required values exist, send the email
  if ( $name && $email && $experience && $allcaps ) {
@@ -112,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message .= 'All caps emails are ok: ' . $allcaps . '
 
 ';
-  $message .= 'Keywords: ' . $keywords . '
+  $message .= 'Referred from: ' . $refer . '
 ';
   $message .= $clientproject;
 
