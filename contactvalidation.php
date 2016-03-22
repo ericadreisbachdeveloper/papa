@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $allcaps = test_input($_POST["allcaps"]);
  }
 
- if (empty($_POST["project"])) {
+ if (empty($_POST["clientproject"])) {
   $clientprojectErr = "";
  } else {
   $clientproject = test_input($_POST["clientproject"]);
@@ -88,9 +88,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message = 'From: ' . $name . ' ' . $email . '\r\n';
   $message .= 'Prior experience with developers: ' . $experience. '\r\n';
   $message .= 'Ok to send an alll caps email: ' . $allcaps . '\r\n';
-  $message .= '$clientproject';
+  $message .= $clientproject;
 
-  mail("erica@ericadreisbach.com", "web design/development", $message, "From: $name <$email>");
+  $headers  = 'MIME-Version: 1.0' . "\r\n";
+  $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+  $headers .= 'From: ' . $name . '<' . $email . '>';
+
+  mail("erica@ericadreisbach.com", "web design/development", $message, $headers);
 
   echo "<style type='text/css'>#contact>.wrapper>.-successhide{display: none;}</style>";
   echo $success;
