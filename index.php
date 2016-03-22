@@ -20,49 +20,49 @@
  <div id="work-wrapper" class="wrapper">
 
    <div class="project one">
-    <a href="sentegrity" class="link"><img class="img" src="img/sq-sentegrity.jpg" alt="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" /></a>
+    <a href="sentegrity.php" class="link"><img class="img" src="img/sq-sentegrity.jpg" alt="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" /></a>
     <h3 class="title">Sentegrity </h3>
     <h4 class="descrip">Wordpress/Bootstrap theme </h4>
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="educare" class="link"><img class="img" src="img/sq-educare.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" /></a>
+    <a href="educare.php" class="link"><img class="img" src="img/sq-educare.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" /></a>
     <h3 class="title">Educare </h3>
     <h4 class="descrip">Wordpress/Bootstrap development</h4>
    </div><!-- .well -->
 
    <div class="project one">
-    <a href="portionpac" class="link"><img class="img" src="img/sq-portionpac.jpg" alt="PortionPac | Wordpress redesign by Erica Dreisbach" /></a>
+    <a href="portionpac.php" class="link"><img class="img" src="img/sq-portionpac.jpg" alt="PortionPac | Wordpress redesign by Erica Dreisbach" /></a>
     <h3 class="title">PortionPac </h3>
     <h4 class="descrip">Wordpress theme development</h4>
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="welltrail" class="link"><img class="img" src="img/sq-welltrail.jpg" alt="WellTrail | Wordpress mobile development by Erica Dreisbach" /></a>
+    <a href="welltrail.php" class="link"><img class="img" src="img/sq-welltrail.jpg" alt="WellTrail | Wordpress mobile development by Erica Dreisbach" /></a>
     <h3 class="title">WellTrail </h3>
     <h4 class="descrip">Mobile/adaptive Wordpress&nbsp;theme </h4>
    </div><!-- .well -->
 
    <div class="project one">
-    <a href="gem" class="link"><img class="img" src="img/sq-gem.jpg" alt="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" /></a>
+    <a href="gem.php" class="link"><img class="img" src="img/sq-gem.jpg" alt="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" /></a>
     <h3 class="title">Government Energy Management </h3>
     <h4 class="descrip">Wordpress design and&nbsp;development </h4>
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="savory" class="link"><img class="img" src="img/sq-savory.jpg" alt="Savory Living | web design by Erica Dreisbach" /></a>
+    <a href="savory.php" class="link"><img class="img" src="img/sq-savory.jpg" alt="Savory Living | web design by Erica Dreisbach" /></a>
     <h3 class="title">Savory Living </h3>
     <h4 class="descrip">design &amp; development </h4>
    </div><!-- .well -->
 
    <div class="project one">
-    <a href="nearby" class="link"><img class="img" src="img/sq-nearby.jpg" alt="Nearby Registry | CSS and plugin development by Erica Dreisbach" /></a>
+    <a href="nearby.php" class="link"><img class="img" src="img/sq-nearby.jpg" alt="Nearby Registry | CSS and plugin development by Erica Dreisbach" /></a>
     <h3 class="title">Nearby Registry </h3>
     <h4 class="descrip">CSS &amp; social media&nbsp;plugins </h4>
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="sugarglen" class="link"><img class="img" src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" /></a>
+    <a href="sugarglen.php" class="link"><img class="img" src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" /></a>
     <h3 class="title">Sugar Glen Farm </h3>
     <h4 class="descrip">Wordpress blog </h4>
    </div><!-- .well -->
@@ -85,9 +85,9 @@
 
  <div class="wrapper">
    <p class="p -bigpadding -txtcenter">
-     <a href="how-i-work" class="button">&nbsp;How I Work&nbsp; </a>
+     <a href="how-i-work.php" class="button">&nbsp;How I Work&nbsp; </a>
      <span class="mobile-break"></span>
-     <a href="testimonials" class="button">Testimonials </a>
+     <a href="testimonials.php" class="button">Testimonials </a>
    </p>
  </div><!-- .wrapper.text -->
 </section><!-- #about -->
