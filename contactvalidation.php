@@ -75,7 +75,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
  }
 
 
-$refer = parse_url($_SERVER['HTTP_REFERER']);
+$referArray = parse_url($_SERVER['HTTP_REFERER']);
+$referUrl = $referArray['scheme'].'://'.$referArray['host'].$referArray['path'];
 
  // If all required values exist, send the email
  if ( $name && $email && $experience && $allcaps ) {
@@ -95,7 +96,7 @@ $refer = parse_url($_SERVER['HTTP_REFERER']);
   $message .= 'All caps emails are ok: ' . $allcaps . '
 
 ';
-  $message .= 'Referred from: ' . $refer . '
+  $message .= 'Referred from: ' . $referUrl . '
 ';
   $message .= $clientproject;
 
