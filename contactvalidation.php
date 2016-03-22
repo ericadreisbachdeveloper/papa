@@ -85,7 +85,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $allcaps = $_REQUEST['allcaps'] ;
   $clientproject = $_REQUEST['clientproject'] ;
 
-  mail("erica@ericadreisbach.com", "web design/development", "Experience: $experience       All caps: $allcaps         $website          $clientproject", "From: $name <$email>");
+  $message = 'From: ' . $name . ' ' . $email;
+  $message = '<br /><br />Prior experience with developers: ' . $experience;
+  $message = '<br />Ok to send an alll caps email: ' . $allcaps;
+  $message = '<br /><br />$clientproject';
+
+  mail("erica@ericadreisbach.com", "web design/development", $message, "From: $name <$email>");
 
   echo "<style type='text/css'>#contact>.wrapper>.-successhide{display: none;}</style>";
   echo $success;
