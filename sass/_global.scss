@@ -15,6 +15,11 @@ yuss.
 	overflow: hidden;
 }
 
+.transparent {
+	background: (0,0,0,0) !important;
+	@include transition(background,.2s,ease-in-out);
+}
+
 .fixed {
 	position: fixed;
 }

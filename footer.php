@@ -150,17 +150,18 @@ function goBack() {
  // LOAD
  $(window).load(function(){
 
-   // lage load content sections
+   // lazy load hometext
    $('.hometext').addClass('fadein');
-   $('.section').each(function(){
-     $(this).css('display','block');
-   });
+   $('#home').addClass('transparent');
 
    // #sitemap is special due to conditional load for mobile
    // (again, my questions UX/UI choice)
    var windoww = $(window).width();
    if (windoww > 999) {
      $('#sitemap').css('display','block');
+   }
+   else {
+     $('#sitemap').css('display','none');
    }
  });
 

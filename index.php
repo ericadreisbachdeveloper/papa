@@ -1,12 +1,12 @@
 <?php $metadescription = 'Portfolio for Chicago-based freelance web designer and developer Erica Dreisbach, specializing in Wordpress and Bootstrap.'; $home = 'yes'; include('header.php'); ?>
 
-<section id="web" class="slide -top section" style="display: none;">
+<section id="web" class="slide -top section">
    <div class="parallax-window -top septagon" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-z-index="90" data-class-name="-top septagon"></div>
   </div>
 </section>
 
 
-<section id="home" class="slide -top septagon" style="background: rgba(0,0,0,.2);">
+<section id="home" class="slide -top septagon" style="background: #ddd;">
  <div class="wrapper display-table">
   <div class="display-table-cell middle hometext" style="min-height: 20em; opacity: .1; filter: alpha(opacity= 10)">
    <h1 class="title" id="maincontent">erica dreisbach</h1>
@@ -16,7 +16,7 @@
 </section>
 
 
-<section id="work" class="section" style="display: none;">
+<section id="work" class="section">
  <div id="work-wrapper" class="wrapper">
 
    <div class="project one">
@@ -70,12 +70,12 @@
  </div><!-- .wrapper -->
 </section><!-- /#work -->
 
-<section id="headshot" class="section -parallax" style="display: none;">
+<section id="headshot" class="section -parallax">
   <h2 class="hidden">erica dresbach - headshot </h2>
   <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/erica-headshot.jpg" data-position="top left" data-class-name="-short"></div>
 </section>
 
-<section id="about" class="-lean section" style="display: none;">
+<section id="about" class="-lean section">
  <div class="wrapper text">
    <h2 class="sectiontitle">hello! </h2>
    <p class="p">I'm a freelance web designer and developer based in Chicago, working on projects from all over the US. I've built websites for clients in New&nbsp;York, Portland (Oregon), Boston, San&nbsp;Francisco, Los&nbsp;Angeles, and here in&nbsp;Chicago. </p>
@@ -92,7 +92,7 @@
  </div><!-- .wrapper.text -->
 </section><!-- #about -->
 
-<section id="skills" class="section" style="display: none;">
+<section id="skills" class="section">
   <div class="wrapper text -narrowcol">
     <h2 class="hidden">Skills </h2>
 
@@ -112,13 +112,13 @@
 </section>
 
 
-<section id="typing" class="slide section -parallax" style="display: none;">
+<section id="typing" class="slide section -parallax">
   <h2 class="hidden">erica dresbach - web developer </h2>
   <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/typing.jpg" data-position="top center" data-class-name="-short"></div>
 </section>
 
 
-<section id="contact" class="-standard section" style="display: none;">
+<section id="contact" class="-standard section">
  <h2 class="hidden">Contact </h2>
  <div class="wrapper -verynarrowcol">
   <p class="p -large -txtcenter -successhide">Thank you for visiting!</p>
@@ -128,7 +128,7 @@
 </section><!-- #contact.-standard.section -->
 
 
-<section id="chicago" class="slide section" style="display: none;">
+<section id="chicago" class="slide section">
   <h2 class="hidden">Chicago freelance web developer erica dreisbach</h2>
   <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/chicago-skyview.jpg" data-position="top left" data-class-name="-short"></div>
 
