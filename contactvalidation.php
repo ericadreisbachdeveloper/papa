@@ -91,6 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message .= 'Prior experience was: ' . $experience . '
 ';
   $message .= 'All caps emails are ok: ' . $allcaps . '
+
 ';
   $message .= $clientproject;
 
