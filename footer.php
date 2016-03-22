@@ -47,12 +47,18 @@
 </section><!-- #credits -->
 
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47393701-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-
-
-<?php if (isset($home)) : ?>
-
-<?php endif; ?>
 
 
 <?php if( isset($home)  && preg_match('/(Chrome|CriOS)\//i',$_SERVER['HTTP_USER_AGENT'])
