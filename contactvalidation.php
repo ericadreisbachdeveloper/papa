@@ -83,9 +83,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $website = $_REQUEST['website'] ;
   $experience = $_REQUEST['experience'] ;
   $allcaps = $_REQUEST['allcaps'] ;
-  $project = $_REQUEST['project'] ;
+  $clientproject = $_REQUEST['clientproject'] ;
 
-  mail("erica@ericadreisbach.com", "web design/development", "Experience: $experience   All caps: $allcaps    Project priorities: $project         $website          $description", "From: $name <$email>");
+  mail("erica@ericadreisbach.com", "web design/development", "Experience: $experience       All caps: $allcaps         $website          $clientproject", "From: $name <$email>");
 
   echo "<style type='text/css'>#contact>.wrapper>.-successhide{display: none;}</style>";
   echo $success;
