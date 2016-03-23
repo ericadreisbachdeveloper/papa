@@ -1,6 +1,7 @@
 <?php $metadescription = 'Portfolio for Chicago-based freelance web designer and developer Erica Dreisbach, specializing in Wordpress and Bootstrap.'; $home = 'yes'; include('header.php'); ?>
 
 <section id="web" class="slide -top section">
+   <h2 class="hidden">Web design (pun) </h2>
    <div class="parallax-window -top septagon" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-z-index="90" data-class-name="-top septagon"></div>
 </section>
 

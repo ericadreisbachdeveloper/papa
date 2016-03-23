@@ -54,6 +54,7 @@
 </section>
 
 <section id="button-section" class="-toppad">
+  <h2 class="hidden">Go Back </h2>
   <div class="wrapper">
     <p class="-txtcenter -slightlylarge">
       <input value="Go Back" type="button" class="button" onclick="goBack();">

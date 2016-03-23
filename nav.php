@@ -14,7 +14,7 @@
     <ul class="nav">
       <li class="location haschildren"><a class="link" aria-haspopup="true" href="<?php if(isset($page)){ echo './'; } else {} ?>#work">work </a>
         <ul class="subnav -work">
-          <li class="location"><a class="link<?php if(isset($page) && $page == 'Sentegrity'):?> current<?php endif;?>" href="sentegrity.php" class="current">Sentegrity </a></li>
+          <li class="location"><a class="link<?php if(isset($page) && $page == 'Sentegrity'):?> current<?php endif;?>" href="sentegrity.php">Sentegrity </a></li>
          <li class="location"><a class="link<?php if(isset($page) && $page == 'Educare'):?> current<?php endif;?>" href="educare.php">Educare </a></li>
          <li class="location"><a class="link<?php if(isset($page) && $page == 'PortionPac'):?> current<?php endif;?>" href="portionpac.php">PortionPac </a></li>
          <li class="location"><a class="link<?php if(isset($page) && $page == 'WellTrail'):?> current<?php endif;?>" href="welltrail.php">WellTrail </a></li>
