@@ -25,12 +25,18 @@ yuss.
 }
 
 .hidden {
-	font-size: 0;
-	line-height: 0;
-	text-indent: -9999px;
-	visibility: hidden;
-	position: absolute;
-	 left: -9999px;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  font-size: 0;
+  line-height: 0;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+   left: -9999px;
+  text-indent: -9999px;
 }
 
 img:not([src]){

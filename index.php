@@ -6,7 +6,7 @@
 </section>
 
 
-<section id="home" class="slide -top septagon" style="background: #ddd;">
+<section id="home" class="slide -top septagon" style="background-image: radial-gradient(ellipse farthest-corner at 30% 0, #ffe9b7 0%, #7f6a2b 40%, #5c5631 70%, #7f6a2b 100%);">
  <div class="wrapper display-table">
   <div class="display-table-cell middle hometext" style="min-height: 20em; opacity: .1; filter: alpha(opacity= 10)">
    <h1 class="title" id="maincontent">erica dreisbach</h1>
