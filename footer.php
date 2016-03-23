@@ -38,7 +38,7 @@
 
      <?php if(!isset($page) || isset($project)) : ?>Screenshots courtesy client<?php if(isset($home)) { echo 's'; } elseif (isset($project)) { echo ''; } else {} ?>. <?php endif; ?>
 
-     <?php if(isset($project)) : ?>Lightweight mobile/adaptive carousel from <a href="http://owlgraphic.com/owlcarousel/" target="_blank">Owl&nbsp;Carousel</a>. <?php endif; ?>
+     <?php if(isset($project)) : ?>Lightweight mobile/adaptive carousel from <a href="http://www.owlcarousel.owlgraphic.com/" target="_blank">Owl&nbsp;Carousel</a>. <?php endif; ?>
 
      This site built with <a href="http://www.sass-lang.com" target="_blank">SASS</a> and&nbsp;<a href="http://www.gruntjs.com" target="_blank">Grunt</a>&nbsp;&mdash; the web&nbsp;development tools and also their homophonic&nbsp;cognates.
 
@@ -169,8 +169,6 @@ function goBack() {
 
 
 
-
-
   // RESIZE
   $(window).resize(function(){
     var windoww = $(window).width();
@@ -214,14 +212,6 @@ function goBack() {
       $('.nav').removeClass('hamburger');
 
     }
-
-  });
-
-
-  // SCROLL
-  $(window).scroll(function(){
-
-
   });
 
 </script>
