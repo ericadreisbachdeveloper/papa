@@ -2,7 +2,6 @@
 
 <section id="web" class="slide -top section">
    <div class="parallax-window -top septagon" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-z-index="90" data-class-name="-top septagon"></div>
-  </div>
 </section>
 
 
@@ -135,9 +134,9 @@
   <div id="social" class="wrapper">
     <ul class="ul">
       <li class="li"><a class="a" href="http://www.twitter.com/ericadreisbach" target="_blank"><span class="span">twitter.com/ericadreisbach</span> <i class="fa fa-twitter"></i></a></li>
-      <li class="li"><a class="a" href="http://www.pinterest.com/darkblackllc" target="_blank"><span class="span">pinterest.com/darkblackllc</span>  <i class="fa fa-pinterest"></i></a></a></li>
-      <li class="li"><a class="a" href="http://linkedin.com/in/ericadreisbach" target="_blank"><span class="span">linkedin.com/in/ericadreisbach</span>  <i class="fa fa-linkedin"></i></a></a></li>
-      <li class="li"><a class="a" href="https://github.com/rockygulliver" target="_blank"><span class="span">github.com/rockygulliver</span>  <i class="fa fa-github"></i></a></a></li>
+      <li class="li"><a class="a" href="http://www.pinterest.com/darkblackllc" target="_blank"><span class="span">pinterest.com/darkblackllc</span>  <i class="fa fa-pinterest"></i></a></li>
+      <li class="li"><a class="a" href="http://linkedin.com/in/ericadreisbach" target="_blank"><span class="span">linkedin.com/in/ericadreisbach</span>  <i class="fa fa-linkedin"></i></a></li>
+      <li class="li"><a class="a" href="https://github.com/rockygulliver" target="_blank"><span class="span">github.com/rockygulliver</span>  <i class="fa fa-github"></i></a></li>
     </ul>
   </div>
 </section>

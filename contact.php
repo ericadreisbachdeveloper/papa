@@ -4,7 +4,7 @@
   <div class="question contactinfo">
     <div class="col col-half">
       <label class="label" for="name">Name </label>
-      <input type="name" name="name" id="name" maxlength="40" class="<?php echo $nameErrCode;?>" value="<?php echo $name;?>">
+      <input type="text" name="name" id="name" maxlength="40" class="<?php echo $nameErrCode;?>" value="<?php echo $name;?>">
       <p class="error nameerror"><?php echo $nameErr;?></p>
     </div>
 

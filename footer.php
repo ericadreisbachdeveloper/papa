@@ -1,4 +1,5 @@
 <section id="sitemap" style="display: none;">
+  <h2 class="hidden">Sitemap </h2>
   <div class="wrapper">
 
     <ul class="sitemap-ul">
@@ -15,10 +16,10 @@
 
     <ul class="sitemap-ul">
       <li class="location title"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>#work">Work </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'Sentegrity'):?> current<?php endif;?>" href="sentegrity.php" class="current">Sentegrity </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'Educare'):?> current<?php endif;?>" href="educare.php" class="">Educare </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'PortionPac'):?> current<?php endif;?>" href="portionpac.php" class="">PortionPac </a></li>
-      <li class="location"><a class="link<?php if(isset($page) && $page == 'WellTrail'):?> current<?php endif;?>" href="welltrail.php" class="">WellTrail </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'Sentegrity'):?> current<?php endif;?>" href="sentegrity.php">Sentegrity </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'Educare'):?> current<?php endif;?>" href="educare.php">Educare </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'PortionPac'):?> current<?php endif;?>" href="portionpac.php">PortionPac </a></li>
+      <li class="location"><a class="link<?php if(isset($page) && $page == 'WellTrail'):?> current<?php endif;?>" href="welltrail.php">WellTrail </a></li>
       <li class="location"><a class="link<?php if(isset($page) && $page == 'Government Energy Management'):?> current<?php endif;?>" href="gem.php">Government Energy Management </a></li>
       <li class="location"><a class="link<?php if(isset($page) && $page == 'Savory Living'):?> current<?php endif;?>" href="savory.php">Savory Living </a></li>
       <li class="location"><a class="link<?php if(isset($page) && $page == 'Nearby Registry'):?> current<?php endif;?>" href="nearby.php">Nearby Registry </a></li>
@@ -29,8 +30,9 @@
 </section>
 
 <section id="credits" class="section">
- <div class="wrapper -narrowcol">
-   <p class="p">
+  <h2 class="hidden">Credits </h2>
+  <div class="wrapper -narrowcol">
+    <p class="p">
      <?php if(isset($home)) : ?>
      Photo credits: <a href="http://www.publicdomainpictures.net/view-image.php?image=61690&picture=building-web" target="_blank">spider web</a> courtesy <a href="http://www.zonerama.com/Profile/23267" target="_blank">Rostislav&nbsp;Kralik</a>; <a href="http://www.publicdomainpictures.net/view-image.php?image=28116&picture=chicago-skyview" target="_blank">Chicago&nbsp;skyline</a> courtesy <a href="http://www.goodfreephotos.com/" target="_blank">Yinan&nbsp;Chen</a>. This page uses <a href="#">Parallax&nbsp;JS</a> for a buttery&#8209;smooth parallax effect where&nbsp;supported. <?php endif; ?>
 
@@ -165,7 +167,6 @@ function goBack() {
      $('#sitemap').css('display','none');
    }
  });
-
 
 
 

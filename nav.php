@@ -1,9 +1,9 @@
-<nav id="nav" class="section fixed" role="navigation">
+<nav id="nav" class="section fixed">
 
   <a href="#maincontent" class="hidden">Skip Navigation </a>
 
   <div class="wrapper">
-    <div id="brend"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>"><img src="img/logo.svg" class="logo" />ericadreisbach</a></div>
+    <div id="brend"><a class="link" href="<?php if(isset($page)){ echo './'; } else {} ?>"><img src="img/logo.svg" alt="" title="" class="logo" />ericadreisbach</a></div>
 
     <div class="navbutton">
       <div class="white"> </div>
