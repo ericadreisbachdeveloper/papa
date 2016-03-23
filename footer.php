@@ -63,6 +63,7 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"> </script>
 
 <?php if( isset($home)  && preg_match('/(Chrome|CriOS)\//i',$_SERVER['HTTP_USER_AGENT'])
  && !preg_match('/(Aviator|ChromePlus|coc_|Dragon|Edge|Flock|Iron|Kinza|Maxthon|MxNitro|Nichrome|OPR|Perk|Rockmelt|Seznam|Sleipnir|Spark|UBrowser|Vivaldi|WebExplorer|YaBrowser)/i',$_SERVER['HTTP_USER_AGENT'])){
@@ -108,7 +109,6 @@ function goBack() {
  // READY
  $(document).ready(function(){
 
-  var windowh = $(window).height();
   var windoww = $(window).width();
 
   // add mobile nav class .hamburger
@@ -117,7 +117,6 @@ function goBack() {
     $('.nav').addClass('hamburger');
   }
   else {}
-
 
 
   // mobile nav

@@ -1,0 +1,35 @@
+// Legacy Browsers
+
+.no-inlinesvg {
+  #nav > .wrapper > #brend > .link  {
+    background-image: url('../img/logo-38.png');
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+  }
+}
+
+.no-inlinesvg {
+  #web, #home {
+    height: 35em;
+  }
+
+  #home {
+    background-image: url('../img/spiders-web.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .hometext {
+    opacity: 1 !important;
+  }
+
+  #chicago {
+    height: 30em;
+    background-image: url('../img/chicago-skyview.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  #social.wrapper > .ul {
+    top: 37%;
+  }
+}
