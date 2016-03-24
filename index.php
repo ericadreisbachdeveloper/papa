@@ -26,7 +26,7 @@
    </div><!-- .well -->
 
    <div class="project two">
-    <a href="educare.php" class="link"><img class="img" src="img/sq-educare.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" /></a>
+    <a href="educare.php" class="link"><img class="img" src="img/educare-mobile.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" /></a>
     <h3 class="title">Educare </h3>
     <h4 class="descrip">Wordpress/Bootstrap development</h4>
    </div><!-- .well -->
