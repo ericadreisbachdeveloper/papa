@@ -1,0 +1,67 @@
+// Email
+
+
+.email-cell {
+  float: left;
+  margin-bottom: 2em;
+
+  &.responsive {
+    position: relative;
+
+    &:before {
+      height: 1em;
+      border-style: solid;
+      border-width: 1em 0 0 1em;
+      border-color: transparent transparent transparent crimson;
+      content: '';
+      font-size: 1.3em;
+      position: absolute;
+       top: 5em;
+       right: -1.7em;
+    }
+
+    &:after {
+      color: white;
+      content: 'RESPONSIVE';
+      font-family: sans-serif;
+      font-size: 1.3em;
+      padding: .6em .8em;
+      position: absolute;
+       top: 6em;
+       right: -1.7em;
+      background: red;
+    }
+  }
+
+  &> .title {
+    padding-bottom: .4em;
+  }
+
+  &> .link {
+    width: 100%;
+    border: .5em solid #ccc;
+    display: block;
+
+    &> .img {
+      width: 100%;
+
+    }
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width: 720px) {
+
+  .email-cell {
+    width: 25%;
+    margin-right: 10%;
+
+    &:nth-of-type(3n) {
+      margin-right: 0;
+    }
+  }
+}
