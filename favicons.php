@@ -1,4 +1,3 @@
-
 <meta name="msapplication-TileColor" content="#FFFFFF">
 <meta name="msapplication-TileImage" content="favicons/favicon-144.png">
 

@@ -13,6 +13,8 @@
 <meta property="og:site_name" content="erica dreisbach | web desiger + developer">
 <meta property="og:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>">
 
+<meta name="description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
+
 <title><?php if(isset($page)) { echo $page . ' | '; } else { ;} ?>erica dreisbach | web designer + developer </title>
 
 <?php include('favicons.php'); ?>
