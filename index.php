@@ -115,7 +115,7 @@
 
       <div class="one-third -smalls">
         <div class="circle">
-          <span style="font-size: 7em; font-family: serif;">60</span><span style="font-size: 4em; position: relative; top: -.2em;">+</span><br /><span style="letter-spacing: 1px;">HTML EMAILS</span>
+          <span style="font-size: 7em; font-family: serif;">10</span><br /><span style="letter-spacing: 1px;">YRS EXPERIENCE</span>
         </div>
       </div>
 
@@ -125,13 +125,15 @@
         </div>
       </div>
 
+
       <div class="one-third -smalls">
         <div class="circle">
-          <span style="font-size: 7em; font-family: serif;">10</span><br /><span style="letter-spacing: 1px;">YRS EXPERIENCE</span>
+          <span style="font-size: 7em; font-family: serif;">60</span><span style="font-size: 4em; position: relative; top: -.2em;">+</span><br /><span style="letter-spacing: 1px;">HTML EMAILS</span>
         </div>
       </div>
 
-  </div>
+  </div><!-- /.circle-wrapper -->
+
 </section>
 
 
