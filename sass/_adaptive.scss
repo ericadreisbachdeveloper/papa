@@ -39,6 +39,30 @@ boom kaboom.
 		padding-bottom: 2em;
 	}
 
+	.one-third {
+		float: left;
+		width: 33%;
+	}
+
+	.one-third.-smalls > .circle {
+		margin-top: 3em;
+	}
+
+	.one-third.-smalls > .circle {
+		height: 10em;
+		max-width: 10em;
+		// margin-top: 2em;
+	}
+
+	.one-third.-bigs > .circle {
+		height: 16em;
+		max-width: 16em;
+	}
+
+	.circle {
+		border: 2px solid black;
+	}
+
 
 	#nav>.wrapper>.nav {
 		font-size: 1.44em;

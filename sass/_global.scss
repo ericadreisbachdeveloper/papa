@@ -280,6 +280,32 @@ a {
 	}
 }
 
+.circle-wrapper {
+	padding-top: 4em;
+
+	&>.one-third > .circle {
+		display: block;
+		margin: 0 auto;
+	}
+
+
+	&:last-child {
+		&:after {
+			clear: both;
+			content: '';
+			display: block;
+		}
+	}
+}
+
+.circle {
+	/* border: 2px solid black; */
+	text-align: center;
+	padding: 3em;
+	@include border-radius(100%);
+}
+
+
 
 // Contact
 

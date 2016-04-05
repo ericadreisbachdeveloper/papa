@@ -109,6 +109,29 @@
   <div class="wrapper">
     <p class="p -bigpadding -txtcenter"><a href="pdf/ericadreisbach-resume-web.pdf" target="_blank" class="button">Download Resume (PDF) </a></p>
   </div>
+
+
+  <div class="circle-wrapper">
+
+      <div class="one-third -smalls">
+        <div class="circle">
+          <span style="font-size: 7em; font-family: serif;">60</span><span style="font-size: 4em; position: relative; top: -.2em;">+</span><br /><span style="letter-spacing: 1px;">HTML EMAILS</span>
+        </div>
+      </div>
+
+      <div class="one-third -bigs">
+        <div class="circle">
+          <br /><span style="letter-spacing: 1px;">DEVELOPMENT LEAD ON <br /><span style="font-size: 11em; font-family: serif;">24</span><br /><span style="letter-spacing: 1px;">WEBSITES</span> <em>and counting!</em>
+        </div>
+      </div>
+
+      <div class="one-third -smalls">
+        <div class="circle">
+          <span style="font-size: 7em; font-family: serif;">10</span><br /><span style="letter-spacing: 1px;">YRS EXPERIENCE</span>
+        </div>
+      </div>
+
+  </div>
 </section>
 
 
