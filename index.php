@@ -121,7 +121,7 @@
 
       <div class="one-third -bigs">
         <div class="circle">
-          <br /><span style="letter-spacing: 1px;">DEVELOPMENT LEAD ON <br /><span style="font-size: 11em; font-family: serif;">24</span><br /><span style="letter-spacing: 1px;">WEBSITES</span> <em>and counting!</em>
+          <br /><span style="letter-spacing: 1px;">DEVELOPMENT LEAD ON <br /><span style="font-size: 11em; font-family: serif;">26</span><br /><span style="letter-spacing: 1px;">WEBSITES</span> <em>and counting!</em>
         </div>
       </div>
 
