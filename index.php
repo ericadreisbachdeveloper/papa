@@ -100,7 +100,7 @@
     <p class="p -narrow">HTML / HTML5  &nbsp;&bull;&nbsp;  CSS / CSS3 / SASS  &nbsp;&bull;&nbsp;  PHP  &nbsp;&bull;&nbsp;  jQuery / Javascript  &nbsp;&bull;&nbsp;  Wordpress  &nbsp;&bull;&nbsp;  Bootstrap  &nbsp;&bull;&nbsp;  Photoshop / Illustrator  &nbsp;&bull;&nbsp;  responsive / mobile  &nbsp;&bull;&nbsp;  SEO  &nbsp;&bull;&nbsp;  HTML email </p>
 
     <p class="title">Working Knowledge </p>
-    <p class="p -narrow">Git  &nbsp;&bull;&nbsp;  Grunt  &nbsp;&bull;&nbsp;  Drupal  &nbsp;&bull;&nbsp;  Foundation  &nbsp;&bull;&nbsp;  SquareSpace </p>
+    <p class="p -narrow">Git  &nbsp;&bull;&nbsp;  Grunt  &nbsp;&bull;&nbsp;  Drupal  &nbsp;&bull;&nbsp;  Foundation  &nbsp;&bull;&nbsp;  SquareSpace &nbsp;&bull;&nbsp;  Handlebars  &nbsp;&bull;&nbsp; Bower</p>
 
     <p class="title">Currently Learning </p>
     <p class="p -narrow">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel   &nbsp;&bull;&nbsp;  Django </p>
