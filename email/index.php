@@ -16,37 +16,37 @@
     <div class="row">
 
       <div class="col-md-4">
-        <a href="sony" class="a responsive">
+        <a href="../email/sony" class="a responsive">
           <h2>Sony </h2>
           <img class="img" src="../img/email-thumb-sony.jpg" alt="Sony | responsive HTML email development by Erica Dreisbach" /></a>
       </div>
 
       <div class="col-md-4">
-        <a href="budget" class="a responsive">
+        <a href="../email/budget" class="a responsive">
           <h2>Budget </h2>
           <img class="img" src="../img/email-thumb-budget.jpg" alt="Budget | responsive HTML email development by Erica Dreisbach" /></a>
       </div>
 
       <div class="col-md-4">
-        <a href="focus" class="a responsive">
+        <a href="../email/focus" class="a responsive">
           <h2>Focus </h2>
           <img class="img" src="../img/email-thumb-focus.jpg" alt="Focus email template | development by Erica Dreisbach" /></a>
       </div>
 
       <div class="col-md-4">
-        <a href="announcement" class="a">
+        <a href="../email/announcement" class="a">
           <h2 class="title">Announcement </h2>
           <img class="img" src="../img/email-thumb-announcement.jpg" alt="Announcement email template | design and development by Erica Dreisbach" /></a>
       </div>
 
       <div class="col-md-4">
-        <a href="offer" class="a">
+        <a href="../email/offer" class="a">
           <h2 class="title">Offer</h2>
           <img class="img" src="../img/email-thumb-offer.jpg" alt="Offer | HTML email template by Erica Dreisbach" /></a>
       </div>
 
       <div class="col-md-4">
-        <a href="invitation" class="a">
+        <a href="../email/invitation" class="a">
           <h2 class="title">Invitation</h2>
           <img class="img" src="../img/email-thumb-invitation.jpg" alt="Invitation | HTML email template by Erica Dreisbach" /></a>
       </div>
