@@ -198,6 +198,37 @@
       <div class="col-md-2"> </div>
     </div><!-- /.row -->
 
+    <div class="row skill-circles">
+      <div class="col-md-4 col-circle border-bottom">
+        <div class="circle">
+          <div class="-circlewrap">
+            <span class="-circlebigs">10</span><br />
+            <span class="-circlesmalls">YRS EXPERIENCE</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-circle border-bottom">
+        <div class="circle">
+          <div class="-circlewrap">
+            <span class="-circlesmalls">DEVELOPMENT LEAD ON</span><br />
+            <span class="-circleextrabigs">27</span><br />
+            <span class="-circlesmalls">WEBSITES <span style="letter-spacing: 0; font-style: italic;">and counting!</span> </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-circle">
+        <div class="circle">
+          <div class="-circlewrap">
+            <span class="-circlebigs">60+</span><br />
+            <span class="-circlesmalls">HTML EMAILS</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.row -->
+
   </div><!-- /.container -->
 </section>
 
