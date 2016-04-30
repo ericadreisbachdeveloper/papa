@@ -1,123 +1,132 @@
-/*
-
+/* ------------------------
 Pages
+------------------------ */
 
-*/
-
-.page-top {
-  padding: 5em 0 3em;
+.work, .page {
+  padding-top: 50px;
 }
 
-.pagecontent-top {
-  padding: 5em 0 0;
-}
 
-// h1
-.page-title {
-  font-size: 2em;
-  line-height: 1.44;
 
-  &.-float {
-    float: left;
+/* * * * * * * * * * * * *
+ How I Work / FAQs
+* * * * * * * * * * * * */
+
+.qna {
+  padding: 1em 0;
+
+  &> .q {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 0;
+    padding-bottom: .5em;
   }
 }
 
-.page-buttons {
-  float: right;
 
-  .button {
+
+/* * * * * * * * * * * * *
+Testimonials
+* * * * * * * * * * * * */
+
+.quotes-section {
+  padding-top: 4em;
+
+  &> .container > .row > .col-content {
+    .quote {
+      padding-bottom: 2em;
+
+      &> .-medium {
+        margin-bottom: .3em;
+      }
+
+      &> .attrib {
+        &> .name {
+          font-size: 1.95rem;
+        }
+
+        &> .org {
+          font-size: 1.44rem;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    // talker image
+
+    .talker {
+      padding-bottom: 2em;
+    }
+
+
+  }
+}
+
+
+
+/* * * * * * * * * * * * *
+Work Pages
+* * * * * * * * * * * * */
+
+.carousel-section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  // hide alt/title while images load
+  img {
+    color: white;
+  }
+}
+
+
+/* * * * * * * * * * * * *
+HTML Email
+* * * * * * * * * * * * */
+
+.email-section {
+  padding-top: 4em;
+  padding-bottom: 2em;
+
+  .a {
+    width: 90%;
+    border: none;
     display: block;
-    width: auto;
-    float: left;
-    text-align: center;
+    @include transition(all,.2s,ease-in-out);
+    @include hover { &> .img { border-color: $red; @include transition(all,.2s,ease-in-out); } }
 
-    &+ .button {
-      margin-left: .3em;
+    &> .img {
+      border: $lightgrey 1em solid;
     }
   }
 
-  &:last-child {
-    &:after {
-      clear: both;
+  .responsive {
+    position: relative;
+
+    &:before {
+      height: 1em;
+      border-style: solid;
+      border-width: 1em 0 0 1em;
+      border-color: transparent transparent transparent crimson;
       content: '';
-      display: block;
+      font-size: 1.3em;
+      position: absolute;
+       top: 7em;
+       right: -1em;
     }
-  }
-}
 
-
-.wrapper > .-slightlylarge > .button {
-  font-size: 1.1em;
-}
-
-.page-text {
-  &> .p {
-    display: block;
-    line-height: 1.44;
-    margin: 0 auto;
-    padding: 1em 0;
-  }
-
-  &> .-large {
-    font-size: 1.3em;
-    text-align: center;
-  }
-}
-
-
-
-#carousel {
-  clear: both;
-  color: rgba(255,255,255,0);
-  overflow: hidden;
-  padding: 0;
-
-  .owl-item {
-    background: rgba(0,0,0,.1);
-    //  max-height: 30em;
-
-    &> img{
-      display: block;
-      width: 100%;
-      height: auto;
+    &:after {
+      background: red;
+      color: white;
+      content: 'RESPONSIVE';
+      font-family: sans-serif;
+      font-size: 1.3em;
+      padding: .6em .8em;
+      position: absolute;
+       top: 8em;
+       right: -1em;
     }
-  }
-}
 
-.owl-theme .owl-controls .owl-page span {
-  width: 1.44em;
-  height: 1.44em;
-  @include border-radius(1.44em);
-}
-
-
-
-// HOW I WORK
-.process {
-
-  &> .p {
-    line-height: 1.44;
-    margin: 0;
-  }
-
-  &> .-q {
-    font-size: 1.8em;
-    padding: 1em 0 .3em;
 
   }
-  &> .-a {
-    font-size: 1em;
-    padding: .5em 0;
-
-    &> .-small {
-      font-size: .8em;
-    }
-  }
-}
-
-
-
-.-fullwidth {
-  width: 100%;
-  padding: 2em 0;
 }

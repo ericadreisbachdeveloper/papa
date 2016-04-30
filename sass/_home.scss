@@ -1,0 +1,110 @@
+/* ------------------------
+Home
+------------------------ */
+
+.septagon {
+	-webkit-clip-path: polygon(100% 0, 100% 97%, 55% 97%, 50% 100%, 45% 97%, 0 97%, 0 0);
+	clip-path: polygon(100% 0, 100% 97%, 55% 97%, 50% 100%, 45% 97%, 0 97%, 0 0);
+}
+
+
+
+
+.home {
+  #top {
+    height: calc(100vh - 50px);
+    position: relative;
+
+		// .alive is when the page is loaded
+		&.alive {
+			background-color: transparent !important;
+			@include transition(background,.4s,ease-in-out);
+
+			&> .container-fluid-width > .container {
+				opacity: 1 !important;
+				filter: alpha(opacity=100) !important;
+				@include transition(opacity,.4s,ease-in-out);
+			}
+		}
+  }
+
+	.work-section  {
+		padding-top: 3em;
+		padding-bottom: 3em;
+
+		&> .container  > .row > .work-cell {
+			padding-top: 1em;
+			padding-right: 0;
+			padding-bottom: 1em;
+			padding-left: 0;
+
+			&> .a {
+				display: block;
+				border: none;
+
+				&> .img-wrap {
+					width: 100%;
+					position: relative;
+
+					&> .img {
+						width: 100%;
+						display: block;
+					}
+
+					&:after {
+						width: 100%;
+						height: 2em;
+						background-color: red;
+						background: url('../img/shadow.svg') no-repeat 50% 0;
+						background-size: contain;
+						content: '';
+						display: block;
+						position: absolute;
+						 bottom: -2em;
+					}
+				}
+			}
+		}
+	}
+
+	.headshot-section {
+		//background: url('../img/erica-headshot.jpg') 0% 50% no-repeat;
+		//background-size: cover;
+	}
+
+	.about-section > .container {
+		padding-top: 2em;
+	}
+
+	.skills-section > .container {
+		padding-top: 2em;
+		padding-bottom: 4em;
+	}
+
+	.typing-section {
+		//background: url('../img/typing.jpg') 20% 0% no-repeat;
+		//background-size: cover;
+	}
+
+	.contact-section > .container {
+		padding-top: 2em;
+		padding-bottom: 4em;
+
+		.error {
+			color: red;
+			font-size: 1.5rem;
+			font-style: italic;
+			padding-top: .2em;
+		}
+	}
+}
+
+
+
+
+
+
+#skyline {
+  //background: url('../img/chicago-skyview.jpg') no-repeat 50% 50%;
+  //background-size: cover;
+}

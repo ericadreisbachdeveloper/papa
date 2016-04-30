@@ -1,5 +1,6 @@
-
-// Mixins
+/* ------------------------
+ Mixins
+------------------------ */
 
 @mixin clear {
   content: '';
@@ -16,6 +17,34 @@
       filter: blur($amount);
 }
 
+@mixin blur($amt) {
+  -webkit-filter: blur($amt);
+   filter: blur($amt);
+}
+
+@mixin box-shadow ($type, $vert, $horiz, $blur, $color) {
+  -webkit-box-shadow: $type $vert $horiz $blur $color;
+   box-shadow: $type $vert $horiz $blur $color;
+}
+
+@mixin simple-box-shadow ($vert, $horiz, $blur, $color) {
+  -webkit-box-shadow: $vert $horiz $blur $color;
+   box-shadow: $vert $horiz $blur $color;
+}
+
+@mixin optional-at-root($sel) {
+  @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+    @content;
+  }
+}
+
+@mixin placeholder {
+  @include optional-at-root('::-webkit-input-placeholder') { @content; }
+  @include optional-at-root(':-moz-placeholder') { @content; }
+  @include optional-at-root('::-moz-placeholder') { @content; }
+  @include optional-at-root(':-ms-input-placeholder') { @content; }
+}
+
 @mixin transition($transition-property, $transition-time, $method) {
 	-webkit-transition: $transition-property $transition-time $method;
 	 -moz-transition: $transition-property $transition-time $method;
@@ -26,6 +55,10 @@
 
 @mixin border-radius ($rad) {
   border-radius: ($rad);
+}
+
+@mixin border-radius-corners ($nw, $ne, $se, $sw) {
+  border-radius: ($nw $ne $se $sw);
 }
 
 @mixin translate($horiz,$vert) {
@@ -48,12 +81,12 @@
 }
 
 // $rotate and $skew with deg, a la "90deg"
-@mixin transform($rotate, $scale, $skew, $translate) {
-  transform: rotate($rotate) scale($scale) skew($skew) translate($translate);
-   -webkit-transform: rotate($rotate) scale($scale) skew($skew) translate($translate);
-    -moz-transform: rotate($rotate) scale($scale) skew($skew) translate($translate);
-     -o-transform: rotate($rotate) scale($scale) skew($skew) translate($translate);
-      -ms-transform: rotate($rotate) scale($scale) skew($skew) translate($translate);
+@mixin transform($rotate, $scale, $skew, $translatex, $translatey) {
+  transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+   -webkit-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+    -moz-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+     -o-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+      -ms-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
 }
 
 @mixin hover {
@@ -134,31 +167,39 @@
 }
 
 
-// Part Two: name the animation
+// Part Two: name and define the animation
+
+/* @include keyframes(NAME) {
+    50% { transform: scale(1.2); transform-origin: center center; }
+    0%, 100% { transform: scale(1); transform-origin: center center; }
+} */
+
+
+@include keyframes(delayedrise) {
+  0%, 80% { height: 2.6em; }
+  100% { height: 0; }
+}
 
 @include keyframes(logrow) {
-
-    50% {
-      transform: scale(1.2); transform-origin: center center;
-    }
-
-    0%, 100% {
-      transform: scale(1); transform-origin: center center;
-    }
+    50% { transform: scale(1.2); transform-origin: center center; }
+    0%, 100% { transform: scale(1); transform-origin: center center; }
 }
+
 
 
 // Part Three: apply it in SCSS file a la
 
+// @include cssanimate(logrow, none, 1, .5s);
+
 /*
 #animated-div {
 
-  -webkit-animation-name: fadeout;
+  -webkit-animation-name: NAME;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-duration: 4s;
 
-  animation-name: fadeout;
+  animation-name: NAME;
   animation-timing-function: linear;
   animation-iteration-count: 1;
   animation-duration: 4s;

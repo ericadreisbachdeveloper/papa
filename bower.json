@@ -1,0 +1,17 @@
+{
+  "name": "papa",
+  "authors": [
+    "erica dreisbach <erica@ericadreisbach.com>"
+  ],
+  "description": "Erica Dreisbach - Web Design + Development Portfolio - built w/ SASS, Grunt, Bootstrap",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,229 +1,11 @@
-/*******
-Parallax theme
-Author: Erica Dreisbach
-Author URI: ericadreisbach.com
-Adaptives.
-boom kaboom.
-*******/
+/* ------------------------
+ Adaptive
+------------------------ */
 
 
 
-// if portrait
-@media screen and (orientation:portrait) {
-	#nav>.wrapper>.nav>.location>.subnav>.location {
-		width: 48%;
-	}
-}
-
-// if landscape
-@media screen and (orientation:landscape) {
-	#nav>.wrapper>.nav>.location>.subnav>.location {
-		width: 30%;
-	}
-}
-
-
-
-@media screen and (min-width: 720px) {
-
-	.button {
-		font-size: 1.1em;
-	}
-
-	.-slightlylarge {
-		font-size: 1.2em;
-	}
-
-	.-bigpadding {
-		padding-top: 4em;
-		padding-bottom: 2em;
-	}
-
-	.one-third {
-		float: left;
-		width: 33%;
-	}
-
-	.one-third.-smalls > .circle {
-		margin-top: 3em;
-	}
-
-	.one-third.-smalls > .circle {
-		height: 10em;
-		max-width: 10em;
-		// margin-top: 2em;
-	}
-
-	.one-third.-bigs > .circle {
-		height: 16em;
-		max-width: 16em;
-	}
-
-	.circle {
-		border: 2px solid black;
-	}
-
-
-	#nav>.wrapper>.nav {
-		font-size: 1.44em;
-	}
-
-	#home>.wrapper>.hometext {
-		&>.title {
-			font-size: 6em;
-		}
-		&>.subtitle {
-			font-size: 3.2em;
-		}
-	}
-
-	.septagon {
-		-webkit-clip-path: polygon(100% 0, 100% 97%, 52% 97%, 50% 100%, 48% 97%, 0 97%, 0 0);
-		clip-path: polygon(100% 0, 100% 97%, 52% 97%, 50% 100%, 48% 97%, 0 97%, 0 0);
-	}
-
-	#work>.wrapper>.project .link {
-		width: 50%;
-	}
-
-	#about>.text>.sectiontitle {
-		font-size: 3.66em;
-	}
-	#about>.wrapper.text>.p {
-		font-size: 1.3em;
-	}
-
-	#about > .wrapper > .p > .button {
-		clear: none;
-		display: inline;
-	}
-
-	#about > .wrapper > .p > .mobile-break {
-		display: inline-block;
-		width: 2em;
-		height: 0;
-	}
-
-	.wrapper.-narrowcol {
-		width: 60%;
-		margin: 0 20%;
-	}
-
-	.wrapper.-verynarrowcol {
-		width: 46%;
-		margin: 0 27%;
-	}
-
-
-	#skills {
-		margin-top: -6em;
-		padding-top: 6em;
-	}
-
-	#skills>.text {
-		&> .title {
-			font-size: 2.4em;
-		}
-
-		&> .p {
-			font-size: 1.44em;
-		}
-	}
-
-
-
-	#contact > .wrapper > .form > .question {
-		>.p,
-		&>.col > .label {
-			font-size: 1.2em;
-
-			&> .-small {
-				font-size: .8em;
-			}
-		}
-
-		// the labels for the radios are a little smaller
-		&>.label {
-			font-size: 1.1em;
-		}
-	}
-
-	#contact > .wrapper > .form > .button {
-	  font-size: 1.2em;
-	}
-
-	#contact > .wrapper > #thankyou {
-		font-size: 3em;
-	}
-
-	.col-half {
-		width: 100%;
-	}
-
-	.-bigpadding > .button {
-		font-size: 1.44em;
-	}
-
-	#social.wrapper>.ul {
-		margin-left: 0;
-	}
-	#social.wrapper>.ul>.li {
-		margin: 0 .7em;
-	}
-	#social.wrapper>.ul>.li>.a {
-		font-size: 3em;
-	}
-
-	#sitemap {
-		display: block;
-	}
-
-
-	// Pages
-
-	.page-title {
-	  font-size: 3em;
-	}
-
-	.page-buttons {
-		width: auto;
-		margin-top: 0;
-	}
-
-	.page-text {
-		&>.-large {
-			font-size: 2em;
-		}
-		&>.-medium {
-			font-size: 1.44em;
-			line-height: 1.66;
-		}
-	}
-
-	.owl-theme > .owl-dots > .owl-dot span {
-		width: 1em;
-		height: 1em;
-		@include border-radius(1em);
-	}
-
-	#carousel {
-		padding: 2em 0 1em;
-	}
-
-	#work-image {
-	  display: block !important;
-	}
-
-	.process > .-a {
-		font-size: 1.3em;
-	}
-
-
-
-	#sitemap>.wrapper>.sitemap-ul {
-		width: 50%;
-		float: left;
-	}
+// Small devices (landscape phones, 34em and up)
+@media screen and (min-width: 34em) {
 }
 
 
@@ -235,150 +17,251 @@ boom kaboom.
 
 
 
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em) {
 
-@media screen and (min-width: 910px) {
+  .-mobilehideinline {
+    display: inline;
+  }
 
-	.wrapper {
-		width: 900px;
-		margin: 0 auto;
-	}
+  .-mobilehide {
+    display: block;
+  }
 
-	#social.wrapper>.ul {
-		width: 900px;
-	}
+  .-desktophide {
+    display: none;
+  }
 
-	#nav > .wrapper {
-		width: 96%;
-		margin: 0 2%;
-	}
+  .-desktopfloatleft {
+    display: block;
+    float: left;
+  }
+
+  .-desktopfloatright {
+    display: block;
+    float: right;
+  }
 
 
 
-	#work {
-		&> .wrapper > .project {
-			width: 43%;
-			float: left;
+  .septagon {
+    -webkit-clip-path: polygon(100% 0, 100% 97%, 52% 97%, 50% 100%, 48% 97%, 0 97%, 0 0);
+  	 clip-path: polygon(100% 0, 100% 97%, 52% 97%, 50% 100%, 48% 97%, 0 97%, 0 0);
+  }
 
-			&:nth-of-type(2) {
-				padding-top: 0;
-			}
+  .-ghost {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0 .3em;
+  }
 
-			&>.title {
-				font-size: 1.8em;
-			}
-			&> .descrip {
-				font-size: 1.3em;
-			}
 
-			&:nth-of-type(2n-1) {
-				margin-right: 14%;
-			}
 
-			&> .link {
-				width: 100%;
-			}
-		}
-	}
+  /* * * * * * * * * * * * *
+   Typography
+  * * * * * * * * * * * * */
+
+  .p {
+    font-size: 2rem;
+    line-height: 1.666;
+  }
+
+  .p.-medium,
+  .-medium {
+    font-size: 3rem;
+  }
+
+
+  .home .-pagehead {
+    font-size: 10rem;     // h1
+  }
+
+  .home .-pagesubhead {
+    font-size: 5rem;     // h2
+  }
+
+  .work, .page {
+    .-pagehead {
+      font-size: 4.8rem;   // h1
+    }
+    .-pagesubhead {
+      font-size: 2.4rem;     // h2
+    }
+  }
+
+  .-txthead {
+    font-size: 3.8rem;     // h3
+    padding-top: .5em;
+  }
+
+  .-worktitle {
+    font-size: 3rem;       // h3
+    margin-top: .8em;
+    margin-bottom: 0;
+  }
+
+  .-workdescrip {
+    font-size: 2rem;       // h4
+    margin-top: .1em;
+  }
+
+
+
+
+
+  /* * * * * * * * * * * * *
+   Home
+  * * * * * * * * * * * * */
+
+  .home {
+    #top {
+      margin-bottom: 50px; // so that #work anchor shows nav
+      z-index: 30;         // put the spiderweb image on top of the nav
+    }
+
+    .navbar {
+      top: -50px;          // nav up out of frame
+      @include transition(all,.1s,ease-in-out);
+
+      &.affix {
+         top: 0;           // position animation after scroll > #top.height();
+        @include transition(all,.1s,ease-in-out);
+        z-index: 35;
+      }
+
+      &> .nav-container > .navbar-header > .navbar-brand {
+        display: block;    // visible branding
+      }
+    }
+
+    &> .work-section > .container  > .row > .work-cell {
+      padding-top: 2em;
+      padding-right: 15px;
+      padding-bottom: 2em;
+      padding-left: 15px;
+
+      &> .a > .img-wrap {
+  	     width: 80%;
+         margin: 0 auto;
+       }
+     }
+
+     .about-section > .container {
+       padding-top: 4em;
+     }
+
+     .skills-section > .container > .row > .col-content > .p {
+       font-size: 2.2rem;
+      }
+
+      .contact-section > .container {
+        padding-top: 4em;
+      }
+
+      #thankyou {
+        font-size: 5rem;
+      }
+   }
+
+
+
+  /* * * * * * * * * * * * *
+   Nav
+  * * * * * * * * * * * * */
+
+  .navbar-default {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+
+    .navbar-collapse {
+      border-bottom: none;
+      position: static;
+
+      &> .navbar-nav {
+        padding-top: 0;
+
+        &> li {
+          font-size: 2.1rem;      // nav font size
+
+          &> .dropdown-menu {    // dropdown nav borders
+            border-top: none;
+            border-right: 1px solid rgba(0,0,0,.1);
+            border-bottom: 1px solid rgba(0,0,0,.15);
+            border-left: 1px solid rgba(0,0,0,.1);
+
+            &> li {
+              font-size: 1.85rem;   // subnav font size
+            }
+          }
+        }
+      }
+    }
+
+    .navbar-brand {          // tweaks to name and logo size for desktop
+      &> .navbar-logo {
+        width: 2em;
+         top: -.4em;
+      }
+
+      &> .navbar-name {
+        font-size: 3.2rem;
+        padding-left: .1em;
+      }
+    }
+  }
+
+
+
+
+
+
+
+  .page, .work {
+    padding-top: 6em;
+  }
+
+
+  /* * * * * * * * * * * * *
+   Work pages
+  * * * * * * * * * * * * */
+
+  .-visit {
+    margin-top: 1em;
+  }
+
+  .carousel-section {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+
+
+
+
+  /* * * * * * * * * * * * *
+   How I Work
+  * * * * * * * * * * * * */
+
+  .qna {
+    padding: 2em 0;
+
+    &> .q {
+      font-size: 3.5rem;
+    }
+  }
+
+
 }
 
 
 
-@media screen and (min-width: 999px) {
 
-	.page-top {
-		padding: 8em 0 3em;
-	}
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) {
+}
 
-	#nav {
-		padding: .5em 0;
-		&:before {
-			height: 2.2em;
-		}
-	}
 
-	#nav .navbutton {
-		display: none;
-	}
 
-	#nav>.wrapper>.nav>.location {
-		border: none;
-		font-size: .7em;
-		letter-spacing: 0;
-	}
 
-	#nav>.wrapper>.nav>.location.show,
-	#nav>.wrapper>.nav>.location.hover {
-		color: red;
-	}
-
-	// make the nav easier for mouse users
-	#nav>.wrapper>.nav>.location.hover {
-		&> a {
-			padding-bottom: 1.3em;
-			z-index: 599;
-			position: relative;
-		}
-	}
-
-	#nav>.wrapper>.nav>.location.show >.subnav,
-	#nav>.wrapper>.nav>.location.hover >.subnav {
-		height: auto;
-		 top: 3.1em;
-		 left: 0;
-	}
-
-	#nav>.wrapper>.nav {
-		height: auto;
-		border: none;
-		display: block !important;
-		float: right;
-		font-size: 1em;
-		margin: 0 0 0 1.44em;
-	}
-
-	#nav>.wrapper>.nav>.location {
-		font-size: .7em;
-		padding: 0;
-		position: static;
-		display: inline;
-	}
-
-	#nav>.wrapper>.nav>.location>.link {
-		border: none;
-		display: inline;
-		padding: 0;
-		padding: .9em .5em .7em;
-	}
-
-	#nav>.wrapper>.nav>.location>.subnav {
-		width: 100%;
-		height: 0;
-		display: block;
-		position: absolute;
-	 	 top: 1.9em;
-	 	 left: -9999em;
-	}
-
-	#nav>.wrapper>.nav>.location>.subnav>.location>.link {
-		width: 100%;
-		border-bottom: 1px solid rgba(0,0,0,.1);
-		padding: .4em .8em;
-	}
-
-	#nav>.wrapper>.nav>.location>.subnav>.location:last-child {
-		padding-bottom: .5em;
-	}
-
-	.-lean {
-		margin-top: -4em;
-		padding-top: 7em;
-	}
-
-	.col-half {
-		width: 48%;
-		clear: none;
-	}
-	.col-space {
-		width: 1%;
-	}
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) {
 }

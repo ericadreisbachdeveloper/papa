@@ -5,14 +5,14 @@ module.exports = function(grunt) {
 
     concat: {
       js: {
-        src: ['js/parallax.min.js'],
+        src: ['js/home.js'],
         dest: 'js/<%= pkg.name %>.min.js'
       }
     },
 
     uglify: {
       js: {
-        src: ['js/parallax.min.js'],
+        src: ['js/home.js'],
         dest: 'js/<%= pkg.name %>.min.js'
       },
       options: {

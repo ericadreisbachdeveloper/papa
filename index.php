@@ -1,171 +1,241 @@
-<?php $metadescription = 'Portfolio for Chicago-based freelance web designer and developer Erica Dreisbach, specializing in Wordpress and Bootstrap.'; $home = 'yes'; include('header.php'); ?>
-
-<section id="web" class="slide -top section">
-   <h2 class="hidden">Web design (pun) </h2>
-   <div class="parallax-window -top septagon" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-z-index="90" data-class-name="-top septagon"></div>
-</section>
+<?php $bodyclass = 'home'; $metadescription = 'Portfolio for Chicago-based web designer and developer Erica Dreisbach. Specializing in Wordpress and Bootstrap.'; include('header.php'); ?>
 
 
-<section id="home" class="slide -top septagon" style="background-color: #ccc;">
- <div class="wrapper display-table">
-  <div class="display-table-cell middle hometext" style="min-height: 20em; opacity: .1; filter: alpha(opacity= 10)">
-   <h1 class="title" id="maincontent">erica dreisbach</h1>
-   <h2 class="subtitle">web designer + developer</h2>
-  </div><!-- .display-table-cell.middle -->
- </div><!-- .wrapper.display-table -->
-</section>
 
-
-<section id="work" class="section">
- <div id="work-wrapper" class="wrapper">
-
-   <div class="project one">
-    <a href="sentegrity.php" class="link"><img class="img" src="img/sq-sentegrity.jpg" alt="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" /></a>
-    <h3 class="title">Sentegrity </h3>
-    <h4 class="descrip">Wordpress/Bootstrap theme </h4>
-   </div><!-- .well -->
-
-   <div class="project two">
-    <a href="educare.php" class="link"><img class="img" src="img/educare-mobile.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" /></a>
-    <h3 class="title">Educare </h3>
-    <h4 class="descrip">Wordpress/Bootstrap development</h4>
-   </div><!-- .well -->
-
-   <div class="project one">
-    <a href="portionpac.php" class="link"><img class="img" src="img/sq-portionpac.jpg" alt="PortionPac | Wordpress redesign by Erica Dreisbach" /></a>
-    <h3 class="title">PortionPac </h3>
-    <h4 class="descrip">Wordpress theme development</h4>
-   </div><!-- .well -->
-
-   <div class="project two">
-    <a href="welltrail.php" class="link"><img class="img" src="img/sq-welltrail.jpg" alt="WellTrail | Wordpress mobile development by Erica Dreisbach" /></a>
-    <h3 class="title">WellTrail </h3>
-    <h4 class="descrip">Mobile/adaptive Wordpress&nbsp;theme </h4>
-   </div><!-- .well -->
-
-   <div class="project one">
-    <a href="gem.php" class="link"><img class="img" src="img/sq-gem.jpg" alt="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" /></a>
-    <h3 class="title">Government Energy Management </h3>
-    <h4 class="descrip">Wordpress design and&nbsp;development </h4>
-   </div><!-- .well -->
-
-   <div class="project two">
-    <a href="savory.php" class="link"><img class="img" src="img/sq-savory.jpg" alt="Savory Living | web design by Erica Dreisbach" /></a>
-    <h3 class="title">Savory Living </h3>
-    <h4 class="descrip">design &amp; development </h4>
-   </div><!-- .well -->
-
-   <div class="project one">
-    <a href="nearby.php" class="link"><img class="img" src="img/sq-nearby.jpg" alt="Nearby Registry | CSS and plugin development by Erica Dreisbach" /></a>
-    <h3 class="title">Nearby Registry </h3>
-    <h4 class="descrip">CSS &amp; social media&nbsp;plugins </h4>
-   </div><!-- .well -->
-
-   <div class="project two">
-    <a href="sugarglen.php" class="link"><img class="img" src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" /></a>
-    <h3 class="title">Sugar Glen Farm </h3>
-    <h4 class="descrip">Wordpress blog </h4>
-   </div><!-- .well -->
-
- </div><!-- .wrapper -->
-</section><!-- /#work -->
-
-<section id="headshot" class="section -parallax">
-  <h2 class="hidden">erica dresbach - headshot </h2>
-  <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/erica-headshot.jpg" data-position="top left" data-class-name="-short"></div>
-</section>
-
-<section id="about" class="-lean section">
- <div class="wrapper text">
-   <h2 class="sectiontitle">hello! </h2>
-   <p class="p">I'm a freelance web designer and developer based in Chicago, working on projects from all over the US. I've built websites for clients in New&nbsp;York, Portland (Oregon), Boston, San&nbsp;Francisco, Los&nbsp;Angeles, and here in&nbsp;Chicago. </p>
-   <p class="p">My obsessive email habit plus phone or Skype conferences as needed combine for an optimal remote working&nbsp;relationship. </p>
-   <p class="p">I'm also available for on&#8209;site work in Chicago and Evanston. Especially if you have&nbsp;coffee. </p>
- </div>
-
- <div class="wrapper">
-   <p class="p -bigpadding -txtcenter">
-     <a href="how-i-work.php" class="button">&nbsp;How I Work&nbsp; </a>
-     <span class="mobile-break"></span>
-     <a href="testimonials.php" class="button">Testimonials </a>
-   </p>
- </div><!-- .wrapper.text -->
-</section><!-- #about -->
-
-<section id="skills" class="section">
-  <div class="wrapper text -narrowcol">
-    <h2 class="hidden">Skills </h2>
-
-    <p class="title">Strong Front‑End Development Skills </p>
-    <p class="p -narrow">HTML / HTML5  &nbsp;&bull;&nbsp;  CSS / CSS3 / SASS  &nbsp;&bull;&nbsp;  PHP  &nbsp;&bull;&nbsp;  jQuery / Javascript  &nbsp;&bull;&nbsp;  Wordpress  &nbsp;&bull;&nbsp;  Bootstrap  &nbsp;&bull;&nbsp;  Photoshop / Illustrator  &nbsp;&bull;&nbsp;  responsive / mobile  &nbsp;&bull;&nbsp;  SEO  &nbsp;&bull;&nbsp;  HTML email </p>
-
-    <p class="title">Working Knowledge </p>
-    <p class="p -narrow">Git  &nbsp;&bull;&nbsp;  Grunt  &nbsp;&bull;&nbsp;  Drupal  &nbsp;&bull;&nbsp;  Foundation  &nbsp;&bull;&nbsp;  SquareSpace &nbsp;&bull;&nbsp;  Handlebars  &nbsp;&bull;&nbsp; Bower</p>
-
-    <p class="title">Currently Learning </p>
-    <p class="p -narrow">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel   &nbsp;&bull;&nbsp;  Django </p>
+<section id="top" class="septagon parallax-window" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-class-name="septagon" style="min-height: 30em; background-color: #ccc;">
+  <div class="container-fluid-width" style="position: relative; top: 50%; transform: translateY(-50%);">
+    <div class="container" style="opacity: .4; filter: alpha(opacity=40);">
+      <h1 class="-pagehead" style="color: white; line-height: 1; margin-bottom: 0; text-align: center; text-shadow: 1px 1px 3px #000;">erica dreisbach </h1>
+      <h2 class="-pagesubhead" style="color: white; font-style: italic; margin-top: .2em; text-align: center; text-shadow: 1px 1px 3px #000;">web designer +&nbsp;developer </h2>
+    </div>
   </div>
-
-  <div class="wrapper">
-    <p class="p -bigpadding -txtcenter"><a href="pdf/ericadreisbach-resume-web.pdf" target="_blank" class="button">Download Resume (PDF) </a></p>
-  </div>
-
-
-  <div class="circle-wrapper">
-
-      <div class="one-third -smalls">
-        <div class="circle">
-          <span style="font-size: 7em; font-family: serif;">10</span><br /><span style="letter-spacing: 1px;">YRS EXPERIENCE</span>
-        </div>
-      </div>
-
-      <div class="one-third -bigs">
-        <div class="circle">
-          <br /><span style="letter-spacing: 1px;">DEVELOPMENT LEAD ON <br /><span style="font-size: 11em; font-family: serif;">27</span><br /><span style="letter-spacing: 1px;">WEBSITES</span> <em>and counting!</em>
-        </div>
-      </div>
-
-
-      <div class="one-third -smalls">
-        <div class="circle">
-          <span style="font-size: 7em; font-family: serif;">60</span><span style="font-size: 4em; position: relative; top: -.2em;">+</span><br /><span style="letter-spacing: 1px;">HTML EMAILS</span>
-        </div>
-      </div>
-
-  </div><!-- /.circle-wrapper -->
-
 </section>
 
 
-<section id="typing" class="slide section -parallax">
+
+<?php include('nav.php'); ?>
+
+
+
+<section class="section work-section -txtcenter" id="maincontent">
+  <a id="work" class="anchor"> </a>
+  <h2 class="hidden -sectionhead">Work </h2>
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="sentegrity" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-sentegrity.jpg" alt="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" title="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Sentegrity </h3>
+          <h4 class="-workdescrip">Wordpress/Bootstrap theme </h4>
+        </a>
+      </div><!-- / Sentegrity -->
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="educare" class="a">
+          <div class="img-wrap">
+            <img src="img/educare-mobile.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Educare  </h3>
+          <h4 class="-workdescrip">Wordpress/Bootstrap development </h4>
+        </a>
+      </div><!-- /Educare -->
+
+      <div class="col-md-1"> </div>
+
+    </div><!-- /.row -->
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="portionpac" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-portionpac.jpg" alt="PortionPac | Wordpress redesign by Erica Dreisbach" title="PortionPac | Wordpress redesign by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">PortionPac </h3>
+          <h4 class="-workdescrip">Wordpress theme development </h4>
+        </a>
+      </div><!-- /PortionPac -->
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="welltrail" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-welltrail.jpg" alt="WellTrail | Wordpress mobile development by Erica Dreisbach" title="WellTrail | Wordpress mobile development by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">WellTrail  </h3>
+          <h4 class="-workdescrip">Mobile/adaptive Wordpress&nbsp;theme </h4>
+        </a>
+      </div><!-- /WellTrail -->
+
+      <div class="col-md-1"> </div>
+
+    </div><!-- /.row -->
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="gem" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-gem.jpg" alt="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" title="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Gov<span class="-mobilehideinline">ernmen</span>t Energy Management </h3>
+          <h4 class="-workdescrip">Wordpress design and&nbsp;development </h4>
+        </a>
+      </div><!-- /Government Energy Management -->
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="savory" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-savory.jpg" alt="Savory Living | web design by Erica Dreisbach" title="Savory Living | web design by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Savory Living </h3>
+          <h4 class="-workdescrip">design &amp; development </h4>
+        </a>
+      </div><!-- /Savory Living -->
+
+      <div class="col-md-1"> </div>
+
+    </div><!-- /.row -->
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="nearby" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-nearby.jpg" alt="Nearby Registry | CSS and plugin development by Erica Dreisbach" title="Nearby Registry | CSS and plugin development by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Nearby Registry </h3>
+          <h4 class="-workdescrip">CSS &amp; social media&nbsp;plugins </h4>
+        </a>
+      </div><!-- /Nearby Registry -->
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="sugarglen" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Sugar Glen Farm </h3>
+          <h4 class="-workdescrip">Wordpress blog </h4>
+        </a>
+      </div><!-- /Sugar Glen Farm -->
+
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
+</section>
+
+
+
+<section class="section picture parallax-window" data-parallax="scroll" data-image-src="img/erica-headshot.jpg"  data-position="top left">
+  <h2 class="-sectionhead hidden">erica dreisbach </h2>
+</section>
+
+
+
+<section class="section about-section">
+  <a id="about" class="anchor"> </a>
+  <h2 class="-sectionhead hidden">About</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"> </div>
+
+      <div class="col-md-10 col-content">
+        <h2 class="-sectionhead">Hello! </h2>
+        <p class="p">I'm a freelance web designer and developer based in Chicago, working on projects from all over the US. I've built websites for clients in New York, Portland (Oregon), Boston, San Francisco, Los Angeles, South Carolina, and here in&nbsp;Chicago. </p>
+        <p class="p">My obsessive email habit plus phone or Skype conferences as needed combine for an optimal remote working&nbsp;relationship. </p>
+        <p class="p">I'm also available for on-site work in Chicago and Evanston. Especially if you have&nbsp;coffee. </p>
+
+        <p class="-bigpadding -txtcenter">
+          <a class="-ghost -samesize" href="how-i-work">How I Work </a>
+          <a class="-ghost -samesize" href="testimonials">Testimonials </a>
+        </p>
+      </div><!-- /.col-content -->
+
+      <div class="col-md-1"> </div>
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section>
+
+
+
+<section class="section skills-section">
+  <a id="skills" class="anchor"> </a>
+  <h2 class="hidden">Skills</h2>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-2"> </div>
+
+      <div class="col-md-8 col-content -txtcenter">
+        <h3 class="-txthead">Strong Front&#8209;End Development&nbsp;Skills </h3>
+        <p class="p">HTML&nbsp;/&nbsp;HTML5 &nbsp;&bull;&nbsp; CSS&nbsp;/&nbsp;CSS3&nbsp;/&nbsp;SASS  &nbsp;&bull;&nbsp;  PHP  &nbsp;&bull;&nbsp;  jQuery&nbsp;/&nbsp;Javascript  &nbsp;&bull;&nbsp;  Wordpress  &nbsp;&bull;&nbsp; Bootstrap  &nbsp;&bull;&nbsp;  Photoshop&nbsp;/&nbsp;Illustrator  &nbsp;&bull;&nbsp;  responsive&nbsp;/&nbsp;mobile  &nbsp;&bull;&nbsp;  SEO&nbsp;&nbsp;&bull;&nbsp;&nbsp;HTML&nbsp;email </p>
+
+        <h3 class="-txthead">Working Knowledge </h3>
+
+        <p class="p">Git  &nbsp;&bull;&nbsp;  Grunt  &nbsp;&bull;&nbsp;  Drupal  &nbsp;&bull;&nbsp;  Foundation  &nbsp;&bull;&nbsp;  SquareSpace  &nbsp;&bull;&nbsp;  Handlebars  &nbsp;&bull;&nbsp;  Bower&nbsp;&nbsp;&bull;&nbsp;&nbsp;MVC </p>
+
+        <h3 class="-txthead">Currently Learning </h3>
+        <p class="p">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel  &nbsp;&bull;&nbsp;  Django </p>
+
+        <p class="-bigpadding -txtcenter"><a class="-ghost -naturalsize" href="pdf/ericadreisbach-resume-web.pdf" target="_blank">Download Resume (PDF) </a></p>
+
+      </div>
+
+      <div class="col-md-2"> </div>
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
+</section>
+
+
+
+<section class="section picture parallax-window" data-parallax="scroll" data-image-src="img/typing.jpg">
   <h2 class="hidden">erica dresbach - web developer </h2>
-  <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/typing.jpg" data-position="top center" data-class-name="-short"></div>
 </section>
 
 
-<section id="contact" class="-standard section">
- <h2 class="hidden">Contact </h2>
- <div class="wrapper -verynarrowcol">
-  <p class="p -large -txtcenter -successhide">Thank you for visiting!</p>
-  <p class="p -medium -txtcenter -successhide">Contact me by answering this short&nbsp;quiz.</p>
-  <?php include('contact.php'); ?>
- </div><!-- .wrapper -->
-</section><!-- #contact.-standard.section -->
 
+<section class="section contact-section">
+  <a id="contact" class="anchor"> </a>
+  <h2 class="-sectionhead hidden">Contact </h2>
+  <div class="container">
 
-<section id="chicago" class="slide section">
-  <h2 class="hidden">Chicago freelance web developer erica dreisbach</h2>
-  <div class="parallax-window -short" data-parallax="scroll" data-image-src="img/chicago-skyview.jpg" data-position="top left" data-class-name="-short"></div>
+    <div class="row">
+      <div class="col-md-2"> </div>
 
-  <div id="social" class="wrapper">
-    <ul class="ul">
-      <li class="li"><a class="a" href="http://www.twitter.com/ericadreisbach" target="_blank"><span class="span">twitter.com/ericadreisbach</span> <i class="fa fa-twitter"></i></a></li>
-      <li class="li"><a class="a" href="http://www.pinterest.com/darkblackllc" target="_blank"><span class="span">pinterest.com/darkblackllc</span>  <i class="fa fa-pinterest"></i></a></li>
-      <li class="li"><a class="a" href="http://linkedin.com/in/ericadreisbach" target="_blank"><span class="span">linkedin.com/in/ericadreisbach</span>  <i class="fa fa-linkedin"></i></a></li>
-      <li class="li"><a class="a" href="https://github.com/rockygulliver" target="_blank"><span class="span">github.com/rockygulliver</span>  <i class="fa fa-github"></i></a></li>
-    </ul>
-  </div>
+      <div class="col-md-8 col-content">
+        <p class="p -txtcenter -successhide">
+          <h3 class="-txthead -txtcenter">Thank you for visiting! </h3>
+          <p class="p -medium -txtcenter">Contact me by answering this short&nbsp;quiz. </p>
+        <?php include('contact.php'); ?>
+      </div>
+
+      <div class="col-md-2"> </div>
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
 </section>
+
+
+
+<section class="picture parallax-window" data-parallax="scroll" data-image-src="img/chicago-skyview.jpg">
+  <h2 class="hidden">Chicago freelance web developer erica dreisbach </h2>
+</section>
+
 
 
 <?php include('footer.php'); ?>

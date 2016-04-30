@@ -4,7 +4,7 @@
 $name = $email = $website = $experience = $allcaps = $clientproject = "";
 $nameErrCode = $emailErrCode = "";
 $nameErr = $emailErr = $websiteErr = $experienceErr = $allcapsErr = $clientprojectErr = "";
-$success = '<p id="thankyou">Thank you! I&#39;ll be in touch&nbsp;soon. <br /><br />&smile;</p><img src="img/old-phone.jpg" class="thankyou-phone" alt="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" title="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" />';
+$success = '<p id="thankyou">Thank you! I&#39;ll be in touch&nbsp;soon. <br /><br />&smile;</p><img src="img/old-phone.jpg" id="thankyouphone" class="img" alt="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" title="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" />';
 
 function test_input($data) {
    $data = trim($data);
@@ -52,6 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    $website = test_input($_POST["website"]);
    // check if URL address syntax is valid (this regular expression also allows dashes in the URL)
    if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
+     $websiteErrCode = 'errorinput';
      $websiteErr = "Enter complete URL in the form http://www.website.com";
    }
  }
@@ -98,7 +99,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   mail('erica@ericadreisbach.com', 'web design/development', $message, 'From:' . $name . '<' . $email . '>');
 
-  echo "<style type='text/css'>#contact>.wrapper>.-successhide{display: none;}</style>";
+  echo "<style type='text/css'>.contact-section>.container>.row>.col-content>.-successhide{display: none;}</style>";
   echo $success;
  }
 }

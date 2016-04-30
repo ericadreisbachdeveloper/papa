@@ -1,117 +1,58 @@
-// Contact
+/* ------------------------
+ Contact - form controls
+------------------------ */
 
+.form-group {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
 
-#contact {
-  margin-top: -3em;
-  padding-top: 4em;
-  padding-bottom: 4em;
+.form-control {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid $halfblack;
+  border-left: 0;
+  color: black;
+  font-size: 1.7rem;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-left: 2px;
 
-  &> .wrapper  {
+  @include border-radius(0);
+  @include box-shadow(inset,0,0,0,transparent);
+  @include placeholder { color: $halfblack; font-style: italic; }
 
-    &> #thankyou {
-      font-size: 2.5em;
-      padding-top: 1em;
-      margin-bottom: 0;
-      text-align: center;
-    }
-
-    &>.thankyou-phone {
-      max-width: 100%;
-      display: block;
-      margin: 0 auto;
-    }
-
-    &> .p {
-      line-height: 1.44;
-    }
-
-    &>.-large {
-      font-size: 2.5em;
-      margin-bottom: 0;
-    }
-
-    &>.-medium {
-      font-size: 1.44em;
-      margin-top: 0;
-      margin-bottom: 2em;
-    }
-
-    &>.form > .button {
-      font-size: 1em;
-      @include hover { cursor: pointer; }
-    }
-
-    &>.form > .question {
-      padding-bottom: 1.8em;
-
-      &:after {
-        clear: both;
-        content: '';
-        display: block;
-      }
-
-      &>.p {
-        line-height: 1.44;
-        margin-top: 0;
-        margin-bottom: .3em;
-      }
-
-      &>.col > .error, .error {
-        color: #ff4500;
-        font-style: italic;
-        margin: 0 0 .8em;
-      }
-
-      &> .radio {
-        width: 1.44em;
-        height: 1.44em;
-        margin-top: .8em;
-        margin-right: .5em;
-      }
-
-      &>.p,
-      &>.col > .label,
-      &>.label {
-        font-size: 1em;
-      }
-
-      &>.col > input[type="name"],
-      &>.col > input[type="email"],
-      &>.col > input[type="text"] {
-        width: 94%;
-      }
-
-      &>.textarea,
-      &>.col > input[type="name"],
-      &>.col > input[type="email"],
-      &>.col > input[type="text"]{
-        border: 1px solid rgba(0,0,0,.25);
-        font-family: serif;
-        font-size: 1em;
-        margin: .3em 0;
-        padding-top: .4em;
-        padding-bottom: .4em;
-
-        &.errorinput {
-          background: red;
-        }
-      }
-
-      &>.textarea {
-        width: 97%;
-        resize: none;
-      }
-
-      &> .col {
-        &> .label {
-          clear: left;
-        }
-
-        &>input[type="name"],
-        &>input[type="email"]{
-
-        }
-      }
-    }
+  &.errorinput {
+    background: red;
+    padding-left: .3em;
+    @include placeholder { color: $halfblack; }
   }
+}
+
+.radio {
+  margin: 0;
+  padding: .5em 0;
+
+  &> label {
+    font-size: 1.7rem;
+  }
+}
+
+.textarea {
+  width: 100%;
+  border: 1px solid $ashblack;
+  font-size: 1.7rem;
+  resize: none;
+}
+
+
+#thankyou {
+  font-size: 4rem;
+  line-height: 1;
+  text-align: center;
+}
+
+#thankyouphone {
+  display: block;
+  margin: 0 auto;
 }
