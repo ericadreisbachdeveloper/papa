@@ -30,7 +30,7 @@
 
 
 <!-- Modernizr -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"> </script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"> </script> --?>
 
 
 
@@ -98,7 +98,9 @@ $(document).ready(function(){
 
 
 
-<!-- home-specific javascript -->
+<!-- home-specific javascript
+    1. home cooked stuff
+-->
 <?php if($bodyclass == home) : ?>
 <script type="text/javascript" src="js/papa.min.js"></script>
 <?php endif; ?>
