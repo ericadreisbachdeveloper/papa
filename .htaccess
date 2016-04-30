@@ -1,4 +1,6 @@
 
+ErrorDocument 404 /papa/error
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /papa/
