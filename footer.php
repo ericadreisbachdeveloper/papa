@@ -53,25 +53,11 @@
 <?php if(isset($page)) : ?>
 <script type="text/javascript">
 
-var historyObj = window.history;
+  $('#button').html('More Work');
 
-if (document.referrer == "") {
-  $('#button').html('Go Home');
-}
-
-else {
-  $('#button').html('Go Back');
-}
-
-
-$('#button').click(function(){
-  if (document.referrer == "") {
-    $('#button').attr('href','../');
-  }
-  else {
-    history.back();
-  }
-});
+  $('#button').click(function(){
+    $('#button').attr('href','../#work');
+  });
 
 </script>
 <?php endif; ?>

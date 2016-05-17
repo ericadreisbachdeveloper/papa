@@ -235,7 +235,7 @@
 
 
 <section class="section picture parallax-window" data-parallax="scroll" data-image-src="img/typing.jpg">
-  <h2 class="hidden">erica dresbach - web developer </h2>
+  <h2 class="hidden">erica dresbach - chicago wordpress guru </h2>
 </section>
 
 
@@ -256,7 +256,7 @@
       </div>
 
       <div class="col-md-2"> </div>
-    </div><!-- /.row -->
+    </div>
 
   </div><!-- /.container -->
 </section>

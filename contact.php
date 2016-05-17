@@ -12,7 +12,7 @@
     <div class="col-md-6">
       <label class="control-label sr-only" for="email">Email </label>
       <input name="email" id="email" type="email" maxlength="50" class="form-control <?php echo $emailErrCode;?>" placeholder="Email*" value="<?php echo $email; ?>">
-      <p class="error emailerror"> <?php echo $emailErr;?></p>
+      <p class="error emailerror"> <?php echo $emailErr; ?></p>
     </div>
   </fieldset>
 
@@ -22,6 +22,8 @@
     <input name="website" id="website" type="text" maxlength="80" class="form-control <?php echo $websiteErrCode;?>"  placeholder="Website (if you have one)" value="<?php echo $website;?>">
     <p class="error websiteerror"> <?php echo $websiteErr;?></p>
   </fieldset>
+
+
 
 
   <fieldset class="form-group">

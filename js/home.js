@@ -72,7 +72,6 @@ $(window).load(function(){
 });
 
 
-
 $(window).on('activate.bs.scrollspy', function(e) {
   var $hash, $node;
   $hash = $("a[href^='#']", e.target).attr("href").replace(/^#/, '');
