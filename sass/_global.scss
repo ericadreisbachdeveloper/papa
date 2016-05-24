@@ -7,6 +7,20 @@ body {
   font-family: serif;
 }
 
+.-displaytable {
+  display: table;
+  width: 100%;
+}
+
+.-displaytablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.-displaytable, .-displaytablecell {
+  height: 100%;
+}
+
 .offscreen {
   position: absolute;
    left: -9999px;
