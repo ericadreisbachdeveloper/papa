@@ -39,9 +39,10 @@
 
 
 
-<!-- local/Bower jQuery if needed offline -->
-<!-- <script type="text/javascript" src="<?php //if(isset($page)) : ?>../<?php endif; ?>bower_components/jquery/dist/jquery.min.js"> </script> -->
 
+
+<!-- local/Bower jQuery if needed offline -->
+<!-- <script type="text/javascript" src="<?php // if(isset($page)) : ?>../<?php // endif; ?>bower_components/jquery/dist/jquery.min.js"> </script> -->
 
 
 <!-- Bootstrap -->
