@@ -3,8 +3,8 @@
 
 
 <section id="top" class="septagon parallax-window" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-class-name="septagon" style="min-height: 30em; height: calc(100vh - 50px); background-color: #ccc;">
-  <div class="container-fluid-width -displaytable">
-    <div class="container -displaytablecell " style="opacity: .4; filter: alpha(opacity=40);">
+  <div class="container-fluid-width -displaytable" style="height: calc(100vh - 50px);">
+    <div class="container -displaytablecell" style="height: calc(100vh - 50px); opacity: .4; filter: alpha(opacity=40);">
         <h1 class="-pagehead" style="color: white; line-height: 1; margin-bottom: 0; text-align: center; text-shadow: 1px 1px 3px #000;">erica dreisbach </h1>
         <h2 class="-pagesubhead" style="color: white; font-style: italic; margin-top: .2em; text-align: center; text-shadow: 1px 1px 3px #000;">web designer +&nbsp;developer </h2>
     </div>
