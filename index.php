@@ -249,9 +249,8 @@
       <div class="col-md-2"> </div>
 
       <div class="col-md-8 col-content">
-        <p class="p -txtcenter -successhide">
-          <h3 class="-txthead -txtcenter">Thank you for visiting! </h3>
-          <p class="p -medium -txtcenter">Contact me by answering this short&nbsp;quiz. </p>
+        <h3 class="-txthead -txtcenter -successhide">Thank you for visiting! </h3>
+        <p class="p -medium -txtcenter -successhide">Contact me by answering this short&nbsp;quiz. </p>
         <?php include('contact.php'); ?>
       </div>
 

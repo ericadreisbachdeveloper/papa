@@ -90,6 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $website = $_REQUEST['website'] ;
   $experience = $_REQUEST['experience'] ;
   $allcaps = $_REQUEST['allcaps'] ;
+  $conversion = $_REQUEST['conversion'] ;
   $clientproject = $_REQUEST['clientproject'] ;
 
   $message = 'From: ' . $name . ' ' . $email . ' ' . ' ' . $website . '
