@@ -1,9 +1,9 @@
 <?php
 
 // define variables and set to empty values
-$name = $email = $website = $experience = $allcaps = $clientproject = "";
+$name = $email = $website = $experience = $allcaps = $conversion = $clientproject = "";
 $nameErrCode = $emailErrCode = "";
-$nameErr = $emailErr = $websiteErr = $experienceErr = $allcapsErr = $clientprojectErr = "";
+$nameErr = $emailErr = $websiteErr = $experienceErr = $allcapsErr = $conversionErr = $clientprojectErr = "";
 $success = '<p id="thankyou">Thank you! I&#39;ll be in touch&nbsp;soon. <br /><br />&smile;</p><img src="img/old-phone.jpg" id="thankyouphone" class="img" alt="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" title="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" />';
 
 function test_input($data) {
@@ -69,6 +69,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $allcaps = test_input($_POST["allcaps"]);
  }
 
+ if (empty($_POST["converion"])) {
+  $conversionErr = "I'm curious how people will answer this one! Also, it's a required question.";
+ } else {
+  $conversion = test_input($_POST["conversion"]);
+ }
+
  if (empty($_POST["clientproject"])) {
   $clientprojectErr = "";
  } else {
@@ -92,6 +98,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message .= 'Prior experience was: ' . $experience . '
 ';
   $message .= 'All caps emails are ok: ' . $allcaps . '
+';
+  $message .= 'Conversion rate from Google form (guessing): ' . $conversion . '
 
 ';
   $message .= $clientproject;

@@ -24,10 +24,8 @@
   </fieldset>
 
 
-
-
   <fieldset class="form-group">
-    <p class="pform">1. Rate your overall experiences with web developers in the&nbsp;past. </p>
+    <p class="pform">1. Rate your overall experiences with web developers in the&nbsp;past.* </p>
     <p class="error"><?php echo $experienceErr;?></p>
 
     <div class="radio">
@@ -46,7 +44,7 @@
 
 
   <fieldset class="form-group">
-    <p class="pform">2. True or false: sometimes an all-caps email is the best way to get the point&nbsp;across. </p>
+    <p class="pform">2. True or false: sometimes an all-caps email is the best way to get the point&nbsp;across.* </p>
     <p class="error"><?php echo $allcapsErr;?></p>
 
     <div class="radio">
@@ -55,12 +53,28 @@
     <div class="radio">
       <label for="allcapsfalse"><input type="radio" name="allcaps" value="false" id="allcapsfalse" <?php if (isset($allcaps) && $allcaps=="false") echo "checked";?>>False. </label>
     </div>
-
   </fieldset>
 
 
   <fieldset class="form-group">
-    <p class="pform">3. In a few sentences, describe your project. <br />
+    <p class="pform">3. Of the hundreds of people who have contacted me using this form, what percentage have led to actual&nbsp;work?* </p>
+    <p class="error"><?php echo $conversionErr;?></p>
+
+    <div class="radio">
+      <label for="half"><input type="radio" name="conversion" value="pointfive" id="pointfive" <?php if (isset($conversion) && $conversion=="pointfive") echo "checked";?>>.5&#37; </label>
+    </div>
+    <div class="radio">
+      <label for="one"><input type="radio" name="conversion" value="pointsix" id="pointsix" <?php if (isset($conversion) && $conversion=="pointsix") echo "checked";?>>.6&#37; </label>
+    </div>
+    <div class="radio">
+      <label for="two"><input type="radio" name="conversion" value="two" id="two" <?php if (isset($conversion) && $conversion=="two") echo "checked";?>>2&#37; </label>
+    </div>
+  </fieldset>
+
+
+
+  <fieldset class="form-group">
+    <p class="pform">4. In a few sentences, describe your project. <br />
       <span class="small"><em>Limit: 300 characters</em> </span>
     </p>
 
