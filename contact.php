@@ -61,10 +61,10 @@
     <p class="error"><?php echo $conversionErr;?></p>
 
     <div class="radio">
-      <label for="half"><input type="radio" name="conversion" value="pointfive" id="pointfive" <?php if (isset($conversion) && $conversion=="pointfive") echo "checked";?>>.5&#37; </label>
+      <label for="pointfive"><input type="radio" name="conversion" value="pointfive" id="pointfive" <?php if (isset($conversion) && $conversion=="pointfive") echo "checked";?>>.5&#37; </label>
     </div>
     <div class="radio">
-      <label for="one"><input type="radio" name="conversion" value="pointsix" id="pointsix" <?php if (isset($conversion) && $conversion=="pointsix") echo "checked";?>>.6&#37; </label>
+      <label for="pointsix"><input type="radio" name="conversion" value="pointsix" id="pointsix" <?php if (isset($conversion) && $conversion=="pointsix") echo "checked";?>>.6&#37; </label>
     </div>
     <div class="radio">
       <label for="two"><input type="radio" name="conversion" value="two" id="two" <?php if (isset($conversion) && $conversion=="two") echo "checked";?>>2&#37; </label>
