@@ -93,19 +93,6 @@ $(document).ready(function(){
 <?php endif; ?>
 
 
-<?php if( $bodyclass == home && preg_match('/(Chrome|CriOS)\//i',$_SERVER['HTTP_USER_AGENT'])
- && !preg_match('/(Aviator|ChromePlus|coc_|Dragon|Edge|Flock|Iron|Kinza|Maxthon|MxNitro|Nichrome|OPR|Perk|Rockmelt|Seznam|Sleipnir|Spark|UBrowser|Vivaldi|WebExplorer|YaBrowser)/i',$_SERVER['HTTP_USER_AGENT'])){
-   echo '<script type="text/javascript" src="js/parallax.min.js"> </script>';
-} else {
-
-  echo "<script type='text/javascript'> $('.parallax-window').each(function(){
-        var imgurl = $(this).attr('data-image-src');
-        $(this).css('background-image', 'url(' + imgurl + ')');
-        $(this).css('background-size','cover');
-      });</script>";
-} ?>
-
-
 
 </body>
 </html>

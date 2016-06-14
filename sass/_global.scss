@@ -199,6 +199,10 @@ img:not([src]){
 
 // for homepage parallax images
 .picture {
-  height: 90vh;
+  height: calc(100vh - 50px);
   min-height: 30em;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }

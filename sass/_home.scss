@@ -12,10 +12,7 @@ Home
 
 .home {
   #top {
-    //height: calc(100vh - 50px);
-    //position: relative;
 
-		// .alive is when the page is loaded
 		&.alive {
 			background-color: transparent !important;
 			@include transition(background,.4s,ease-in-out);
@@ -27,6 +24,8 @@ Home
 			}
 		}
   }
+
+
 
 	.work-section  {
 		padding-top: 3em;
@@ -67,10 +66,7 @@ Home
 		}
 	}
 
-	.headshot-section {
-		//background: url('../img/erica-headshot.jpg') 0% 50% no-repeat;
-		//background-size: cover;
-	}
+
 
 	.about-section > .container {
 		padding-top: 2em;
@@ -112,10 +108,7 @@ Home
 		}
 	}
 
-	.typing-section {
-		//background: url('../img/typing.jpg') 20% 0% no-repeat;
-		//background-size: cover;
-	}
+
 
 	.contact-section > .container {
 		padding-top: 2em;

@@ -2,7 +2,7 @@
 
 
 
-<section id="top" class="septagon parallax-window" data-parallax="scroll" data-image-src="img/spiders-web.jpg" data-class-name="septagon" style="min-height: 30em; height: calc(100vh - 50px); background-color: #ccc;">
+<section id="top" class="septagon " style="min-height: 30em; height: calc(100vh - 50px); background-color: #ccc; background-image: url('img/spiders-web.jpg'); background-attachment: fixed;">
   <div class="container-fluid-width -displaytable" style="height: calc(100vh - 50px);">
     <div class="container -displaytablecell" style="height: calc(100vh - 50px); opacity: .4; filter: alpha(opacity=40);">
         <h1 class="-pagehead" style="color: white; line-height: 1; margin-bottom: 0; text-align: center; text-shadow: 1px 1px 3px #000;">erica dreisbach </h1>
@@ -140,7 +140,7 @@
 
 
 
-<section class="section picture parallax-window" data-parallax="scroll" data-image-src="img/erica-headshot.jpg"  data-position="top left">
+<section class="section picture" style="background-image: url('img/erica-headshot.jpg');">
   <h2 class="-sectionhead hidden">erica dreisbach </h2>
 </section>
 
@@ -212,7 +212,7 @@
         <div class="circle">
           <div class="-circlewrap">
             <span class="-circlesmalls">DEVELOPMENT LEAD ON</span><br />
-            <span class="-circleextrabigs">28</span><br />
+            <span class="-circleextrabigs">29</span><br />
             <span class="-circlesmalls">WEBSITES <span style="letter-spacing: 0; font-style: italic;">and counting!</span> </span>
           </div>
         </div>
@@ -234,7 +234,7 @@
 
 
 
-<section class="section picture parallax-window" data-parallax="scroll" data-image-src="img/typing.jpg">
+<section class="section picture" style="background-image: url('img/typing.jpg');">
   <h2 class="hidden">erica dresbach - chicago wordpress guru </h2>
 </section>
 
@@ -262,7 +262,7 @@
 
 
 
-<section class="picture parallax-window" data-parallax="scroll" data-image-src="img/chicago-skyview.jpg">
+<section class="picture" style="background-image: url('img/chicago-skyview.jpg');">
   <h2 class="hidden">Chicago freelance web developer erica dreisbach </h2>
 </section>
 
