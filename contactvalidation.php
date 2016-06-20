@@ -1,9 +1,9 @@
 <?php
 
 // define variables and set to empty values
-$name = $email = $website = $experience = $allcaps = $conversion = $clientproject = "";
+$name = $email = $website = $experience = $allcaps = $source = $clientproject = "";
 $nameErrCode = $emailErrCode = "";
-$nameErr = $emailErr = $websiteErr = $experienceErr = $allcapsErr = $conversionErr = $clientprojectErr = "";
+$nameErr = $emailErr = $websiteErr = $experienceErr = $allcapsErr = $clientprojectErr = "";
 $success = '<p id="thankyou">Thank you! I&#39;ll be in touch&nbsp;soon. <br /><br />&smile;</p><img src="img/old-phone.jpg" id="thankyouphone" class="img" alt="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" title="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" />';
 
 function test_input($data) {
@@ -69,11 +69,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $allcaps = test_input($_POST["allcaps"]);
  }
 
- if (empty($_POST["converion"])) {
-  $conversionErr = "I'm curious how people will answer this one! Also, it's a required question.";
- } else {
-  $conversion = test_input($_POST["conversion"]);
- }
+ $source = test_input($_POST["source"]);
+
 
  if (empty($_POST["clientproject"])) {
   $clientprojectErr = "";
@@ -90,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $website = $_REQUEST['website'] ;
   $experience = $_REQUEST['experience'] ;
   $allcaps = $_REQUEST['allcaps'] ;
-  $conversion = $_REQUEST['conversion'] ;
+  $source = $_REQUEST['source'] ;
   $clientproject = $_REQUEST['clientproject'] ;
 
   $message = 'From: ' . $name . ' ' . $email . ' ' . ' ' . $website . '
@@ -100,7 +97,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ';
   $message .= 'All caps emails are ok: ' . $allcaps . '
 ';
-  $message .= 'Conversion rate from Google form (guessing): ' . $conversion . '
+  $message .= 'Source: ' . $source . '
 
 ';
   $message .= $clientproject;

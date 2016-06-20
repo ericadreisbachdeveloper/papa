@@ -57,18 +57,10 @@
 
 
   <fieldset class="form-group">
-    <p class="pform">3. Of the hundreds of people who have contacted me using this form, what percentage have led to actual&nbsp;work?* </p>
-    <p class="error"><?php echo $conversionErr;?></p>
+    <p class="pform">3. If you came to this site via Google/Bing search, what search terms did you&nbsp;use? </p>
 
-    <div class="radio">
-      <label for="pointfive"><input type="radio" name="conversion" value="pointfive" id="pointfive" <?php if (isset($conversion) && $conversion=="pointfive") echo "checked";?>>.5&#37; </label>
-    </div>
-    <div class="radio">
-      <label for="pointsix"><input type="radio" name="conversion" value="pointsix" id="pointsix" <?php if (isset($conversion) && $conversion=="pointsix") echo "checked";?>>.6&#37; </label>
-    </div>
-    <div class="radio">
-      <label for="two"><input type="radio" name="conversion" value="two" id="two" <?php if (isset($conversion) && $conversion=="two") echo "checked";?>>2&#37; </label>
-    </div>
+    <label class="control-label sr-only" for="email">Source </label>
+    <input name="source" id="source" type="source" maxlength="100" class="form-control" placeholder="" value="<?php echo $source; ?>">
   </fieldset>
 
 
