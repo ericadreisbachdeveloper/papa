@@ -199,7 +199,7 @@
     </div><!-- /.row -->
 
     <div class="row skill-circles">
-      <div class="col-md-4 col-circle border-bottom">
+      <div class="col-sm-4 col-circle">
         <div class="circle">
           <div class="-circlewrap">
             <span class="-circlebigs">10</span><br />
@@ -208,7 +208,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-circle border-bottom">
+      <div class="col-sm-4 col-circle">
         <div class="circle">
           <div class="-circlewrap">
             <span class="-circlesmalls">DEVELOPMENT LEAD ON</span><br />
@@ -218,7 +218,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-circle">
+      <div class="col-sm-4 col-circle">
         <div class="circle">
           <div class="-circlewrap">
             <span class="-circlebigs">60+</span><br />
