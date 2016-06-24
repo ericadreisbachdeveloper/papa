@@ -1,4 +1,4 @@
-<?php $bodyclass = 'work'; $page = 'Sentegrity'; $metadescription = 'Odea | Wordpress/Boostrap web development by Erica Dreisbach.'; include('../header.php'); ?>
+<?php $bodyclass = 'work'; $page = 'Odea'; $metadescription = 'Odea | Wordpress/Boostrap web development by Erica Dreisbach.'; include('../header.php'); ?>
 
 
 
