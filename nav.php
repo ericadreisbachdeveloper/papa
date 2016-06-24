@@ -29,6 +29,7 @@
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
+            <li class="<?php if($page == 'Odea') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>odea">Odea </a></li>
             <li class="<?php if($page == 'Sentegrity') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>sentegrity">Sentegrity </a></li>
             <li class="<?php if($page == 'Educare') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>educare">Educare </a></li>
             <li class="<?php if($page == 'PortionPac') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>portionpac">PortionPac </a></li>
@@ -36,7 +37,6 @@
             <li class="<?php if($page == 'Government Energy Management') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>gem">Government Energy Management </a></li>
             <li class="<?php if($page == 'Savory Living') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>savory">Savory Living </a></li>
             <li class="<?php if($page == 'Nearby Registry') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>nearby">Nearby Registry </a></li>
-            <li class="<?php if($page == 'Sugar Glen Farm') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>sugarglen">Sugar Glen Farm </a></li>
           </ul>
         </li>
         <li><a href="<?php echo $homedir; ?>#about">About </a>

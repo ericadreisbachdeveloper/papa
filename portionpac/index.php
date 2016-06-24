@@ -40,8 +40,9 @@
       <div class="col-md-2"> </div>
 
       <div class="col-md-8 col-content">
-        <p class="p -txtcenter -medium">Wordpress &bull; Bootstrap 3 &bull; mobile/responsive &bull; HTML5 &bull; jQuery &bull; Advanced&nbsp;Custom&nbsp;Fields &bull; Custom&nbsp;Post&nbsp;Types </p>
-        <p class="p">Custom mobile/responsive Wordpress theme built for a green cleaning solutions company. Theme development relies heavily on jQuery/Javascript for product display, along with of <a href="https://codex.wordpress.org/Post_Types" target="_blank" class="a">Custom&nbsp;Post&nbsp;Types</a> and <a href="http://www.advancedcustomfields.com/" target="_blank" class="a">Advanced&nbsp;Custom&nbsp;Fields</a>. Also includes blog, section page templates, and customized <a href="http://www.gravityforms.com/" target="_blank" class="a">Gravity forms</a>. Design&nbsp;by&nbsp;<a href="http://www.teamodea.com" target="_blank" rel="nofollow" class="a">Odea</a>. </p>
+        <p class="p -txtcenter -medium">Wordpress &bull; Bootstrap 3 &bull; mobile/responsive &bull; HTML5 &bull; jQuery &bull; Ajax &bull; Advanced&nbsp;Custom&nbsp;Fields &bull; Custom&nbsp;Post&nbsp;Types </p>
+
+        <p class="p">Custom mobile/responsive Wordpress theme built for a green cleaning solutions company. Theme development relies heavily on jQuery/Ajax for product display, along with of <a href="https://codex.wordpress.org/Post_Types" target="_blank" class="a">Custom&nbsp;Post&nbsp;Types</a> and <a href="http://www.advancedcustomfields.com/" target="_blank" class="a">Advanced&nbsp;Custom&nbsp;Fields</a>. Also includes blog, section page templates, and customized <a href="http://www.gravityforms.com/" target="_blank" class="a">Gravity forms</a>. Design&nbsp;by&nbsp;<a href="http://www.teamodea.com" target="_blank" rel="nofollow" class="a">Odea</a>. </p>
       </div>
 
       <div class="col-md-2"> </div>

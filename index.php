@@ -27,6 +27,16 @@
       <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
+        <a href="odea" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-odea.jpg" alt="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" title="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Odea </h3>
+          <h4 class="-workdescrip">Wordpress/Bootstrap theme <br />with HTML5&nbsp;video </h4>
+        </a>
+      </div><!-- / Sentegrity -->
+
+      <div class="col-xs-6 col-md-5 work-cell">
         <a href="sentegrity" class="a">
           <div class="img-wrap">
             <img src="img/sq-sentegrity.jpg" alt="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" title="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" class="img" />
@@ -35,6 +45,16 @@
           <h4 class="-workdescrip">Wordpress/Bootstrap theme </h4>
         </a>
       </div><!-- / Sentegrity -->
+
+      <div class="col-md-1"> </div>
+
+    </div><!-- /.row -->
+
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="educare" class="a">
@@ -46,14 +66,6 @@
         </a>
       </div><!-- /Educare -->
 
-      <div class="col-md-1"> </div>
-
-    </div><!-- /.row -->
-
-
-    <div class="row">
-
-      <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="portionpac" class="a">
@@ -65,6 +77,16 @@
         </a>
       </div><!-- /PortionPac -->
 
+      <div class="col-md-1"> </div>
+
+    </div><!-- /.row -->
+
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
+
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="welltrail" class="a">
           <div class="img-wrap">
@@ -75,14 +97,6 @@
         </a>
       </div><!-- /WellTrail -->
 
-      <div class="col-md-1"> </div>
-
-    </div><!-- /.row -->
-
-
-    <div class="row">
-
-      <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="gem" class="a">
@@ -94,6 +108,16 @@
         </a>
       </div><!-- /Government Energy Management -->
 
+      <div class="col-md-1"> </div>
+
+    </div><!-- /.row -->
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
+
+
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="savory" class="a">
           <div class="img-wrap">
@@ -104,14 +128,7 @@
         </a>
       </div><!-- /Savory Living -->
 
-      <div class="col-md-1"> </div>
 
-    </div><!-- /.row -->
-
-
-    <div class="row">
-
-      <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="nearby" class="a">
@@ -123,7 +140,7 @@
         </a>
       </div><!-- /Nearby Registry -->
 
-      <div class="col-xs-6 col-md-5 work-cell">
+    <!--   <div class="col-xs-6 col-md-5 work-cell">
         <a href="sugarglen" class="a">
           <div class="img-wrap">
             <img src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" class="img" />
@@ -131,7 +148,7 @@
           <h3 class="-worktitle">Sugar Glen Farm </h3>
           <h4 class="-workdescrip">Wordpress blog </h4>
         </a>
-      </div><!-- /Sugar Glen Farm -->
+      </div>   /Sugar Glen Farm -->
 
     </div><!-- /.row -->
 
@@ -186,7 +203,7 @@
 
         <h3 class="-txthead">Working Knowledge </h3>
 
-        <p class="p">Git  &nbsp;&bull;&nbsp;  Grunt  &nbsp;&bull;&nbsp;  Drupal  &nbsp;&bull;&nbsp;  Foundation  &nbsp;&bull;&nbsp;  SquareSpace  &nbsp;&bull;&nbsp;  Handlebars  &nbsp;&bull;&nbsp;  Bower&nbsp;&nbsp;&bull;&nbsp;&nbsp;MVC </p>
+        <p class="p">Git  &nbsp;&bull;&nbsp;  Grunt  &nbsp;&bull;&nbsp;  Drupal  &nbsp;&bull;&nbsp; Ajax &nbsp;&bull;&nbsp;  Foundation  &nbsp;&bull;&nbsp;  SquareSpace  &nbsp;&bull;&nbsp;  Handlebars  &nbsp;&bull;&nbsp;  Bower&nbsp;&nbsp;&bull;&nbsp;&nbsp;MVC </p>
 
         <h3 class="-txthead">Currently Learning </h3>
         <p class="p">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel  &nbsp;&bull;&nbsp;  Django </p>
