@@ -266,9 +266,11 @@
       <div class="col-md-2"> </div>
 
       <div class="col-md-8 col-content">
-        <h3 class="-txthead -txtcenter -successhide">Thank you for visiting! </h3>
-        <p class="p -medium -txtcenter -successhide">Contact me by answering this short&nbsp;quiz. </p>
-        <?php include('contact.php'); ?>
+        <h3 class="-txthead -txtcenter">I am booked through the summer and unavailable for new projects until&nbsp;September. </h3>
+        <p class="p -txtcenter">If your project is a good one and it can wait a few months, check back here in the fall for contact&nbsp;details. </p>
+        <!-- <h3 class="-txthead -txtcenter -successhide">Thank you for visiting! </h3>
+        <p class="p -medium -txtcenter -successhide">Contact me by answering this short&nbsp;quiz. </p> -->
+        <?php //include('contact.php'); ?>
       </div>
 
       <div class="col-md-2"> </div>
