@@ -19,6 +19,18 @@
 
       <div class="col-md-8 col-content">
 
+
+        <div class="quote kennon">
+          <p class="p -medium">&ldquo;Erica is brilliant! She's a true expert with Wordpress <!-- and&nbsp;&mdash; perhaps just as important for the project we worked on&nbsp;&mdash; is--> and a great communicator who is responsive, flexible and easy to work with. She was able to speak the same language as everyone on our team, from design to IT, and without exception replied to every question or point of feedback in a quick, clear and helpful way. <!-- I think we sometimes go in to a website project hoping for it to be &ldquo;less painful than last time&rdquo;&nbsp;&mdash; with Erica, the process was not just painless but actually felt easy and enjoyable. -->We're thrilled with the site and equally thrilled that it was ready on time, on budget and with everyone on the team still&nbsp;smiling.&rdquo;</p>
+          <p class="p attrib -txtright">
+            <span class="name"> &mdash;Tara Kennon</span><br />
+            <span class="org"> Healthy Schools Campaign</span>
+          </p>
+        </div>
+
+
+
+
         <div class="quote gorney">
           <p class="p -medium">&ldquo;I strongly recommend Erica&nbsp;&mdash;truly a pleasure to work&nbsp;with.&rdquo;</p>
           <p class="p attrib -txtright">
