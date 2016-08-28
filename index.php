@@ -27,6 +27,17 @@
       <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
+        <a href="spacetogrow" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-spacetog.jpg" alt="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" title="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Space to Grow</h3>
+          <h4 class="-workdescrip">Custom Wordpress template </h4>
+        </a>
+      </div><!-- / Space to Grow -->
+
+
+      <div class="col-xs-6 col-md-5 work-cell">
         <a href="odea" class="a">
           <div class="img-wrap">
             <img src="img/sq-odea.jpg" alt="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" title="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
@@ -35,6 +46,16 @@
           <h4 class="-workdescrip">Wordpress/Bootstrap theme <br />with HTML5&nbsp;video </h4>
         </a>
       </div><!-- / Sentegrity -->
+
+      <div class="col-md-1"> </div>
+
+    </div><!-- /.row -->
+
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="sentegrity" class="a">
@@ -46,6 +67,17 @@
         </a>
       </div><!-- / Sentegrity -->
 
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="educare" class="a">
+          <div class="img-wrap">
+            <img src="img/sq-educare.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Educare  </h3>
+          <h4 class="-workdescrip">Wordpress/Bootstrap development </h4>
+        </a>
+      </div><!-- /Educare -->
+
       <div class="col-md-1"> </div>
 
     </div><!-- /.row -->
@@ -55,17 +87,6 @@
     <div class="row">
 
       <div class="col-md-1"> </div>
-
-      <div class="col-xs-6 col-md-5 work-cell">
-        <a href="educare" class="a">
-          <div class="img-wrap">
-            <img src="img/educare-mobile.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
-          </div>
-          <h3 class="-worktitle">Educare  </h3>
-          <h4 class="-workdescrip">Wordpress/Bootstrap development </h4>
-        </a>
-      </div><!-- /Educare -->
-
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="portionpac" class="a">
@@ -77,16 +98,6 @@
         </a>
       </div><!-- /PortionPac -->
 
-      <div class="col-md-1"> </div>
-
-    </div><!-- /.row -->
-
-
-
-    <div class="row">
-
-      <div class="col-md-1"> </div>
-
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="welltrail" class="a">
           <div class="img-wrap">
@@ -97,6 +108,15 @@
         </a>
       </div><!-- /WellTrail -->
 
+      <div class="col-md-1"> </div>
+
+    </div><!-- /.row -->
+
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="gem" class="a">
@@ -107,15 +127,6 @@
           <h4 class="-workdescrip">Wordpress design and&nbsp;development </h4>
         </a>
       </div><!-- /Government Energy Management -->
-
-      <div class="col-md-1"> </div>
-
-    </div><!-- /.row -->
-
-
-    <div class="row">
-
-      <div class="col-md-1"> </div>
 
 
       <div class="col-xs-6 col-md-5 work-cell">
@@ -128,7 +139,15 @@
         </a>
       </div><!-- /Savory Living -->
 
+      <div class="col-md-1"> </div>
 
+    </div><!-- /.row --->
+
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="nearby" class="a">
@@ -140,7 +159,7 @@
         </a>
       </div><!-- /Nearby Registry -->
 
-    <!--   <div class="col-xs-6 col-md-5 work-cell">
+      <div class="col-xs-6 col-md-5 work-cell">
         <a href="sugarglen" class="a">
           <div class="img-wrap">
             <img src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" class="img" />
@@ -148,7 +167,9 @@
           <h3 class="-worktitle">Sugar Glen Farm </h3>
           <h4 class="-workdescrip">Wordpress blog </h4>
         </a>
-      </div>   /Sugar Glen Farm -->
+      </div>   <!-- /Sugar Glen Farm -->
+
+      <div class="col-md-1"> </div>
 
     </div><!-- /.row -->
 
@@ -266,7 +287,7 @@
       <div class="col-md-2"> </div>
 
       <div class="col-md-8 col-content">
-        <h3 class="-sectionhead -txtcenter" style="text-transform: none;">Wanna Work&nbsp;Together? </h3>
+        <h3 class="-sectionhead -txtcenter" style="text-transform: none;">Wanna Work Together? </h3>
         <p class="p -txtcenter">Ok read this part&nbsp;first! </p>
 
         <p class="p"><span style="font-size: 3.6rem;">Clients Who Are the Best&nbsp;Fit </span> </p>
@@ -298,7 +319,7 @@
         <!-- <h3 class="-txthead -txtcenter -successhide">Thank you for visiting! </h3>
         <p class="p -medium -txtcenter -successhide">Contact me by answering this short&nbsp;quiz. </p> -->
         <?php //include('contact.php'); ?>
-        
+
       </div>
 
       <div class="col-md-2"> </div>

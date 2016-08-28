@@ -20,6 +20,10 @@
 // Medium devices (tablets, 48em and up)
 @media (min-width: 48em) {
 
+  .picture {
+    background-attachment: fixed;
+  }
+
   .-mobilehideinline {
     display: inline;
   }

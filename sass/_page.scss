@@ -70,6 +70,10 @@ Work Pages
   padding-top: 2em;
   padding-bottom: 2em;
 
+  .owl-item {
+    background: rgba(0,0,0,.1);
+  }
+
   // hide alt/title while images load
   img {
     color: white;
