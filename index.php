@@ -287,7 +287,7 @@
       <div class="col-md-2"> </div>
 
       <div class="col-md-8 col-content">
-        <h3 class="-sectionhead -txtcenter" style="text-transform: none;">Wanna Work Together? </h3>
+        <!-- <h3 class="-sectionhead -txtcenter" style="text-transform: none;">Wanna Work Together? </h3>
         <p class="p -txtcenter">Ok read this part&nbsp;first! </p>
 
         <p class="p"><span style="font-size: 3.6rem;">Clients Who Are the Best&nbsp;Fit </span> </p>
@@ -307,7 +307,7 @@
           <li>startups or solo practitioners who find this site via Google search while looking for the best low&#8209;cost&nbsp;option</li>
         </ul>
 
-        <p class="p">If you're a profiteer or a recruiter you're welcome to make your pitch, but I'm unlikely to write back. It's not personal. I'm saving us from myself. I recommend asking around for personal recommendations for good web developers, or reaching out to the people who built the best&#8209;in&#8209;class websites of your&nbsp;competitors. </p>
+        <p class="p">If you're a profiteer or a recruiter you're welcome to make your pitch, but I'm unlikely to write back. It's not personal. I'm saving us from myself. I recommend asking around for personal recommendations for good web developers, or reaching out to the people who built the best&#8209;in&#8209;class websites of your&nbsp;competitors. </p> -->
 
 
         <a id="contactform" class="anchor" style="display: block; padding-bottom: 5em;"> </a>

@@ -1,7 +1,7 @@
 <?php include('simplecontactvalidation.php'); ?>
 <form method="post" class="form -successhide" action="#contactform">
 
-  <h3 class="-sectionhead -txtcenter" style="text-transform: none;">Write Me </h3>
+  <h3 class="-sectionhead -txtcenter" style="text-transform: none;">Wanna Work Together? </h3>
 
   <fieldset class="form-group row">
     <div class="col-md-6">

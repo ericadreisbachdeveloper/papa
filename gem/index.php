@@ -5,7 +5,7 @@
 <section id="maincontent" class="section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">Government Energy Management </h1>
-    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.govenergymgt.com" target="_blank" rel="nofollow">Visit this site <span class="glyphicon glyphicon-arrow-right -diagonal"> </span></a>
+    <!-- <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.govenergymgt.com" target="_blank" rel="nofollow">Visit this site <span class="glyphicon glyphicon-arrow-right -diagonal"> </span></a> -->
   </div>
 </section>
 
@@ -49,7 +49,7 @@
 
 
 <section class="button-section">
-  <h2 class="hidden">Navigation </h2>  
+  <h2 class="hidden">Navigation </h2>
   <div class="container">
     <p class="-bigpadding -txtcenter">
       <a href="#" id="button" class="-ghost -naturalsize"> </a>
