@@ -3,8 +3,8 @@
 
 
 <section id="top" class="septagon " style="min-height: 30em; height: calc(100vh - 50px); background-color: #ccc; background-image: url('img/spiders-web.jpg'); background-attachment: fixed;">
-  <div class="container-fluid-width -displaytable" style="height: calc(100vh - 50px);">
-    <div class="container -displaytablecell" style="height: calc(100vh - 50px); opacity: .4; filter: alpha(opacity=40);">
+  <div class="container-fluid-width" style="width: 100%; height: calc(100vh - 50px); display: table;">
+    <div class="container" style="width: 100%; height: calc(100vh - 50px); display: table-cell; opacity: .4; filter: alpha(opacity=40); vertical-align: middle;">
         <h1 class="-pagehead" style="color: white; line-height: 1; margin-bottom: 0; text-align: center; text-shadow: 1px 1px 3px #000;">erica dreisbach </h1>
         <h2 class="-pagesubhead" style="color: white; font-style: italic; margin-top: .2em; text-align: center; text-shadow: 1px 1px 3px #000;">web designer +&nbsp;developer </h2>
     </div>
