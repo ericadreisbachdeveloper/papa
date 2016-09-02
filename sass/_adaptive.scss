@@ -49,6 +49,7 @@
 
 
   .septagon {
+    background-attachment: fixed;
     -webkit-clip-path: polygon(100% 0, 100% 97%, 52% 97%, 50% 100%, 48% 97%, 0 97%, 0 0);
   	 clip-path: polygon(100% 0, 100% 97%, 52% 97%, 50% 100%, 48% 97%, 0 97%, 0 0);
   }

@@ -2,33 +2,14 @@
 
 
 
-<section id="top" class="septagon " style="background-color: #ccc; min-height: 30em; height: calc(100vh - 50px);">
+<section id="top" class="septagon " style="background-color: #ccc; background-image: url('img/spiders-web.jpg'); min-height: 30em; height: calc(100vh - 50px);">
   <div class="container-fluid-width -displaytable">
-    <div class="container -displaytablecell">
-        <h1 class="-pagehead" style="color: #fff; line-height: 1; text-align: center;">erica dreisbach </h1>
-        <h2 class="-pagesubhead" style="color: #fff; font-style: italic; margin-top: .2em; text-align: center;">web designer +&nbsp;developer </h2>
+    <div class="container -displaytablecell" style="opacity: .5; filter: alpha(opacity=70); color: #fff; text-align: center; text-shadow: 1px 1px 3px #000;">
+        <h1 class="-pagehead" style="line-height: 1;">erica dreisbach </h1>
+        <h2 class="-pagesubhead" style="font-style: italic; margin-top: .2em;">web designer +&nbsp;developer </h2>
     </div>
   </div>
 </section>
-
-
-
-<noscript id="deferred-styles">
-  <link rel="stylesheet" type="text/css" href="css/small.css"/>
-</noscript>
-<script>
-  var loadDeferredStyles = function() {
-    var addStylesNode = document.getElementById("deferred-styles");
-    var replacement = document.createElement("div");
-    replacement.innerHTML = addStylesNode.textContent;
-    document.body.appendChild(replacement)
-    addStylesNode.parentElement.removeChild(addStylesNode);
-  };
-  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-      webkitRequestAnimationFrame || msRequestAnimationFrame;
-  if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-  else window.addEventListener('load', loadDeferredStyles);
-</script>
 
 
 
