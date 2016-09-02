@@ -12,7 +12,6 @@ Home
 
 .home {
   #top {
-
 		&.alive {
 			background-color: transparent !important;
 			@include transition(background,.4s,ease-in-out);

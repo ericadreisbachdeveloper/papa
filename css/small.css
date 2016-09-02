@@ -1,0 +1,35 @@
+
+#top {
+  background-color: #ccc;
+  background-image: url('../img/spiders-web.jpg');
+  background-attachment: fixed;
+}
+
+
+#top > .container-fluid-width > .container {
+  opacity: .7;
+  filter: alpha(opacity=70);
+}
+
+
+.-pagehead {
+  margin-bottom: 0;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.-pagesubhead {
+  text-shadow: 1px 1px 3px #000;
+}
+
+.-displaytable {
+  display: table;
+}
+
+.-displaytablecell {
+  display: table-cell;
+  height: 100%;
+}
+
+.-displaytable, .-displaytablecell {
+  width: 100%;
+}
