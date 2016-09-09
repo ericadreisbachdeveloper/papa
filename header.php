@@ -29,6 +29,11 @@
  <![endif]-->
 
 
+<?php if(isset($page)) : ?>
+ <link rel="stylesheet" type="text/css" href="../css/style.css" />
+ <?php endif; ?>
+
+
 </head>
 
 
