@@ -9,7 +9,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Erica Dreisbach | Freelance Web Designer + Developer ">
 <meta property="og:url" content="http://www.ericadreisbach.com">
-<meta property="og:site_name" content="Erica Dreisabch">
+<meta property="og:site_name" content="Erica Dreisbach">
 <meta property="og:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>">
 
 <meta name="description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
@@ -17,9 +17,6 @@
 
 <title><?php if(isset($page)) { echo $page . ' | '; } else { ;} ?>erica dreisbach | web designer + developer </title>
 
-
-<!-- Styles -->
-<link rel="stylesheet" type="text/css" href="<?php if(isset($page)) : ?>../<?php endif; ?>css/style.css" />
 
 
 <!-- favicons -->
