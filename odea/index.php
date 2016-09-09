@@ -25,9 +25,9 @@
 
       <img class="owl-lazy" data-src="../img/odea-why-us.jpg" alt="Odea | Why Us | Wordpress Ajax-loaded content developed by erica dreisbach" title="Odea | Why Us | Wordpress Ajax-loaded content developed by erica dreisbach" />
 
-      <img class="owl-lazy" data-src="../img/odea-team.jpg" alt="Odea | Team | Bootstrap template developed by Chicago Wordpress developer erica dreisbach" title="Odea | Team | Bootstrap template developed by Chicago Wordpress developer erica dreisbach" />
-
       <img class="owl-lazy" data-src="../img/odea-here.jpg" alt="Odea | Here | custom jQuery development by Chicago web designer erica dreisbach" title="Odea | Here | custom jQuery development by Chicago web designer erica dreisbach" />
+
+      <img class="owl-lazy" data-src="../img/odea-team.jpg" alt="Odea | Team | Bootstrap template developed by Chicago Wordpress developer erica dreisbach" title="Odea | Team | Bootstrap template developed by Chicago Wordpress developer erica dreisbach" />
 
       <img class="owl-lazy" data-src="../img/odea-connect.jpg" alt="Odea | Connect | Gravity form styled and implemented by Chicago web designer erica dreisbach" title="Odea | Connect | Gravity form styled and implemented by Chicago web designer erica dreisbach" />
 
