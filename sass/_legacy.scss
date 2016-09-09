@@ -2,3 +2,17 @@
 Erica Dreisbach - Portfolio
 Legacy browsers
 ------------------------ */
+
+
+.nosvg {
+  img[src*='svg'] {
+    display: none;
+  }
+  .home .skills-section > .container > .row.skill-circles > .col-circle > .circle {
+    border: none;
+  }
+
+  .septagon > .-displaytable > .container {
+    opacity: 1 !important;
+  }
+}

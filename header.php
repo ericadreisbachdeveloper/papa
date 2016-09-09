@@ -36,9 +36,13 @@
 
 </head>
 
+<script type="text/javascript">
+if (document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1")) { }
+else { document.documentElement.className = "nosvg"; }
+</script>
 
 
-<body class="<?php if(isset($bodyclass)) { echo $bodyclass; }?>" <?php if (!isset($page)) { echo 'data-spy="scroll" data-target=".navbar" data-offset="50"'; } ?> style="margin: 0;">
+<body class="<?php if(isset($bodyclass)) { echo $bodyclass; }?>" <?php if (!isset($page)) { echo 'data-spy="scroll" data-target=".navbar" data-offset="50"'; } ?> style="margin: 0;" >
 
 
 

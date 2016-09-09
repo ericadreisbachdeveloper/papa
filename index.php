@@ -12,7 +12,7 @@
 </section>
 
 <style type="text/css">
-.septagon { background-color: #ccc; background-image: url('img/spiders-web.jpg'); background-size: cover; min-height: 30em; height: calc(100vh - 50px); }
+.septagon { background-color: #ccc; background-image: url('img/spiders-web.jpg'); background-size: cover; min-height: 30em; height: 500px; height: calc(100vh - 50px); }
 .septagon > .-displaytable > .container { opacity: .5; filter: alpha(opacity=70); color: #fff; text-align: center; text-shadow: 1px 1px 3px #000; }
 .septagon .-pagehead { line-height: 1; }
 .septagon .-pageusbhead { font-style: italic; margin-top: .2em; }
@@ -21,7 +21,7 @@
 <!-- Styles -->
 <link rel="stylesheet" type="text/css" href="<?php if(isset($page)) : ?>../<?php endif; ?>css/style.css" />
 
-  
+
 
 <?php include('nav.php'); ?>
 
