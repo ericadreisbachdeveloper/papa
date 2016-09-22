@@ -297,28 +297,6 @@
       <div class="col-md-2"> </div>
 
       <div class="col-md-8 col-content">
-        <!-- <h3 class="-sectionhead -txtcenter" style="text-transform: none;">Wanna Work Together? </h3>
-        <p class="p -txtcenter">Ok read this part&nbsp;first! </p>
-
-        <p class="p"><span style="font-size: 3.6rem;">Clients Who Are the Best&nbsp;Fit </span> </p>
-        <ul class="p">
-          <li>small web development firms who hire me as a&nbsp;subcontractor</li>
-          <li>mission&#8209;driven businesses</li>
-          <li>large nonprofits with decent budgets and strong project&nbsp;managers</li>
-        </ul>
-
-        <p class="p">If you're in this category, please get in touch right away! I think we'd be a great match and I'd love to hear about your&nbsp;project. </p>
-
-        <p class="p"><span style="font-size: 3.6rem;">Clients Who Are the Worst&nbsp;Fit </span> </p>
-
-        <ul class="p">
-          <li>corporations </li>
-          <li>work that comes via&nbsp;recruiters </li>
-          <li>startups or solo practitioners who find this site via Google search while looking for the best low&#8209;cost&nbsp;option</li>
-        </ul>
-
-        <p class="p">If you're a profiteer or a recruiter you're welcome to make your pitch, but I'm unlikely to write back. It's not personal. I'm saving us from myself. I recommend asking around for personal recommendations for good web developers, or reaching out to the people who built the best&#8209;in&#8209;class websites of your&nbsp;competitors. </p> -->
-
 
         <a id="contactform" class="anchor" style="display: block; padding-bottom: 5em;"> </a>
 
@@ -334,6 +312,20 @@
 
       <div class="col-md-2"> </div>
     </div>
+    
+
+    <div class="row">
+      <div class="col-md-2"> </div>
+      <div class="col-md-8 col-content -txtcenter">
+        <ul class="socialmedia -txtcenter">
+          <li class="li"><a class="b" href="http://www.twitter.com/ericadreisbach/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="li"><a class="b" href="http://www.github.com/rockygulliver" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li class="li"><a class="b" href="http://www.linkedin.com/in/ericadreisbach" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-2"> </div>
+    </div>
+
 
   </div><!-- /.container -->
 </section>

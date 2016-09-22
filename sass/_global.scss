@@ -91,6 +91,12 @@ body {
   font-size: 2.5rem;
 }
 
+.b {
+  color: $nearblack;
+  @include transition(all,.2s,ease-in-out);
+  @include hover { color: $red; @include transition(all,.2s,ease-in-out); }
+}
+
 .a {
   border-bottom: 1px dotted #111;
   color: #111;

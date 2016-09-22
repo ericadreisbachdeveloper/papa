@@ -1,6 +1,6 @@
 ## Synopsis
 
-This is a website for erica dreisbach and her hot new shit. i mean, her web development portfolio.
+This is a website for erica dreisbach and her hot new shit. i mean, her web development portfolio: ericadreisbach.com
 
 ## Motivation
 
