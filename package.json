@@ -9,7 +9,7 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^0.11.1"
   },
-  "description": "erica dreisbach and her hot new shit",
+  "description": "This is a website for erica dreisbach and her hot new shit. i mean, her web development portfolio.",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "test"
