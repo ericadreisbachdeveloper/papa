@@ -3,7 +3,7 @@
 <?php if(isset($page)) : ?>
 <nav class="navbar navbar-default navbar-affix-top">
 <?php else :?>
-<nav class="navbar navbar-default" data-spy="affix" data-offset-top="" style="border-bottom: 1px solid rgba(0,0,0,0);">
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="">
 <?php endif; ?>
   <a href="#maincontent" class="offscreen">Skip Navigation </a>
   <div class="container nav-container">
