@@ -12,14 +12,14 @@
 </section>
 
 <style type="text/css">
-.septagon { background-color: #ccc; background-image: url('img/spiders-web.jpg'); background-size: cover; min-height: 30em; height: 500px; height: calc(100vh - 50px); }
+.septagon { background-color: #ccc; background-image: url('https://s3.amazonaws.com/darkblack-papa/spiders-web.jpg'); background-size: cover; min-height: 30em; height: 500px; height: calc(100vh - 50px); }
 .septagon > .-displaytable > .container { opacity: .5; filter: alpha(opacity=70); color: #fff; text-align: center; text-shadow: 1px 1px 3px #000; }
 .septagon .-pagehead { line-height: 1; }
 .septagon .-pageusbhead { font-style: italic; margin-top: .2em; }
 </style>
 
 <!-- Styles -->
-<link rel="stylesheet" type="text/css" href="<?php if(isset($page)) : ?>../<?php endif; ?>css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 
 
@@ -39,7 +39,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="spacetogrow" class="a">
           <div class="img-wrap">
-            <img src="img/sq-spacetog.jpg" alt="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" title="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-spacetog.jpg" alt="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" title="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Space to Grow</h3>
           <h4 class="-workdescrip">Custom Wordpress template </h4>
@@ -50,12 +50,12 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="odea" class="a">
           <div class="img-wrap">
-            <img src="img/sq-odea.jpg" alt="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" title="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-odea.jpg" alt="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" title="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Odea </h3>
           <h4 class="-workdescrip">Wordpress/Bootstrap theme <br />with HTML5&nbsp;video </h4>
         </a>
-      </div><!-- / Sentegrity -->
+      </div><!-- / Odea -->
 
       <div class="col-md-1"> </div>
 
@@ -70,7 +70,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="sentegrity" class="a">
           <div class="img-wrap">
-            <img src="img/sq-sentegrity.jpg" alt="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" title="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sentegrity.jpg" alt="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" title="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Sentegrity </h3>
           <h4 class="-workdescrip">Wordpress/Bootstrap theme </h4>
@@ -81,7 +81,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="educare" class="a">
           <div class="img-wrap">
-            <img src="img/sq-educare.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-educare.jpg" alt="Educare | Wordpress/Bootstrap development by Erica Dreisbach" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Educare  </h3>
           <h4 class="-workdescrip">Wordpress/Bootstrap development </h4>
@@ -101,7 +101,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="portionpac" class="a">
           <div class="img-wrap">
-            <img src="img/sq-portionpac.jpg" alt="PortionPac | Wordpress redesign by Erica Dreisbach" title="PortionPac | Wordpress redesign by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-portionpac.jpg" alt="PortionPac | Wordpress redesign by Erica Dreisbach" title="PortionPac | Wordpress redesign by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">PortionPac </h3>
           <h4 class="-workdescrip">Wordpress theme development </h4>
@@ -111,7 +111,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="welltrail" class="a">
           <div class="img-wrap">
-            <img src="img/sq-welltrail.jpg" alt="WellTrail | Wordpress mobile development by Erica Dreisbach" title="WellTrail | Wordpress mobile development by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-welltrail.jpg" alt="WellTrail | Wordpress mobile development by Erica Dreisbach" title="WellTrail | Wordpress mobile development by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">WellTrail  </h3>
           <h4 class="-workdescrip">Mobile/adaptive Wordpress&nbsp;theme </h4>
@@ -131,7 +131,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="gem" class="a">
           <div class="img-wrap">
-            <img src="img/sq-gem.jpg" alt="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" title="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-gem.jpg" alt="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" title="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Gov<span class="-mobilehideinline">ernmen</span>t Energy Management </h3>
           <h4 class="-workdescrip">Wordpress design and&nbsp;development </h4>
@@ -142,7 +142,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="savory" class="a">
           <div class="img-wrap">
-            <img src="img/sq-savory.jpg" alt="Savory Living | web design by Erica Dreisbach" title="Savory Living | web design by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-savory.jpg" alt="Savory Living | web design by Erica Dreisbach" title="Savory Living | web design by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Savory Living </h3>
           <h4 class="-workdescrip">design &amp; development </h4>
@@ -162,7 +162,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="nearby" class="a">
           <div class="img-wrap">
-            <img src="img/sq-nearby.jpg" alt="Nearby Registry | CSS and plugin development by Erica Dreisbach" title="Nearby Registry | CSS and plugin development by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-nearby.jpg" alt="Nearby Registry | CSS and plugin development by Erica Dreisbach" title="Nearby Registry | CSS and plugin development by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Nearby Registry </h3>
           <h4 class="-workdescrip">CSS &amp; social media&nbsp;plugins </h4>
@@ -172,7 +172,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="sugarglen" class="a">
           <div class="img-wrap">
-            <img src="img/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Sugar Glen Farm </h3>
           <h4 class="-workdescrip">Wordpress blog </h4>
@@ -188,7 +188,7 @@
 
 
 
-<section class="section picture" style="background-image: url('img/erica-headshot.jpg');">
+<section class="section picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/erica-headshot.jpg');">
   <h2 class="-sectionhead hidden">erica dreisbach </h2>
 </section>
 
@@ -282,7 +282,7 @@
 
 
 
-<section class="section picture" style="background-image: url('img/typing.jpg');">
+<section class="section picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/typing.jpg');">
   <h2 class="hidden">erica dresbach - chicago wordpress guru </h2>
 </section>
 
@@ -304,15 +304,13 @@
         <?php include('simplecontact.php'); ?>
 
 
-        <!-- <h3 class="-txthead -txtcenter -successhide">Thank you for visiting! </h3>
-        <p class="p -medium -txtcenter -successhide">Contact me by answering this short&nbsp;quiz. </p> -->
         <?php //include('contact.php'); ?>
 
       </div>
 
       <div class="col-md-2"> </div>
     </div>
-    
+
 
     <div class="row">
       <div class="col-md-2"> </div>
@@ -332,7 +330,7 @@
 
 
 
-<section class="picture" style="background-image: url('img/chicago-skyview.jpg');">
+<section class="picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/chicago-skyview.jpg');">
   <h2 class="hidden">Chicago freelance web developer erica dreisbach </h2>
 </section>
 

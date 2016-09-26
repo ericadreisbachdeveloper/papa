@@ -42,11 +42,11 @@
 
 
 <!-- local/Bower jQuery if needed offline -->
-<script type="text/javascript" src="<?php if(isset($page)) : ?>../<?php endif; ?>bower_components/jquery/dist/jquery.min.js"> </script> 
+<script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/jquery.min.js"> </script>
 
 
 <!-- Bootstrap -->
-<script type="text/javascript" src="<?php if(isset($page)) : ?>../<?php endif; ?>bower_components/bootstrap/dist/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/bootstrap.min.js"> </script>
 
 
 
@@ -89,7 +89,7 @@ $(document).ready(function(){
     1. home cooked stuff
 -->
 <?php if($bodyclass == home) : ?>
-<script type="text/javascript" src="js/papa.min.js"></script>
+<script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/papa.min.js"></script>
 <?php endif; ?>
 
 
