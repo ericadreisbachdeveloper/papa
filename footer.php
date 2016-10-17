@@ -37,18 +37,6 @@
 
 
 
-<!-- detect referrer -->
-<div class="hidden">
-<?php if (!empty($_SERVER['HTTP_REFERER'])) {
-  $server = $_SERVER['HTTP_REFERER'];
-    echo $server;
-} else {
-    echo "direct";
-} ?>
-</div>
-
-
-
 <!-- Back button on Work and Pages -->
 <?php if(isset($page)) : ?>
 <script type="text/javascript">

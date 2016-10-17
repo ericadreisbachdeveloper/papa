@@ -25,6 +25,14 @@
     <p class="error websiteerror"> <?php echo $websiteErr;?></p>
   </fieldset>
 
+  <!-- detect referrer -->
+  <?php if (!empty($_SERVER['HTTP_REFERER']) && $_SERVER['HTTP_REFERER'] == 'google') {
+    $server = $_SERVER['HTTP_REFERER'];
+    $googleq = '<fieldset class="form-group"><p class="pform">It looks like you came here via Google. What search terms did you use?</p><label class="control-label sr-only" for="searchterms">Search terms</label><input name="searchterms" id="searchterms" type="text" maxlength="80" class="form-control" placeholder="chicago web developer"></fieldset>';
+      echo $googleq;
+  } else {
+  } ?>
+
 
   <fieldset class="form-group">
     <p class="pform">In a few sentences, describe your project. <br />

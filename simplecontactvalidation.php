@@ -1,7 +1,7 @@
 <?php
 
 // define variables and set to empty values
-$name = $email = $website = $clientproject = "";
+$name = $email = $website = $clientproject = $searchterms = "";
 $nameErrCode = $emailErrCode = "";
 $nameErr = $emailErr = $websiteErr = $clientprojectErr = "";
 $success = '<p id="thankyou">Thank you! <br /><br />&smile;</p><img src="img/old-phone.jpg" id="thankyouphone" class="img" alt="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" title="phone image courtesy Pixabay user Gellinger | erica dreisbach | freelance Chicago web developer" />';
@@ -73,9 +73,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_REQUEST['name'] ;
   $email = $_REQUEST['email'] ;
   $website = $_REQUEST['website'] ;
+  $searchterms = $_REQUEST['searchterms'] ;
   $clientproject = $_REQUEST['clientproject'] ;
 
   $message = 'From: ' . $name . ' ' . $email . ' ' . ' ' . $website . '
+
+';
+  $message = 'Search terms: ' . $searchterms . '
 
 ';
   $message .= $clientproject;
