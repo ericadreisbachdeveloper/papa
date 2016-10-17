@@ -28,7 +28,7 @@
 </script>
 
 
-<!-- local/Bower jQuery if needed offline -->
+<!-- jQuery -->
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/jquery.min.js"> </script>
 
 
@@ -36,6 +36,16 @@
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/bootstrap.min.js"> </script>
 
 
+
+<!-- detect referrer -->
+<div class="hidden">
+<?php if (!empty($_SERVER['HTTP_REFERER'])) {
+  $server = $_SERVER['HTTP_REFERER'];
+    echo $server;
+} else {
+    echo "direct";
+} ?>
+</div>
 
 
 
