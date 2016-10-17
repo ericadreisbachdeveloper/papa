@@ -36,6 +36,8 @@
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/bootstrap.min.js"> </script>
 
 
+<div class="hidden"><?php $server = $_SERVER['HTTP_REFERER']; echo $server; ?></div>
+
 
 <!-- Back button on Work and Pages -->
 <?php if(isset($page)) : ?>
