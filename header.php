@@ -34,6 +34,44 @@
  <?php endif; ?>
 
 
+ <!-- detect bot -->
+ <?php
+ function crawlerDetect($USER_AGENT) {
+   $crawlers = array(
+     'Google' => 'Google',
+     'MSN' => 'msnbot',
+     'Rambler' => 'Rambler',
+     'Yahoo' => 'Yahoo',
+     'AbachoBOT' => 'AbachoBOT',
+     'accoona' => 'Accoona',
+     'AcoiRobot' => 'AcoiRobot',
+     'ASPSeek' => 'ASPSeek',
+     'CrocCrawler' => 'CrocCrawler',
+     'Dumbot' => 'Dumbot',
+     'FAST-WebCrawler' => 'FAST-WebCrawler',
+     'GeonaBot' => 'GeonaBot',
+     'Gigabot' => 'Gigabot',
+     'Lycos spider' => 'Lycos',
+     'MSRBOT' => 'MSRBOT',
+     'Altavista robot' => 'Scooter',
+     'AltaVista robot' => 'Altavista',
+     'ID-Search Bot' => 'IDBot',
+     'eStyle Bot' => 'eStyle',
+     'Scrubby robot' => 'Scrubby',
+     'Facebook' => 'facebookexternalhit',
+   );
+
+   $crawlers_agents = implode('|',$crawlers);
+
+   if (strpos($crawlers_agents, $USER_AGENT) === false) {
+     echo "<script>console.log('not a user agent')</script>";
+   }
+   else {
+     echo "<script>console.log('YES a user agent!!')</script>";
+   }
+ }
+ ?>
+
 </head>
 
 <script type="text/javascript">
@@ -43,7 +81,6 @@ else { document.documentElement.className = "nosvg"; }
 
 
 <body class="<?php if(isset($bodyclass)) { echo $bodyclass; }?>" <?php if (!isset($page)) { echo 'data-spy="scroll" data-target=".navbar" data-offset="50"'; } ?> style="margin: 0;" >
-
 
 
 <?php if(isset($page)) { include('nav.php'); } ?>

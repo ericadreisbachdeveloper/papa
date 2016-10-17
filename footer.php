@@ -28,25 +28,14 @@
 </script>
 
 
-
-<!-- Modernizr -->
-<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"> </script> --?>
-
-
-
-<!-- jQuery from CDN -->
-<!-- <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"> </script> -->
-
-
-
-
-
 <!-- local/Bower jQuery if needed offline -->
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/jquery.min.js"> </script>
 
 
 <!-- Bootstrap -->
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/bootstrap.min.js"> </script>
+
+
 
 
 
