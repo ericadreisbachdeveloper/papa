@@ -36,7 +36,48 @@
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/bootstrap.min.js"> </script>
 
 
-<div class="hidden"><?php $server = $_SERVER['HTTP_REFERER']; echo $server; ?></div>
+
+<!-- test Ajax contact form -->
+<?php if($page == 'testform') : ?>
+<script type="text/javascript">
+console.log('hi this is contact')
+  $("#contactform").submit(function(event){
+      event.preventDefault();
+      submitForm();
+  });
+
+  $("#contactform").validator().on("submit", function (event) {
+    if (event.isDefaultPrevented()) {
+    } else {
+      event.preventDefault();
+      submitForm();
+    }
+});
+
+  function submitForm(){
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var website = $("#website").val();
+    var clientproject = $("#clientproject").val();
+
+    $.ajax({
+        type: "POST",
+        url: "process.php",
+        data: "name=" + name + "&email=" + email + "&website=" + website + "&clientproject=" + clientproject,
+        success : function(text){
+            if (text == "success"){
+                formSuccess();
+            }
+        }
+    });
+  }
+
+  function formSuccess(){
+    $( "#msgSubmit" ).removeClass( "hidden" );
+  }
+</script>
+<?php endif; ?>
+
 
 
 <!-- Back button on Work and Pages -->
