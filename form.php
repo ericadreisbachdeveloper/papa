@@ -12,7 +12,7 @@
 
       <div class="col-md-8 col-content">
 
-        <form method="post" role="form" id="contactform" class="form -successhide">
+        <form role="form" id="contactform" class="form -successhide">
 
           <h3 class="-sectionhead -txtcenter" style="text-transform: none;">Wanna Work Together? </h3>
 
