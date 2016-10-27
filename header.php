@@ -7,15 +7,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <meta property="og:locale" content="en_US">
-<meta property="og:title" content="Erica Dreisbach | Freelance Web Designer + Developer ">
+<meta property="og:title" content="erica dreisbach | freelance web developer">
+<meta property="og:image" content="erica dreisbach | freelance web developer">
 <meta property="og:url" content="http://www.ericadreisbach.com">
-<meta property="og:site_name" content="Erica Dreisbach">
+<meta property="og:site_name" content="erica dreisbach | freelance web developer">
 <meta property="og:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="erica dreisbach | freelance web developer">
+<meta name="twitter:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>">
+<meta name="twitter:image" content="<?php if(isset($page)) { echo '../'; } ?>img/erica-dreisbach-chicago-web-developer.jpg">
 
 <meta name="description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
 
 
-<title><?php if(isset($page)) { echo $page . ' | '; } else { ;} ?>erica dreisbach | web designer + developer </title>
+<title><?php if(isset($page)) { echo $page . ' | '; } else { ;} ?>erica dreisbach | freelance web developer </title>
 
 
 
@@ -31,7 +37,7 @@
 
 <?php if(isset($page)) : ?>
  <link rel="stylesheet" type="text/css" href="../css/style.css" />
- <?php endif; ?>
+<?php endif; ?>
 
 
 

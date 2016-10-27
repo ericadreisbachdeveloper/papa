@@ -38,43 +38,76 @@
 
 
 <!-- test Ajax contact form -->
-<?php if($page == 'testform') : ?>
+<?php if(isset($testform)) : ?>
 <script type="text/javascript">
-console.log('hi this is contact')
-  $("#contactform").submit(function(event){
-      event.preventDefault();
-      submitForm();
-  });
 
-  $("#contactform").validator().on("submit", function (event) {
-    if (event.isDefaultPrevented()) {
-    } else {
-      event.preventDefault();
-      submitForm();
-    }
+
+// process the form
+$('#contactform').submit(function(event) {
+
+
+
+    // get the form data
+    // there are many ways to get this data using jQuery (you can use the class or id also)
+    var formData = {
+        'name'              : $('input[name=name]').val(),
+        'email'             : $('input[name=email]').val(),
+        'website'           : $('input[name=website]').val(),
+        'clientproject'     : $('textarea[name=clientproject]').val(),
+    };
+
+    // process the form
+    $.ajax({
+        type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
+        url         : 'process.php', // the url where we want to POST
+        data        : formData, // our data object
+        dataType    : 'json', // what type of data do we expect back from the server
+        encode      : true
+    })
+
+    // using the done promise callback
+    .done(function(data) {
+      console.log(data);
+
+      // here we will handle errors and validation messages
+       if ( ! data.success) {
+
+           // handle errors for name ---------------
+           if (data.errors.name) {
+              $('.nameerror').addClass('error');
+              $('.nameerror').innerHTML(data.errors.name);
+              $('#name').addClass('errorinput');
+           }
+           else {
+             $('.nameerror').removeClass('error');
+           }
+
+           if (data.errors.email) {
+             $('.emailerror').addClass('error');
+             $('.emailerror').innerHTML(data.errors.email);
+             $('#email').addClass('errorinput');
+           }
+           else {
+             $('.emailerror').removeClass('error');
+           }
+
+           if (data.errors.clientproject) {
+             $('.clientprojecterror').addClass('error');
+             $('.clientprojecterror').html(data.errors.clientproject);
+             $('#clientproject').addClass('errorinput');
+           }
+           else {
+             $('.clientprojecterror').removeClass('error');
+           }
+         }
+
+    });
+
+    event.preventDefault();
 });
 
-  function submitForm(){
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var website = $("#website").val();
-    var clientproject = $("#clientproject").val();
 
-    $.ajax({
-        type: "POST",
-        url: "process.php",
-        data: "name=" + name + "&email=" + email + "&website=" + website + "&clientproject=" + clientproject,
-        success : function(text){
-            if (text == "success"){
-                formSuccess();
-            }
-        }
-    });
-  }
 
-  function formSuccess(){
-    $( "#msgSubmit" ).removeClass( "hidden" );
-  }
 </script>
 <?php endif; ?>
 

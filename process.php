@@ -1,33 +1,41 @@
 <?php
-$name = $_POST["name"];
-$email = $_POST["email"];
-$website = $_POST["website"];
-$clientproject = $_POST["clientproject"];
+// process.php
 
-$EmailTo = "erica@ericadreisbach.com";
-$Subject = "web design/development";
+$errors         = array();      // array to hold validation errors
+$data           = array();      // array to pass back data
 
-// prepare email body text
-$Body .= "Name: ";
-$Body .= $name;
-$Body .= "\n";
+// validate the variables ======================================================
+    // if any of these variables don't exist, add an error to our $errors array
 
-$Body .= "Email: ";
-$Body .= $email;
-$Body .= "\n";
+    if (empty($_POST['name'])) {
+        $errors['name'] = 'Name is required.';
+    }
 
-$Body .= "Message: ";
-$Body .= $message;
-$Body .= "\n";
+    if (empty($_POST['email'])) {
+      $errors['email'] = 'Email is required.';
+    }
 
-// send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
+    if (empty($_POST["clientproject"])) {
+        $errors['clientproject'] = 'Say a little something about your project. Do you need a new site? <br />Perhaps a redesign of an existing site?';
+    }
 
-// redirect to success page
-if ($success){
-   echo "success";
-} else{
-    echo "invalid";
-}
+
+
+    // if there are any errors in our errors array, return a success boolean of false
+    if ( ! empty($errors)) {
+
+        // if there are items in our errors array, return those errors
+        $data['success'] = false;
+        $data['errors']  = $errors;
+
+    } else {
+
+        // if there are no errors process our form, then return a message
+        $data['success'] = true;
+        $data['message'] = 'Success!';
+    }
+
+    // return all our data to an AJAX call
+    echo json_encode($data);
 
 ?>

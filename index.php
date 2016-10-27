@@ -1,4 +1,4 @@
-<?php $bodyclass = 'home'; $metadescription = 'Portfolio for Chicago-based web designer and developer Erica Dreisbach. Specializing in Wordpress and Bootstrap.'; include('header.php'); ?>
+<?php $bodyclass = 'home'; $metadescription = 'Portfolio for Chicago-based web developer Erica Dreisbach. Specializing in Wordpress and Bootstrap.'; include('header.php'); ?>
 
 
 
@@ -6,7 +6,7 @@
   <div class="container-fluid-width -displaytable">
     <div class="container -displaytablecell" style="">
         <h1 class="-pagehead">erica dreisbach </h1>
-        <h2 class="-pagesubhead">web designer +&nbsp;developer </h2>
+        <h2 class="-pagesubhead">web developer </h2>
     </div>
   </div>
 </section>
@@ -172,7 +172,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="sugarglen" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web designer Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web developer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web developer Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Sugar Glen Farm </h3>
           <h4 class="-workdescrip">Wordpress blog </h4>
@@ -203,7 +203,7 @@
 
       <div class="col-md-10 col-content">
         <h2 class="-sectionhead">Hello! </h2>
-        <p class="p">I'm a freelance web designer and developer based in Chicago, working on projects from all over the US. I've built websites for clients in New York, Portland (Oregon), Boston, San Francisco, Los Angeles, South Carolina, and here in&nbsp;Chicago. </p>
+        <p class="p">I'm a freelance web&nbsp;developer based in Chicago, working on projects from all over the US. I've built websites for clients in New York, Portland (Oregon), Boston, San Francisco, Los Angeles, South Carolina, and here in&nbsp;Chicago. </p>
         <p class="p">My obsessive email habit plus phone or Skype conferences as needed combine for an optimal remote working&nbsp;relationship. </p>
         <p class="p">I'm also available for on-site work in Chicago and Evanston. Especially if you have&nbsp;coffee. </p>
 

@@ -3,8 +3,6 @@
 ------------------------ */
 
 
-
-
 .socialmedia {   // ul
   list-style-type: none;
   margin: 0;
@@ -45,6 +43,21 @@
     background: red;
     padding-left: .3em;
     @include placeholder { color: $halfblack; }
+  }
+}
+
+.nameerror,
+.emailerror,
+.clientprojecterror {
+  @include opacity(0);
+  color: red;
+  font-size: 1.8rem;
+  font-style: italic;
+  @include transition(opacity,.2s,ease);
+
+  &.error {
+    @include opacity(1);
+    @include transition(opacity,.2s,ease);
   }
 }
 

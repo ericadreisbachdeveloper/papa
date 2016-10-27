@@ -70,8 +70,8 @@
 }
 
 @mixin opacity($opac) {
-	opacity: $opac !important;
-   filter: alpha(opacity= $opac * 100 ) !important; /* For IE8 and earlier */
+	opacity: $opac;
+   filter: alpha(opacity= $opac * 100 ); /* For IE8 and earlier */
 }
 
 @mixin translatey($y) {

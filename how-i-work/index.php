@@ -49,6 +49,13 @@
 
       <div class="col-md-8 col-content">
 
+
+        <div class="qna">
+          <p class="p q">Do you do design? </p>
+          <p class="p">I &ldquo;can&rdquo; do design, but I find that my clients and I are happier when we implement a design produced by a talented graphic designer and user interface architect, or work off an existing design theme. That said, I'm fluent in the full Adobe Creative Suite and am just as versatile making adjustments to a PSD as I am updating&nbsp;code. </p>
+        </div><!-- /.qna -->
+
+
         <div class="qna">
           <p class="p q">Who are your clients? </p>
           <p class="p">All sorts! I've produced work for large companies, nonprofits, small shops, solo practioners, bloggers, and&nbsp;more. </p>
@@ -80,6 +87,11 @@
         <div class="qna">
           <p class="p q">What do you post on Twitter? </p>
           <p class="p">Follow <a href="http://www.twitter.com/ericadreisbach" target="_blank" class="a">@ericadreisbach</a> and <a href="http://www.twitter.com/darkblackllc" target="_blank" class="a">@darkblackllc</a> on Twitter where I post my favorite web design links and resources! Check it out if you're interested. Also, if you follow me on Twitter, then unlike Spinoza's twitter, I will follow you&nbsp;back. </p>
+        </div><!-- /.qna -->
+
+        <div class="qna">
+          <p class="p q">Will you tutor me in how to build a website? </p>
+          <p class="p">No. </p>
         </div><!-- /.qna -->
 
         <div class="qna">
