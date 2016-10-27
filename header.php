@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="erica dreisbach | freelance web developer">
 <meta name="twitter:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>">
-<meta name="twitter:image" content="<?php if(isset($page)) { echo '../'; } ?>img/erica-dreisbach-chicago-web-developer.jpg">
+<meta name="twitter:image" content="https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-chicago-web-developer.jpg">
 
 <meta name="description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
 
