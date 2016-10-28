@@ -14,9 +14,11 @@
 
         <div id="success" class="-large -text-center -vertical-middle"> </div>
 
-        <form method="POST" role="form" id="contactform" class="form">
+        <form id="contactform" method="POST" action="mailer.php" role="form" class="form">
 
           <h3 class="-sectionhead -txtcenter" style="text-transform: none;">Wanna Work Together? </h3>
+
+          <div id="form-messages" class="-error"> </div>
 
           <fieldset class="form-group row">
             <div class="col-md-6">
@@ -33,12 +35,12 @@
             </div>
           </fieldset>
 
-
+          <!--
           <fieldset class="form-group">
             <label class="control-label sr-only" for="website">Website <span class="-small">(if you have one)</span></label>
-            <input name="website" id="website" type="text" maxlength="80" class="form-control <?php echo $websiteErrCode;?>"  placeholder="Website (if you have one)" value="<?php echo $website;?>">
-            <p class="websiteerror"> <?php echo $websiteErr;?></p>
-          </fieldset>
+            <input name="website" id="website" type="text" maxlength="80" class="form-control <?php //echo $websiteErrCode;?>"  placeholder="Website (if you have one)" value="<?php //echo $website;?>">
+            <p class="websiteerror"> <?php// echo $websiteErr;?></p>
+          </fieldset> -->
 
           <!-- detect referrer -->
           <?php /*if (!empty($_SERVER['HTTP_REFERER']) && $_SERVER['HTTP_REFERER'] == 'https://www.google.com/') {
@@ -53,9 +55,9 @@
             <p class="pform">In a few sentences, describe your project. <br />
               <span class="small"><em>Limit: 300 characters</em> </span>
             </p>
-            <p class="clientprojecterror"> <?php echo $clientprojectErr; ?></p>
+            <p class="messageerror"> <?php echo $messageErr; ?></p>
 
-            <textarea id="clientproject" name="clientproject" class="textarea form-control" rows="4" maxlength="300"><?php echo $clientproject;?></textarea>
+            <textarea id="message" name="message" class="textarea form-control" rows="4" maxlength="300"><?php echo $message;?></textarea>
           </fieldset>
 
 
@@ -85,89 +87,53 @@ $(document).ready(function(){
 });
 
 
+$(function() {
 
-$('#contactform').submit(function(event) {
+  var form = $('#contactform');
+  var formMessages = $('#form-messages');
 
-    // get the form data
-    // there are many ways to get this data using jQuery (you can use the class or id also)
-    var formData = {
-        'name'              : $('input[name=name]').val(),
-        'email'             : $('input[name=email]').val(),
-        'clientproject'     : $('textarea[name=clientproject]').val(),
-    };
+  $(form).submit(function(event) {
+    event.preventDefault();
 
-    // process the form
+    var formData = $(form).serialize();
+
     $.ajax({
-        type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
-        url         : 'process.php', // the url where we want to POST
-        data        : formData, // our data object
-        dataType    : 'json', // what type of data do we expect back from the server
-        encode      : true
+      type: 'POST',
+      url: $(form).attr('action'),
+      data: formData
     })
 
-    // using the done promise callback
-    .done(function(data) {
-      console.log(data);
+    .done(function(response) {
+      $(formMessages).removeClass('error');
+      $(formMessages).addClass('success');
 
-       if ( ! data.success) {
+      $(formMessages).text(response);
 
-           if (data.errors.name) {
-              $('.nameerror').addClass('error');
-              $('.nameerror').html(data.errors.name);
-              $('#name').addClass('errorinput');
-           }
-           else {
-             $('.nameerror').removeClass('error');
-             $('.nameerror').html('');
-             $('#name').removeClass('errorinput');
-           }
+      $('#contactform').fadeOut(function(){
+        $('#success').html('Thank you! We&rsquo;ll review your message and get back to you soon.')
+      });
 
-           if (data.errors.email) {
-             $('.emailerror').addClass('error');
-             $('.emailerror').html(data.errors.email);
-             $('#email').addClass('errorinput');
-           }
-           else {
-             $('.emailerror').removeClass('error');
-             $('.emailerror').html('');
-             $('#email').removeClass('errorinput');
-           }
-
-           if (data.errors.clientproject) {
-             $('.clientprojecterror').addClass('error');
-             $('.clientprojecterror').html(data.errors.clientproject);
-             $('#clientproject').addClass('errorinput');
-           }
-           else {
-             $('.clientprojecterror').removeClass('error');
-             $('.clientprojecterror').html('');
-             $('#clientproject').removeClass('errorinput');
-           }
-         }
+    })
 
 
-         else {
-           $('.nameerror').removeClass('error');
-           $('.nameerror').html('');
-           $('#name').removeClass('errorinput');
+    .fail(function(data) {
+      $(formMessages).removeClass('success');
+      $(formMessages).addClass('error');
 
-           $('.emailerror').removeClass('error');
-           $('.emailerror').html('');
-           $('#email').removeClass('errorinput');
-
-           $('.clientprojecterror').removeClass('error');
-           $('.clientprojecterror').html('');
-           $('#clientproject').removeClass('errorinput');
-
-           $('#contactform').fadeOut(function(){
-             $('#success').html('Thank you! I&rsquo;ll review your message and get back to you soon.');
-           });
-         }
+      if (data.responseText !== '') {
+        $(formMessages).text(data.responseText);
+      } else {
+        $(formMessages).text('Oops! An error occured and your message could not be sent.');
+      }
     });
 
-    event.preventDefault();
-    submitForm();
+  });
+
 });
+
+
+
+
 
 
 
