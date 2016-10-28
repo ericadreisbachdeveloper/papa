@@ -7,6 +7,10 @@ body {
   font-family: serif;
 }
 
+.-vertical-middle {
+  @include -vertical-middle;
+}
+
 .-displaytable {
   display: table;
   width: 100%;
@@ -130,7 +134,8 @@ img:not([src]){
 }
 
 
-.-txtcenter {
+.-txtcenter,
+.-text-center {
   text-align: center;
 }
 
