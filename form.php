@@ -163,7 +163,6 @@ $('#contactform').submit(function(event) {
              $('#success').html('Thank you! I&rsquo;ll review your message and get back to you soon.');
            });
          }
-
     });
 
     event.preventDefault();

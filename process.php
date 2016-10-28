@@ -4,9 +4,6 @@
 $errors         = array();      // array to hold validation errors
 $data           = array();      // array to pass back data
 
-// validate the variables ======================================================
-    // if any of these variables don't exist, add an error to our $errors array
-
     if (empty($_POST['name'])) {
         $errors['name'] = 'Name is required.';
     }
@@ -20,22 +17,32 @@ $data           = array();      // array to pass back data
     }
 
 
-
-    // if there are any errors in our errors array, return a success boolean of false
     if ( ! empty($errors)) {
-
-        // if there are items in our errors array, return those errors
         $data['success'] = false;
         $data['errors']  = $errors;
 
     } else {
-
-        // if there are no errors process our form, then return a message
         $data['success'] = true;
         $data['message'] = 'Success!';
+
+        // If all required values exist, send the email
+        $name = $_REQUEST['name'] ;
+        $email = $_REQUEST['email'] ;
+        $website = $_REQUEST['website'] ;
+        /* $searchterms = $_REQUEST['searchterms'] ; */
+        $clientproject = $_REQUEST['clientproject'] ;
+
+        $message = 'From: ' . $name . ' ' . $email . ' ' . ' ' . $website . '
+
+       ';
+        $message = 'Search terms: ' . $searchterms . '
+
+       ';
+        $message .= $clientproject;
+
+        mail('erica@ericadreisbach.com', 'web design/development', $message, 'From:' . $name . '<' . $email . '>');
     }
 
-    // return all our data to an AJAX call
     echo json_encode($data);
 
 ?>
