@@ -11,6 +11,6 @@ Disallow: /niek/
 Disallow: /savorynav/
 Disallow: /thesocialheir/
 Disallow: /zebra/
-
+Disallow: form.php
 
 Crawl-delay: 10
