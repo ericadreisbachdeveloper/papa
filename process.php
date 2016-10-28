@@ -22,6 +22,7 @@ $data           = array();      // array to pass back data
         $data['errors']  = $errors;
 
     } else {
+
         $data['success'] = true;
         $data['message'] = 'Success!';
 
