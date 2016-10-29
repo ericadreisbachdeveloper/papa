@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message = 'From: ' . $name . ' ' . $email . ' ' . ' ' . $website . '
 
 ';
-  $message = 'Search terms: ' . $searchterms . '
+  $message .= 'Search terms: ' . $searchterms . '
 
 ';
   $message .= $clientproject;

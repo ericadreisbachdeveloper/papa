@@ -13,18 +13,22 @@
             exit;
         }
 
+        //$name = $_REQUEST['name'] ;
+        //$email = $_REQUEST['email'] ;
+        //$website = $_REQUEST['website'] ;
+        //$searchterms = $_REQUEST['searchterms'] ;
+        //$message = $_REQUEST['message'] ;
 
-        $recipient = "erica@ericadreisbach.com";
-        $subject = "web development project";
+        $emailbody = 'From: ' . $name . ' ' . $email . '
 
-        $email_content = "Name: $name\n";
-        $email_content .= "Email: $email\n\n";
-        $email_content .= "Message:\n$message\n";
+      ';
+        $emailbody .= 'Search terms: ' . $searchterms . '
 
-        $email_headers = "From: $name <$email>";
+      ';
+        $emailbody .= $message;
 
-        if (mail($recipient, $subject, $email_content, $email_headers)) {
-            http_response_code(200);
+        if (mail('erica@ericadreisbach.com', 'web development project', $emailbody, 'From:' . $name . '<' . $email . '>')) {
+          http_response_code(200);
         } else {
             http_response_code(500);
             echo "Oops! Something went wrong and we couldn't send your message.";
