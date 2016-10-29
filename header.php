@@ -8,7 +8,7 @@
 
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="erica dreisbach | freelance web developer">
-<meta property="og:image" content="https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-chicago-web-developer.jpg">
+<meta property="og:image" content="erica dreisbach | freelance web developer">
 <meta property="og:url" content="http://www.ericadreisbach.com">
 <meta property="og:site_name" content="erica dreisbach | freelance web developer">
 <meta property="og:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>">
