@@ -6,17 +6,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<meta property="og:locale" content="en_US">
-<meta property="og:title" content="erica dreisbach | freelance web developer">
-<meta property="og:image" content="https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-chicago-web-developer.jpg">
-<meta property="og:url" content="http://www.ericadreisbach.com">
-<meta property="og:site_name" content="erica dreisbach | freelance web developer">
-<meta property="og:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>">
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="erica dreisbach | freelance web developer" />
+<meta property="og:image" content="https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-chicago-web-developer.jpg" />
+<meta property="og:url" content="http://www.ericadreisbach.com" />
+<meta property="og:site_name" content="erica dreisbach | freelance web developer" />
+<meta property="og:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="erica dreisbach | freelance web developer">
-<meta name="twitter:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>">
-<meta name="twitter:image" content="https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-chicago-web-developer.jpg">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="erica dreisbach | freelance web developer" />
+<meta name="twitter:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
+<meta name="twitter:image" content="https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-chicago-web-developer.jpg" />
 
 <meta name="description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
 
