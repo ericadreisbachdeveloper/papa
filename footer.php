@@ -28,6 +28,7 @@
 </script>
 
 
+
 <!-- jQuery -->
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/jquery.min.js"> </script>
 
@@ -72,9 +73,7 @@ $(document).ready(function(){
 
 
 
-<!-- home-specific javascript
-    1. home cooked stuff
--->
+<!-- home cooked stuff -->
 <?php if($bodyclass == home) : ?>
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/papa.min.js"></script>
 <?php endif; ?>
