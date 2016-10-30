@@ -19,7 +19,7 @@
       <img class="owl-lazy" data-src="../img/educare-mobile.jpg" alt="Educare | mobile web development by Chicago freelance web developer erica dreisbach" title="Educare | mobile web development by Chicago freelance web developer erica dreisbach" />
 
       <img class="owl-lazy" data-src="../img/educare-home-one.jpg" alt="Educare | homepage | web development by erica dreisbach" title="Educare | homepage | web development by erica dreisbach" />
-      
+
       <img class="owl-lazy" data-src="../img/educare-tulsa.jpg" alt="Educare | Tulsa schools | custom Wordpress theme by erica dreisbach" title="Educare | Tulsa schools | custom Wordpress theme by erica dreisbach" />
 
       <img class="owl-lazy" data-src="../img/educare-news.jpg" alt="Educare | News | advanced custom fields and custom post types implemented by erica dreisbach" title="Educare | News | advanced custom fields and custom post types implemented by erica dreisbach" />
@@ -33,12 +33,12 @@
 <section class="description-section">
   <h2 class="hidden">Description of Web Development Work </h2>
   <div class="container">
+    <!--
     <div class="row">
       <div class="col-md-12">
         <p class="p -txtcenter -bigpadding"><a href="http://www.communicatorawards.com/winners/list/?l=O&event=11&category=8&award=E" target="_blank" class="-ghost -naturalsize">WINNER - Annual Communicator Award of&nbsp;Excellence</a> <br /><br /></p>
       </div>
-
-    </div>
+    </div> -->
 
     <div class="row">
       <div class="col-md-2"> </div>
