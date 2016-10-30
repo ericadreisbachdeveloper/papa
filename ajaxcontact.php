@@ -32,7 +32,7 @@
   </fieldset>
 
   <fieldset class="form-group norow">
-    <label for="Captcha" class="sr-only">What pet says &ldquo;meow&rdquo;? (3 letters) </label>
+    <label for="captcha" class="sr-only">What pet says &ldquo;meow&rdquo;? (3 letters) </label>
     <input type="text" name="captcha" value="" size="5" class="form-control" placeholder="What pet says &ldquo;meow&rdquo;? (3 letters)" required />
   </fieldset>
 

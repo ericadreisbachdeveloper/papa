@@ -5,7 +5,7 @@
 <?php else :?>
 <nav class="navbar navbar-default" data-spy="affix" data-offset-top="">
 <?php endif; ?>
-  <a href="#maincontent" class="offscreen">Skip Navigation </a>
+  <a href="#maincontent" class="sr-only">Skip Navigation </a>
   <div class="container nav-container">
 
     <div class="navbar-header">
