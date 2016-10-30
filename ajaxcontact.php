@@ -37,7 +37,7 @@
   <fieldset class="form-group norow">
     <legend class="sr-only">Captcha</legend>
     <label for="captcha" class="sr-only">What pet says &ldquo;meow&rdquo;? (3 letters) </label>
-    <input title="captcha" type="text" name="captcha" value="" size="5" class="form-control" placeholder="What pet says &ldquo;meow&rdquo;? (3 letters)" required />
+    <input id="captcha" name="captcha" type="text" value="" size="5" class="form-control" placeholder="What pet says &ldquo;meow&rdquo;? (3 letters)" required />
   </fieldset>
 
   <input type="submit" id="submit" name="submit" value="Send" class="-ghost -naturalsize">
