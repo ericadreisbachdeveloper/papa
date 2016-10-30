@@ -172,7 +172,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="sugarglen" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sugarglen.jpg" alt="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web developer Erica Dreisbach" title="Sugar Glen Farm | blog for Wordpress | design and development by Chicago freelance web developer Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sugarglen.jpg" alt="Sugar Glen Farm | Wordpress blog developed by Erica Dreisbach" title="Sugar Glen Farm | bWordpress blog developed by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Sugar Glen Farm </h3>
           <h4 class="-workdescrip">Wordpress blog </h4>
@@ -318,9 +318,9 @@
       <div class="col-md-2"> </div>
       <div class="col-md-8 col-content -txtcenter">
         <ul class="socialmedia -txtcenter">
-          <li class="li"><a class="b" href="http://www.twitter.com/ericadreisbach/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li class="li"><a class="b" href="http://www.github.com/rockygulliver" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-          <li class="li"><a class="b" href="http://www.linkedin.com/in/ericadreisbach" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li class="li"><a class="b" href="http://www.twitter.com/ericadreisbach/" target="_blank"><span class="sr-only">Twitter</span><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="li"><a class="b" href="http://www.github.com/rockygulliver" target="_blank"><span class="sr-only">GitHub</span><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li class="li"><a class="b" href="http://www.linkedin.com/in/ericadreisbach" target="_blank"><span class="sr-only">LinkedIn</span><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         </ul>
       </div>
       <div class="col-md-2"> </div>

@@ -27,6 +27,7 @@
     </p>
     <p class="messageerror"> <?php echo $messageErr; ?></p>
 
+    <label for="message" class="sr-only">Message </label>
     <textarea id="message" name="message" class="textarea form-control" rows="4" maxlength="300"></textarea>
   </fieldset>
 
