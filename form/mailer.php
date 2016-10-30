@@ -1,17 +1,19 @@
 
 <?php
     $to = "rockygulliver@mail.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
+    $from = "daemon@ericadreisbach.com";
+    $name = "mailer daemon";
     $headers = "From:$name<$from>";
     $subject = "web development project";
-    $fields = array();
+    /* $fields = array();
     $fields{"name"} = "name";
     $fields{"email"} = "email";
     $fields{"website"} = "website";
-    $fields{"message"} = "message";
-    $body = "Website: " . $_REQUEST['website'] . '
+    $fields{"message"} = "message"; */
+    $body = 'Name : ' . _$REQUEST["name"] . '
+' . 'Email: ' . _$REQUEST["email"] . '
+' . 'Website: ' . $_REQUEST['website'] . '
 
-    ' . $_REQUEST['message'];
+' . $_REQUEST['message'];
     $send = mail($to, $subject, $body, $headers);
 ?>
