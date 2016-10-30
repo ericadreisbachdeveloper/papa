@@ -12,8 +12,8 @@
     $fields{"message"} = "message"; */
     $body = 'Name : ' . _$REQUEST["name"] . '
 ' . 'Email: ' . _$REQUEST["email"] . '
-' . 'Website: ' . $_REQUEST['website'] . '
+' . 'Website: ' . $_REQUEST["website"] . '
 
-' . $_REQUEST['message'];
+' . $_REQUEST["message"];
     $send = mail($to, $subject, $body, $headers);
 ?>
