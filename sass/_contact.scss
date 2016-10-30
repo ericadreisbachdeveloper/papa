@@ -19,9 +19,12 @@
   padding-bottom: 3em;
 }
 
+fieldset.form-group.row > .col-md-6,
+fieldset.form-group.norow { position: relative; padding-bottom: 2em; }
+
 .form-group {
   margin-bottom: 0;
-  padding-bottom: 1em;
+  padding-bottom: 0;
 }
 
 .form-control {
@@ -39,26 +42,26 @@
   @include box-shadow(inset,0,0,0,transparent);
   @include placeholder { color: $halfblack; font-style: italic; }
 
-  &.errorinput {
+  &.error {
+    background: red;
+    color: black;
+    @include placeholder { color: black; }
+  }
+
+  /*&.errorinput {
     background: red;
     padding-left: .3em;
     @include placeholder { color: $halfblack; }
-  }
+  } */
 }
 
-.nameerror,
-.emailerror,
-.clientprojecterror {
-  @include opacity(0);
-  color: red;
-  font-size: 1.8rem;
+label.error {
+  padding-top: .2em;
+  font-weight: 400;
   font-style: italic;
-  @include transition(opacity,.2s,ease);
-
-  &.error {
-    @include opacity(1);
-    @include transition(opacity,.2s,ease);
-  }
+  color: red;
+  position: absolute;
+   bottom: 0;
 }
 
 .pform {
@@ -82,6 +85,8 @@
 }
 
 
+
+/*
 #thankyou {
   font-size: 4rem;
   line-height: 1;
@@ -92,3 +97,4 @@
   display: block;
   margin: 0 auto;
 }
+*/

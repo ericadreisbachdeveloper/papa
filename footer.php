@@ -33,8 +33,91 @@
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/jquery.min.js"> </script>
 
 
+
 <!-- Bootstrap -->
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/bootstrap.min.js"> </script>
+
+
+
+<!-- Contact validation -->
+<?php if($bodyclass == 'home') : ?>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"> </script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"> </script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  // set contact form wrapper height inline so that success message is vertically aligned: middle
+  var contacth = $('#contactform').height();
+  $('#contactformwrapper').height(contacth);
+  //console.log(contacth)
+
+});
+
+jQuery.validator.addMethod('answercheck', function (value, element) {
+        return this.optional(element) || /^\bcat\b$/.test(value);
+    }, "HINT: it rhymes with &ldquo;hat&rdquo;");
+
+// validate contact form
+$(function() {
+    $('#contactform').validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 2
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            message: {
+                required: true
+            },
+            captcha: {
+                required: true,
+                answercheck: true
+            }
+        },
+        messages: {
+            name: {
+                //required: "come on, you have a name don't you?",
+                //minlength: "your name must consist of at least 2 characters"
+            },
+            email: {
+                //required: "no email, no message"
+            },
+            message: {
+                //required: "um...yea, you have to write something to send this form.",
+                //minlength: "thats all? really?"
+            },
+            answer: {
+                //required: "sorry, wrong answer!"
+            }
+        },
+        submitHandler: function(form) {
+            $(form).ajaxSubmit({
+                type:"POST",
+                data: $(form).serialize(),
+                url:"mailer.php",
+                success: function() {
+                    $('#contactform :input').attr('disabled', 'disabled');
+
+                    $('#contactform').fadeOut(function() {
+                        $('#success').html('Thank you! I&rsquo;ll read your message and get back to you soon.');
+                    });
+                },
+                error: function() {
+                    $('#contactform').fadeTo( "slow", 0.15, function() {
+                        $('#validation').text('Something went wrong. Try refreshing and resubmitting.');
+                    });
+                }
+            });
+        }
+    });
+});
+
+</script>
+<?php endif; ?>
 
 
 

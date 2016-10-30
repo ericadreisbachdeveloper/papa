@@ -53,7 +53,7 @@ label.error {
         <div id="success" class="-large -text-center -vertical-middle"> </div>
 
 
-        <form id="contactform" name="contact" method="post" style="position: relative;">
+        <form id="contact" name="contact" method="post" style="position: relative;">
 
           <h3 class="-sectionhead -txtcenter -large" style="text-transform: none; margin-top: 0;">Wanna Work Together? </h3>
 

@@ -296,13 +296,15 @@
     <div class="row">
       <div class="col-md-2"> </div>
 
-      <div class="col-md-8 col-content">
-
-        <a id="contactform" class="anchor" style="display: block; padding-bottom: 5em;"> </a>
+      <div id="contactformwrapper" class="col-md-8 col-content">
 
 
-        <?php include('simplecontact.php'); ?>
+        <div id="success" class="-large -text-center -vertical-middle"> </div>
 
+
+        <?php include('ajaxcontact.php'); ?>
+
+        <?php //include('simplecontact.php'); ?>
 
         <?php //include('contact.php'); ?>
 
