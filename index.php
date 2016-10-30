@@ -142,7 +142,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="savory" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-savory.jpg" alt="Savory Living homepage slideshow - a woman stands in front of an open refrigerator filled with fresh produce" title="Savory Living | web design by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-savory.jpg" alt="Savory Living homepage - a woman looks at a refrigerator filled with fresh produce" title="Savory Living | web design by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Savory Living </h3>
           <h4 class="-workdescrip">design &amp; development </h4>
@@ -172,7 +172,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="sugarglen" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sugarglen.jpg" alt="Sugar Glen Farm blog mobile screenshots" title="Sugar Glen Farm | bWordpress blog developed by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sugarglen.jpg" alt="Sugar Glen Farm blog mobile screenshots" title="Sugar Glen Farm | Wordpress blog developed by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Sugar Glen Farm </h3>
           <h4 class="-workdescrip">Wordpress blog </h4>

@@ -16,7 +16,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?php echo $homedir; ?>">
-        <img class="navbar-logo" src="https://s3.amazonaws.com/darkblack-papa/logo.svg" alt="Erica Dreisbach | Chicago Web Developer" title="Erica Dreisbach | Chicago Web Developer" />
+        <img class="navbar-logo" src="https://s3.amazonaws.com/darkblack-papa/logo.svg" alt="logo for Erica Dreisbach | freelance Chicago web developer" title="Erica Dreisbach | Chicago Web Developer" />
         <span class="navbar-name">ericadreisbach</span></a>
     </div>
 
