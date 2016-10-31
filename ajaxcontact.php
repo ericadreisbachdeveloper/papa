@@ -1,6 +1,8 @@
 <form id="contactform" name="contact" method="post" style="position: relative;">
 
-  <h3 class="-sectionhead -txtcenter -large" style="text-transform: none; margin-top: 0;">Wanna Work Together? </h3>
+  <h3 class="-contactsectionhead -sectionhead -txtcenter -large">Wanna Work Together? </h3>
+
+  <p class="-contactp -text-center">Recruiters <a class="a" href="https://twitter.com/actualrecruiter" target="_blank">click&nbsp;here</a>.</p>
 
   <div id="validation" style="width: 100%; text-align: center; color: red; font-size: 2rem; font-style: italic; position: absolute; top: 3em;"> </div>
 

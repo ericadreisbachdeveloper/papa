@@ -46,8 +46,6 @@
     float: right;
   }
 
-
-
   .septagon {
     background-attachment: fixed;
     -webkit-clip-path: polygon(100% 0, 100% 97%, 52% 97%, 50% 100%, 48% 97%, 0 97%, 0 0);
@@ -84,6 +82,11 @@
   .home .-pagesubhead {
     font-size: 5rem;     // h2
   }
+
+  .home .-contactsectionhead.-sectionhead{
+    padding-top: 0;
+  }
+
 
   .work, .page {
     .-pagehead {
