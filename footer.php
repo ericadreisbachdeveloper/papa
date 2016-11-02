@@ -103,7 +103,7 @@ $(function() {
                     $('#contactform :input').attr('disabled', 'disabled');
 
                     $('#contactform').fadeOut(function() {
-                        $('#success').html('Thank you! If your project sounds like a good fit, I&rsquo;, I&lsquo;ll get back to you soon.');
+                        $('#success').html('Thank you! If your project sounds like a good&nbsp;fit, I&lsquo;ll get back to you soon.');
                     });
                 },
                 error: function() {
