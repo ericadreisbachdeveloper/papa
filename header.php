@@ -8,7 +8,7 @@
 
 <meta property="og:locale" content="en_US" />
 <meta property="og:title" content="erica dreisbach | freelance web developer" />
-<meta property="og:image" content="<?php if(isset($ogimg)) { echo $ogimg; } else { echo ' https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-freelance-chicago-web-developer.jpg'; } ?> " />
+<meta property="og:image" content="<?php if(isset($ogimg)) { echo $ogimg; } else { echo ' https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-freelance-chicago-web-developer.jpg'; } ?>" />
 <meta property="og:url" content="http://www.ericadreisbach.com" />
 <meta property="og:site_name" content="erica dreisbach | freelance web developer" />
 <meta property="og:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="<?php if(isset($page)) { echo $page . ' | '; } ?>erica dreisbach | freelance web developer" />
 <meta name="twitter:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
-<meta name="twitter:image" content="<?php if(isset($ogimg)) { echo $ogimg; } else { echo ' https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-freelance-chicago-web-developer.jpg'; } ?> " />
+<meta name="twitter:image" content="<?php if(isset($ogimg)) { echo $ogimg; } else { echo ' https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-freelance-chicago-web-developer.jpg'; } ?>" />
 
 <meta name="description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
 
