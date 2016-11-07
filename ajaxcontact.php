@@ -9,13 +9,13 @@
   <fieldset class="form-group row">
     <legend class="sr-only">Contact Details</legend>
     <div class="col-md-6">
-      <label for="name" class="sr-only">Name* </label>
-      <input type="text" name="name" id="name" size="30" value="" class="form-control" placeholder="Name*" required/>
+      <label for="name" class="sr-only">Name </label>
+      <input type="text" name="name" id="name" size="30" value="" class="form-control" placeholder="Name" required/>
     </div>
 
     <div class="col-md-6">
-      <label for="email" class="sr-only">Email* </label>
-      <input type="text" name="email" id="email" size="30" value="" class="form-control" placeholder="Email*" required />
+      <label for="email" class="sr-only">Email </label>
+      <input type="text" name="email" id="email" size="30" value="" class="form-control" placeholder="Email" required />
     </div>
   </fieldset>
 
@@ -27,7 +27,7 @@
 
   <fieldset class="form-group norow">
     <legend class="sr-only">Project Details</legend>
-    <p class="pform">In a few sentences, tell me what's&nbsp;up.* <br />
+    <p class="pform">In a few sentences, tell me about your&nbsp;project. <br />
       <span class="small"><em>Limit: 300 characters</em> </span>
     </p>
     <p class="messageerror"> <?php echo $messageErr; ?></p>
