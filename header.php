@@ -14,9 +14,9 @@
 <meta property="og:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="erica dreisbach | freelance web developer" />
+<meta name="twitter:title" content="<?php if(isset($page)) { echo $page . ' | '; } ?>erica dreisbach | freelance web developer" />
 <meta name="twitter:description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
-<meta name="twitter:image" content="https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-freelance-chicago-web-developer.jpg" />
+<meta name="twitter:image" content="<?php if(isset($ogimg)) { echo $ogimg; } else { echo ' https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-freelance-chicago-web-developer.jpg'; } ?> " />
 
 <meta name="description" content="<?php if(isset($metadescription)) { echo $metadescription; } ?>" />
 

@@ -2,7 +2,7 @@
 
   <h3 class="-contactsectionhead -sectionhead -txtcenter -large">Wanna Work Together? </h3>
 
-  <p class="-contactp -text-center">Recruiters <a class="a" href="https://twitter.com/actualrecruiter" target="_blank">click&nbsp;here</a>.</p>
+  <p class="p -text-center" style="margin-top: 1.5em; margin-bottom: 2em; line-height: 1.6;">Projects start at $575. Need it cheaper? <a class="a" href="cheap">Click&nbsp;here</a>. <br />Recruiters <a class="a" href="https://twitter.com/actualrecruiter" target="_blank">click&nbsp;here</a>.</p>
 
   <div id="validation" style="width: 100%; text-align: center; color: red; font-size: 2rem; font-style: italic; position: absolute; top: 3em;"> </div>
 
@@ -27,7 +27,7 @@
 
   <fieldset class="form-group norow">
     <legend class="sr-only">Project Details</legend>
-    <p class="pform">In a few sentences, describe your project.* <br />
+    <p class="pform">In a few sentences, tell me what's&nbsp;up.* <br />
       <span class="small"><em>Limit: 300 characters</em> </span>
     </p>
     <p class="messageerror"> <?php echo $messageErr; ?></p>
