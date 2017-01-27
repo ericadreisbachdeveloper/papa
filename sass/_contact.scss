@@ -3,6 +3,22 @@
 ------------------------ */
 
 
+.contact-section {
+  height: calc(100vh - 3em);
+
+  &> .container {
+    position: relative;
+     top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+  }
+
+  .p {
+    padding-bottom: 5em;
+  }
+}
+
+
 .socialmedia {   // ul
   list-style-type: none;
   margin: 0;

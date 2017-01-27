@@ -303,7 +303,7 @@
 
         <h3 class="-contactsectionhead -large -txtcenter">You've found me <br />at a particularly busy&nbsp;time. </h3>
 
-        <p class="p -txtcenter">I'm booked full-time into April 2017. <br />If your project is a good one and can wait, <br />you're welcome to circle back&nbsp;then! </p>
+        <p class="p -txtcenter">I'm booked through the end of the&nbsp;spring. <br />If your project is a good one and can wait until&nbsp;June, <br />you're welcome to circle back&nbsp;then! </p>
 
         <?php //include('ajaxcontact.php'); ?>
 
