@@ -32,7 +32,7 @@ define('DB_PASSWORD', 'Yqn6#-x!5/L87');
 define('DB_HOST', 'hscpapadb.db');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
- define('AUTH_KEY',         'put your unique phrase here');
- define('SECURE_AUTH_KEY',  'put your unique phrase here');
- define('LOGGED_IN_KEY',    'put your unique phrase here');
- define('NONCE_KEY',        'put your unique phrase here');
- define('AUTH_SALT',        'put your unique phrase here');
- define('SECURE_AUTH_SALT', 'put your unique phrase here');
- define('LOGGED_IN_SALT',   'put your unique phrase here');
- define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '$dm5g7))Y39@A:*x~DARu,kgb@kHG>m?2|GBFGBt~!?J)89-X9jVw+&c+pIi_^b;');
+define('SECURE_AUTH_KEY',  '2fpe>3}7uap|S,z?<&RzYX.w}ijcuyBcT.H~Y,0<j-bx )_TcX||s,RxJ)q|7_H9');
+define('LOGGED_IN_KEY',    'bsLa> c/yo_7HFWqc)kH_k%)1JHL-{f{-%lG#6 x,&NV%f;<+r/s___:g,|Znw<L');
+define('NONCE_KEY',        'rH9t_-BeixUD`od41y@)Tdff!ZW.i{OjM2-%!OMelP>Eb,!SOGUIP!,lU{3tweAy');
+define('AUTH_SALT',        'F/-L%=T:8$Asp7>s[fS1O3X&yNQ=_9gy6,+)cNrTz)0=+>zV<OUr XOU[(t:Ed^$');
+define('SECURE_AUTH_SALT', '5>ycoC3{&msyBkMIn&|RiW{+hnhSI1tMwNei6@D6E_R12c[St>gadgp`]{Lk4i ?');
+define('LOGGED_IN_SALT',   'e]1#dcvTl!ZJfoOr9D5Z6e/Z?7vQZOGAT^FiCj>ODW% u;t+39N4dat&z.VG`|Oi');
+define('NONCE_SALT',       'E_%=Dq+5Cj]^Lupoa5~vfH$tkY|4?+.1(#Az*V*}}&V`KWuWa,zFo4awihbD bDY');
 
 /**#@-*/
 
