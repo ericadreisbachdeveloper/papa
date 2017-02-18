@@ -1,0 +1,687 @@
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="https://healthyschoolscampaign.org/wp-content/themes/hsc-child/favicons/favicon-144.png">
+
+<meta name="application-name" content="Name">
+<meta name="msapplication-tooltip" content="Tooltip">
+<meta name="msapplication-config" content="ieconfig.xml">
+
+<link href="https://healthyschoolscampaign.org/wp-content/themes/hsc-child/favicon.ico" rel="shortcut icon">
+<link href="https://healthyschoolscampaign.org/wp-content/themes/hsc-child/touch.png" rel="apple-touch-icon-precomposed">
+
+<link rel="icon" href="https://healthyschoolscampaign.org/wp-content/themes/hsc-child/favicons/favicon-32.png" sizes="32x32">
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://healthyschoolscampaign.org/wp-content/themes/hsc-child/favicons/favicon-72.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://healthyschoolscampaign.org/wp-content/themes/hsc-child/favicons/favicon-114.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://healthyschoolscampaign.org/wp-content/themes/hsc-child/favicons/favicon-120.png">
+<link rel="apple-touch-icon-precomposed" href="https://healthyschoolscampaign.org/wp-content/themes/hsc-child/favicons/favicon-152.png">
+<link rel="shortcut icon" sizes="196x196" href="https://healthyschoolscampaign.org/wp-content/themes/hsc-child/favicons/favicon-196.png">
+
+	<title>Healthy Schools Campaign</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- This site is optimized with the Yoast SEO plugin v4.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Healthy Schools Campaign is a nonprofit organization dedicated to ensuring that all students have access to healthy school environments where they can learn and thrive."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://healthyschoolscampaign.org/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Healthy Schools Campaign" />
+<meta property="og:description" content="Healthy Schools Campaign is a nonprofit organization dedicated to ensuring that all students have access to healthy school environments where they can learn and thrive." />
+<meta property="og:url" content="https://healthyschoolscampaign.org/" />
+<meta property="og:site_name" content="Healthy Schools Campaign" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Healthy Schools Campaign is a nonprofit organization dedicated to ensuring that all students have access to healthy school environments where they can learn and thrive." />
+<meta name="twitter:title" content="Healthy Schools Campaign" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/healthyschoolscampaign.org\/","name":"Healthy Schools Campaign","potentialAction":{"@type":"SearchAction","target":"https:\/\/healthyschoolscampaign.org\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Healthy Schools Campaign &raquo; Feed" href="https://healthyschoolscampaign.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Healthy Schools Campaign &raquo; Comments Feed" href="https://healthyschoolscampaign.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Healthy Schools Campaign &raquo; Home Comments Feed" href="https://healthyschoolscampaign.org/sample-page/feed/" />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://healthyschoolscampaign.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://healthyschoolscampaign.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='es-widget-css-css'  href='https://healthyschoolscampaign.org/wp-content/plugins/email-subscribers/widget/es-widget.css?ver=68d1fc1c5cfad0032a172d7c045ec47e' type='text/css' media='all' />
+<link rel='stylesheet' id='wpex-font-awesome-css'  href='https://healthyschoolscampaign.org/wp-content/themes/Total/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpex-style-css'  href='https://healthyschoolscampaign.org/wp-content/themes/hsc-child/style.css?ver=2.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpex-visual-composer-css'  href='https://healthyschoolscampaign.org/wp-content/themes/Total/css/wpex-visual-composer.css?ver=2.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpex-visual-composer-extend-css'  href='https://healthyschoolscampaign.org/wp-content/themes/Total/css/wpex-visual-composer-extend.css?ver=2.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpex-responsive-css'  href='https://healthyschoolscampaign.org/wp-content/themes/Total/css/responsive.css?ver=68d1fc1c5cfad0032a172d7c045ec47e' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://healthyschoolscampaign.org/wp-content/themes/Total/style.css?ver=68d1fc1c5cfad0032a172d7c045ec47e' type='text/css' media='all' />
+<link rel='stylesheet' id='mfn-child-style-css'  href='https://healthyschoolscampaign.org/wp-content/themes/hsc-child/style.css?ver=68d1fc1c5cfad0032a172d7c045ec47e' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='https://healthyschoolscampaign.org/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.8.min.css?ver=1.5.8.2' type='text/css' media='screen' />
+      <script>
+      if (document.location.protocol != "https:") {
+          document.location = document.URL.replace(/^http:/i, "https:");
+      }
+      </script>
+      <script type='text/javascript' src='https://healthyschoolscampaign.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://healthyschoolscampaign.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://healthyschoolscampaign.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://healthyschoolscampaign.org/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='https://healthyschoolscampaign.org/' />
+<link rel="alternate" type="application/json+oembed" href="https://healthyschoolscampaign.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhealthyschoolscampaign.org%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://healthyschoolscampaign.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhealthyschoolscampaign.org%2F&#038;format=xml" />
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="https://healthyschoolscampaign.org/wp-content/themes/Total/css/ie8.css" media="screen"><![endif]--><!--[if lt IE 9]>
+			<script src="https://healthyschoolscampaign.org/wp-content/themes/Total/js/html5.js"></script>
+		<![endif]--><link rel="shortcut icon" href=""><link rel="apple-touch-icon-precomposed" href=""><link rel="apple-touch-icon-precomposed" sizes="76x76" href=""><link rel="apple-touch-icon-precomposed" sizes="120x120" href=""><link rel="apple-touch-icon-precomposed" sizes="114x114" href=""><meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://healthyschoolscampaign.org/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="https://healthyschoolscampaign.org/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-831084-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<!-- Easy FancyBox 1.5.8.2 using FancyBox 1.3.8 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var fb_timeout = null;
+var fb_opts = { 'overlayShow' : true, 'hideOnOverlayClick' : true, 'showCloseButton' : true, 'margin' : 20, 'centerOnScroll' : true, 'enableEscapeButton' : true, 'autoScale' : true };
+var easy_fancybox_handler = function(){
+	/* IMG */
+	var fb_IMG_select = 'a[href*=".jpg"]:not(.nolightbox,li.nolightbox>a), area[href*=".jpg"]:not(.nolightbox), a[href*=".jpeg"]:not(.nolightbox,li.nolightbox>a), area[href*=".jpeg"]:not(.nolightbox), a[href*=".png"]:not(.nolightbox,li.nolightbox>a), area[href*=".png"]:not(.nolightbox)';
+	jQuery(fb_IMG_select).addClass('fancybox image');
+	var fb_IMG_sections = jQuery('div.gallery');
+	fb_IMG_sections.each(function() { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
+	jQuery('a.fancybox, area.fancybox, li.fancybox a').fancybox( jQuery.extend({}, fb_opts, { 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true, 'showNavArrows' : true, 'enableKeyboardNav' : true, 'cyclic' : false }) );
+}
+var easy_fancybox_auto = function(){
+	/* Auto-click */
+	setTimeout(function(){jQuery('#fancybox-auto').trigger('click')},1000);
+}
+/* ]]> */
+</script>
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1450126997025{margin-top: 35px !important;}.vc_custom_1487009568605{margin-bottom: 0px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><!-- TOTAL CSS -->
+<style type="text/css">
+/*ACCENT COLOR*/.wpex-carousel-woocommerce .wpex-carousel-entry-details,.vcex-button.outline,a,.navbar-style-one .dropdown-menu a:hover,.navbar-style-one .dropdown-menu >.current-menu-item >a,.navbar-style-one .dropdown-menu >.current-menu-parent >a,h1 a:hover,h2 a:hover,a:hover h2,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.entry-title a:hover,.navbar-style-one .dropdown-menu ul a:hover,.navbar-style-two .dropdown-menu a:hover,.navbar-style-two .dropdown-menu >.current-menu-item >a,.navbar-style-two .dropdown-menu ul a:hover,.navbar-style-three .dropdown-menu >.current-menu-item >a,.navbar-style-three .dropdown-menu a:hover,.navbar-style-three .dropdown-menu ul a:hover,.navbar-style-four .dropdown-menu >.current-menu-item >a,.navbar-style-four .dropdown-menu a:hover,.navbar-style-four .dropdown-menu ul a:hover,.modern-menu-widget a:hover{color:#1fa35b}.vcex-button.flat,.vcex-button.flat:hover,.vcex-skillbar-bar,.vcex-icon-box.style-five.link-wrap:hover,.vcex-icon-box.style-four.link-wrap:hover,.vcex-recent-news-date span.month,.vcex-pricing.featured .vcex-pricing-header,.vcex-testimonials-fullslider .sp-button:hover,.vcex-testimonials-fullslider .sp-selected-button,.vcex-button.graphical:hover,.vcex-button.three-d:hover,.vcex-social-links a:hover,.vcex-button.outline:hover,.vcex-testimonials-fullslider.light-skin .sp-button:hover,.vcex-testimonials-fullslider.light-skin .sp-selected-button,.background-highlight,input[type="submit"],.theme-button,button,#main .tagcloud a:hover,.post-tags a:hover,.wpex-carousel .owl-dot.active,.navbar-style-one .menu-button >a >span.link-inner,.wpex-carousel .owl-prev,.wpex-carousel .owl-next,.modern-menu-widget li.current-menu-item a,#wp-calendar caption,#site-scroll-top:hover,input[type="submit"]:hover,.theme-button:hover,button:hover,.wpex-carousel .owl-prev:hover,.wpex-carousel .owl-next:hover,.navbar-style-one .menu-button >a >span.link-inner:hover{background-color:#1fa35b}body .vc_text_separator_two span{border-bottom-color:#1fa35b}.wpb_tabs.tab-style-alternative-two .wpb_tabs_nav li.ui-tabs-active a{border-bottom-color:#1fa35b}.vcex-button.outline{border-color:#1fa35b}#searchform-dropdown{border-color:#1fa35b}.toggle-bar-btn:hover{border-top-color:#1fa35b;border-right-color:#1fa35b}body #site-navigation-wrap.nav-dropdown-top-border .dropdown-menu >li >ul{border-top-color:#1fa35b}/*CUSTOMIZER STYLING*/#site-header,.footer-has-reveal #site-header,#searchform-header-replace,.is-sticky #site-header{background-color:#1fa35b}#site-navigation .dropdown-menu >li >a{color:#026937}#site-navigation .dropdown-menu >li >a:hover{color:#1fa35b}#site-navigation .dropdown-menu >.current-menu-item >a,#site-navigation .dropdown-menu >.current-menu-parent >a,#site-navigation .dropdown-menu >.current-menu-item >a:hover,#site-navigation .dropdown-menu >.current-menu-parent >a:hover{color:#ffffff}#site-navigation .dropdown-menu ul >li >a{color:#026937}#site-navigation .dropdown-menu ul >li >a:hover{color:#026937}#mobile-menu a{color:#ffffff}#mobile-menu a:hover{color:#ffffff}#mobile-menu a{background-color:#1fa35b}#mobile-menu a:hover{background-color:#1fa35b}#mobile-menu a{border-color:#1fa35b}#mobile-menu a:hover{border-color:#1fa35b}.sidr a,.sidr-class-dropdown-toggle{color:#ffffff}.sidr a:hover,.sidr-class-dropdown-toggle:hover,.sidr-class-dropdown-toggle .fa,.sidr-class-menu-item-has-children.active >a,.sidr-class-menu-item-has-children.active >a >.sidr-class-dropdown-toggle{color:#ffffff}.wpb_column{margin-bottom:30px}/*TYPOGRAPHY*/body{color:#666666}#site-navigation .dropdown-menu a{font-size:11px;text-transform:uppercase}#site-navigation .dropdown-menu ul a{font-size:11px;text-transform:uppercase}.entry h2{font-size:22px}/*RESPONSIVE WIDTHS*/@media only screen and (min-width:1281px){.container,.vc_row-fluid.container{width:1300px !important;max-width:none}.content-area{width:100%;max-width:none}#sidebar{width:380px;max-width:none}}@media only screen and (min-width:960px) and (max-width:1280px){.container,.vc_row-fluid.container{width:1200px !important;max-width:none}.content-area{width:100%;max-width:none}#sidebar{width:380px;max-width:none}}@media only screen and (min-width:768px) and (max-width:959px){.container,.vc_row-fluid.container{width:100% !important;max-width:none}.content-area{width:100%}}@media only screen and (max-width:767px){.container{width:100% !important;min-width:0}}@media only screen and (min-width:480px) and (max-width:767px){.container{width:100% !important}}/*SITE BACKGROUND*/body{background-color:#f1f2f2!important}/*ADVANCED STYLING CSS*/.wpb_row .fa:before{box-sizing:content-box!important;-moz-box-sizing:content-box!important;-webkit-box-sizing:content-box!important}.is-sticky #site-header{border-color:transparent}/*CUSTOM CSS*/h1,h2,h3,h4,h5,h6{font-family:"Gotham SSm A","Gotham SSm B" !important;font-weight:bold !important;color:#666}body,input[type="search"],.sidebar a,.sidebar p,#resource_list p,#resource_list a{font-family:'Whitney SSm A','Whitney SSm B' !important}h1{font-size:46px;color:#333 !important;line-height:56px}.single-post-title{font-weight:bold !important;font-family:'Gotham SSm A','Gotham SSm B' !important;font-size:46px;line-height:56px;color:#333 !important}.meta-date{font-family:'Whitney SSm A','Whitney SSm B' !important;font-size:20px;color:#666;font-weight:600}strong{font-weight:700 !important}.entry h2{line-height:22px;margin-top:0;font-size:20px;color:#666;font-weight:600 !important;font-family:'Whitney SSm A','Whitney SSm B' !important}.wpb_single_image_caption h2{font-family:'Gotham SSm A','Gotham SSm B' !important;text-transform:uppercase}.entry h3{font-size:24px;color:#333 !important}.entry p,.entry ul{font-size:18px;font-family:'Whitney SSm A','Whitney SSm B' !important;font-weight:500;color:#333}.entry a{color:#666;text-decoration:underline;font-family:'Whitney SSm A','Whitney SSm B' !important}.entry ol{font-size:18px !important;color:#333 !important;font-weight:500}.header-box a{font-size:20px}#resource_list h4{font-size:20px !important;margin:0 0 20px}#resource_list p{font-size:16px !important;font-weight:600;color:#666 !important}#resource_list a{font-size:16px !important;font-weight:600;text-decoration:underline;color:#666 !important}.sidebar-box h3{margin-bottom:20px !important;font-family:'Gotham SSm A','Gotham SSm B' !important;color:#666666 !important;font-size:20px}.sidebar-box p,.sidebar a{font-size:16px !important;color:#666 !important}.sidebar-box p{font-size:16px !important;color:#666 !important}.white-sidebar-box a{font-size:16px !important;font-weight:600;line-height:22px;color:#666}.white-sidebar-box h3{color:#666 !important;font-size:20px}.white-sidebar-box p{font-size:16px !important;line-height:18px;color:#666 !important}.header-box h2{line-height:1.5}.vcex-post-type-entry-title .entry-title{line-height:22px}a.subscribe-btn{color:#fff !important}
+</style>    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/655978/737388/css/fonts.css" />
+</head>
+
+<!-- Begin Body -->
+<body data-rsssl=1 class="home page-template-default page page-id-2 custom-background wp-custom-logo wpex-theme wpex-responsive full-width-main-layout skin-base has-composer content-full-width has-breadcrumbs sidebar-widget-icons page-header-disabled has-mobile-menu wpb-js-composer js-comp-ver-4.12.1 vc_responsive">
+
+
+
+<div id="outer-wrap" class="clr">
+
+	
+	<div id="wrap" class="clr">
+
+		
+
+<header id="site-header" class="clr header-one fixed-scroll" role="banner">
+
+	
+	<div id="site-header-inner" class="container clr">
+
+		
+<div id="site-logo" class="site-branding header-one-logo">
+
+    
+                    <a href="https://healthyschoolscampaign.org/" title="Healthy Schools Campaign" rel="home" class="main-logo">
+                <img src="https://healthyschoolscampaign.org/wp-content/uploads/2015/09/logo.png" alt="Healthy Schools Campaign" data-no-retina />
+            </a>
+        
+        
+    
+</div><!-- #site-logo -->
+
+<div id="site-navigation-wrap" class="clr navbar-style-one">
+
+    <nav id="site-navigation" class="navigation main-navigation clr has-search-icon" role="navigation">
+
+        
+        <div class="menu-primary-container"><ul id="menu-primary" class="dropdown-menu sf-menu"><li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-41"><a href="https://healthyschoolscampaign.org/about/"><span class="link-inner">About</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-11549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11549"><a href="https://healthyschoolscampaign.org/about/who/"><span class="link-inner">Who We Are</span></a></li>
+	<li id="menu-item-3287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3287"><a href="https://healthyschoolscampaign.org/about/board-of-directors/"><span class="link-inner">Board of Directors</span></a></li>
+	<li id="menu-item-11550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11550"><a href="https://healthyschoolscampaign.org/about/civic-business-advisory-committee/"><span class="link-inner">Civic + Business Advisory Committee</span></a></li>
+	<li id="menu-item-3291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3291"><a href="https://healthyschoolscampaign.org/about/supporters/"><span class="link-inner">Supporters</span></a></li>
+	<li id="menu-item-3299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3299"><a href="https://healthyschoolscampaign.org/about/staff/"><span class="link-inner">Staff</span></a></li>
+	<li id="menu-item-3297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3297"><a href="https://healthyschoolscampaign.org/about/work-with-us/"><span class="link-inner">Work with Us</span></a></li>
+	<li id="menu-item-3293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3293"><a href="https://healthyschoolscampaign.org/about/media-2/"><span class="link-inner">Media</span></a></li>
+</ul>
+</li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-43"><a href="https://healthyschoolscampaign.org/programs/"><span class="link-inner">Programs</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-9765" class="nav-no-click bolder nav-header menu-item menu-item-type-post_type menu-item-object-page menu-item-9765"><a href="https://healthyschoolscampaign.org/programs/"><span class="link-inner">Chicago</span></a></li>
+	<li id="menu-item-3167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3167"><a href="https://healthyschoolscampaign.org/programs/chicago/cooking-up-change-chicago/"><span class="link-inner">Cooking up Change</span></a></li>
+	<li id="menu-item-3214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3214"><a href="https://healthyschoolscampaign.org/programs/chicago/fit-to-learn/"><span class="link-inner">Fit to Learn</span></a></li>
+	<li id="menu-item-3221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3221"><a href="https://healthyschoolscampaign.org/programs/chicago/parents-united-for-healthy-schools/"><span class="link-inner">Parents United</span></a></li>
+	<li id="menu-item-3281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3281"><a href="https://healthyschoolscampaign.org/programs/chicago/space-to-grow/"><span class="link-inner">Space to Grow</span></a></li>
+	<li id="menu-item-9764" class="nav-no-click bolder nav-header nav-national menu-item menu-item-type-post_type menu-item-object-page menu-item-9764"><a href="https://healthyschoolscampaign.org/programs/"><span class="link-inner">National</span></a></li>
+	<li id="menu-item-3160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3160"><a href="https://healthyschoolscampaign.org/programs/national/cooking-up-change-national/"><span class="link-inner">Cooking up Change</span></a></li>
+	<li id="menu-item-3175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3175"><a href="https://healthyschoolscampaign.org/programs/national/green-clean-schools/"><span class="link-inner">Green Clean Schools</span></a></li>
+	<li id="menu-item-3176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3176"><a href="https://healthyschoolscampaign.org/programs/national/national-collaborative/"><span class="link-inner">National Collaborative</span></a></li>
+	<li id="menu-item-3241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3241"><a href="https://healthyschoolscampaign.org/programs/national/school-nurse-leadership/"><span class="link-inner">School Nurse Leadership</span></a></li>
+</ul>
+</li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-42"><a href="https://healthyschoolscampaign.org/chicago-focus/"><span class="link-inner">Chicago Focus</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-3306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3306"><a href="https://healthyschoolscampaign.org/chicago-focus/classrooms/"><span class="link-inner">Classrooms</span></a></li>
+	<li id="menu-item-3308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3308"><a href="https://healthyschoolscampaign.org/chicago-focus/physical-education/"><span class="link-inner">Physical Education</span></a></li>
+	<li id="menu-item-3309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3309"><a href="https://healthyschoolscampaign.org/chicago-focus/school-food/"><span class="link-inner">School Food</span></a></li>
+	<li id="menu-item-3311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3311"><a href="https://healthyschoolscampaign.org/chicago-focus/schoolyards/"><span class="link-inner">Schoolyards</span></a></li>
+</ul>
+</li>
+<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-44"><a href="https://healthyschoolscampaign.org/policy/"><span class="link-inner">Policy</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-12559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12559"><a href="https://healthyschoolscampaign.org/policy/our-agenda/"><span class="link-inner">Our Agenda</span></a></li>
+	<li id="menu-item-14193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14193"><a href="https://healthyschoolscampaign.org/policy/education/"><span class="link-inner">Education</span></a></li>
+	<li id="menu-item-3303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3303"><a href="https://healthyschoolscampaign.org/policy/environment/"><span class="link-inner">Environment</span></a></li>
+	<li id="menu-item-3305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3305"><a href="https://healthyschoolscampaign.org/policy/health/"><span class="link-inner">Health</span></a></li>
+	<li id="menu-item-3304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3304"><a href="https://healthyschoolscampaign.org/policy/food/"><span class="link-inner">School Food</span></a></li>
+</ul>
+</li>
+<li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a href="https://healthyschoolscampaign.org/blog/"><span class="link-inner">Blog</span></a></li>
+<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="https://healthyschoolscampaign.org/events/"><span class="link-inner">Events</span></a></li>
+<li id="menu-item-2940" class="give_btn menu-item menu-item-type-custom menu-item-object-custom menu-item-2940"><a href="/give/"><span class="link-inner">Give</span></a></li>
+<li class="search-toggle-li"><a href="#" class="site-search-toggle search-dropdown-toggle"><span class="link-inner"><span class="fa fa-search"></span></span></a></li></ul></div>
+        
+    </nav><!-- #site-navigation -->
+
+</div><!-- #site-navigation-wrap -->
+
+
+
+    <div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
+
+
+<div id="mobile-menu" class="clr wpex-hidden">
+
+    <a href="#mobile-menu" class="mobile-menu-toggle"><span class="fa fa-bars"></span></a>
+
+    
+</div><!-- #mobile-menu -->
+<div id="searchform-dropdown" class="header-searchform-wrap clr">
+	<form method="get" action="https://healthyschoolscampaign.org/" role="search" class="header-searchform">
+	<input type="search" name="s" autocomplete="off" placeholder="Search" />
+		</form>
+</div><!-- #searchform-dropdown -->
+	</div><!-- #site-header-inner -->
+
+	
+</header><!-- #header -->
+
+
+		
+		<div id="main" class="site-main clr">
+
+			
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55d6443051514118"></script>
+
+    <div id="content-wrap" class="container clr">
+
+        
+        <div id="primary" class="content-area clr">
+
+            
+            <div id="content" class="clr site-content" role="main">
+
+                
+                
+                    <article class="clr">
+
+                        
+                        <div class="entry-content entry clr">
+
+                            
+<div class="vc_row wpb_row stretch_row  header-image" data-vc-full-width="true" style="min-height:400px;background-image:url(https://healthyschoolscampaign.org/wp-content/uploads/2015/04/home-2.jpg);padding-top:20px;padding-bottom:20px;">
+    <div class="clr vc_row-fluid  header-image">
+                    
+	<div class="vc_col-sm-6 bannertext wpb_column clr column_container  ">
+			
+	<div class="wpb_text_column wpb_content_element  vc_custom_1450126997025 header-box shadow">
+		<div class="wpb_wrapper">
+			<h1><strong>Every Child Deserves to Learn + Thrive</strong></h1>
+<h2>Learn about <a href="/about/who/#tab-1433414928266-2-6a84e-b808b866-49bf823b-354a1ae3-c304">our approach</a> to creating a future in which all students have access to a healthy school environment.</h2>
+
+		</div>
+	</div>
+
+	</div> 
+
+	<div class="vc_col-sm-6 wpb_column clr column_container  ">
+			
+	</div> 
+                    </div><!-- .clr vc_row-fluid  header-image -->
+                        </div><!-- .vc_row wpb_row stretch_row  header-image -->
+
+<div class="vc_row-full-width"></div>
+<div class="vc_row wpb_row  home-policy" style="margin-top:40px;">
+    <div class="clr vc_row-fluid  home-policy">
+                    
+	<div class="vc_col-sm-12 wpb_column clr column_container  ">
+			
+	<div class="wpb_single_image wpb_content_element clr shadow hsc-image home-img vc_custom_1487009568605">
+		<div class="wpb_wrapper">
+			<div class="vc_single_image-wrapper wpex-image-hover fade-in"><a class="" href="https://healthyschoolscampaign.org/hsc-event/principals-breakfast/" target="_self"><img width="1920" height="600" src="https://healthyschoolscampaign.org/wp-content/uploads/2017/02/20160226_HD_099-Website.jpg" class="attachment-full" alt="" srcset="https://healthyschoolscampaign.org/wp-content/uploads/2017/02/20160226_HD_099-Website.jpg 1920w, https://healthyschoolscampaign.org/wp-content/uploads/2017/02/20160226_HD_099-Website-333x104.jpg 333w, https://healthyschoolscampaign.org/wp-content/uploads/2017/02/20160226_HD_099-Website-768x240.jpg 768w, https://healthyschoolscampaign.org/wp-content/uploads/2017/02/20160226_HD_099-Website-1024x320.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><span class="wpb_single_image_caption"><h2 class="wpb_heading wpb_singleimage_heading">Event</h2>Together, principals and parents are making Chicago schools healthier places.</span></a></div>
+		</div> 
+	</div> 
+	</div> 
+                                                    </div><!-- .clr vc_row-fluid  home-policy -->
+    </div><!-- .vc_row wpb_row  home-policy -->
+
+
+<div class="vc_row wpb_row  home-events-row">
+    <div class="clr vc_row-fluid  home-events-row">
+                    
+	<div class="vc_col-sm-4 wpb_column clr column_container  " style="margin-bottom:0px;">
+			
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<div class="facetwp-template" data-name="home_blog_item_1"><div id="post-list-event" class="wpex-image-hover fade-in">
+	<a class="event-link" href="https://healthyschoolscampaign.org/policy/7-step-community-engagement-model-can-apply-green-cleaning-program-today/">
+		<div class="event-thumb">
+			<img width="333" height="333" src="https://healthyschoolscampaign.org/wp-content/uploads/2017/02/no-idling-333x333.jpg" class="attachment-box-cropped size-box-cropped wp-post-image" alt="" srcset="https://healthyschoolscampaign.org/wp-content/uploads/2017/02/no-idling-333x333.jpg 333w, https://healthyschoolscampaign.org/wp-content/uploads/2017/02/no-idling-150x150.jpg 150w, https://healthyschoolscampaign.org/wp-content/uploads/2017/02/no-idling-412x412.jpg 412w" sizes="(max-width: 333px) 100vw, 333px" />			</div>
+		<div class="wpb_single_image_caption">
+			<span class="wpb_heading wpb_singleimage_heading">BLOG</span>
+			<h2 class="wpb_title">A 7-Step Community Engagement Model You Can Apply to Your Green Cleaning Program Today!</h2>
+		</div>
+	</a>
+
+</div>
+
+<div class="clearfix"></div>
+</div>
+
+		</div>
+	</div>
+
+	</div> 
+
+	<div class="vc_col-sm-4 wpb_column clr column_container  " style="margin-bottom:0px;">
+			
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<div class="facetwp-template" data-name="home_blog_item_2"><div id="post-list-event" class="wpex-image-hover fade-in">
+	<a class="event-link" href="https://healthyschoolscampaign.org/chicago-focus/schoolyards/space-grow-benefits-extend-beyond-schoolyard/">
+		<div class="event-thumb">
+			<img width="333" height="333" src="https://healthyschoolscampaign.org/wp-content/uploads/2016/01/clocc-333x333.jpg" class="attachment-box-cropped size-box-cropped wp-post-image" alt="" srcset="https://healthyschoolscampaign.org/wp-content/uploads/2016/01/clocc-333x333.jpg 333w, https://healthyschoolscampaign.org/wp-content/uploads/2016/01/clocc-150x150.jpg 150w" sizes="(max-width: 333px) 100vw, 333px" />			</div>
+		<div class="wpb_single_image_caption">
+			<span class="wpb_heading wpb_singleimage_heading">BLOG</span>
+			<h2 class="wpb_title">Space to Grow Benefits Extend Beyond the Schoolyard</h2>
+		</div>
+	</a>
+
+</div>
+
+<div class="clearfix"></div>
+</div>
+
+		</div>
+	</div>
+
+	</div> 
+
+	<div class="vc_col-sm-4 wpb_column clr column_container  ">
+			
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<div class="facetwp-template" data-name="home_page_event"><div id="post-list-event" class="wpex-image-hover fade-in">
+	<a class="event-link" href="https://healthyschoolscampaign.org/hsc-event/worm-composting-in-the-classroom/">
+		<div class="event-thumb">
+			<img width="333" height="333" src="https://healthyschoolscampaign.org/wp-content/uploads/2016/08/ftlbooster-composting-website-333x333.jpg" class="attachment-box-cropped size-box-cropped wp-post-image" alt="" srcset="https://healthyschoolscampaign.org/wp-content/uploads/2016/08/ftlbooster-composting-website-333x333.jpg 333w, https://healthyschoolscampaign.org/wp-content/uploads/2016/08/ftlbooster-composting-website-150x150.jpg 150w" sizes="(max-width: 333px) 100vw, 333px" />		</div>
+		<div class="wpb_single_image_caption">
+			<span class="wpb_heading wpb_singleimage_heading">EVENT</span>
+			<h2 class="wpb_title">Worm Composting in the Classroom</h2>
+		</div>
+	</a>
+</div>
+
+<div class="clearfix"></div>
+</div>
+
+		</div>
+	</div>
+
+	</div> 
+                                                    </div><!-- .clr vc_row-fluid  home-events-row -->
+    </div><!-- .vc_row wpb_row  home-events-row -->
+
+
+<div class="vc_row wpb_row">
+    <div class="clr vc_row-fluid">
+                    
+	<div class="vc_col-sm-12 wpb_column clr column_container  ">
+			
+	<div class="wpb_single_image wpb_content_element clr shadow hsc-image home-img">
+		<div class="wpb_wrapper">
+			<div class="vc_single_image-wrapper wpex-image-hover fade-in"><a class="" href="/resource-center/" target="_self"><img width="1920" height="600" src="https://healthyschoolscampaign.org/wp-content/uploads/2015/04/resource.jpg" class="attachment-full" alt="" srcset="https://healthyschoolscampaign.org/wp-content/uploads/2015/04/resource.jpg 1920w, https://healthyschoolscampaign.org/wp-content/uploads/2015/04/resource-333x104.jpg 333w, https://healthyschoolscampaign.org/wp-content/uploads/2015/04/resource-1024x320.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><span class="wpb_single_image_caption"><h2 class="wpb_heading wpb_singleimage_heading">RESOURCE CENTER</h2>Tools to Make Healthy Changes at Your School</span></a></div>
+		</div> 
+	</div> 
+	</div> 
+                                                    </div><!-- .clr vc_row-fluid -->
+    </div><!-- .vc_row wpb_row -->
+
+
+<div class="vc_row wpb_row">
+    <div class="clr vc_row-fluid">
+                    
+	<div class="vc_col-sm-12 wpb_column clr column_container  ">
+			
+	<div class="wpb_single_image wpb_content_element clr shadow hsc-image home-img">
+		<div class="wpb_wrapper">
+			<div class="vc_single_image-wrapper wpex-image-hover fade-in"><a class="" href="/subscribe/" target="_self"><img width="1920" height="600" src="https://healthyschoolscampaign.org/wp-content/uploads/2015/04/email-pattern.jpg" class="attachment-full" alt="" srcset="https://healthyschoolscampaign.org/wp-content/uploads/2015/04/email-pattern.jpg 1920w, https://healthyschoolscampaign.org/wp-content/uploads/2015/04/email-pattern-333x104.jpg 333w, https://healthyschoolscampaign.org/wp-content/uploads/2015/04/email-pattern-1024x320.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" /><span class="wpb_single_image_caption"><h2 class="wpb_heading wpb_singleimage_heading">SUBSCRIBE</h2>Sign up for Email Updates</span></a></div>
+		</div> 
+	</div> 
+	</div> 
+                                                    </div><!-- .clr vc_row-fluid -->
+    </div><!-- .vc_row wpb_row -->
+
+
+<div class="vc_row wpb_row">
+    <div class="clr vc_row-fluid">
+                    
+	<div class="vc_col-sm-12 wpb_column clr column_container  ">
+			
+<div class="vcex-spacing" style="height:40px"></div>
+	</div> 
+                                                    </div><!-- .clr vc_row-fluid -->
+    </div><!-- .vc_row wpb_row -->
+
+
+
+                            
+                        </div><!-- .entry-content -->
+
+                        
+                    </article><!-- #post -->
+
+                    
+                
+                
+            </div><!-- #content -->
+
+            
+        </div><!-- #primary -->
+
+        
+    </div><!-- #content-wrap -->
+
+
+            
+        </div><!-- #main-content -->
+        
+        
+<div class="footer-builder clr">
+    <div class="footer-builder-content clr container">
+        
+<div class="vc_row wpb_row stretch_row" data-vc-full-width="true" style="margin-top:0px;margin-bottom:0px;margin-left:0;margin-right:0;background-color:#333333;padding-top:35px;padding-bottom:35px;padding-left:35px;padding-right:35px;">
+    <div class="clr vc_row-fluid">
+                    
+	<div class="vc_col-sm-2 wpb_column clr column_container  ">
+			
+	<div class="wpb_single_image wpb_content_element clr footer_img">
+		<div class="wpb_wrapper">
+			<div class="vc_single_image-wrapper"><img width="324" height="66" src="https://healthyschoolscampaign.org/wp-content/uploads/2015/09/logo.png" class="attachment-full" alt="" /></div>
+		</div> 
+	</div> 
+	</div> 
+
+	<div class="vc_col-sm-8 wpb_column clr column_container  ">
+			<div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_wp_custommenu wpb_content_element Footer_menu"><div class="widget widget_nav_menu"><div class="menu-footer-left-container"><ul id="menu-footer-left" class="menu"><li id="menu-item-2824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2824"><a href="https://healthyschoolscampaign.org/about/">About</a></li>
+<li id="menu-item-2826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2826"><a href="https://healthyschoolscampaign.org/programs/">Programs</a></li>
+<li id="menu-item-2825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2825"><a href="https://healthyschoolscampaign.org/chicago-focus/">Chicago Focus</a></li>
+<li id="menu-item-2833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2833"><a href="https://healthyschoolscampaign.org/resource-center/">Resource Center</a></li>
+</ul></div></div></div><div class="vc_wp_custommenu wpb_content_element Footer_menu"><div class="widget widget_nav_menu"><div class="menu-footer-right-container"><ul id="menu-footer-right" class="menu"><li id="menu-item-2835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2835"><a href="https://healthyschoolscampaign.org/policy/">Policy</a></li>
+<li id="menu-item-2836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2836"><a href="https://healthyschoolscampaign.org/blog/">Blog</a></li>
+<li id="menu-item-2837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2837"><a href="https://healthyschoolscampaign.org/events/">Events</a></li>
+<li id="menu-item-2834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2834"><a href="https://healthyschoolscampaign.org/sitemap/">Sitemap</a></li>
+</ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html add-this-column">
+		<div class="wpb_wrapper">
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_custom_follow"></div>
+		</div>
+	</div>
+<div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p><span style="text-decoration: underline; color: #808080;"><a style="color: #808080; text-decoration: underline;" href="/contact/">Contact Us</a></span><br />
+<span style="color: #808080;"> 175 N. Franklin, Suite 300, Chicago, IL 60606</span><br />
+<span style="color: #808080;"> 312-419-1810</span><br />
+<span style="color: #808080;"> © 2015 Healthy Schools Campaign.</span><br />
+<span style="color: #808080;"> All Rights Reserved.</span></p>
+
+		</div>
+	</div>
+</div></div></div></div>
+	</div> 
+
+	<div class="vc_col-sm-2 wpb_column clr column_container  ">
+			<div class="vc_empty_space"  style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p><a class="footer-give-btn" href="/give/">GIVE</a></p>
+
+		</div>
+	</div>
+
+	</div> 
+                    </div><!-- .clr vc_row-fluid -->
+                        </div><!-- .vc_row wpb_row stretch_row -->
+
+<div class="vc_row-full-width"></div>    </div><!-- .footer-builder-content -->
+</div><!-- .footer-builder -->
+    </div><!-- #wrap -->
+
+    
+</div><!-- .outer-wrap -->
+
+
+
+<div id="mobile-menu-alternative" class="wpex-hidden">
+    <div class="menu-mobile-container"><ul id="menu-mobile" class="dropdown-menu"><li id="menu-item-11464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11464"><a href="https://healthyschoolscampaign.org/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-12560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12560"><a href="https://healthyschoolscampaign.org/about/who/">Who We Are</a></li>
+	<li id="menu-item-11466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11466"><a href="https://healthyschoolscampaign.org/about/board-of-directors/">Board of Directors</a></li>
+	<li id="menu-item-12561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12561"><a href="https://healthyschoolscampaign.org/about/civic-business-advisory-committee/">Civic + Business Advisory Committee</a></li>
+	<li id="menu-item-11467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11467"><a href="https://healthyschoolscampaign.org/about/supporters/">Supporters</a></li>
+	<li id="menu-item-11468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11468"><a href="https://healthyschoolscampaign.org/about/staff/">Staff</a></li>
+	<li id="menu-item-11469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11469"><a href="https://healthyschoolscampaign.org/about/work-with-us/">Work with Us</a></li>
+	<li id="menu-item-11470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11470"><a href="https://healthyschoolscampaign.org/about/media-2/">Media</a></li>
+</ul>
+</li>
+<li id="menu-item-11471" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11471"><a href="https://healthyschoolscampaign.org/programs/">Programs</a>
+<ul class="sub-menu">
+	<li id="menu-item-11472" class="bolder nav-header menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11472"><a href="https://healthyschoolscampaign.org/programs/">Chicago</a>
+	<ul class="sub-menu">
+		<li id="menu-item-11473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11473"><a href="https://healthyschoolscampaign.org/programs/chicago/cooking-up-change-chicago/">Cooking up Change</a></li>
+		<li id="menu-item-11474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11474"><a href="https://healthyschoolscampaign.org/programs/chicago/fit-to-learn/">Fit to Learn</a></li>
+		<li id="menu-item-11475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11475"><a href="https://healthyschoolscampaign.org/programs/chicago/parents-united-for-healthy-schools/">Parents United</a></li>
+		<li id="menu-item-11476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11476"><a href="https://healthyschoolscampaign.org/programs/chicago/space-to-grow/">Space to Grow</a></li>
+	</ul>
+</li>
+	<li id="menu-item-11477" class="bolder nav-header nav-national menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11477"><a href="https://healthyschoolscampaign.org/programs/">National</a>
+	<ul class="sub-menu">
+		<li id="menu-item-11478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11478"><a href="https://healthyschoolscampaign.org/programs/national/cooking-up-change-national/">Cooking up Change</a></li>
+		<li id="menu-item-11479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11479"><a href="https://healthyschoolscampaign.org/programs/national/green-clean-schools/">Green Clean Schools</a></li>
+		<li id="menu-item-11480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11480"><a href="https://healthyschoolscampaign.org/programs/national/national-collaborative/">National Collaborative</a></li>
+		<li id="menu-item-11481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11481"><a href="https://healthyschoolscampaign.org/programs/national/school-nurse-leadership/">School Nurse Leadership</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-11482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11482"><a href="https://healthyschoolscampaign.org/chicago-focus/">Chicago Focus</a>
+<ul class="sub-menu">
+	<li id="menu-item-11483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11483"><a href="https://healthyschoolscampaign.org/chicago-focus/classrooms/">Classrooms</a></li>
+	<li id="menu-item-11484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11484"><a href="https://healthyschoolscampaign.org/chicago-focus/physical-education/">Physical Education</a></li>
+	<li id="menu-item-11485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11485"><a href="https://healthyschoolscampaign.org/chicago-focus/school-food/">School Food</a></li>
+	<li id="menu-item-11486" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11486"><a href="https://healthyschoolscampaign.org/chicago-focus/schoolyards/">Schoolyards</a></li>
+</ul>
+</li>
+<li id="menu-item-11487" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11487"><a href="https://healthyschoolscampaign.org/policy/">Policy</a>
+<ul class="sub-menu">
+	<li id="menu-item-12562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12562"><a href="https://healthyschoolscampaign.org/policy/our-agenda/">Our Agenda</a></li>
+	<li id="menu-item-14267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-14267"><a href="https://healthyschoolscampaign.org/policy/education/">Education</a>
+	<ul class="sub-menu">
+		<li id="menu-item-14268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14268"><a href="https://healthyschoolscampaign.org/policy/chronic-absenteeism/">Education Policy: Chronic Absenteeism</a></li>
+		<li id="menu-item-14269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14269"><a href="https://healthyschoolscampaign.org/policy/essa/">Education Policy: Every Student Succeeds Act (ESSA)</a></li>
+	</ul>
+</li>
+	<li id="menu-item-11489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11489"><a href="https://healthyschoolscampaign.org/policy/environment/">Environment</a></li>
+	<li id="menu-item-11490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11490"><a href="https://healthyschoolscampaign.org/policy/health/">Health</a></li>
+	<li id="menu-item-11491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11491"><a href="https://healthyschoolscampaign.org/policy/food/">School Food</a></li>
+</ul>
+</li>
+<li id="menu-item-11492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11492"><a href="https://healthyschoolscampaign.org/blog/">Blog</a></li>
+<li id="menu-item-11493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11493"><a href="https://healthyschoolscampaign.org/events/">Events</a></li>
+<li id="menu-item-11495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11495"><a href="https://healthyschoolscampaign.org/resource-center/">Resource Center</a></li>
+<li id="menu-item-11494" class="give_btn menu-item menu-item-type-custom menu-item-object-custom menu-item-11494"><a href="/give/">Give</a></li>
+</ul></div></div><!-- #mobile-menu-alternative -->
+        <div id="mobile-menu-search" class="clr hidden">
+            <form method="get" action="https://healthyschoolscampaign.org/" role="search" class="mobile-menu-searchform">
+                <input type="search" name="s" autocomplete="off" placeholder="Search" />
+                            </form>
+        </div>
+        
+    
+<a href="#" id="site-scroll-top"><span class="fa fa-chevron-up"></span></a><script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var es_widget_notices = {"es_email_notice":"Please enter email address.","es_incorrect_email":"Please provide a valid email address.","es_load_more":"loading...","es_ajax_error":"Cannot create XMLHTTP instance","es_success_message":"Subscribed successfully.","es_success_notice":"Your subscription was successful! Within a few minutes, kindly check the mail in your mailbox and confirm your subscription. If you can't see the mail in your mailbox, please check your spam folder.","es_email_exists":"Email Address already exists.","es_error":"Oops.. Unexpected error occurred.","es_invalid_email":"Invalid email address.","es_try_later":"Please try after some time.","es_problem_request":"There was a problem with the request."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/plugins/email-subscribers/widget/es-widget.js?ver=68d1fc1c5cfad0032a172d7c045ec47e'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var es_widget_page_notices = {"es_email_notice":"Please enter email address.","es_incorrect_email":"Please provide a valid email address.","es_load_more":"loading...","es_ajax_error":"Cannot create XMLHTTP instance","es_success_message":"Subscribed successfully.","es_success_notice":"Your subscription was successful! Within a few minutes, kindly check the mail in your mailbox and confirm your subscription. If you can't see the mail in your mailbox, please check your spam folder.","es_email_exists":"Email Address already exists.","es_error":"Oops.. Unexpected error occurred.","es_invalid_email":"Invalid email address.","es_try_later":"Please try after some time.","es_problem_request":"There was a problem with the request."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/plugins/email-subscribers/widget/es-widget-page.js?ver=68d1fc1c5cfad0032a172d7c045ec47e'></script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-includes/js/comment-reply.min.js?ver=68d1fc1c5cfad0032a172d7c045ec47e'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpexLocalize = {"isRTL":"","mainLayout":"full-width","mobileMenuStyle":"sidr","sidrSource":"#sidr-close, #mobile-menu-alternative, #mobile-menu-search","sidrDisplace":"1","sidrSide":"left","headerSeachStyle":"drop_down","wooCartStyle":"drop-down","superfishDelay":"600","superfishSpeed":"fast","superfishSpeedOut":"fast","localScrollSpeed":"1000","overlayHeaderStickyTop":"0","siteHeaderStyle":"one","hasFixedMobileHeader":"","hasFixedHeader":"1","fixedHeaderBreakPoint":"960","hasTopBar":"","hasFooterReveal":"","hasHeaderOverlay":"","fixedHeaderCustomLogo":"","retinaLogo":"","carouselSpeed":"150","iLightbox":{"skin":"minimal","controls":{"arrows":true,"thumbnail":true,"fullscreen":true,"mousewheel":false},"effects":{"loadedFadeSpeed":50,"fadeSpeed":500},"show":{"title":true,"speed":200},"hide":{"speed":200},"overlay":{"blur":true,"opacity":0.9},"social":{"start":true,"show":"mouseenter","hide":"mouseleave","buttons":false}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/themes/Total/js/total-min.js?ver=2.0.1'></script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-includes/js/wp-embed.min.js?ver=68d1fc1c5cfad0032a172d7c045ec47e'></script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=4.12.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"hsc01"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=68d1fc1c5cfad0032a172d7c045ec47e'></script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.8.min.js?ver=1.5.8.2'></script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/plugins/easy-fancybox/js/jquery.easing.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='https://healthyschoolscampaign.org/wp-content/plugins/easy-fancybox/js/jquery.mousewheel.min.js?ver=3.1.12'></script>
+<link rel="stylesheet" href="https://healthyschoolscampaign.org/wp-content/plugins/facetwp/assets/css/front.css" />
+<script src="https://healthyschoolscampaign.org/wp-content/plugins/facetwp/assets/js/event-manager.js?ver=2.2.1"></script>
+<script src="https://healthyschoolscampaign.org/wp-content/plugins/facetwp/assets/js/front.js?ver=2.2.1"></script>
+<script>
+var ajaxurl = 'https://healthyschoolscampaign.org/wp-admin/admin-ajax.php';
+var FWP_HTTP = {"get":[],"uri":""};
+FWP.permalink_type = 'get';
+</script>
+<script type="text/javascript">
+jQuery(document).on('ready post-load', function(){ jQuery('.nofancybox,a.pin-it-button,a[href*="pinterest.com/pin/create/button"]').addClass('nolightbox'); });
+jQuery(document).on('ready post-load',easy_fancybox_handler);
+jQuery(document).on('ready',easy_fancybox_auto);</script>
+
+<script type="text/javascript">
+	jQuery( document ).ready(function() {
+	    jQuery('.blogitems .vcex-blog-entry-details').prepend('<span class="title">Blog</span>');
+      jQuery('.eventitems .vcex-post-type-entry-details').prepend('<span class="title">Event</span>');
+	});
+</script>
+<script type="text/javascript">
+jQuery( document ).ready(function() {
+    jQuery('#Installment').removeAttr('checked');
+});
+</script>
+
+
+<script type="text/javascript">
+
+  jQuery(document).ready(function() {
+    var windoww = jQuery(window).width();
+    if(windoww < 768) {
+      var w = jQuery('.vc_single_image-wrapper').width();
+      jQuery('.vc_single_image-wrapper').each(function(){
+        jQuery(this).children('a').height(w);
+        jQuery(this).children('a').children('img').height(w);
+      });
+    }
+  });
+
+  jQuery(window).resize(function() {
+    var windoww = jQuery(window).width();
+    if(windoww < 768) {
+      var w = jQuery('.vc_single_image-wrapper').width();
+      jQuery('.vc_single_image-wrapper').each(function(){
+        jQuery(this).children('a').height(w);
+        jQuery(this).children('a').children('img').height(w);
+      });
+    }
+    else {
+      jQuery('.vc_single_image-wrapper').each(function(){
+        jQuery(this).children('a').height('auto');
+        jQuery(this).children('a').children('img').height('auto');
+      });
+    }
+  });
+
+</script>
+
+
+
+<script type="text/javascript">
+  /*
+
+  jQuery(document).ready(function(){
+    if (  ) {
+      var w = jQuery('.wpex-image-hover').width();
+      jQuery('.wpex-image-hover').each(function(){
+        jQuery(this).height(w);
+      });
+    }
+  });
+
+  jQuery(window).resize(function(){
+    if (  ) {
+      console.log('yes it exists')
+      var w = jQuery('.wpex-image-hover').width();
+      jQuery('.wpex-image-hover').each(function(){
+        jQuery(this).height(w);
+      });
+    }
+  });
+
+  */
+
+</script>
+
+
+
+</body>
+</html>

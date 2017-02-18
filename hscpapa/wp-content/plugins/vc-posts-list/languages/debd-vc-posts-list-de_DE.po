@@ -1,0 +1,486 @@
+# Copyright (C) 2014 DEBD
+# This file is distributed under the same license as the Posts List for VC package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Posts List for VC 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/vc-posts-list\n"
+"POT-Creation-Date: 2015-06-09 12:49:56+00:00\n"
+"PO-Revision-Date: 2015-06-09 14:50+0100\n"
+"Last-Translator: Peter <peter_goebel@gmx.net>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: vc-posts-list.php:67
+msgid "Empty Term"
+msgstr "Leerer Term"
+
+#: vc-posts-list.php:114
+msgid "12/12"
+msgstr "12/12"
+
+#: vc-posts-list.php:115
+msgid "11/12"
+msgstr "11/12"
+
+#: vc-posts-list.php:116
+msgid "10/12"
+msgstr "10/12"
+
+#: vc-posts-list.php:117
+msgid "9/12"
+msgstr "9/12"
+
+#: vc-posts-list.php:118
+msgid "8/12"
+msgstr "8/12"
+
+#: vc-posts-list.php:119
+msgid "7/12"
+msgstr "7/12"
+
+#: vc-posts-list.php:120
+msgid "6/12"
+msgstr "6/12"
+
+#: vc-posts-list.php:121
+msgid "5/12"
+msgstr "5/12"
+
+#: vc-posts-list.php:122
+msgid "4/12"
+msgstr "4/12"
+
+#: vc-posts-list.php:123
+msgid "3/12"
+msgstr "3/12"
+
+#: vc-posts-list.php:124
+msgid "2/12"
+msgstr "2/12"
+
+#: vc-posts-list.php:125
+msgid "1/12"
+msgstr "1/12"
+
+#: vc-posts-list.php:135
+msgid "Show date"
+msgstr "Datum anzeigen"
+
+#: vc-posts-list.php:136
+msgid "Show title"
+msgstr "Titel anzeigen"
+
+#: vc-posts-list.php:137
+msgid "Show author"
+msgstr "Autor anzeigen"
+
+#: vc-posts-list.php:138
+msgid "Show excerpt"
+msgstr "Exzerpt anzeigen"
+
+#: vc-posts-list.php:139
+msgid "Show content"
+msgstr "Inhalt anzeigen"
+
+#: vc-posts-list.php:140
+msgid "Show comments"
+msgstr "Kommentare anzeigen"
+
+#: vc-posts-list.php:141
+msgid "Show featured image"
+msgstr "Beitragsbild anzeigen"
+
+#: vc-posts-list.php:142
+msgid "Show categories"
+msgstr "Kategorien anzeigen"
+
+#: vc-posts-list.php:143
+msgid "Show tags"
+msgstr "Tagauswahl"
+
+#: vc-posts-list.php:148
+msgid "Active"
+msgstr "Aktiv"
+
+#: vc-posts-list.php:148 vc-posts-list.php:337
+msgid "Content"
+msgstr "Inhalt"
+
+#: vc-posts-list.php:148
+msgid "Layout (column width)"
+msgstr "Layout (Spaltenbreite)"
+
+#: vc-posts-list.php:219
+msgid "Choose categories"
+msgstr "Kategorieauswahl"
+
+#: vc-posts-list.php:264
+msgid "Choose tags"
+msgstr "Tagauswahl"
+
+#: vc-posts-list.php:310
+msgid "None"
+msgstr "Nichts"
+
+#: vc-posts-list.php:311
+msgid "ID"
+msgstr "ID"
+
+#: vc-posts-list.php:312
+msgid "Author"
+msgstr "Autor"
+
+#: vc-posts-list.php:313
+msgid "Title"
+msgstr "Titel"
+
+#: vc-posts-list.php:314
+msgid "Post name (Slug)"
+msgstr "Beitragsname (Slug)"
+
+#: vc-posts-list.php:315
+msgid "Date"
+msgstr "Datum"
+
+#: vc-posts-list.php:316
+msgid "Modified"
+msgstr "Änderungsdatum"
+
+#: vc-posts-list.php:317
+msgid "Parent post/page"
+msgstr "Eltern-Beitrag"
+
+#: vc-posts-list.php:318
+msgid "Random"
+msgstr "Zufällig"
+
+#: vc-posts-list.php:319
+msgid "Comment count"
+msgstr "Anzahl der Kommentare"
+
+#: vc-posts-list.php:323
+msgid "Post type"
+msgstr "Beitrags-Typ"
+
+#: vc-posts-list.php:333
+msgid "Posts List"
+msgstr "Posts List"
+
+#: vc-posts-list.php:335
+msgid "List last posts"
+msgstr "Liste der letzten Beiträge"
+
+#: vc-posts-list.php:346
+msgid "Post types"
+msgstr "Beitrags-Typen"
+
+#: vc-posts-list.php:348
+msgid "Choose post types (If empty, posts are displayed by default)"
+msgstr ""
+"Wähle Beitrags-Typen (Wenn keine Auswahl getroffen wird, werden die "
+"standardmäßigen Beiträge angezeigt)"
+
+#: vc-posts-list.php:349 vc-posts-list.php:360 vc-posts-list.php:372
+#: vc-posts-list.php:383 vc-posts-list.php:395 vc-posts-list.php:406
+#: vc-posts-list.php:414 vc-posts-list.php:421 vc-posts-list.php:428
+#: vc-posts-list.php:435 vc-posts-list.php:442 vc-posts-list.php:447
+msgid "General options"
+msgstr "Allgemeine Einstellungen"
+
+#: vc-posts-list.php:353
+msgid "Relation"
+msgstr "Beziehung"
+
+#: vc-posts-list.php:355
+msgid ""
+"Choose \"AND\" to query posts that are assigned to both selected categories and "
+"selected tags. Choose \"OR\" to query posts that are assigned to the selected "
+"categories or selected tags."
+msgstr ""
+"Wähle \"UND\" um Beiträge anzuzeigen, die den ausgewählten Kategorien und "
+"Schlagwörtern zugeordnet sind. Wähle \"ODER\" um Beiträge anzuzeigen, die "
+"entweder den ausgewählten Kategorien oder den ausgewählten Tags zugeordnet sind."
+
+#: vc-posts-list.php:357
+msgid "AND"
+msgstr "UND"
+
+#: vc-posts-list.php:358
+msgid "OR"
+msgstr "ODER"
+
+#: vc-posts-list.php:364
+msgid "Categories"
+msgstr "Kategorien"
+
+#: vc-posts-list.php:366
+msgid "Choose between all categories or include/exclude some categories"
+msgstr ""
+"Auswahl zwischen allen Kategorien oder eingeschlossenen/ausgeschlossenen "
+"Kategorien"
+
+#: vc-posts-list.php:368 vc-posts-list.php:391
+msgid "All"
+msgstr "Alle"
+
+#: vc-posts-list.php:369 vc-posts-list.php:392
+msgid "include"
+msgstr "Einschließen"
+
+#: vc-posts-list.php:370 vc-posts-list.php:393
+msgid "exclude"
+msgstr "Ausschließen"
+
+#: vc-posts-list.php:376
+msgid "Included/excluded categories"
+msgstr "Eingeschlossene/Ausgeschlossene Kategorien"
+
+#: vc-posts-list.php:378
+msgid "Choose all categories that should be included/excluded"
+msgstr "Auswahl der Kategorien die eingeschlossen/ausgeschlossen werden sollen"
+
+#: vc-posts-list.php:387
+msgid "Tags"
+msgstr "Tags"
+
+#: vc-posts-list.php:389
+msgid "Choose between all tags or include/exclude some tags"
+msgstr "Auswahl zwischen allen Tag oder eingeschlossen/ausgeschlossen Tags"
+
+#: vc-posts-list.php:399
+msgid "Included/excluded tags"
+msgstr "Eingeschlossene/Ausgeschlossene Tags"
+
+#: vc-posts-list.php:401
+msgid "Choose all tags that should be included/excluded"
+msgstr "Auswahl der Tags die eingeschlossen/ausgeschlossen werden sollen"
+
+#: vc-posts-list.php:410
+msgid "Number of posts"
+msgstr "Anzahl der Beiträge"
+
+#: vc-posts-list.php:412
+msgid "How many posts do you want to show?"
+msgstr ""
+"Wie viele Beiträge sollen angezeigt werden? \"-1\" eingeben um alle Beiträge "
+"anzuzeigen."
+
+#: vc-posts-list.php:418
+msgid "Exlude posts"
+msgstr "Ausgeschlossene Beiträge"
+
+#: vc-posts-list.php:420
+msgid "Comma-separated list of excluded posts (e.g. 2,3,12)"
+msgstr "Kommaseparierte Liste ausgeschlossener Beiträge (z.B. 2,3,12)"
+
+#: vc-posts-list.php:425
+msgid "Offset"
+msgstr "Starte bei"
+
+#: vc-posts-list.php:427
+msgid "Skip the first x posts"
+msgstr "Auslassen der ersten x Beiträge"
+
+#: vc-posts-list.php:432
+msgid "Custom CSS classes"
+msgstr "Eigene CSS Klassen"
+
+#: vc-posts-list.php:434
+msgid "Add your own CSS classes (without \".\" and separated by space)"
+msgstr "Einfügen eigener CSS Klassen (ohne \".\")"
+
+#: vc-posts-list.php:439
+msgid "Custom ID"
+msgstr "Eigene CSS ID"
+
+#: vc-posts-list.php:441
+msgid "Add your own CSS ID (without \"#\")"
+msgstr "Einfügen eigener CSS ID (ohne \"#\")"
+
+#: vc-posts-list.php:455
+msgid "Use HTML-list"
+msgstr "Benutzte HTML-Liste"
+
+#: vc-posts-list.php:458
+msgid "Check to return content as list"
+msgstr "Auswählen um Inhalt als Liste auszugeben"
+
+#: vc-posts-list.php:460 vc-posts-list.php:467 vc-posts-list.php:475
+#: vc-posts-list.php:484 vc-posts-list.php:493 vc-posts-list.php:502
+#: vc-posts-list.php:511 vc-posts-list.php:520 vc-posts-list.php:529
+#: vc-posts-list.php:546 vc-posts-list.php:556 vc-posts-list.php:562
+#: vc-posts-list.php:568 vc-posts-list.php:574 vc-posts-list.php:580
+#: vc-posts-list.php:586 vc-posts-list.php:592 vc-posts-list.php:598
+#: vc-posts-list.php:604 vc-posts-list.php:610 vc-posts-list.php:616
+#: vc-posts-list.php:622 vc-posts-list.php:628 vc-posts-list.php:634
+#: vc-posts-list.php:640 vc-posts-list.php:646 vc-posts-list.php:652
+#: vc-posts-list.php:658
+msgid "Content & Layout"
+msgstr "Inhalt & Layout"
+
+#: vc-posts-list.php:464
+msgid "Active fields"
+msgstr "Aktive Felder"
+
+#: vc-posts-list.php:466
+msgid ""
+"Set active content element and its layout (rearrange per drag and drop, choose "
+"column width)"
+msgstr ""
+"Auswahl von Inhaltselementen und Layouts (Anordnen per Drag-and-Drop, Auswahl "
+"der Spaltenbreite)"
+
+#: vc-posts-list.php:471
+msgid "Featured image size"
+msgstr "Größe des Beitragsbildes"
+
+#: vc-posts-list.php:473
+msgid "Choose size for featured image"
+msgstr "Auswahl der Größe des Beitragsbildes"
+
+#: vc-posts-list.php:479
+msgid "Link title"
+msgstr "Verlinke Titel"
+
+#: vc-posts-list.php:482
+msgid "Check if title should be linked"
+msgstr "Auswählen wenn Titel verlinkt werden soll"
+
+#: vc-posts-list.php:488
+msgid "Link comments"
+msgstr "Verlinke Kommentare"
+
+#: vc-posts-list.php:491
+msgid "Check if comments should be linked"
+msgstr "Auswählen wenn Kommentare verlinkt werden sollen"
+
+#: vc-posts-list.php:497
+msgid "Link author"
+msgstr "Verlinke Autor"
+
+#: vc-posts-list.php:500
+msgid "Check if author should be linked"
+msgstr "Auswählen wenn Autor verlinkt werden soll"
+
+#: vc-posts-list.php:506
+msgid "Link image"
+msgstr "Verlinke Bild"
+
+#: vc-posts-list.php:509
+msgid "Check if image should be linked"
+msgstr "Auswählen wenn Beitragsbild verlinkt werden soll"
+
+#: vc-posts-list.php:515
+msgid "Link categories"
+msgstr "Verlinke Kategorien"
+
+#: vc-posts-list.php:518
+msgid "Check if categories should be linked"
+msgstr "Auswählen wenn Kategorien verlinkt werden sollen"
+
+#: vc-posts-list.php:524
+msgid "Link tags"
+msgstr "Verlinke Tags"
+
+#: vc-posts-list.php:527
+msgid "Check if tags should be linked"
+msgstr "Auswählen wenn Tags verlinkt werden sollen"
+
+#: vc-posts-list.php:533
+msgid "Wrap title"
+msgstr "Umschließe Titel"
+
+#: vc-posts-list.php:535
+msgid "Choose which element should wrap the title"
+msgstr "Auswahl des Elements, dass den Titel umschließen soll"
+
+#: vc-posts-list.php:666
+msgid "Order posts by"
+msgstr "Ordne Beiträge"
+
+#: vc-posts-list.php:668
+msgid "Order posts by parameter"
+msgstr "Ordne Beiträge per Parameter"
+
+#: vc-posts-list.php:670 vc-posts-list.php:681
+msgid "Sort & Order"
+msgstr "Sortieren und Ordnen"
+
+#: vc-posts-list.php:674
+msgid "Sort order"
+msgstr "Sortierreihenfolge"
+
+#: vc-posts-list.php:676
+msgid "Choose between ascending and descending order"
+msgstr "Auswahl zwischen aufsteigender und absteigender Reihenfolge"
+
+#: vc-posts-list.php:678
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: vc-posts-list.php:679
+msgid "Descending"
+msgstr "Absteigend"
+
+#: vc-posts-list.php:1038
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://bit.ly/vcomposer\" target="
+"\"_blank\">Visual Composer</a></strong> plugin to be installed and activated on "
+"your site."
+msgstr ""
+"<strong>%s</strong> benötigt <strong> das Plugin <a href=\"http://bit.ly/"
+"vcomposer\" target=\"_blank\">Visual Composer</a></strong>."
+
+#. Plugin Name of the plugin/theme
+msgid "Posts List for Visual Composer"
+msgstr "Posts List für Visual Composer"
+
+#. Plugin URI of the plugin/theme
+msgid "http://codecanyon.net/item/posts-list-for-visual-composer/9456666"
+msgstr "http://codecanyon.net/item/posts-list-for-visual-composer/9456666"
+
+#. Description of the plugin/theme
+msgid "Extend Visual Composer with a list of your blog posts"
+msgstr "Erweitern Sie Visual Composer mit einer Liste Ihrer letzten Beiträge"
+
+#. Author of the plugin/theme
+msgid "DEBD"
+msgstr "DEBD"
+
+#. Author URI of the plugin/theme
+msgid "http://debd.com"
+msgstr "http://debd.com"
+
+#~ msgid "http://codecanyon.net/user/dennerleinbrands"
+#~ msgstr "http://codecanyon.net/user/dennerleinbrands"
+
+#~ msgid "Category IDs"
+#~ msgstr "Kategorie-IDs"
+
+#~ msgid "Comma-separated list of categories (e.g. 2,3,12)"
+#~ msgstr "Kommaseparierte Liste aus Kategorien (z.B. 2,3,12)"
+
+#~ msgid "String"
+#~ msgstr "String"
+
+#~ msgid "List last posts from different post types and categories"
+#~ msgstr ""
+#~ "Liste der letzten Beiträge aus verschiedenen Beitragstypen und Kategorien"
+
+#~ msgid "Name"
+#~ msgstr "Beitrags-Name (Slug)"
+
+#~ msgid "Post Type"
+#~ msgstr "Post Type"

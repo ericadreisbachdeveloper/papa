@@ -1,0 +1,89 @@
+Server Variables
+    SERVER_SOFTWARE = Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.6.2 mod_ssl/2.2.29 OpenSSL/0.9.8zh DAV/2 mod_perl/2.0.8 Perl/v5.20.0
+    DOCUMENT_ROOT = /Library/WebServer/Documents
+
+LSCache Plugin Options
+    version = 1.0.14.1
+    enabled = 1
+    radio_select = 1
+    cache_commenters = 1
+    cache_login = 1
+    cache_favicon = 1
+    cache_resources = 1
+    mobileview_enabled = 
+    login_cookie = 
+    debug = 0
+    admin_ips = 127.0.0.1
+    test_ips = 
+    public_ttl = 28800
+    front_page_ttl = 1800
+    nocache_vars = 
+    nocache_path = 
+    purge_by_post = A.F.H.M.PT.T
+    excludes_uri = 
+    excludes_cat = 
+    excludes_tag = 
+    nocache_cookies = 
+    nocache_useragents = 
+    purge_upgrade = 1
+    mobileview_rules = 
+    tag_prefix = 
+    feed_ttl = 0
+    check_advancedcache = 1
+    404_ttl = 3600
+    403_ttl = 3600
+    500_ttl = 3600
+
+Wordpress Specific Extras
+    wordpress version = 4.7.2
+    locale = en_US
+    active theme = HSC Theme
+    active plugins = Array
+(
+    [0] => advanced-custom-fields/acf.php
+    [1] => clone-posts/clone-posts.php
+    [2] => contact-form-7/wp-contact-form-7.php
+    [3] => disqus-comment-system/disqus.php
+    [4] => easy-fancybox/easy-fancybox.php
+    [5] => email-subscribers/email-subscribers.php
+    [6] => enable-media-replace/enable-media-replace.php
+    [7] => enhanced-media-library/enhanced-media-library.php
+    [8] => facetwp/index.php
+    [9] => js_composer/js_composer.php
+    [10] => wordfence/wordfence.php
+    [11] => wordpress-importer/wordpress-importer.php
+    [12] => wordpress-seo/wp-seo.php
+    [13] => wp-clone-by-wp-academy/wpclone.php
+    [14] => wp-sitemap-page/wp-sitemap-page.php
+    [15] => wp_formassembly/wp_formassembly.php
+    [16] => wpcat2tag-importer/wpcat2tag-importer.php
+)
+
+
+/Library/WebServer/Documents/hscclean/.htaccess contents:
+<IfModule LiteSpeed>
+###LSCACHE START PLUGIN - Do not edit the contents of this block!###
+RewriteEngine on
+CacheLookup Public on
+
+###LSCACHE START RESOURCE###
+RewriteRule wp-content/.*/[^/]*(loader|fonts|\.css|\.js)\.php - [E=cache-control:max-age=3600]
+###LSCACHE END RESOURCE###
+###LSCACHE START FAVICON###
+RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
+###LSCACHE END FAVICON###
+###LSCACHE END PLUGIN - Do not edit the contents of this block!###
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /hscclean/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /hscclean/index.php [L]
+</IfModule>
+
+# END WordPress
+
