@@ -5,6 +5,7 @@ Disallow: /casey/
 Disallow: /deck/
 Disallow: /fight/
 Disallow: /greenohm/
+Disallow: /hscpapa/
 Disallow: /leinenkugels/
 Disallow: /lendsquare/
 Disallow: /niek/
