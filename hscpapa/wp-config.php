@@ -79,6 +79,10 @@ $table_prefix  = 'hsc_';
  */
 define('WP_DEBUG', false);
 
+
+define('WP_HOME','http://ericadreisbach.com/hscpapa/');
+define('WP_SITEURL','http://ericadreisbach.com/hscpapa/');
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
