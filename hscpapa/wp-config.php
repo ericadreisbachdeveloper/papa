@@ -23,7 +23,7 @@
 define('DB_NAME', 'hscpapadb');
 
 /** MySQL database username */
-define('DB_USER', 'ericaricardo');
+define('DB_USER', 'ericaricardo_nearlyfreespeech');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'Yqn6#-x!5/L87');
