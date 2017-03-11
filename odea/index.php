@@ -5,7 +5,7 @@
 <section id="maincontent" class="title-section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">Odea </h1>
-    <!-- <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.teamodea.com" target="_blank" rel="nofollow">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a> -->
+    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.teamodea.com" target="_blank" rel="nofollow">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a> 
   </div>
 </section>
 
@@ -17,19 +17,22 @@
 
     <div id="carousel">
 
-      <img class="owl-lazy" data-src="../img/odea-home.jpg" alt="Odea | Home | responsive Bootstrap development by erica dreisbach" title="Odea | Home | responsive Bootstrap development by erica dreisbach" />
+      <img class="owl-lazy" data-src="../img/odea-new-home-1.jpg" alt="Odea homepage pt 1 |responsive Bootstrap development by erica dreisbach" title="Odea | Home | responsive Bootstrap development by erica dreisbach" />
 
-      <img class="owl-lazy" data-src="../img/odea-iphones.jpg" alt="Odea | mobile responsive Wordpress theme development by erica dreisbach" title="Odea | mobile responsive Wordpress theme development by erica dreisbach" />
+      <img class="owl-lazy" data-src="../img/odea-new-patty.jpg" alt="Odea About page | Wordpress template by Chicago web developer erica dreisbach" title="About | ODEA | Wordpress template by Chicago web developer erica dreisbach" />
 
-      <img class="owl-lazy" data-src="../img/odea-insights.jpg" alt="Odea | Insights | Wordpress template by Chicago web developer erica dreisbach" title="Odea | Insights | Wordpress template by Chicago web developer erica dreisbach" />
+      <img class="owl-lazy" data-src="../img/odea-new-soup2you.jpg" alt="Odea Soup 2 You portfolio page | Bootstrap Wordpress development by erica dreisbach" title="Soup 2 You | Odea | Bootstrap Wordpress development by erica dreisbach" />
 
-      <img class="owl-lazy" data-src="../img/odea-why-us.jpg" alt="Odea | Why Us | Wordpress Ajax-loaded content developed by erica dreisbach" title="Odea | Why Us | Wordpress Ajax-loaded content developed by erica dreisbach" />
+      <img class="owl-lazy" data-src="../img/odea-new-insights.jpg" alt="Odea Insights page | mobile responsive Wordpress theme development by erica dreisbach" title="Insights | Odea | mobile responsive Wordpress theme development by erica dreisbach" />
 
-      <img class="owl-lazy" data-src="../img/odea-here.jpg" alt="Odea | Here | custom jQuery development by Chicago web designer erica dreisbach" title="Odea | Here | custom jQuery development by Chicago web designer erica dreisbach" />
+      <img class="owl-lazy" data-src="../img/odea-new-capabilities.jpg" alt="Odea Capabilities page | Wordpress Bootstrap responsive mobile website by Chicago developer erica dreisbach" title="Capabilities | Odea | Wordpress Bootstrap responsive mobile website by Chicago developer erica dreisbach" />
 
-      <img class="owl-lazy" data-src="../img/odea-team.jpg" alt="Odea | Team | Bootstrap template developed by Chicago Wordpress developer erica dreisbach" title="Odea | Team | Bootstrap template developed by Chicago Wordpress developer erica dreisbach" />
+      <img class="owl-lazy" data-src="../img/odea-new-home-2.jpg" alt="Odea homepage pt 2 | responsive Bootstrap development by erica dreisbach" title="Odea | Home | responsive Bootstrap development by erica dreisbach" />
 
-      <img class="owl-lazy" data-src="../img/odea-connect.jpg" alt="Odea | Connect | Gravity form styled and implemented by Chicago web designer erica dreisbach" title="Odea | Connect | Gravity form styled and implemented by Chicago web designer erica dreisbach" />
+      <img class="owl-lazy" data-src="../img/odea-new-whyus.jpg" alt="Odea Why Us page | custom jQuery development by Chicago web designer erica dreisbach" title="Why Us | Odea | custom jQuery development by Chicago web designer erica dreisbach" />
+
+      <img class="owl-lazy" data-src="../img/odea-new-connect.jpg" alt="Odea Connect page and contact form | Gravity forms integration by Chicago Wordpress developer erica dreisbach" title="Connect | Odea | Gravity forms integration by Chicago Wordpress developer erica dreisbach" />
+
 
     </div><!-- /#carousel -->
 
