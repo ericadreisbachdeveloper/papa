@@ -38,7 +38,8 @@
             <li class="<?php if($page == 'Government Energy Management') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>gem">Government Energy Management </a></li>
             <li class="<?php if($page == 'Savory Living') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>savory">Savory Living </a></li>
             <li class="<?php if($page == 'Nearby Registry') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>nearby">Nearby Registry </a></li>
-            <li class="<?php if($page == 'Sugar Glen Farm') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>sugarglen">Sugar Glen Farm </a></li>
+            <!--
+            <li class="<?php// if($page == 'Sugar Glen Farm') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>sugarglen">Sugar Glen Farm </a></li> -->
           </ul>
         </li>
         <li><a href="<?php echo $homedir; ?>#about">About </a>

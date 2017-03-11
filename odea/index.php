@@ -5,7 +5,7 @@
 <section id="maincontent" class="title-section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">Odea </h1>
-    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.teamodea.com" target="_blank" rel="nofollow">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
+    <!-- <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.teamodea.com" target="_blank" rel="nofollow">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a> -->
   </div>
 </section>
 

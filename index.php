@@ -138,7 +138,6 @@
         </a>
       </div><!-- /Government Energy Management -->
 
-
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="savory" class="a">
           <div class="img-wrap">
@@ -149,16 +148,19 @@
         </a>
       </div><!-- /Savory Living -->
 
+
       <div class="col-md-1"> </div>
 
     </div><!-- /.row --->
 
-
+    <!--
 
     <div class="row">
 
-      <div class="col-md-1"> </div>
+      <div class="col-md-1"> </div> -->
 
+
+      <!--
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="nearby" class="a">
           <div class="img-wrap">
@@ -167,21 +169,13 @@
           <h3 class="-worktitle">Nearby Registry </h3>
           <h4 class="-workdescrip">CSS &amp; social media&nbsp;plugins </h4>
         </a>
-      </div><!-- /Nearby Registry -->
+      </div> /Nearby Registry -->
 
-      <div class="col-xs-6 col-md-5 work-cell">
-        <a href="sugarglen" class="a">
-          <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sugarglen.jpg" alt="Sugar Glen Farm blog mobile screenshots" title="Sugar Glen Farm | Wordpress blog developed by Erica Dreisbach" class="img" />
-          </div>
-          <h3 class="-worktitle">Sugar Glen Farm </h3>
-          <h4 class="-workdescrip">Wordpress blog </h4>
-        </a>
-      </div>   <!-- /Sugar Glen Farm -->
 
-      <div class="col-md-1"> </div>
 
-    </div><!-- /.row -->
+      <!-- <div class="col-md-1"> </div>
+
+    </div>  /.row -->
 
   </div><!-- /.container -->
 </section>
