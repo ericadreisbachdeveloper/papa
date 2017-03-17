@@ -1,4 +1,5 @@
 User-agent: *
+
 # Exclude irrelevant directories below
 Disallow: /sass/
 Disallow: /casey/
@@ -14,4 +15,23 @@ Disallow: /thesocialheir/
 Disallow: /zebra/
 Disallow: form.php
 
+
+Disallow: /papa/sass/
+Disallow: /papa/casey/
+Disallow: /papa/deck/
+Disallow: /papa/fight/
+Disallow: /papa/greenohm/
+Disallow: /papa/hscpapa/
+Disallow: /papa/leinenkugels/
+Disallow: /papa/lendsquare/
+Disallow: /papa/niek/
+Disallow: /papa/savorynav/
+Disallow: /papa/thesocialheir/
+Disallow: /papa/zebra/
+Disallow: /papa/form.php
+
+
 Crawl-delay: 10
+
+
+Sitemap: https://ericadreisbach.com/sitemap.xml

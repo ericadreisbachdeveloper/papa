@@ -1,60 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>http://www.ericadreisbach.com/</loc>
+    <loc>https://ericadreisbach.com/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/spacetogrow/</loc>
+    <loc>https://ericadreisbach.com/spacetogrow/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/odea/</loc>
+    <loc>https://ericadreisbach.com/odea/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/sentegrity/</loc>
+    <loc>https://ericadreisbach.com/sentegrity/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/educare/</loc>
+    <loc>https://ericadreisbach.com/educare/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/portionpac/</loc>
+    <loc>https://ericadreisbach.com/portionpac/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/welltrail/</loc>
+    <loc>https://ericadreisbach.com/welltrail/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/gem/</loc>
+    <loc>https://ericadreisbach.com/gem/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/savory/</loc>
+    <loc>https://ericadreisbach.com/savory/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/nearby/</loc>
+    <loc>https://ericadreisbach.com/nearby/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/sugarglen/</loc>
+    <loc>https://ericadreisbach.com/how-i-work/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/how-i-work/</loc>
+    <loc>https://ericadreisbach.com/testimonials/</loc>
   </url>
 
   <url>
-    <loc>http://www.ericadreisbach.com/testimonials/</loc>
-  </url>
-
-  <url>
-    <loc>http://www.ericadreisbach.com/email/</loc>
+    <loc>https://ericadreisbach.com/email/</loc>
   </url>
 
 </urlset>
