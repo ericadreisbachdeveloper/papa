@@ -33,6 +33,15 @@
 <section class="description-section">
   <h2 class="hidden">Description of Web Development Work </h2>
   <div class="container">
+
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="p -txtcenter -bigpadding"><a href="http://www.glocmedia.com/awards/web-design/usa/" target="_blank" class="-ghost -naturalsize">WINNER - Gloc Media Top 10 Freelance Web Designs 2016</a> <br /><br /></p>
+      </div>
+    </div>
+
+
     <div class="row">
       <div class="col-md-2"> </div>
 

@@ -6,6 +6,19 @@
 
 // Small devices (landscape phones, 34em and up)
 @media screen and (min-width: 34em) {
+
+
+  .home .work-section>.container>.row>.work-cell>.a.-awardwinning {
+    &:after,
+    &:before {
+      font-size: 2rem;
+    }
+  }
+
+  .home .work-section>.container>.row>.work-cell>.a.-awardwinning:before {
+    top: 34%;
+  }
+
 }
 
 
@@ -113,6 +126,29 @@
     margin-top: .1em;
   }
 
+  .home .work-section>.container>.row>.work-cell>.a.-awardwinning {
+    &:before, &:after {
+      width: calc(80% + 2em);
+      left: calc(10% - 1em);
+    }
+  }
+
+  .home .work-section>.container>.row>.work-cell>.a.-awardwinning:before {
+     left: calc(10% - 1em);
+     top: calc(50% - 3.8em);
+  }
+
+  .home .work-section>.container>.row>.work-cell>.a.-awardwinning:after {
+    position: absolute;
+     top: calc(50% - 4.75em);
+    height: 1em;
+    background: $red;
+    content: '';
+    display: block;
+    z-index: 0;
+    -webkit-clip-path: polygon(0 100%, 10% 0, 90% 0, 100% 100%);
+    clip-path: polygon(0 100%, 10% 0, 90% 0, 100% 100%);
+  }
 
 
 

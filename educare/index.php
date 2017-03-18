@@ -33,12 +33,12 @@
 <section class="description-section">
   <h2 class="hidden">Description of Web Development Work </h2>
   <div class="container">
-    <!--
+    
     <div class="row">
       <div class="col-md-12">
-        <p class="p -txtcenter -bigpadding"><a href="http://www.communicatorawards.com/winners/list/?l=O&event=11&category=8&award=E" target="_blank" class="-ghost -naturalsize">WINNER - Annual Communicator Award of&nbsp;Excellence</a> <br /><br /></p>
+        <p class="p -txtcenter -bigpadding"><a href="http://www.communicatorawards.com/winners/gallery/?event=52&category=Websites%20-%20Education&search=Search..." target="_blank" class="-ghost -naturalsize">WINNER - Annual Communicator Award of&nbsp;Excellence</a> <br /><br /></p>
       </div>
-    </div> -->
+    </div>
 
     <div class="row">
       <div class="col-md-2"> </div>

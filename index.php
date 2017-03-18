@@ -79,7 +79,7 @@
 
 
       <div class="col-xs-6 col-md-5 work-cell">
-        <a href="educare" class="a">
+        <a href="educare" class="a -awardwinning">
           <div class="img-wrap">
             <img src="https://s3.amazonaws.com/darkblack-papa/sq-educare.jpg" alt="Educare Get Involved and Contact pages as viewed on mobile devices" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
           </div>
@@ -129,7 +129,7 @@
       <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
-        <a href="gem" class="a">
+        <a href="gem" class="a -awardwinning">
           <div class="img-wrap">
             <img src="https://s3.amazonaws.com/darkblack-papa/sq-gem.jpg" alt="Government Energy Management - solar panels" title="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" class="img" />
           </div>
