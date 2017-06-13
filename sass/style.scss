@@ -9,19 +9,22 @@ rscss.io/components.html
 
 
 @import '_font-awesome.min.scss';      // icons
-@import '_mixins.scss';      // animations, CSS3 transitions
-@import '_colors.scss';      // color aliases
+@import '_mixins.scss';                // animations, CSS3 transitions
+@import '_colors.scss';                // color aliases
 @import '../bower_components/bootstrap/dist/css/_bootstrap.min.scss';    // Bootstrap
-@import '_global.scss';      // typography
-@import '_nav.scss';         // nav
-@import '_home.scss';        // home
-@import '_contact.scss';     // form controls
-@import '_footer.scss';      // footer
-@import '_page.scss';        // pages
-@import '_adaptive.scss';    // large viewports
+@import '_global.scss';                // typography
+@import '_nav.scss';                   // nav
+@import '_home.scss';                  // home
+@import '_contact.scss';               // form controls
+@import '_footer.scss';                // footer
+@import '_page.scss';                  // pages
+@import '_adaptive.scss';              // large viewports
 
-@import '_owl.carousel.scss'; // carousel
+@import '_owl.carousel.scss';          // carousel
 @import '_owl.theme.scss';
 @import '_owl.transitions.scss';
 
-@import '_legacy.scss'       // old browsers lacking SVG or CSS3 support
+@import '_legacy.scss'                 // old browsers lacking SVG or CSS3 support
+
+
+// sass --watch sass/style.scss:css/style.css --style compressed
