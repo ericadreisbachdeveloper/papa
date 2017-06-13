@@ -18,12 +18,7 @@
   .home .work-section>.container>.row>.work-cell>.a.-awardwinning:before {
     top: 34%;
   }
-
 }
-
-
-
-
 
 
 
@@ -73,32 +68,18 @@
 
 
 
-  /* * * * * * * * * * * * *
-   Typography
-  * * * * * * * * * * * * */
+  //Typography
 
-  .p {
-    font-size: 2rem;
-    line-height: 1.666;
-  }
+  .p                   { font-size: 2rem; line-height: 1.666;}
 
-  .p.-medium,
-  .-medium {
-    font-size: 3rem;
-  }
+  .p.-medium, .-medium { font-size: 3rem; }
 
 
-  .home .-pagehead {
-    font-size: 10rem;     // h1
-  }
+  .home .-pagehead     { font-size: 10rem; }          // h1
 
-  .home .-pagesubhead {
-    font-size: 5rem;     // h2
-  }
+  .home .-pagesubhead  { font-size: 5rem;  }         // h2
 
-  .home .-contactsectionhead.-sectionhead{
-    padding-top: 0;
-  }
+  .home .-contactsectionhead.-sectionhead { padding-top: 0; }
 
 
   .work, .page {
@@ -226,8 +207,17 @@
         }
       }
 
+
+      // Contact
+
       .contact-section > .container {
         padding-top: 4em;
+      }
+
+      .contact-section p {
+        max-width: 25em;
+        margin-right: auto;
+        margin-left: auto;
       }
 
       #thankyou {
@@ -322,7 +312,7 @@
   }
 
 
-  .socialmedia > .li { font-size: 8rem; } 
+  .socialmedia > .li { font-size: 8rem; }
 
 
 }
