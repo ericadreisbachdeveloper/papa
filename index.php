@@ -297,7 +297,7 @@
 
         <h3 class="-contactsectionhead -large -txtcenter">You've found me <br />at a particularly busy&nbsp;time. </h3>
 
-        <p class="p -txtcenter">I'm booked through the end of summer. If your project is a good one and can wait unti; September, you're welcome to circle back&nbsp;then. </p>
+        <p class="p -txtcenter">I'm booked through the end of summer. If your project is a good one and can wait until September, you're welcome to circle back&nbsp;then. </p>
 
         <p class=" -txtcenter"><a class="-ghost -naturalsize" href="cheap">Free Advice</a></p>
 
