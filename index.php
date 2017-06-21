@@ -32,35 +32,6 @@
   <h2 class="hidden -sectionhead">Work </h2>
   <div class="container">
 
-    <div class="row">
-
-      <div class="col-md-1"> </div>
-
-      <div class="col-xs-6 col-md-5 work-cell">
-        <a href="spacetogrow" class="a">
-          <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-spacetog.jpg" alt="Space to Grow homepage as viewed on laptop" title="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" class="img" />
-          </div>
-          <h3 class="-worktitle">Space to Grow</h3>
-          <h4 class="-workdescrip">Custom Wordpress template </h4>
-        </a>
-      </div><!-- / Space to Grow -->
-
-
-      <div class="col-xs-6 col-md-5 work-cell">
-        <a href="odea" class="a">
-          <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-odea-new.jpg" alt="Odea homepage HTML5 video - charging rhinoceros" title="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
-          </div>
-          <h3 class="-worktitle">Odea </h3>
-          <h4 class="-workdescrip">Wordpress/Bootstrap theme <br />with HTML5&nbsp;video </h4>
-        </a>
-      </div><!-- / Odea -->
-
-      <div class="col-md-1"> </div>
-
-    </div><!-- /.row -->
-
 
 
     <div class="row">
@@ -68,25 +39,24 @@
       <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
-        <a href="sentegrity" class="a">
+        <a href="pinnacle" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-sentegrity.jpg" alt="Sentegrity homepage featuring modified public domain owl and Sentegrity app screenshot" title="Sentegrity | Wordpress/Bootstrap advanced custom fields theme by Erica Dreisbach" class="img" />
+            <img src="img/sq-pinnacle.jpg" alt="homepage screenshot of Pinnacle Advertising | freelance website development by erica dreisbach" title="Pinnacle Advertising | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
           </div>
-          <h3 class="-worktitle">Sentegrity </h3>
-          <h4 class="-workdescrip">Wordpress/Bootstrap theme </h4>
+          <h3 class="-worktitle">Pinnacle </h3>
+          <h4 class="-workdescrip">Custom Wordpress theme <br />with video +&nbsp;carousels</h4>
         </a>
-      </div><!-- / Sentegrity -->
-
+      </div><!-- / Pinnacle -->
 
       <div class="col-xs-6 col-md-5 work-cell">
-        <a href="educare" class="a -awardwinning">
+        <a href="worsham" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-educare.jpg" alt="Educare Get Involved and Contact pages as viewed on mobile devices" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
+            <img src="img/sq-worsham.jpg" alt="screenshot of Worsham College of Mortuary Science homepage" title="Worsham College of Mortuary Science | Wordpress design and development sby Chicago web designer erica dreisbach" class="img" />
           </div>
-          <h3 class="-worktitle">Educare  </h3>
-          <h4 class="-workdescrip">Wordpress/Bootstrap development </h4>
+          <h3 class="-worktitle">Worsham</h3>
+          <h4 class="-workdescrip">Wordpress design and&nbsp;development </h4>
         </a>
-      </div><!-- /Educare -->
+      </div><!-- / Worsham-->
 
       <div class="col-md-1"> </div>
 
@@ -109,14 +79,14 @@
       </div><!-- /PortionPac -->
 
       <div class="col-xs-6 col-md-5 work-cell">
-        <a href="welltrail" class="a">
+        <a href="odea" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-welltrail.jpg" alt="WellTrail team page - group high five" title="WellTrail | Wordpress mobile development by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-odea-new.jpg" alt="Odea homepage HTML5 video - charging rhinoceros" title="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
           </div>
-          <h3 class="-worktitle">WellTrail  </h3>
-          <h4 class="-workdescrip">Mobile/adaptive Wordpress&nbsp;theme </h4>
+          <h3 class="-worktitle">Odea </h3>
+          <h4 class="-workdescrip">Wordpress/Bootstrap theme <br />with HTML5&nbsp;video </h4>
         </a>
-      </div><!-- /WellTrail -->
+      </div><!-- / Odea -->
 
       <div class="col-md-1"> </div>
 
@@ -129,6 +99,46 @@
       <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
+        <a href="educare" class="a -awardwinning">
+          <div class="img-wrap">
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-educare.jpg" alt="Educare Get Involved and Contact pages as viewed on mobile devices" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Educare  </h3>
+          <h4 class="-workdescrip">Wordpress/Bootstrap development </h4>
+        </a>
+      </div><!-- /Educare -->
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="spacetogrow" class="a">
+          <div class="img-wrap">
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-spacetog.jpg" alt="Space to Grow homepage as viewed on laptop" title="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Space to Grow</h3>
+          <h4 class="-workdescrip">Custom Wordpress template </h4>
+        </a>
+      </div><!-- / Space to Grow -->
+
+      <div class="col-md-1"> </div>
+
+    </div><!-- /.row -->
+
+
+
+    <div class="row">
+
+      <div class="col-md-1"> </div>
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="welltrail" class="a">
+          <div class="img-wrap">
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-welltrail.jpg" alt="WellTrail team page - group high five" title="WellTrail | Wordpress mobile development by Erica Dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">WellTrail  </h3>
+          <h4 class="-workdescrip">Mobile/adaptive Wordpress&nbsp;theme </h4>
+        </a>
+      </div><!-- /WellTrail -->
+
+      <div class="col-xs-6 col-md-5 work-cell">
         <a href="gem" class="a -awardwinning">
           <div class="img-wrap">
             <img src="https://s3.amazonaws.com/darkblack-papa/sq-gem.jpg" alt="Government Energy Management - solar panels" title="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" class="img" />
@@ -138,44 +148,11 @@
         </a>
       </div><!-- /Government Energy Management -->
 
-      <div class="col-xs-6 col-md-5 work-cell">
-        <a href="savory" class="a">
-          <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-savory.jpg" alt="Savory Living homepage - a woman looks at a refrigerator filled with fresh produce" title="Savory Living | web design by Erica Dreisbach" class="img" />
-          </div>
-          <h3 class="-worktitle">Savory Living </h3>
-          <h4 class="-workdescrip">design &amp; development </h4>
-        </a>
-      </div><!-- /Savory Living -->
-
-
       <div class="col-md-1"> </div>
 
-    </div><!-- /.row --->
-
-    <!--
-
-    <div class="row">
-
-      <div class="col-md-1"> </div> -->
+    </div><!-- /.row -->
 
 
-      <!--
-      <div class="col-xs-6 col-md-5 work-cell">
-        <a href="nearby" class="a">
-          <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-nearby.jpg" alt="Nearby Registry homepage illustration of a bustling village" title="Nearby Registry | CSS and plugin development by Erica Dreisbach" class="img" />
-          </div>
-          <h3 class="-worktitle">Nearby Registry </h3>
-          <h4 class="-workdescrip">CSS &amp; social media&nbsp;plugins </h4>
-        </a>
-      </div> /Nearby Registry -->
-
-
-
-      <!-- <div class="col-md-1"> </div>
-
-    </div>  /.row -->
 
   </div><!-- /.container -->
 </section>
@@ -254,8 +231,8 @@
         <div class="circle">
           <div class="-circlewrap">
             <span class="-circlesmalls">DEVELOPMENT LEAD ON</span><br />
-            <span class="-circleextrabigs">35</span><br />
-            <span class="-circlesmalls">WEBSITES <span style="letter-spacing: 0; font-style: italic;">and counting!</span> </span>
+            <span class="-circleextrabigs">36</span><br />
+            <span class="-circlesmalls">WEBSITES<span style="letter-spacing: 0; font-style: italic;">and counting!</span> </span>
           </div>
         </div>
       </div>
@@ -263,7 +240,7 @@
       <div class="col-sm-4 col-circle">
         <div class="circle">
           <div class="-circlewrap">
-            <span class="-circlebigs">60+</span><br />
+            <span class="-circlebigs">60+ </span><br />
             <span class="-circlesmalls">HTML EMAILS</span>
           </div>
         </div>

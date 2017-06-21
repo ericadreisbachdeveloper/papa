@@ -156,9 +156,11 @@ $(document).ready(function(){
 
 
 
-<!-- home cooked stuff -->
 <?php if($bodyclass == home) : ?>
+
+<!-- home cooked stuff -->
 <script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/papa.min.js"></script>
+
 <?php endif; ?>
 
 
