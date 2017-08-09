@@ -141,7 +141,6 @@ $(function() {
 <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-
   $('#carousel').owlCarousel({
    loop:true,
    lazyLoad:true,
