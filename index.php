@@ -231,7 +231,7 @@
         <div class="circle">
           <div class="-circlewrap">
             <span class="-circlesmalls">DEVELOPMENT LEAD ON</span><br />
-            <span class="-circleextrabigs">37</span><br />
+            <span class="-circleextrabigs">38</span><br />
             <span class="-circlesmalls">WEBSITES<span style="letter-spacing: 0; font-style: italic;">and counting!</span> </span>
           </div>
         </div>
@@ -272,13 +272,8 @@
 
         <div id="success" class="-large -text-center -vertical-middle"> </div>
 
-        <h3 class="-contactsectionhead -large -txtcenter">You've found me <br />at a particularly busy&nbsp;time. </h3>
 
-        <p class="p -txtcenter">I'm booked through the end of summer. If your project is a good one and can wait until November, you're welcome to circle back&nbsp;then. </p>
-
-        <p class=" -txtcenter"><a class="-ghost -naturalsize" href="cheap">Free Advice</a></p>
-
-        <?php //include('ajaxcontact.php'); ?>
+        <?php include('ajaxcontact.php'); ?>
 
         <?php //include('simplecontact.php'); ?>
 
