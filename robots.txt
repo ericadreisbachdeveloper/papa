@@ -13,6 +13,7 @@ Disallow: /niek/
 Disallow: /savorynav/
 Disallow: /thesocialheir/
 Disallow: /zebra/
+Disallow: /nava/
 Disallow: form.php
 
 
@@ -28,6 +29,7 @@ Disallow: /papa/niek/
 Disallow: /papa/savorynav/
 Disallow: /papa/thesocialheir/
 Disallow: /papa/zebra/
+Disallow: /papa/nava/
 Disallow: /papa/form.php
 
 

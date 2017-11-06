@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Nava - Frame Proof of Concept </title>
+
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+
+
+<style type="text/css">
+
+h1 { margin-bottom: 2em; margin-top: 1em;  }
+h2 { margin-bottom: .5em; }
+
+.image-block-wrapper {
+  width: auto;
+  float: left;
+  margin-bottom: 4em;
+  padding-bottom: 1em;
+  box-shadow: .1em .1em .5em rgba(0,0,0,.6);
+}
+
+
+.thumb-image {
+  max-width: calc(100% - 2em);
+  background-image: url('./img/paper-tile.png');
+  height: auto;
+  box-shadow: inset .1em .1em 1em rgba(0,0,0,.6);
+  display: block;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+
+.image-block-wrapper:not(.-matte) {
+  position: relative;
+  z-index: 10;
+}
+
+.image-block-wrapper:not(.-matte):before {
+  width: calc(100% - 2em);
+  height: calc(100% - 2em);
+  display: block;
+  box-shadow: inset .1em .05em .8em rgba(0,0,0,.6);
+  content: '';
+  position: absolute;
+   top: 1em;
+   left: 1em;
+  z-index: 20;
+}
+
+
+.image-block-wrapper.-matte .thumb-image {
+  padding: 2em;
+}
+
+.image-block-wrapper {
+  background: black;
+}
+
+.image-block-wrapper.-white {
+  background: white;
+}
+
+.image-block-wrapper.-white .thumb-image {
+  box-shadow: inset .1em .1em 1em rgba(0,0,0,.35);
+}
+
+.image-block-wrapper.-silver {
+  background-image: -webkit-gradient(
+   linear,
+   right top,
+   left top,
+   color-stop(0,#b4b2b3),
+   color-stop(1,#ecedec)
+  );
+  background-image: -o-linear-gradient(top, #b4b2b3 0, #ecedec 100%);
+  background-image: -moz-linear-gradient(top, #b4b2b3 0, #ecedec 100%);
+  background-image: -webkit-linear-gradient(top, #b4b2b3 0, #ecedec 100%);
+  background-image: -ms-linear-gradient(top, #b4b2b3 0, #ecedec 100%);
+  background-image: linear-gradient(top, #b4b2b3 0, #ecedec 100%);
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+
+    <h1>Nava - Frame Proof of Concept </h1>
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-md-6">
+        <h2>No Matte with Black Frame</h2>
+
+        <div class="image-block-wrapper">
+          <img class="thumb-image" src="img/fantasy.jpg" alt="" title="" />
+        </div>
+
+      </div>
+
+
+
+      <div class="col-md-6">
+
+        <h2>Matte with Black Frame </h2>
+
+        <div class="image-block-wrapper -matte">
+          <img class="thumb-image" src="img/molotof.jpg" alt="" title="" />
+        </div>
+
+      </div>
+
+
+
+      <div class="col-md-6">
+
+        <h2>Matte with White Frame </h2>
+
+        <div class="image-block-wrapper -matte -white">
+          <img class="thumb-image" src="img/mossy.jpg" alt="" title="" />
+        </div>
+
+      </div>
+
+
+
+      <div class="col-md-6">
+
+        <h2>Matte with Silver Frame </h2>
+
+        <div class="image-block-wrapper -matte -silver">
+          <img class="thumb-image" src="img/pinkish-dawn.jpg" alt="" title="" />
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
