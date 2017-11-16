@@ -12,7 +12,7 @@
 </section>
 
 <style type="text/css">
-.septagon { background-color: #ccc; background-image: url('https://s3.amazonaws.com/darkblack-papa/sunset.jpg'); background-size: cover; min-height: 30em; height: 500px; height: calc(100vh - 50px); }
+.septagon { background-color: #ccc; background-image: url('https://s3.amazonaws.com/darkblack-papa/sunset-compressed.jpg'); background-size: cover; min-height: 30em; height: 500px; height: calc(100vh - 50px); }
 .septagon > .-displaytable > .container { opacity: .5; filter: alpha(opacity=70); color: #fff; text-align: center; text-shadow: 1px 1px 3px #000; }
 .septagon .-pagehead { line-height: 1; }
 .septagon .-pageusbhead { font-style: italic; margin-top: .2em; }
@@ -41,7 +41,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="pinnacle" class="a">
           <div class="img-wrap">
-            <img src="img/sq-pinnacle.jpg" alt="homepage screenshot of Pinnacle Advertising | freelance website development by erica dreisbach" title="Pinnacle Advertising | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-pinnacle-compressed.jpg" alt="homepage screenshot of Pinnacle Advertising | freelance website development by erica dreisbach" title="Pinnacle Advertising | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Pinnacle </h3>
           <h4 class="-workdescrip">Custom Wordpress theme <br />with video +&nbsp;carousels</h4>
@@ -51,7 +51,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="worsham" class="a">
           <div class="img-wrap">
-            <img src="img/sq-worsham.jpg" alt="screenshot of Worsham College of Mortuary Science homepage" title="Worsham College of Mortuary Science | Wordpress design and development sby Chicago web designer erica dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-worsham-compressed.jpg" alt="screenshot of Worsham College of Mortuary Science homepage" title="Worsham College of Mortuary Science | Wordpress design and development sby Chicago web designer erica dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Worsham</h3>
           <h4 class="-workdescrip">Wordpress design and&nbsp;development </h4>
@@ -71,7 +71,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="portionpac" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-portionpac.jpg" alt="PortionPac product page" title="PortionPac | Wordpress redesign by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-portionpac-compressed.jpg" alt="PortionPac product page" title="PortionPac | Wordpress redesign by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">PortionPac </h3>
           <h4 class="-workdescrip">Wordpress theme development </h4>
@@ -101,7 +101,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="educare" class="a -awardwinning">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-educare.jpg" alt="Educare Get Involved and Contact pages as viewed on mobile devices" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-educare-compressed.jpg" alt="Educare Get Involved and Contact pages as viewed on mobile devices" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Educare  </h3>
           <h4 class="-workdescrip">Wordpress/Bootstrap development </h4>
@@ -111,7 +111,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="spacetogrow" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-spacetog.jpg" alt="Space to Grow homepage as viewed on laptop" title="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-spacetog-compressed.jpg" alt="Space to Grow homepage as viewed on laptop" title="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Space to Grow</h3>
           <h4 class="-workdescrip">Custom Wordpress template </h4>
@@ -141,7 +141,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="gem" class="a -awardwinning">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-gem.jpg" alt="Government Energy Management - solar panels" title="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-gem-compressed.jpg" alt="Government Energy Management - solar panels" title="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Gov<span class="-mobilehideinline">ernmen</span>t Energy Management </h3>
           <h4 class="-workdescrip">Wordpress design and&nbsp;development </h4>
@@ -159,7 +159,7 @@
 
 
 
-<section class="section picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/erica-headshot.jpg');">
+<section class="section picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/erica-headshot-compressed.jpg');">
   <h2 class="-sectionhead hidden">erica dreisbach </h2>
 </section>
 
@@ -176,7 +176,7 @@
         <h2 class="-sectionhead">Hello! </h2>
         <p class="p">I'm a freelance web&nbsp;developer based in Chicago, working on projects from all over the US. I've built websites for clients in New York, Portland (Oregon), Boston, San Francisco, Los Angeles, South Carolina, and here in&nbsp;Chicago. </p>
         <p class="p">My obsessive email habit plus phone or Skype conferences as needed combine for an optimal remote working&nbsp;relationship. </p>
-        <p class="p">I'm also available for on-site work in Chicago and Evanston. Especially if you have&nbsp;coffee. </p>
+        <p class="p">I'm also available for on-site work in Chicago. Especially if you have&nbsp;coffee. </p>
 
         <p class="-bigpadding -txtcenter">
           <a class="-ghost -samesize" href="how-i-work">How I Work </a>
@@ -303,7 +303,7 @@
 
 
 
-<section class="picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/chicago-skyview.jpg');">
+<section class="picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/chicago-skyview-compressed.jpg');">
   <h2 class="hidden">Chicago freelance web developer erica dreisbach </h2>
 </section>
 
