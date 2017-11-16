@@ -81,7 +81,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="odea" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-odea-new.jpg" alt="Odea homepage HTML5 video - charging rhinoceros" title="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-odea-new-compressed.jpg" alt="Odea homepage HTML5 video - charging rhinoceros" title="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Odea </h3>
           <h4 class="-workdescrip">Wordpress/Bootstrap theme <br />with HTML5&nbsp;video </h4>
