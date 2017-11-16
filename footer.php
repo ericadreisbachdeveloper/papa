@@ -41,7 +41,7 @@
 
 <!-- Contact validation -->
 <?php if($bodyclass == 'home') : ?>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"> </script>
+<script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/jquery.form.min.js"> </script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"> </script>
 
 <script type="text/javascript">
