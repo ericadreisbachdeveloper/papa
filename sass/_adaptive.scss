@@ -215,10 +215,14 @@
         padding-bottom: 8em;
       }
 
-      .contact-section p {
+      .contact-section .p {
         max-width: 25em;
         margin-right: auto;
         margin-left: auto;
+      }
+
+      .contact-section .pform {
+        max-width: none;
       }
 
       #thankyou {
