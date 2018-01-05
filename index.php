@@ -4,14 +4,12 @@
 
 <section id="top" class="septagon">
 
-  <noscript>
   <style scoped>
   .septagon { background-color: #ccc; background-image: url('https://s3.amazonaws.com/darkblack-papa/sunset-compressed.jpg'); background-size: cover; min-height: 30em; height: 500px; height: calc(100vh - 50px); }
   .septagon > .-displaytable > .container { opacity: .5; filter: alpha(opacity=70); color: #fff; text-align: center; text-shadow: 1px 1px 3px #000; }
   .septagon .-pagehead { line-height: 1; }
   .septagon .-pageusbhead { font-style: italic; margin-top: .2em; }
   </style>
-  </noscript>
 
   <div class="container-fluid-width -displaytable">
     <div class="container -displaytablecell" style="">
