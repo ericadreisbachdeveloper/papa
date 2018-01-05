@@ -30,21 +30,21 @@
 
 
 <!-- jQuery -->
-<script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/jquery.min.js"> </script>
+<script src="https://s3.amazonaws.com/darkblack-papa/jquery.min.js"> </script>
 
 
 
 <!-- Bootstrap -->
-<script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/bootstrap.min.js"> </script>
+<script src="https://s3.amazonaws.com/darkblack-papa/bootstrap.min.js"> </script>
 
 
 
 <!-- Contact validation -->
 <?php if($bodyclass == 'home') : ?>
-<script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/jquery.form.min.js"> </script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"> </script>
+<script  src="https://s3.amazonaws.com/darkblack-papa/jquery.form.min.js"> </script>
+<script  src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"> </script>
 
-<script type="text/javascript">
+<script>
 
 $(document).ready(function(){
   // set contact form wrapper height inline so that success message is vertically aligned: middle
@@ -123,7 +123,7 @@ $(function() {
 
 <!-- Back button on Work and Pages -->
 <?php if(isset($page)) : ?>
-<script type="text/javascript">
+<script>
 
   $('#button').html('More Work');
 
@@ -138,8 +138,8 @@ $(function() {
 
 <!-- initialize carousel on Work pages -->
 <?php if($bodyclass == work) : ?>
-<script type="text/javascript" src="../js/owl.carousel.min.js"></script>
-<script type="text/javascript">
+<script src="../js/owl.carousel.min.js"></script>
+<script>
 $(document).ready(function(){
   $('#carousel').owlCarousel({
    loop:true,
@@ -158,7 +158,7 @@ $(document).ready(function(){
 <?php if($bodyclass == home) : ?>
 
 <!-- home cooked stuff -->
-<script type="text/javascript" src="https://s3.amazonaws.com/darkblack-papa/papa.min.js"></script>
+<script src="https://s3.amazonaws.com/darkblack-papa/papa.min.js"></script>
 
 <?php endif; ?>
 

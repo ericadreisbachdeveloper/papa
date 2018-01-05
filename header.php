@@ -40,7 +40,7 @@
 <?php endif; ?>
 
 
-<script type="text/javascript">
+<script>
 if (document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1")) { }
 else { document.documentElement.className = "nosvg"; }
 </script>
