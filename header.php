@@ -36,7 +36,7 @@
 
 
 <?php if(isset($page)) : ?>
- <link rel="stylesheet" type="text/css" href="../css/style.css" />
+ <link rel="stylesheet" type="text/css" href="../css/style.css?v=1.1.1" />
 <?php endif; ?>
 
 
