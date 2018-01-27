@@ -16,7 +16,8 @@
 
 
 
-<!-- Analytics-->
+<!-- Analytics - conditionally hid from PageSpeed Insights -->
+<?php if (!isset($_SERVER['HTTP_USER_AGENT']) || stripos($_SERVER['HTTP_USER_AGENT'], 'Speed Insights') === false): ?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,6 +27,7 @@
   ga('create', 'UA-47393701-1', 'auto');
   ga('send', 'pageview');
 </script>
+<?php endif; ?>
 
 
 
@@ -47,11 +49,10 @@
 <script>
 
 $(document).ready(function(){
-  // set contact form wrapper height inline so that success message is vertically aligned: middle
+  // set contact form wrapper height inline
+  // so that success message is vertically aligned: middle
   var contacth = $('#contactform').height();
   $('#contactformwrapper').height(contacth);
-  //console.log(contacth)
-
 });
 
 jQuery.validator.addMethod('answercheck', function (value, element) {
