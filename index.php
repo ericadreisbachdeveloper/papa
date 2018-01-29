@@ -5,7 +5,16 @@
 <section id="top" class="septagon">
 
   <style scoped>
-  .septagon { background-color: #ccc; background-image: url('https://s3.amazonaws.com/darkblack-papa/sunset-compressed.jpg'); background-size: cover; min-height: 30em; height: 500px; height: calc(100vh - 50px); }
+  .septagon {
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+
+    background-blend-mode: multiply;
+
+    background-size: cover; min-height: 30em; height: 500px; height: calc(100vh - 50px); }
   .septagon > .-displaytable > .container { opacity: .5; filter: alpha(opacity=70); color: #fff; text-align: center; text-shadow: 1px 1px 3px #000; }
   .septagon .-pagehead { line-height: 1; }
   .septagon .-pageusbhead { font-style: italic; margin-top: .2em; }
