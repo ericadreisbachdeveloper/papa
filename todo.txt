@@ -1,2 +1,9 @@
 
-add expiry to .htaccess assets
+
+
+convert FILE.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB FILE-v2.jpg
+
+
+convert web2.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB web3.jpg
+
+Cache-Control  max-age=31536000

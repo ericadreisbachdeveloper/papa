@@ -6,11 +6,11 @@
 
   <style scoped>
   .septagon {
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web2.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
 
     background-blend-mode: multiply;
 
