@@ -5,7 +5,7 @@
 <section id="maincontent" class="section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">PortionPac </h1>
-    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.portionpaccorp.com" target="_blank" rel="nofollow">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
+    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.portionpaccorp.com" target="_blank" rel="noopener">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
   </div>
 </section>
 
@@ -42,7 +42,7 @@
       <div class="col-md-8 col-content">
         <p class="p -txtcenter -medium">Wordpress &bull; Bootstrap 3 &bull; mobile/responsive &bull; HTML5 &bull; jQuery &bull; Ajax &bull; Advanced&nbsp;Custom&nbsp;Fields &bull; Custom&nbsp;Post&nbsp;Types </p>
 
-        <p class="p">Custom mobile/responsive Wordpress theme built for a green cleaning solutions company. Theme development relies heavily on jQuery/Ajax for product display, along with of <a href="https://codex.wordpress.org/Post_Types" target="_blank" class="a">Custom&nbsp;Post&nbsp;Types</a> and <a href="http://www.advancedcustomfields.com/" target="_blank" class="a">Advanced&nbsp;Custom&nbsp;Fields</a>. Also includes blog, section page templates, and customized <a href="http://www.gravityforms.com/" target="_blank" class="a">Gravity forms</a>. Design&nbsp;by&nbsp;<a href="http://www.teamodea.com" target="_blank" rel="nofollow" class="a">Odea</a>. </p>
+        <p class="p">Custom mobile/responsive Wordpress theme built for a green cleaning solutions company. Theme development relies heavily on jQuery/Ajax for product display, along with of <a href="https://codex.wordpress.org/Post_Types" target="_blank" rel="noopener" class="a">Custom&nbsp;Post&nbsp;Types</a> and <a href="http://www.advancedcustomfields.com/" rel="noopener" target="_blank" class="a">Advanced&nbsp;Custom&nbsp;Fields</a>. Also includes blog, section page templates, and customized <a href="http://www.gravityforms.com/" rel="noopener" target="_blank" class="a">Gravity forms</a>. Design&nbsp;by&nbsp;<a href="http://www.teamodea.com" target="_blank" rel="noopener" class="a">Odea</a>. </p>
       </div>
 
       <div class="col-md-2"> </div>

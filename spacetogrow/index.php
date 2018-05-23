@@ -5,7 +5,7 @@
 <section id="maincontent" class="title-section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">Space to Grow</h1>
-    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="https://www.spacetogrowchicago.org" target="_blank" rel="nofollow">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
+    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="https://www.spacetogrowchicago.org" target="_blank" rel="noopener">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
   </div>
 </section>
 
@@ -41,7 +41,7 @@
 
       <div class="col-md-8 col-content">
         <p class="p -txtcenter -medium">Wordpress &bull;&nbsp;Bootstrap 3 &bull;&nbsp;photo/video&nbsp;gallery &bull;&nbsp;responsive&nbsp;design &bull;&nbsp;FormAssembly integration </p>
-        <p class="p">Wordpress theme development using <a href="http://www.getbootstrap.com/" target="_blank" class="a">Bootstrap&nbsp;3</a> for a project of Chicago Healthy Schools&nbsp;Campaign. Site includes custom homepage content areas, FormAssembly integration for contact and donation modules, multimedia gallery, blog, and custom page templates. Design created in&nbsp;house by Chicago Healthy Schools&nbsp;Campaign. </p>
+        <p class="p">Wordpress theme development using <a href="http://www.getbootstrap.com/" target="_blank" rel="noopener" class="a">Bootstrap&nbsp;3</a> for a project of Chicago Healthy Schools&nbsp;Campaign. Site includes custom homepage content areas, FormAssembly integration for contact and donation modules, multimedia gallery, blog, and custom page templates. Design created in&nbsp;house by Chicago Healthy Schools&nbsp;Campaign. </p>
       </div>
 
       <div class="col-md-2"> </div>

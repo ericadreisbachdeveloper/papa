@@ -5,7 +5,7 @@
 <section id="maincontent" class="section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">Worsham College of Mortuary&nbsp;Science </h1>
-    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="https://www.worsham.edu" target="_blank" rel="nofollow" title="Worsham College | Top Funeral School | located outside Chicago, Illinois">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
+    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="https://www.worsham.edu" target="_blank" rel="noopener" title="Worsham College | Top Funeral School | located outside Chicago, Illinois">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
   </div>
 </section>
 
@@ -50,12 +50,12 @@
         <p class="p">Custom mobile/responsive Wordpress theme with original design. Template development particularly tailored to the&nbsp;college: </p>
 
         <ul class="p">
-          <li><a class="a" href="https://www.worsham.edu/admissions/curriculum/" target="_blank" rel="nofollow" title="Worsham College | best funeral school">Curriculum</a> &mdash; click-to-display course information and custom&nbsp;icons </li>
-          <li><a class="a" href="https://www.worsham.edu/admissions/state-licensing/" target="_blank" rel="nofollow" title="Worsham College of Mortuary Science | top funeral college | located near Chicago, Illinois">State Licensing</a> &mdash; state-shape SVG icons for enhanced&nbsp;UX and table customized for responsive&nbsp;display </li>
-          <li><a class="a" href="https://www.worsham.edu/alumni/jobs-board/" target="_blank" rel="nofollow" title="Worsham College of Mortuary Science | 87% job placement rate for funeral school graduates">Jobs Board</a> &mdash; password protected and easy to&nbsp;update </li>
+          <li><a class="a" href="https://www.worsham.edu/admissions/curriculum/" target="_blank" rel="noopener" title="Worsham College | best funeral school">Curriculum</a> &mdash; click-to-display course information and custom&nbsp;icons </li>
+          <li><a class="a" href="https://www.worsham.edu/admissions/state-licensing/" target="_blank" rel="noopener" title="Worsham College of Mortuary Science | top funeral college | located near Chicago, Illinois">State Licensing</a> &mdash; state-shape SVG icons for enhanced&nbsp;UX and table customized for responsive&nbsp;display </li>
+          <li><a class="a" href="https://www.worsham.edu/alumni/jobs-board/" target="_blank" rel="noopener" title="Worsham College of Mortuary Science | 87% job placement rate for funeral school graduates">Jobs Board</a> &mdash; password protected and easy to&nbsp;update </li>
         </ul>
 
-        <p class="p">Includes custom open&nbsp;graph content and meta/SEO tags. Page images fade in when scrolled into viewport using <a class="a" href="https://wowjs.uk/" target="_blank" rel="nofollow">wow.js</a>. </p>
+        <p class="p">Includes custom open&nbsp;graph content and meta/SEO tags. Page images fade in when scrolled into viewport using <a class="a" href="https://wowjs.uk/" target="_blank" rel="noopener">wow.js</a>. </p>
 
       </div>
 

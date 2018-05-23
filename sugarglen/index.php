@@ -5,7 +5,7 @@
 <section id="maincontent" class="section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">Sugar Glen Farm </h1>
-    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.sugarglenfarm.com" target="_blank" rel="nofollow">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
+    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.sugarglenfarm.com" target="_blank" rel="noopener">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
   </div>
 </section>
 
@@ -36,7 +36,7 @@
 
       <div class="col-md-8 col-content">
         <p class="p -txtcenter -medium">design &bull; Wordpress &bull; CSS &bull; jQuery </p>
-        <p class="p">Wordpress blog theme built for (full disclosure) my mom. Design includes adaptive/mobile styling and custom image header. CSS built with&nbsp;<a href="http://get-sass.lang" target="_blank" class="a">SASS</a>. </p>
+        <p class="p">Wordpress blog theme built for (full disclosure) my mom. Design includes adaptive/mobile styling and custom image header. CSS built with&nbsp;<a href="http://get-sass.lang" target="_blank" class="a" rel="noopener">SASS</a>. </p>
       </div>
 
       <div class="col-md-2"> </div>

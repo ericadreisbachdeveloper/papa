@@ -6,11 +6,7 @@
 
   <style scoped>
   .septagon {
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/web3.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/rani-ramli-geometric.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
 
     background-blend-mode: multiply;
 
@@ -24,6 +20,9 @@
     <div class="container -displaytablecell" style="">
         <h1 class="-pagehead">erica dreisbach </h1>
         <h2 class="-pagesubhead">web developer </h2>
+        <!-- <p class="-bigpadding">
+          <a class="-ghost -naturalsize">Lean Websites for $595. Learn more </a>
+        </p> -->
     </div>
   </div>
 </section>
@@ -44,12 +43,27 @@
   <h2 class="hidden -sectionhead">Work </h2>
   <div class="container">
 
+    <div class="row">
+      <h2>Custom Web Design </h2>
+    </div>
 
 
     <div class="row">
 
       <div class="col-md-1"> </div>
 
+
+      <div class="col-xs-6 col-md-5 work-cell">
+        <a href="howl2go" class="a">
+          <div class="img-wrap">
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-howl2go.jpg" alt="photo for a keytar player | freelance website development by erica dreisbach" title="Howl2GO | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
+          </div>
+          <h3 class="-worktitle">Howl2GO </h3>
+          <h4 class="-workdescrip">Custom Wordpress theme <br />with HTML5 video +&nbsp;media&nbsp;carousels</h4>
+        </a>
+      </div><!-- / Howl2GO -->
+
+      <!--
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="pinnacle" class="a">
           <div class="img-wrap">
@@ -58,14 +72,14 @@
           <h3 class="-worktitle">Pinnacle </h3>
           <h4 class="-workdescrip">Custom Wordpress theme <br />with video +&nbsp;carousels</h4>
         </a>
-      </div><!-- / Pinnacle -->
+      </div>/ Pinnacle -->
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="worsham" class="a">
           <div class="img-wrap">
             <img src="https://s3.amazonaws.com/darkblack-papa/sq-worsham-compressed.jpg" alt="screenshot of Worsham College of Mortuary Science homepage" title="Worsham College of Mortuary Science | Wordpress design and development sby Chicago web designer erica dreisbach" class="img" />
           </div>
-          <h3 class="-worktitle">Worsham</h3>
+          <h3 class="-worktitle">Worsham College</h3>
           <h4 class="-workdescrip">Wordpress design and&nbsp;development </h4>
         </a>
       </div><!-- / Worsham-->
@@ -93,9 +107,9 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="odea" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-odea-new-compressed.jpg" alt="Odea homepage HTML5 video - charging rhinoceros" title="Odea | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
+            <img src="https://s3.amazonaws.com/darkblack-papa/sq-odea-new-compressed.jpg" alt="ODEA homepage HTML5 video - eye wide open" title="ODEA | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
           </div>
-          <h3 class="-worktitle">Odea </h3>
+          <h3 class="-worktitle">ODEA </h3>
           <h4 class="-workdescrip">Wordpress/Bootstrap theme <br />with HTML5&nbsp;video </h4>
         </a>
       </div><!-- / Odea -->
@@ -222,7 +236,7 @@
         <h3 class="-txthead">Currently Learning </h3>
         <p class="p">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel  &nbsp;&bull;&nbsp;  Django </p>
 
-        <p class="-bigpadding -txtcenter"><a class="-ghost -naturalsize" href="https://s3.amazonaws.com/darkblack-papa/ericadreisbach-resume-web.pdf" target="_blank">Download Resume (PDF) </a></p>
+        <p class="-bigpadding -txtcenter"><a class="-ghost -naturalsize" href="https://s3.amazonaws.com/darkblack-papa/ericadreisbach-resume-web.pdf"  rel="noopener" target="_blank">Download Resume (PDF) </a></p>
 
       </div>
 
@@ -243,7 +257,7 @@
         <div class="circle">
           <div class="-circlewrap">
             <span class="-circlesmalls">DEVELOPMENT LEAD ON</span><br />
-            <span class="-circleextrabigs">43</span><br />
+            <span class="-circleextrabigs">44</span><br />
             <span class="-circlesmalls">WEBSITES<span style="letter-spacing: 0; font-style: italic;">and counting!</span> </span>
           </div>
         </div>
@@ -301,9 +315,9 @@
       <div class="col-md-2"> </div>
       <div class="col-md-8 col-content -txtcenter">
         <ul class="socialmedia -txtcenter">
-          <li class="li"><a class="b" href="http://www.twitter.com/ericadreisbach/" target="_blank"><span class="sr-only">Twitter</span><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li class="li"><a class="b" href="http://www.github.com/rockygulliver" target="_blank"><span class="sr-only">GitHub</span><i class="fa fa-github" aria-hidden="true"></i></a></li>
-          <li class="li"><a class="b" href="http://www.linkedin.com/in/ericadreisbach" target="_blank"><span class="sr-only">LinkedIn</span><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li class="li"><a class="b" href="http://www.twitter.com/ericadreisbach/" target="_blank" rel="noopener"><span class="sr-only">Twitter</span><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="li"><a class="b" href="http://www.github.com/rockygulliver" target="_blank" rel="noopener"><span class="sr-only">GitHub</span><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li class="li"><a class="b" href="http://www.linkedin.com/in/ericadreisbach" target="_blank" rel="noopener"><span class="sr-only">LinkedIn</span><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         </ul>
       </div>
       <div class="col-md-2"> </div>

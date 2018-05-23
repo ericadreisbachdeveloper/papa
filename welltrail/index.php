@@ -5,7 +5,7 @@
 <section id="maincontent" class="section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">WellTrail </h1>
-    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.welltrail.com" target="_blank" rel="nofollow">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
+    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.welltrail.com" target="_blank" rel="noopener">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
   </div>
 </section>
 
@@ -37,7 +37,7 @@
 
       <div class="col-md-8 col-content">
         <p class="p -txtcenter -medium">Wordpress &bull; mobile &bull; SASS &bull; jQuery &bull; SEO </p>
-        <p class="p">Developed and implemented responsive/mobile Wordpress theme built from the ground up from the <a href="https://wordpress.org/themes/twentythirteen/" target="blank" rel="nofollow" class="a">Twenty&nbsp;Thirteen&nbsp;theme</a>. Includes unique accent colors for five separate page templates and a custom contact form. Design&nbsp;by&nbsp;<a href="http://www.goweetu.com" target="_blank" class="a">Weetu</a>. </p>
+        <p class="p">Developed and implemented responsive/mobile Wordpress theme built from the ground up from the <a href="https://wordpress.org/themes/twentythirteen/" target="blank" rel="noopener" class="a">Twenty&nbsp;Thirteen&nbsp;theme</a>. Includes unique accent colors for five separate page templates and a custom contact form. Design&nbsp;by&nbsp;<a href="http://www.goweetu.com" target="_blank" class="a" rel="noopener">Weetu</a>. </p>
       </div>
 
       <div class="col-md-2"> </div>

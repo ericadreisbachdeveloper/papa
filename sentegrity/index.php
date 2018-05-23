@@ -39,7 +39,7 @@
 
       <div class="col-md-8 col-content">
         <p class="p -txtcenter -medium">Wordpress &bull;&nbsp;Bootstrap 3 &bull;&nbsp;slideshow &bull;&nbsp;retina &bull;&nbsp;responsive </p>
-        <p class="p">Wordpress theme development using <a href="http://www.getbootstrap.com/" target="_blank" class="a">Bootstrap&nbsp;3</a> for a mobile security app. Site includes homepage slideshow, contact form, and click‑to‑display content built with <a href="http://www.advancedcustomfields.com/" target="_blank" class="a">Advanced Custom Fields</a>. All icons created with <a href="http://glyphicons.com/" target="_blank" class="a">Glyphicons</a> or vector svgs with gif backup for graceful degradation in older&nbsp;browsers. </p>
+        <p class="p">Wordpress theme development using <a href="http://www.getbootstrap.com/" target="_blank" rel="noopener" class="a">Bootstrap&nbsp;3</a> for a mobile security app. Site includes homepage slideshow, contact form, and click‑to‑display content built with <a href="http://www.advancedcustomfields.com/" target="_blank" rel="noopener" class="a">Advanced Custom Fields</a>. All icons created with <a href="http://glyphicons.com/" rel="noopener" target="_blank" class="a">Glyphicons</a> or vector svgs with gif backup for graceful degradation in older&nbsp;browsers. </p>
       </div>
 
       <div class="col-md-2"> </div>

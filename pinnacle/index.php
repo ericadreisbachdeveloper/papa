@@ -5,7 +5,7 @@
 <section id="maincontent" class="section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">Pinnacle Advertising</h1>
-    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.pinnacle-advertising.com" target="_blank" rel="nofollow">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
+    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="http://www.pinnacle-advertising.com" target="_blank" rel="noopener">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
   </div>
 </section>
 

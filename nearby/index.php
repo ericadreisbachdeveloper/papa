@@ -40,7 +40,7 @@
 
       <div class="col-md-8 col-content">
         <p class="p -txtcenter -medium">CSS &bull; ColdFusion &bull; jQuery &bull; social&nbsp;media&nbsp;plugins </p>
-        <p class="p">Worked with a team of UX designers at Merit System Services on a website that promotes local businesses through a unique online registry interface. Significant styling and implementation work in jQuery, ColdFusion, and CSS. Built and added modal windows and <a href="http://www.starplugins.com/cloudzoom" target="_blank" class="a">Cloud&nbsp;Zoom</a>. Implemented social media modules for Twitter and Facebook. Maintained version control amongst a team spread across the country using <a href="http://subversion.apache.org/" target="_blank" class="a">Subversion</a>. Design&nbsp;by&nbsp;<a href="http://youngathenians.com/" target="_blank" class="a">Young&nbsp;Athenians</a>. </p>
+        <p class="p">Worked with a team of UX designers at Merit System Services on a website that promotes local businesses through a unique online registry interface. Significant styling and implementation work in jQuery, ColdFusion, and CSS. Built and added modal windows and <a href="http://www.starplugins.com/cloudzoom" target="_blank" rel="noopener" class="a">Cloud&nbsp;Zoom</a>. Implemented social media modules for Twitter and Facebook. Maintained version control amongst a team spread across the country using <a href="http://subversion.apache.org/" target="_blank" class="a">Subversion</a>. Design&nbsp;by&nbsp;<a href="http://youngathenians.com/" target="_blank" rel="noopener" class="a">Young&nbsp;Athenians</a>. </p>
       </div>
 
       <div class="col-md-2"> </div>
