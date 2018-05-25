@@ -196,9 +196,9 @@
   <h2 class="-sectionhead hidden">About</h2>
   <div class="container">
     <div class="row">
-      <div class="col-md-1"> </div>
+      <div class="col-md-2"> </div>
 
-      <div class="col-md-10 col-content">
+      <div class="col-md-8 col-content">
         <h2 class="-sectionhead">Hello! </h2>
         <p class="p">I'm a freelance web&nbsp;developer based in Chicago, working on projects from all over the US. I've built websites for clients in New York, Portland (Oregon), Boston, San Francisco, Los Angeles, South Carolina, and here in&nbsp;Chicago. </p>
         <p class="p">My obsessive email habit plus phone or Skype conferences as needed combine for an optimal remote working&nbsp;relationship. </p>
@@ -210,7 +210,7 @@
         </p>
       </div><!-- /.col-content -->
 
-      <div class="col-md-1"> </div>
+      <div class="col-md-2"> </div>
     </div><!-- /.row -->
   </div><!-- /.container -->
 </section>
