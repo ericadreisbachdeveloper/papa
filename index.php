@@ -44,11 +44,6 @@
   <div class="container">
 
     <div class="row">
-      <h2>Custom Web Design </h2>
-    </div>
-
-
-    <div class="row">
 
       <div class="col-md-1"> </div>
 
