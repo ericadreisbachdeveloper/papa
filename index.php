@@ -195,7 +195,7 @@
 
       <div class="col-md-8 col-content">
         <h2 class="-sectionhead">Hello! </h2>
-        <p class="p">I'm a freelance web&nbsp;developer based in Chicago, working on projects from all over the US. I've built websites for clients in New York, Portland (Oregon), Boston, San Francisco, Los Angeles, South Carolina, and here in&nbsp;Chicago. </p>
+        <p class="p">I'm a freelance web&nbsp;developer based in Chicago, working on projects from all over the US. I've built websites for clients in New&nbsp;York, Portland&nbsp;(Oregon), Boston, San&nbsp;Francisco, Los&nbsp;Angeles, South&nbsp;Carolina, and here in&nbsp;Chicago. </p>
         <p class="p">My obsessive email habit plus phone or Skype conferences as needed combine for an optimal remote working&nbsp;relationship. </p>
         <p class="p">I'm also available for on-site work in Chicago. Especially if you have&nbsp;coffee. </p>
 
