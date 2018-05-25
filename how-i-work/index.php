@@ -76,8 +76,8 @@
 
         <div class="qna">
           <p class="p q">Will you tutor me if I'm super <span class="nowrap">laid-back?</span> </p>
-          <p class="p">The beauty of Wordpress and SquareSpace is that the answer to every question you'll ever have is available via Google. There are also countless YouTube tutoria is the samels and PDF explainers. There are also neighborhood children who would be delighted to instruct&nbsp;you. </p>
-          <p class="p">If you've never managed a website before, I recommend getting a free Wordpress blog and publishing a few posts. The interface for a site managed by Wordpress software and a free Wordpress&nbsp;blog is the same. You'll learn a lot all by&nbsp;yourself! </p>
+          <p class="p">The beauty of Wordpress and SquareSpace is that the answer to every question you'll ever have is available via Google. There are also countless YouTube tutorials and PDF explainers. There are also neighborhood children who would be delighted to instruct&nbsp;you. </p>
+          <p class="p">If you've never managed a website before, I recommend getting a free Wordpress blog and publishing a few posts. The interface for a site managed by Wordpress software is the same as the interface for a free Wordpress&nbsp;blog. You'll learn a lot all by&nbsp;yourself! </p>
         </div><!-- /.qna -->
 
 
