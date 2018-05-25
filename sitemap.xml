@@ -1,56 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <url>
-    <loc>https://ericadreisbach.com/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/spacetogrow/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/odea/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/sentegrity/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/educare/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/portionpac/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/welltrail/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/gem/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/savory/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/nearby/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/how-i-work/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/testimonials/</loc>
-  </url>
-
-  <url>
-    <loc>https://ericadreisbach.com/email/</loc>
-  </url>
-
+<url>
+<loc>https://ericadreisbach.com/</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/howl2go</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/worsham</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/portionpac</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/odea</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/educare</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/spacetogrow</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/welltrail</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/gem</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/how-i-work</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/testimonials</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>
+https://ericadreisbach.com/pdf/ericadreisbach-resume.pdf
+</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://ericadreisbach.com/cheap</loc>
+<lastmod>2018-05-25T16:14:26+00:00</lastmod>
+<priority>0.80</priority>
+</url>
 </urlset>

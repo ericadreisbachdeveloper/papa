@@ -29,7 +29,7 @@
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li class="<?php if($page == 'Pinnacle') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>pinnacle">Pinnacle</a></li>
+            <li class="<?php if($page == 'Howl2GO') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>howl2go">Howl2GO</a></li>
             <li class="<?php if($page == 'Worsham') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>worsham">Worsham </a></li>
             <li class="<?php if($page == 'PortionPac') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>portionpac">PortionPac </a></li>
             <li class="<?php if($page == 'Odea') { echo 'active'; }?>"><a href="<?php echo $homedir; ?>odea">Odea </a></li>
