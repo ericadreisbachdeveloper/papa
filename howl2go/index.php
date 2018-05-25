@@ -48,7 +48,7 @@
       <div class="col-md-8 col-content">
         <p class="p -txtcenter -medium">HTML5&nbsp;video &bull; Wordpress &bull; Bootstrap &bull;  multimedia&nbsp;carousel &bull; social&nbsp;media&nbsp;wall &bull; Hubspot&nbsp;integration &bull; custom&nbsp;icons &bull; clickable&nbsp;SVG&nbsp;map </p>
 
-        <p class="p">Custom responsive Wordpress design and theme development for a national dueling&nbsp;pianos band. Includes HTML5 background video, and multimedia lightbox&nbsp;carousels, styled integration of Hubspot tracking and contact forms, and 30 custom <span style="white-space: nowrap;">retina-ready</span> icons. A social media wall using the <a href="https://codecanyon.net/item/flowflow-wordpress-social-stream-plugin/9319434" class="a" target="_blank" rel="noopener"><span style="white-space: nowrap;">Flow-Flow</span>&nbsp;plugin</a> allows for gorgeous automated display of content. Includes four unique page&nbsp;templates. </p>
+        <p class="p">Custom responsive Wordpress design and theme development for a national dueling&nbsp;pianos band. Includes HTML5 background video, and multimedia lightbox&nbsp;carousels, styled integration of Hubspot tracking and contact forms, and 30 custom <span class="nowrap">retina-ready</span> icons. A social media wall using the <a href="https://codecanyon.net/item/flowflow-wordpress-social-stream-plugin/9319434" class="a" target="_blank" rel="noopener"><span class="nowrap">Flow-Flow</span>&nbsp;plugin</a> allows for gorgeous automated display of content. Includes four unique page&nbsp;templates. </p>
       </div>
 
       <div class="col-md-2"> </div>

@@ -118,7 +118,12 @@ body {
 
 // hide images if they're not loaded
 img:not([src]){
-	display:none;
+	@include opacity(0);
+}
+
+
+.nowrap {
+  white-space: nowrap;
 }
 
 

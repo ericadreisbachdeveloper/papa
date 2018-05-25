@@ -21,9 +21,9 @@
 
         <div class="qna">
           <p class="p q">How long will it take? How much will it&nbsp;cost? </p>
-          <p class="p">It varies a lot, but most of the sites I build take <span style="white-space: nowrap;">6-10 weeks</span> from kickoff to launch and cost <span style="white-space: nowrap;">$3,000-$6,000</span>. All of the sites featured on <a href="../#work" class="a">my&nbsp;portfolio</a> fit that&nbsp;description. </p>
+          <p class="p">It varies a lot, but most of the sites I build take <span class="nowrap">6-10 weeks</span> from kickoff to launch and cost more than $3,000. All of the sites featured on <a href="../#work" class="a">my&nbsp;portfolio</a> fit that&nbsp;description. </p>
 
-          <p class="p">Occasionally I'm available for smaller projects, but that's&nbsp;rare. If budget is a major constraint, know that many sites are best served with a <span style="white-space: nowrap;">high-quality</span> <span style="white-space: nowrap;">low-cost</span> SquareSpace&nbsp;template. And on that note, here is some <a href="../cheap" class="a">free&nbsp;advice</a>.</p>
+          <p class="p">Occasionally I'm available for smaller projects, but that's&nbsp;rare. If budget is a major constraint, know that many sites are best served with a <span class="nowrap">high-quality</span> <span class="nowrap">low-cost</span> SquareSpace&nbsp;template. And on that note, here is some <a href="../cheap" class="a">free&nbsp;advice</a>.</p>
         </div><!-- /.qna -->
 
         <div class="qna">
@@ -60,7 +60,7 @@
 
         <div class="qna">
           <p class="p q">Do you do design? </p>
-          <p class="p">Design is available for <span style="white-space: nowrap;">laid-back</span> clients. Examples of my designs include <a href="https://ericadreisbach.com/" title="erica dreisbach | web designer" class="a">ericadreisbach.com</a>, <a href="../worsham" title="Worsham College | web design by erica dreisbach" class="a">Worsham&nbsp;College</a>, <a href="../howl2go" title="Howl2GO | web design by erica dreisbach" class="a">Howl2GO</a>, and <a href="../gem" class="a" title="Government Energy Management | award-winning web design by erica dreisbach">Government Energy&nbsp;Management</a>.</p>
+          <p class="p">Design is available for <span class="nowrap">laid-back</span> clients. Examples of my designs include <a href="https://ericadreisbach.com/" title="erica dreisbach | web designer" class="a">ericadreisbach.com</a>, <a href="../worsham" title="Worsham College | web design by erica dreisbach" class="a">Worsham&nbsp;College</a>, <a href="../howl2go" title="Howl2GO | web design by erica dreisbach" class="a">Howl2GO</a>, and <a href="../gem" class="a" title="Government Energy Management | award-winning web design by erica dreisbach">Government Energy&nbsp;Management</a>.</p>
 
           <p class="p">I'm fluent in the full Adobe Creative Suite and am just as versatile making adjustments to a PSD as I am updating&nbsp;code. </p>
 
@@ -75,8 +75,8 @@
 
 
         <div class="qna">
-          <p class="p q">Will you tutor me if I'm super <span style="white-space: nowrap;">laid-back?</span> </p>
-          <p class="p">The beauty of Wordpress and SquareSpace is that the answer to every question you'll ever have is available via Google. There are also countless YouTube tutorials and PDF explainers. There are also neighborhood children who would be delighted to instruct&nbsp;you. </p>
+          <p class="p q">Will you tutor me if I'm super <span class="nowrap">laid-back?</span> </p>
+          <p class="p">The beauty of Wordpress and SquareSpace is that the answer to every question you'll ever have is available via Google. There are also countless YouTube tutoria is the samels and PDF explainers. There are also neighborhood children who would be delighted to instruct&nbsp;you. </p>
           <p class="p">If you've never managed a website before, I recommend getting a free Wordpress blog and publishing a few posts. The interface for a site managed by Wordpress software and a free Wordpress&nbsp;blog is the same. You'll learn a lot all by&nbsp;yourself! </p>
         </div><!-- /.qna -->
 
@@ -88,7 +88,7 @@
         </div><!-- /.qna -->
 
         <div class="qna">
-          <p class="p q">Are you available to maintain sites <span style="white-space: nowrap;">long-term</span> or work on&nbsp;retainer? </p>
+          <p class="p q">Are you available to maintain sites <span class="nowrap">long-term</span> or work on&nbsp;retainer? </p>
           <p class="p">Generally I'm only available on a project basis, but that's flexible depending on the client and how well we work&nbsp;together. </p>
         </div><!-- /.qna -->
 
@@ -99,10 +99,10 @@
 
         <div class="qna">
           <p class="p q">What's your background? </p>
-          <p class="p">I grew up in northeastern Vermont (the Northeast Kingdom). After college I had a <span style="white-space: no-wrap;">five-year</span> <span style="white-space: nowrap;">mini-career</span> in marketing for nonprofits that plan conferences for socially responsible business&nbsp;leaders*. <br />
+          <p class="p">I grew up in northeastern Vermont (the Northeast Kingdom). After college I had a <span style="white-space: no-wrap;">five-year</span> <span class="nowrap">mini-career</span> in marketing for nonprofits that plan conferences for socially responsible business&nbsp;leaders*. <br />
           <span class="-small">*think: Ben from Ben &amp; Jerry's, Tom from Tom's of Maine </span></p>
           <p class="p">Eventually I was more focused on hacking around on the website and coding the monthly enewsletter than on messaging and branding and other important marketing&nbsp;things. </p>
-          <p class="p">Since 2009 I've been a full time freelance <span style="white-space: nowrap;">programmer-designer-developer</span>, with a short stint in 2010 writing SEO blogs. In January 2016 I incorporated as <a href="http://www.darkblackllc.com" target="_blank" rel="noopener" title="Erica Dreisbach | Dark Black LLC" class="a">Dark Black LLC</a>. </p>
+          <p class="p">Since 2009 I've been a full time freelance <span class="nowrap">programmer-designer-developer</span>, with a short stint in 2010 writing SEO blogs. In January 2016 I incorporated as <a href="http://www.darkblackllc.com" target="_blank" rel="noopener" title="Erica Dreisbach | Dark Black LLC" class="a">Dark Black LLC</a>. </p>
         </div><!-- /.qna -->
 
         <div class="qna">
@@ -112,8 +112,8 @@
 
         <div class="qna">
           <p class="p q">What's the best way to get in&nbsp;touch? </p>
-          <p class="p">I love email. You may have once heard an oracle tell of <span style="white-space: nowrap;">true-hearted</span> web developers that maintain an empty inbox. I am one such of whom the oracle&nbsp;spake. </p>
-          <p class="p">You can expect an email reply within an hour during Central business hours, and usually within more like 20 minutes. I'm also open and flexible about making appointments for <span style="white-space: nowrap;">real-time&nbsp;conversation.</span> </p>
+          <p class="p">I love email. You may have once heard an oracle tell of <span class="nowrap">true-hearted</span> web developers that maintain an empty inbox. I am one such of whom the oracle&nbsp;spake. </p>
+          <p class="p">You can expect an email reply within an hour during Central business hours, and usually within more like 20 minutes. I'm also open and flexible about making appointments for <span class="nowrap">real-time&nbsp;conversation.</span> </p>
           <p class="p">My favorite attachments from clients are PDFs and screenshots (jpg or png). My least favorites are Microsoft&nbsp;Word&reg;&nbsp;docx or PowerPoint&reg;&nbsp;pptx. </p>
         </div><!-- /.qna -->
       </div>
