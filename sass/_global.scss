@@ -162,8 +162,8 @@ img:not([src]){
 
 .-bigpadding {
   padding-top: 2em;
-
 }
+
 
 
 // Download Resume, How I Work, Testimonial buttons
@@ -180,7 +180,22 @@ img:not([src]){
   text-transform: uppercase;
   @include border-radius(2em);
   @include transition(all,.1s,ease-in-out);
-  @include hover{ background: transparent; color: red; text-decoration: none; @include transition(all,.2s,ease-in-out);};
+
+  -webkit-tap-highlight-color: #ff4500;
+
+  &.tap {
+    background: transparent;
+    color: red;
+    text-decoration: none;
+    @include transition(all,.2s,ease-in-out);
+  }
+
+  @include hover{
+    background: transparent;
+    color: red;
+    text-decoration: none;
+    @include transition(all,.2s,ease-in-out);
+  }
 }
 
 // for How I Work and Testimonials desktop homepage links
