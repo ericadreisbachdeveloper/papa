@@ -181,7 +181,8 @@ img:not([src]){
   @include border-radius(2em);
   @include transition(all,.1s,ease-in-out);
 
-  -webkit-tap-highlight-color: #ff4500;
+  -webkit-tap-highlight-color: transparent;
+  //-webkit-tap-highlight-color: #ff4500;
 
   &.tap {
     background: transparent;

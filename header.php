@@ -6,6 +6,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+<!-- remove IE and Windows Phone highlight -->
+<meta name="msapplication-tap-highlight" content="no">
+
 <meta property="og:locale" content="en_US" />
 <meta property="og:title" content="erica dreisbach | freelance web developer" />
 <meta property="og:image" content="<?php if(isset($ogimg)) { echo $ogimg; } else { echo ' https://s3.amazonaws.com/darkblack-papa/erica-dreisbach-freelance-chicago-web-developer.jpg'; } ?>" />
