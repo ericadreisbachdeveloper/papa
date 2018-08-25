@@ -28,8 +28,8 @@
 
 <!-- Contact validation -->
 <?php if($bodyclass == 'home') : ?>
-<script axync="async" src="https://s3.amazonaws.com/darkblack-papa/jquery-form-v1.1.0.min.js"> </script>
-<script async="async" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"> </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"> </script>
+<script async="async" src="https://s3.amazonaws.com/darkblack-papa/jquery-form-v1.1.0.min.js"> </script>
 
 <script>
 
@@ -143,7 +143,7 @@ $(document).ready(function(){
 
 <?php if($bodyclass == home) : ?>
 <!-- home cooked stuff -->
-<script src="https://s3.amazonaws.com/darkblack-papa/papa.min.js"></script>
+<script async="async" src="https://s3.amazonaws.com/darkblack-papa/papa-v1.1.0.min.js"></script>
 <?php endif; ?>
 
 
