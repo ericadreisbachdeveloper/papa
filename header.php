@@ -2,6 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
 <head>
 
+
+<?php function sanitize_output($buffer) {
+  // minify html
+  require_once('minify/html.php');
+  $buffer = Minify_HTML::minify($buffer);
+  return $buffer;
+}
+ob_start('sanitize_output'); ?>
+
+
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -48,13 +58,6 @@ if (document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image
 else { document.documentElement.className = "nosvg"; }
 </script>
 
-
-<?php function sanitize_output($buffer) {
-    require_once('minify/html.php');
-    $buffer = Minify_HTML::minify($buffer);
-    return $buffer;
-}
-ob_start('sanitize_output'); ?>
 
 
 </head>

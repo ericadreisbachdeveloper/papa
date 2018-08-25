@@ -17,7 +17,7 @@
 
 
 <!-- jQuery -->
-<script src="https://s3.amazonaws.com/darkblack-papa/jquery.min.js"> </script>
+<script src="https://s3.amazonaws.com/darkblack-papa/jquery-v2.2.3.min.js"> </script>
 
 
 
