@@ -49,6 +49,14 @@ else { document.documentElement.className = "nosvg"; }
 </script>
 
 
+<?php function sanitize_output($buffer) {
+    require_once('minify/html.php');
+    $buffer = Minify_HTML::minify($buffer);
+    return $buffer;
+}
+ob_start('sanitize_output'); ?>
+
+
 </head>
 
 
