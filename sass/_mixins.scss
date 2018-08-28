@@ -2,6 +2,16 @@
  Mixins
 ------------------------ */
 
+
+@mixin transition-all {
+  @include transition(all,.2s,ease-in-out);
+}
+
+@mixin transition-one($el) {
+  @include transition($el,.1s,ease-in-out);
+}
+
+
 @mixin clear {
   content: '';
   display: block;

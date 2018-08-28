@@ -58,7 +58,7 @@
             <img src="https://s3.amazonaws.com/darkblack-papa/sq-howl2go-2.jpg" alt="photo for a keytar player | freelance website development by erica dreisbach" title="Howl2GO | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Howl2GO </h3>
-          <h4 class="-workdescrip">Custom Wordpress theme <br />with HTML5 video +&nbsp;media&nbsp;carousels</h4>
+          <h4 class="-workdescrip">HTML5 video +&nbsp;media&nbsp;carousels</h4>
         </a>
       </div><!-- / Howl2GO -->
 
@@ -202,7 +202,15 @@
         <p class="p">I'm a freelance web&nbsp;developer based in Chicago, working on projects from all over the US. I've built websites for clients in New&nbsp;York, Portland&nbsp;(Oregon), Boston, San&nbsp;Francisco, Los&nbsp;Angeles, South&nbsp;Carolina, and here in&nbsp;Chicago. </p>
         <p class="p">My obsessive email habit plus phone or Skype conferences as needed combine for an optimal remote working&nbsp;relationship. </p>
         <p class="p">I'm also available for on-site work in Chicago. Especially if you have&nbsp;coffee. </p>
+        <p class="p">My current focus areas are <strong class="hilite">speed</strong> and <strong class="hilite">security.</strong>
+      </div><!-- /.col-content -->
+    </div><!-- /.row -->
 
+
+    <div class="row">
+      <div class="col-md-2"> </div>
+
+      <div class="col-md-8">
         <p class="-bigpadding -txtcenter">
           <a class="-ghost -samesize" href="how-i-work">How I Work </a>
           <a class="-ghost -samesize" href="testimonials">Testimonials </a>
@@ -211,7 +219,18 @@
 
       <div class="col-md-2"> </div>
     </div><!-- /.row -->
+
+
   </div><!-- /.container -->
+</section>
+
+
+
+<section class="section google-bragging">
+  <div class="container">
+    <p class="p -txtcenter">This site scores 100/100<span class="-desktop-br"></span> on Google PageSpeed Insights <br />
+    <a class="a -alt" href="https://developers.google.com/speed/pagespeed/insights/?url=https://ericadreisbach.com&tab=mobile" target="_blank" rel="noopener"><span>Click Here </span></a></p>
+  </div>
 </section>
 
 
@@ -233,7 +252,7 @@
         <p class="p">Git  &nbsp;&bull;&nbsp;  Grunt  &nbsp;&bull;&nbsp;  Drupal  &nbsp;&bull;&nbsp; Ajax &nbsp;&bull;&nbsp;  Foundation  &nbsp;&bull;&nbsp;  SquareSpace  &nbsp;&bull;&nbsp;  Handlebars  &nbsp;&bull;&nbsp;  Bower&nbsp;&nbsp;&bull;&nbsp;&nbsp;MVC </p>
 
         <h3 class="-txthead">Currently Learning </h3>
-        <p class="p">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel  &nbsp;&bull;&nbsp;  Django </p>
+        <p class="p">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel  &nbsp;&bull;&nbsp;  Django &nbsp;&bull;&nbsp; OpenLayers </p>
 
         <p class="-bigpadding -txtcenter"><a class="-ghost -naturalsize" href="https://s3.amazonaws.com/darkblack-papa/ericadreisbach-resume-web.pdf"  rel="noopener" target="_blank">Download Resume (PDF) </a></p>
 

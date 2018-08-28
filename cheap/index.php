@@ -41,7 +41,7 @@
   <h2 class="hidden">Navigation </h2>
   <div class="container">
     <p class="-bigpadding -txtcenter">
-      <a href=".." class="-ghost -naturalsize">BACK HOME </a>
+      <a href="#" id="button" class="-ghost -naturalsize"> </a>
     </p>
   </div>
 </section>

@@ -101,12 +101,51 @@ body {
   @include hover { color: $red; @include transition(all,.2s,ease-in-out); }
 }
 
+.hilite {
+  background: yellow;
+  font-weight: 500;
+  padding: .2em .3em;
+}
+
 .a {
   border-bottom: 1px dotted #111;
   color: #111;
   text-decoration: none;
   @include transition(all, .2s, ease-in-out);
   @include hover { border-bottom: 1px dotted transparent; color: $red; text-decoration: none;  @include transition(all,.1s,ease-in-out);}
+
+  &.-alt {
+    border-bottom: none;
+    color: white;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: .6em;
+    letter-spacing: .05em;
+    margin-top: 1em;
+    position: relative;
+    text-transform: uppercase;
+
+    span { position: relative; z-index: 10; }
+
+    @include hover {
+      &:before { background: $red; }
+    }
+
+    &:before {
+      display: block;
+      content: '';
+      width: calc(100% + 4em);
+      height: calc(100% + .8em);
+      border: .05em solid white;
+      position: absolute;
+       top: -.4em;
+       left: -2em;
+      z-index: 1;
+      @include border-radius(2em);
+      @include transition-one(background);
+
+    }
+  }
 }
 
 .img {

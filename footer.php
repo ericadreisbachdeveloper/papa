@@ -108,7 +108,7 @@ $(function() {
 
 
 <!-- Back button on Work and Pages -->
-<?php if(isset($page)) : ?>
+<?php if(isset($bodyclass) && $bodyclass == 'work') : ?>
 <script>
 
   $('#button').html('More Work');
@@ -118,6 +118,19 @@ $(function() {
   });
 
 </script>
+
+
+<?php elseif(isset($page)) : ?>
+<script>
+
+  $('#button').html('Back');
+
+  $('#button').click(function(){
+      window.history.back();
+  });
+
+</script>
+
 <?php endif; ?>
 
 

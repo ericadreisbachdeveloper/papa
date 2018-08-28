@@ -32,6 +32,8 @@
     background-attachment: fixed;
   }
 
+  .-desktop-br { display: block; }
+
   .-mobilehideinline {
     display: inline;
   }
@@ -66,10 +68,12 @@
     margin: 0 .3em;
   }
 
+  .a.-alt { font-size: .7em; }
+  .a.-alt:before { height: calc(100% + .6em); top: -.3em; }
 
 
-  //Typography
 
+  // Typography
   .p                   { font-size: 2rem; line-height: 1.666;}
 
   .p.-medium, .-medium { font-size: 3rem; }
@@ -80,6 +84,10 @@
   .home .-pagesubhead  { font-size: 5rem;  }         // h2
 
   .home .-contactsectionhead.-sectionhead { padding-top: 0; }
+
+
+  .google-bragging > .container .p { font-size: 5rem; }
+  .google-bragging { margin-bottom: 1em; }
 
 
   .work, .page {
