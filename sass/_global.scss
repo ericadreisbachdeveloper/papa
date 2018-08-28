@@ -102,9 +102,12 @@ body {
 }
 
 .hilite {
-  background: yellow;
+  border: .05em solid $red;
+  color: $red;
   font-weight: 500;
   padding: .2em .3em;
+  margin: 0 .1em;
+  @include border-radius(.1em);
 }
 
 .a {
