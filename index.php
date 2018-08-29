@@ -254,7 +254,7 @@
         <h3 class="-txthead">Currently Learning </h3>
         <p class="p">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel  &nbsp;&bull;&nbsp;  Django &nbsp;&bull;&nbsp; OpenLayers </p>
 
-        <p class="-bigpadding -txtcenter"><a class="-ghost -naturalsize" href="https://s3.amazonaws.com/darkblack-papa/ericadreisbach-resume-web.pdf"  rel="noopener" target="_blank">Download Resume (PDF) </a></p>
+        <p class="-bigpadding -txtcenter"><a class="-ghost -naturalsize" href="https://s3.amazonaws.com/darkblack-papa/ericadreisbach-resume-web-180828.pdf"  rel="noopener" target="_blank">Download Resume (PDF) </a></p>
 
       </div>
 
