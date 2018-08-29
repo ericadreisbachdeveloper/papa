@@ -244,7 +244,7 @@
       <div class="col-md-2"> </div>
 
       <div class="col-md-8 col-content -txtcenter">
-        <h3 class="-txthead">Strong Front&#8209;End Development&nbsp;Skills </h3>
+        <h3 class="-txthead">Strong <span class="nowrap">Front-End</span> Development&nbsp;Skills </h3>
         <p class="p">HTML&nbsp;/&nbsp;HTML5 &nbsp;&bull;&nbsp; CSS&nbsp;/&nbsp;CSS3&nbsp;/&nbsp;SASS  &nbsp;&bull;&nbsp;  PHP  &nbsp;&bull;&nbsp;  jQuery&nbsp;/&nbsp;Javascript  &nbsp;&bull;&nbsp;  Wordpress  &nbsp;&bull;&nbsp; Bootstrap  &nbsp;&bull;&nbsp;  Photoshop&nbsp;/&nbsp;Illustrator  &nbsp;&bull;&nbsp;  responsive&nbsp;/&nbsp;mobile  &nbsp;&bull;&nbsp;  SEO&nbsp;&nbsp;&bull;&nbsp;&nbsp;HTML&nbsp;email </p>
 
         <h3 class="-txthead">Working Knowledge </h3>
