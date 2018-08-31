@@ -6,7 +6,7 @@
 
   <style scoped>
   .septagon {
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/rani-ramli-geometric.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    background-image: url('https://d276vs7inno1cd.cloudfront.net/rani-ramli-geometric.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
 
     background-blend-mode: multiply;
 
@@ -55,7 +55,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="howl2go" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-howl2go-2.jpg" alt="photo for a keytar player | freelance website development by erica dreisbach" title="Howl2GO | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-howl2go-2.jpg" alt="photo for a keytar player | freelance website development by erica dreisbach" title="Howl2GO | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Howl2GO </h3>
           <h4 class="-workdescrip">HTML5 video +&nbsp;media&nbsp;carousels</h4>
@@ -66,7 +66,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="pinnacle" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-pinnacle-compressed.jpg" alt="homepage screenshot of Pinnacle Advertising | freelance website development by erica dreisbach" title="Pinnacle Advertising | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-pinnacle-compressed.jpg" alt="homepage screenshot of Pinnacle Advertising | freelance website development by erica dreisbach" title="Pinnacle Advertising | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Pinnacle </h3>
           <h4 class="-workdescrip">Custom Wordpress theme <br />with video +&nbsp;carousels</h4>
@@ -76,7 +76,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="worsham" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-worsham-compressed.jpg" alt="screenshot of Worsham College of Mortuary Science homepage" title="Worsham College of Mortuary Science | Wordpress design and development sby Chicago web designer erica dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-worsham-compressed.jpg" alt="screenshot of Worsham College of Mortuary Science homepage" title="Worsham College of Mortuary Science | Wordpress design and development sby Chicago web designer erica dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Worsham College</h3>
           <h4 class="-workdescrip">Wordpress design and&nbsp;development </h4>
@@ -96,7 +96,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="portionpac" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-portionpac-compressed.jpg" alt="PortionPac product page" title="PortionPac | Wordpress redesign by Erica Dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-portionpac-compressed.jpg" alt="PortionPac product page" title="PortionPac | Wordpress redesign by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">PortionPac </h3>
           <h4 class="-workdescrip">Wordpress theme development </h4>
@@ -106,7 +106,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="odea" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-odea-new-compressed.jpg" alt="ODEA homepage HTML5 video - eye wide open" title="ODEA | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-odea-new-compressed.jpg" alt="ODEA homepage HTML5 video - eye wide open" title="ODEA | Wordpress/Bootstrap theme coded by Chicago web developer erica dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">ODEA </h3>
           <h4 class="-workdescrip">Wordpress/Bootstrap theme <br />with HTML5&nbsp;video </h4>
@@ -126,7 +126,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="educare" class="a -awardwinning">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-educare-compressed.jpg" alt="Educare Get Involved and Contact pages as viewed on mobile devices" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-educare-compressed.jpg" alt="Educare Get Involved and Contact pages as viewed on mobile devices" title="Educare | Wordpress/Bootstrap development by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Educare  </h3>
           <h4 class="-workdescrip">Wordpress/Bootstrap development </h4>
@@ -136,7 +136,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="spacetogrow" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-spacetog-compressed.jpg" alt="Space to Grow homepage as viewed on laptop" title="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-spacetog-compressed.jpg" alt="Space to Grow homepage as viewed on laptop" title="Space to Grow | Wordpress site built by Chicago web developer erica dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Space to Grow</h3>
           <h4 class="-workdescrip">Custom Wordpress template </h4>
@@ -156,7 +156,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="welltrail" class="a">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-welltrail.jpg" alt="WellTrail team page - group high five" title="WellTrail | Wordpress mobile development by Erica Dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-welltrail.jpg" alt="WellTrail team page - group high five" title="WellTrail | Wordpress mobile development by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">WellTrail  </h3>
           <h4 class="-workdescrip">Mobile/adaptive Wordpress&nbsp;theme </h4>
@@ -166,7 +166,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="gem" class="a -awardwinning">
           <div class="img-wrap">
-            <img src="https://s3.amazonaws.com/darkblack-papa/sq-gem-compressed.jpg" alt="Government Energy Management - solar panels" title="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-gem-compressed.jpg" alt="Government Energy Management - solar panels" title="Government Energy Management | Wordpress theme design and development by Erica Dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Gov<span class="-mobilehideinline">ernmen</span>t Energy Management </h3>
           <h4 class="-workdescrip">Wordpress design and&nbsp;development </h4>
@@ -184,7 +184,7 @@
 
 
 
-<section class="section picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/erica-headshot-compressed.jpg');">
+<section class="section picture" style="background-image: url('https://d276vs7inno1cd.cloudfront.net/erica-headshot-compressed.jpg');">
   <h2 class="-sectionhead hidden">erica dreisbach </h2>
 </section>
 
@@ -254,7 +254,7 @@
         <h3 class="-txthead">Currently Learning </h3>
         <p class="p">Python  &nbsp;&bull;&nbsp;  Ruby  &nbsp;&bull;&nbsp;  Laravel  &nbsp;&bull;&nbsp;  Django &nbsp;&bull;&nbsp; OpenLayers </p>
 
-        <p class="-bigpadding -txtcenter"><a class="-ghost -naturalsize" href="https://s3.amazonaws.com/darkblack-papa/ericadreisbach-resume-web-180828.pdf"  rel="noopener" target="_blank">Download Resume (PDF) </a></p>
+        <p class="-bigpadding -txtcenter"><a class="-ghost -naturalsize" href="https://d276vs7inno1cd.cloudfront.net/ericadreisbach-resume-web-180828.pdf"  rel="noopener" target="_blank">Download Resume (PDF) </a></p>
 
       </div>
 
@@ -297,7 +297,7 @@
 
 
 
-<section class="section picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/typing.jpg');">
+<section class="section picture" style="background-image: url('https://d276vs7inno1cd.cloudfront.net/typing.jpg');">
   <h2 class="hidden">erica dresbach - chicago wordpress guru </h2>
 </section>
 
@@ -347,7 +347,7 @@
 
 
 
-<section class="picture" style="background-image: url('https://s3.amazonaws.com/darkblack-papa/chicago-skyview-compressed.jpg');">
+<section class="picture" style="background-image: url('https://d276vs7inno1cd.cloudfront.net/chicago-skyview-compressed.jpg');">
   <h2 class="hidden">Chicago freelance web developer erica dreisbach </h2>
 </section>
 
