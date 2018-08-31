@@ -126,7 +126,7 @@ $(function() {
   $('#button').html('Back');
 
   $('#button').click(function(){
-      window.history.back();
+      window.history.go(-1);
   });
 
 </script>
