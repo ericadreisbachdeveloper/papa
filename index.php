@@ -17,7 +17,19 @@
 
   .septagon > .-displaytable > .container { opacity: .5; filter: alpha(opacity=70); color: #fff; text-align: center; text-shadow: 1px 1px 3px #000; }
   .septagon .-pagehead { line-height: 1; }
-  .septagon .-pageusbhead { font-style: italic; margin-top: .2em; }
+  .septagon .-pagesubhead { font-style: italic; margin-top: .2em; }
+
+  .-pagehead, .-pagesubhead {
+    opacity: 0;
+    -webkit-transition: opacity .4s ease-in-out;
+     -moz-transition: opacity .4s ease-in-out;
+      -ms-transition: opacity .4s ease-in-out;
+       -o-transition: opacity .4s ease-in-out;
+        transition: opacity .4s ease-in-out;
+  }
+
+  .-cssloaded .-pagehead, .-cssloaded .-pagesubhead { opacity: 1; }
+
   </style>
 
   <div class="container-fluid-width -displaytable">

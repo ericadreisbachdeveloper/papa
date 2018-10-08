@@ -156,7 +156,7 @@ $(document).ready(function(){
 
 <?php if($bodyclass == home) : ?>
 <!-- home cooked stuff -->
-<script async="async" src="https://s3.amazonaws.com/darkblack-papa/papa-v1.1.0.min.js"></script>
+<script async="async" src="https://s3.amazonaws.com/darkblack-papa/papa.min.js?v1.0.2"></script>
 <?php endif; ?>
 
 
