@@ -11,8 +11,6 @@ $(document).ready(function() {
         jQuery("body").addClass("-cssloaded"), t.removeChild(n)
     }, t.appendChild(n), n.src = r
 
-  alert('loaded');
-
 
   // smoothscroll + tab-accessible nav
     var a = $("#top").height(),
