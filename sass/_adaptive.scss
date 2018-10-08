@@ -26,9 +26,8 @@
 
 
 // Medium non-retina devices (tablets, 48em and up)
-@media (-webkit-max-device-pixel-ratio: 1.1) {
-  //.picture, .septagon { background-attachment: fixed; }
-  .septagon { background-size: 100%; }
+@media (min-width: 48em) and (-webkit-max-device-pixel-ratio: 1.1) {
+  .picture, .septagon { background-attachment: fixed;  }
 }
 
 
@@ -338,14 +337,14 @@
 
 // Large retina devices (desktops, 62em and up)
 @media (min-width: 62em) and (-webkit-min-device-pixel-ratio: 2) {
-  //.picture, .septagon { background-attachment: fixed; }
-  .septagon { background-size: cover; }
+  .picture, .septagon { background-attachment: fixed; background-size: cover; }
 }
 
 
 
 // Large devices (desktops, 62em and up)
 @media (min-width: 62em) {
+  //.picture, .septagon { background-attachment: fixed; background-size: cover; }
 }
 
 
