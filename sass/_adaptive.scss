@@ -27,7 +27,7 @@
 
 // Medium non-retina devices (tablets, 48em and up)
 @media (min-width: 48em) and (-webkit-max-device-pixel-ratio: 1) {
-  .picture { background-attachment: fixed; }
+  .picture, .septagon { background-attachment: fixed; }
 }
 
 
@@ -61,7 +61,6 @@
   }
 
   .septagon {
-    background-attachment: fixed;
     -webkit-clip-path: polygon(100% 0, 100% 97%, 52% 97%, 50% 100%, 48% 97%, 0 97%, 0 0);
   	 clip-path: polygon(100% 0, 100% 97%, 52% 97%, 50% 100%, 48% 97%, 0 97%, 0 0);
   }
@@ -338,7 +337,7 @@
 
 // Large retina devices (desktops, 62em and up)
 @media (min-width: 62em) and (-webkit-min-device-pixel-ratio: 2) {
-  .picture { background-attachment: fixed; }
+  .picture, .septagon { background-attachment: fixed; }
 }
 
 
