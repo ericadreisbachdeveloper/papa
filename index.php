@@ -11,7 +11,6 @@
 
     background-blend-mode: multiply;
 
-    background-size: cover;
     min-height: 30em;
     height: 500px;
     height: calc(100vh - 6em);

@@ -26,7 +26,7 @@
 
 
 // Medium non-retina devices (tablets, 48em and up)
-@media (min-width: 48em) and (-webkit-max-device-pixel-ratio: 1) {
+@media (-webkit-max-device-pixel-ratio: 1.1) {
   .picture, .septagon { background-attachment: fixed; }
   .septagon { background-size: 100%; }
 }
