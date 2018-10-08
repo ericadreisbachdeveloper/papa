@@ -25,12 +25,16 @@
 
 
 
+// Medium non-retina devices (tablets, 48em and up)
+@media (min-width: 48em) and (-webkit-max-device-pixel-ratio: 1) {
+  .picture { background-attachment: fixed; }
+}
+
+
+
+
 // Medium devices (tablets, 48em and up)
 @media (min-width: 48em) {
-
-  .picture {
-    background-attachment: fixed;
-  }
 
   .-desktop-br { display: block; }
 
@@ -327,9 +331,15 @@
 
   .socialmedia > .li { font-size: 8rem; }
 
-
 }
 
+
+
+
+// Large retina devices (desktops, 62em and up)
+@media (min-width: 62em) and (-webkit-min-device-pixel-ratio: 2) {
+  .picture { background-attachment: fixed; }
+}
 
 
 
