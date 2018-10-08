@@ -17,6 +17,7 @@ Nav
 .home .navbar {
   background: rgba(255,255,255,0);            // transparent on top frame
   @include transition(all,.1s,ease-in-out);
+  margin-bottom: 0;
 
   &.affix {
     background: rgba(255,255,255,1);          // opaque on scroll past top frame

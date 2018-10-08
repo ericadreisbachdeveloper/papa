@@ -5,6 +5,7 @@
 <section id="top" class="septagon">
 
   <style scoped>
+
   .septagon {
     background-image: url('https://d276vs7inno1cd.cloudfront.net/rani-ramli-geometric.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
 
@@ -13,10 +14,11 @@
     background-size: cover;
     min-height: 30em;
     height: 500px;
-    height: calc(100vh - 6em); }
+    height: calc(100vh - 6em);
+  }
 
   .septagon > .-displaytable > .container { opacity: .5; filter: alpha(opacity=70); color: #fff; text-align: center; text-shadow: 1px 1px 3px #000; }
-  .septagon .-pagehead { line-height: 1; }
+  .septagon .-pagehead { line-height: 1; margin-top: 0; }
   .septagon .-pagesubhead { font-style: italic; margin-top: .2em; }
 
   .-pagehead, .-pagesubhead {
@@ -29,7 +31,7 @@
   }
 
   .-cssloaded .-pagehead, .-cssloaded .-pagesubhead { opacity: 1; }
-
+  
   </style>
 
   <div class="container-fluid-width -displaytable">
