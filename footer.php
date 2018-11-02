@@ -159,8 +159,8 @@ $(document).ready(function(){
 
 <?php if($bodyclass == home) : ?>
 <!-- home cooked stuff -->
-<!-- <script async="async" src="https://s3.amazonaws.com/darkblack-papa/papa.min.js?v1.0.3"></script> -->
-<script src="js/DEV/dev-papa.js"></script>
+<script async="async" src="https://s3.amazonaws.com/darkblack-papa/papa.min.js?v1.0.4"></script>
+<!-- <script src="js/DEV/dev-papa.js"></script> -->
 <?php endif; ?>
 
 
