@@ -1,9 +1,23 @@
 
 
 
+COMMAND LINE FOR COMPRESSING IMAGES
+
 convert FILE.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB FILE-v2.jpg
 
 
-convert web2.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB web3.jpg
 
 Cache-Control  max-age=31536000
+
+
+
+GZIP IN AWS
+
+1. run 
+   $gzip FILENAME
+
+2. remove the .gz from the resulting file
+
+3. upload to AWS 
+
+4. set Metadata Content-Encoding gzip
