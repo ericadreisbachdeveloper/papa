@@ -241,7 +241,8 @@
 
 <section class="section google-bragging">
   <div class="container">
-    <p class="p -txtcenter">This site scores 100/100<span class="-desktop-br"></span> on Google PageSpeed Insights <br />
+    <p class="p -txtcenter">Until very recently this site scored 100/100<span class="-desktop-br"></span> on Google PageSpeed Insights. </p>
+    <p class="p -txtcenter">Check to see if I've raised the level of my game to Google's latest&nbsp;standards: <br />
     <a class="a -alt" href="https://developers.google.com/speed/pagespeed/insights/?url=https://ericadreisbach.com&tab=mobile" target="_blank" rel="noopener"><span>Click Here </span></a></p>
   </div>
 </section>
