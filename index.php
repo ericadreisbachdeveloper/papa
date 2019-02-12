@@ -214,7 +214,7 @@
         <h2 class="-sectionhead">Hello! </h2>
         <p class="p">I'm a freelance web&nbsp;developer based in Chicago, working on projects from all over the US. I've built websites for clients in New&nbsp;York, Portland&nbsp;(Oregon), Boston, San&nbsp;Francisco, Los&nbsp;Angeles, South&nbsp;Carolina, and here in&nbsp;Chicago. </p>
         <p class="p">My obsessive email habit plus phone or Skype conferences as needed combine for an optimal remote working&nbsp;relationship. </p>
-        <p class="p">My current focus areas are <strong class="hilite">speed</strong> and <strong class="hilite">security.</strong>
+        <p class="p">My current focus areas are <strong class="hilite">speed</strong> and <strong class="hilite">security.</strong></p>
       </div><!-- /.col-content -->
     </div><!-- /.row -->
 
