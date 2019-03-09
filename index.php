@@ -7,9 +7,13 @@
   <style scoped>
 
   .septagon {
-    background-image: url('https://d276vs7inno1cd.cloudfront.net/rani-ramli-geometric.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%);
+    /*
+    background-image: url('https://d276vs7inno1cd.cloudfront.net/rani-ramli-geometric.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%); */
+
+    background-image: url('https://s3.amazonaws.com/darkblack-papa/cobweb.jpg'), -webkit-linear-gradient(top, rgba(155,20,20, .9) 0, rgba(155,0,60, .9) 50%, rgba(20,0,144,0) 100%);
 
     background-blend-mode: multiply;
+    background-position: 100% 0;
 
     min-height: 30em;
     height: 500px;
@@ -238,13 +242,13 @@
 
 
 
-<section class="section google-bragging">
+<!-- <section class="section google-bragging">
   <div class="container">
     <p class="p -txtcenter">Until very recently this site scored 100/100<span class="-desktop-br"></span> on Google PageSpeed Insights. </p>
     <p class="p -txtcenter">Check to see if I've raised the level of my game to Google's latest&nbsp;standards: <br />
     <a class="a -alt" href="https://developers.google.com/speed/pagespeed/insights/?url=https://ericadreisbach.com&tab=mobile" target="_blank" rel="noopener"><span>Click Here </span></a></p>
   </div>
-</section>
+</section> -->
 
 
 

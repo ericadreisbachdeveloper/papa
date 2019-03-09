@@ -2,15 +2,8 @@
 
   <h3 class="-contactsectionhead -sectionhead -txtcenter -large">Wanna Work Together? </h3>
 
-<!--
-  <p class="p -text-center" style="margin-top: 1.5em; margin-bottom: 2em; line-height: 1.6;">Projects start at $575. Need it cheaper? <a class="a" href="cheap">Click&nbsp;here</a>. -->
-  <p class="p -text-center" style="margin-top: .5em;">You're catching me when I'm booked <span class="nowrap">full time</span> into <span class="nowrap">March 2019</span>. I am not booking new work <span class="nowrap">until then.</span> </p>
 
-  <p class="p -text-center">If you're a small business or have a large spec, contact me and I can refer you to some <span class="nowrap">excellent colleagues.</span></p>
-
-  <p class="p -text-center">If you're an individual or you &ldquo;just need a simple site,&rdquo; contact me and I can refer you to a different set of <span class="nowrap">excellent colleagues.</span></p>
-
-  <p class="p -text-center">Free advice <a class="a" href="cheap">here</a>.
+  <p class="p -text-center" style="margin-top: 1.5em; margin-bottom: 2em; line-height: 1.6;">Projects start at $595. Need it cheaper? <a class="a" href="cheap">Click&nbsp;here</a>. <br />Free advice <a class="a" href="cheap">here</a>.
   Recruiters <a class="a" href="https://twitter.com/actualrecruiter" target="_blank">click&nbsp;here</a>.</p>
 
   <div id="validation" style="width: 100%; text-align: center; color: red; font-size: 2rem; font-style: italic; position: absolute; top: 3em;"> </div>
