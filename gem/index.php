@@ -5,7 +5,8 @@
 <section id="maincontent" class="section">
   <div class="container">
     <h1 class="-pagehead -desktopfloatleft">Government Energy Management </h1>
-    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="https://govenergymgt.com" target="_blank" rel="noopener">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a>
+    <!--
+    <a class="-ghost -desktopfloatright -samesize -txtcenter -visit" href="https://govenergymgt.com" target="_blank" rel="noopener">Visit this site <i class="fa fa-arrow-circle-right -diagonal" aria-hidden="true"></i></a> -->
   </div>
 </section>
 
