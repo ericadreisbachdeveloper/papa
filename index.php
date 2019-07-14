@@ -1,3 +1,6 @@
+<?php global $home; global $bodyclass; ?>
+
+
 <?php $bodyclass = 'home'; $metadescription = 'Portfolio for Chicago-based web developer Erica Dreisbach. Specializing in Wordpress and Bootstrap.'; include('header.php'); ?>
 
 

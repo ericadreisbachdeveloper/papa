@@ -1,3 +1,6 @@
+<?php global $home; global $bodyclass; ?>
+
+
 <footer class="footer">
   <div class="container">
     <div class="row">
@@ -156,7 +159,6 @@ $(document).ready(function(){
 });
 </script>
 <?php endif; ?>
-
 
 
 <?php if($bodyclass == home) : ?>

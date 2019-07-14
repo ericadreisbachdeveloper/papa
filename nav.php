@@ -1,3 +1,6 @@
+<?php global $home; global $bodyclass; ?>
+
+
 <?php if(isset($page)) { $homedir = '../'; } else { $homedir = ''; } ?>
 
 <?php if(isset($page)) : ?>
