@@ -144,7 +144,7 @@ jQuery(document).ready(function(){
 
 
 <!-- initialize carousel on Work pages -->
-<?php if($bodyclass == work) : ?>
+<?php if($bodyclass == "work") : ?>
 <script src="../js/owl.carousel.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -161,7 +161,7 @@ $(document).ready(function(){
 <?php endif; ?>
 
 
-<?php if($bodyclass == home) : ?>
+<?php if($bodyclass == "home") : ?>
 <!-- home cooked stuff -->
 <script async="async" src="https://s3.amazonaws.com/darkblack-papa/papa.min.js?v1.0.5"></script>
 <!-- <script src="js/DEV/dev-papa.js"></script> -->
