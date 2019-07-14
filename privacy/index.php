@@ -19,7 +19,7 @@
 
       <div class="col-md-8 col-content">
 
-        <p class="p">This site uses Google Analytics to collect data about users and site traffic. You can read more about what Google collects and how they use it on their&nbsp;site: <a href="https://support.google.com/analytics/answer/6004245?hl=en" target="_blank" class="a"  rel="noopener">https://support.google.com/analytics/answer/6004245?hl=en</a></p>
+        <p class="p">This site uses Google Analytics to collect data about users and site traffic. You can read more on Google's site about what they collect and how they use&nbsp;it: <a href="https://support.google.com/analytics/answer/6004245?hl=en" target="_blank" class="a"  rel="noopener">https://support.google.com/analytics/answer/6004245?hl=en</a></p>
 
         <p class="p">This site does not use other cookies or similar tracking&nbsp;tools. </p>
 
