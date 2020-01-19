@@ -75,7 +75,7 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="howl2go" class="a">
           <div class="img-wrap">
-            <img src="https://d276vs7inno1cd.cloudfront.net/sq-howl2go-2.jpg" alt="photo for a keytar player | freelance website development by erica dreisbach" title="Howl2GO | Wordpress development by Chicago freelance web developer ericad dreisbach" class="img" />
+            <img src="https://d276vs7inno1cd.cloudfront.net/sq-howl2go-2.jpg" alt="photo of a keytar player | freelance website development by erica dreisbach" title="Howl2GO | Wordpress development by Chicago freelance web developer erica dreisbach" class="img" />
           </div>
           <h3 class="-worktitle">Howl2GO </h3>
           <h4 class="-workdescrip">HTML5 video +&nbsp;media&nbsp;carousels</h4>
