@@ -19,6 +19,14 @@
 
       <div class="col-md-8 col-content">
 
+        <div class="quote lynch">
+          <p class="p -medium">&ldquo;Erica is a truly phenomenal designer! She was such a pleasure to work with, and we could not be happier with our new website. She's <!-- a great communicator, -->incredibly organized<!--,--> and worked hard with us on our vision for the site. Thanks to her, we now have the best platform for us to elevate our mission and our&nbsp;students!&rdquo; </p>
+          <p class="p attrib -txtright">
+            <span class="name"> &mdash; McKenzie Lynch</span><br />
+            <span class="org"> High Jump</span>
+          </p>
+        </div>
+
 
         <div class="quote kennon">
           <p class="p -medium">&ldquo;Erica is brilliant! She's a true expert with Wordpress <!-- and&nbsp;&mdash; perhaps just as important for the project we worked on&nbsp;&mdash; is--> and a great communicator able to speak the same language as everyone on our team, from design to IT.<!-- , and without exception replied to every question or point of feedback in a quick, clear and helpful way. --> <!-- I think we sometimes go in to a website project hoping for it to be &ldquo;less painful than last time&rdquo;&nbsp;&mdash; with Erica, the process was not just painless but actually felt easy and enjoyable. -->We're thrilled with the site and equally thrilled that it was ready on time, on budget and with everyone on the team still&nbsp;smiling.&rdquo;</p>
