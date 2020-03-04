@@ -22,8 +22,8 @@
         <div class="quote lynch">
           <p class="p -medium">&ldquo;Erica is a truly phenomenal designer! She was such a pleasure to work with, and we could not be happier with our new website. She's <!-- a great communicator, -->incredibly organized<!--,--> and worked hard with us on our vision for the site. Thanks to her, we now have the best platform for us to elevate our mission and our&nbsp;students!&rdquo; </p>
           <p class="p attrib -txtright">
-            <span class="name"> &mdash; McKenzie Lynch</span><br />
-            <span class="org"> High Jump</span>
+            <span class="name"> &mdash; MacKenzie Lynch</span><br />
+            <span class="org"> Reading in Motion</span>
           </p>
         </div>
 
