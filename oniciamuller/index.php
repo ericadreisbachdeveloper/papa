@@ -38,7 +38,7 @@
 
       <div class="col-md-8 col-content">
         <p class="p -txtcenter -medium">Wordpress blog &bull;&nbsp;multisite &bull;&nbsp;responsive &bull;&nbsp;search&nbsp;engine&nbsp;optimization</p>
-        <p class="p">Custom Wordpress blogging theme with multisite support for a <span style="white-space: nowrap;">Chicago-based</span> Caribbean comedian and writer. Development includes search engine optimization, content migration, custom colors, MailChimp newsletter subscription form, contact form, homepage template, and custom <span style="white-space: nowrap;">auto-populating</span> feature&nbsp;boxes.  </p>
+        <p class="p">Custom Wordpress blogging theme with multisite support for a <span style="white-space: nowrap;">Chicago-based</span> Caribbean comedian and writer. Development includes search engine optimization, content migration, custom colors, MailChimp newsletter subscription form, contact form, homepage template, and <span style="white-space: nowrap;">auto-populating</span> feature&nbsp;boxes.  </p>
       </div>
 
       <div class="col-md-2"> </div>
