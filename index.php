@@ -114,12 +114,12 @@
       <div class="col-md-1"> </div>
 
       <div class="col-xs-6 col-md-5 work-cell">
-        <a href="portionpac" class="a">
+        <a href="oniciamuller" class="a">
           <div class="img-wrap">
-            <img src="https://d276vs7inno1cd.cloudfront.net/sq-portionpac-compressed.jpg" alt="PortionPac product page" title="PortionPac | Wordpress redesign by Erica Dreisbach" class="img" />
+            <img src="https://darkblack-papa.s3.amazonaws.com/sq-onicia.jpg" alt="headshot of Onicia Muller | Caribbean Chicago comedy writer" title="Onicia Muller | Chicago Caribbean comedy blogger" class="img" />
           </div>
-          <h3 class="-worktitle">PortionPac </h3>
-          <h4 class="-workdescrip">Wordpress theme development </h4>
+          <h3 class="-worktitle">Onicia Muller </h3>
+          <h4 class="-workdescrip">Wordpress multisite blog </h4>
         </a>
       </div><!-- /PortionPac -->
 
@@ -295,7 +295,7 @@
         <div class="circle">
           <div class="-circlewrap">
             <span class="-circlesmalls">DEVELOPMENT LEAD ON</span><br />
-            <span class="-circleextrabigs">51</span><br />
+            <span class="-circleextrabigs">52 </span><br />
             <span class="-circlesmalls">WEBSITES<span style="letter-spacing: 0; font-style: italic;">and counting!</span> </span>
           </div>
         </div>
