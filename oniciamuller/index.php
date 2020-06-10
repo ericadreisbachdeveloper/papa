@@ -1,4 +1,4 @@
-<?php $bodyclass = 'work'; $page = 'Onicia Muller | Chicago/Caribbean comedy writer'; $metadescription = 'Onicia Muller | Wordpress web development by Erica Dreisbach.'; include('../header.php'); ?>
+<?php $bodyclass = 'work'; $page = 'Onicia Muller'; $metadescription = 'Onicia Muller | Wordpress web development by Erica Dreisbach.'; include('../header.php'); ?>
 
 
 
