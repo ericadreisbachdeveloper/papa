@@ -1,11 +1,4 @@
-<?php global $home; global $bodyclass; ?>
-
-
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js">
-<head>
-
-
+<?php global $home; global $bodyclass; ?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="no-js"><head>
 <?php function sanitize_output($buffer) {
   // minify html
   require_once('minify/html.php');
@@ -13,6 +6,26 @@
   return $buffer;
 }
 ob_start('sanitize_output'); ?>
+
+
+
+<!-- Analytics - conditionally hidden from PageSpeed Insights -->
+<?php if (!isset($_SERVER['HTTP_USER_AGENT']) || stripos($_SERVER['HTTP_USER_AGENT'], 'Speed Insights') === false): ?>
+
+<!-- Google Tag Manager -->
+<!-- "Paste this code as high in the <head> of the page as possible" -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M9NGZ3X');
+gtag('config', 'UA-47393701-1');
+</script>
+<!-- End Google Tag Manager -->
+
+<?php endif; ?>
+<!-- END Analytics -->
+
 
 
 <meta charset="UTF-8">
@@ -67,7 +80,11 @@ else { document.documentElement.className = "nosvg"; }
 
 
 
-<body class="<?php if(isset($bodyclass)) { echo $bodyclass; }?>" <?php if (!isset($page)) { echo 'data-spy="scroll" data-target=".navbar" data-offset="50"'; } ?> style="margin: 0;" >
+<body class="<?php if(isset($bodyclass)) { echo $bodyclass; }?>" <?php if (!isset($page)) { echo 'data-spy="scroll" data-target=".navbar" data-offset="50"'; } ?> style="margin: 0;">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9NGZ3X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
 <?php if(isset($page)) { include('nav.php'); } ?>
