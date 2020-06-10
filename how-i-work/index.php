@@ -60,7 +60,7 @@
 
         <div class="qna">
           <p class="p q">Do you do design? </p>
-          <p class="p">Design is available for <span class="nowrap">laid-back</span> clients. Examples of my designs include <a href="https://ericadreisbach.com/" title="erica dreisbach | web designer" class="a">ericadreisbach.com</a>, <a href="../worsham" title="Worsham College | web design by erica dreisbach" class="a">Worsham&nbsp;College</a>, <a href="../howl2go" title="Howl2GO | web design by erica dreisbach" class="a">Howl2GO</a>, and <a href="../gem" class="a" title="Government Energy Management | award-winning web design by erica dreisbach">Government Energy&nbsp;Management</a>.</p>
+          <p class="p">Design is available for <span class="nowrap">laid-back</span> clients. Examples of my designs include <a href="https://ericadreisbach.com/" title="erica dreisbach | web designer" class="a">ericadreisbach.com</a>, <a title="Nousot | web design by erica dreisbach" class="a" href="https://nousot.com" target="_blank" rel="noopener">Nousot</a>, <a href="../worsham" title="Worsham College | web design by erica dreisbach" class="a">Worsham&nbsp;College</a>, <a href="../howl2go" title="Howl2GO | web design by erica dreisbach" class="a">Howl2GO</a>, and <a href="../gem" class="a" title="Government Energy Management | award-winning web design by erica dreisbach">Government Energy&nbsp;Management</a>.</p>
 
           <p class="p">I'm fluent in the full Adobe Creative Suite and am just as versatile making adjustments to a PSD as I am updating&nbsp;code. </p>
 
