@@ -367,7 +367,7 @@
 
 
 
-<section class="picture" style="background-image: url('https://d276vs7inno1cd.cloudfront.net/chicago-skyview-compressed.jpg');">
+<section class="picture" style="background-image: url('https://darkblack-papa.s3.amazonaws.com/pedro-lastra-Nyvq2juw4_o-unsplash-web.jpg');">
   <h2 class="hidden">Chicago freelance web developer erica dreisbach </h2>
 </section>
 
