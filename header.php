@@ -12,14 +12,17 @@ ob_start('sanitize_output'); ?>
 <!-- Analytics - conditionally hidden from PageSpeed Insights -->
 <?php if (!isset($_SERVER['HTTP_USER_AGENT']) || stripos($_SERVER['HTTP_USER_AGENT'], 'Speed Insights') === false): ?>
 
+<!-- Google Tag Manager -->
 <!-- https://tagmanager.google.com/ > Admin > Install Google Tag Manager -->
 <!-- Paste this code as high in the <head> of the page as possible: -->
-<!-- Google Tag Manager -->
+
+<!-- Google Analytics -->
+<!-- If you already have a Global Site Tag on your page, simply add the config line from the snippet below to your existing Global Site Tag. -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M9NGZ3X');</script>
+})(window,document,'script','dataLayer','GTM-M9NGZ3X');gtag('config', 'UA-47393701-1');</script>
 <!-- End Google Tag Manager -->
 
 <?php endif; ?>
