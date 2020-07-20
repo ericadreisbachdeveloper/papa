@@ -116,9 +116,9 @@
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="oniciamuller" class="a">
           <div class="img-wrap">
-            <img src="https://darkblack-papa.s3.amazonaws.com/sq-onicia.jpg" alt="headshot of Onicia Muller | Caribbean Chicago comedy writer" title="Onicia Muller | Chicago Caribbean comedy blogger" class="img" />
+            <img src="https://darkblack-papa.s3.amazonaws.com/sq-onicia.jpg" alt="headshot of Chicago TV writer Onicia Muller | Caribbean Chicago comedy writer" title="female comedian Onicia Muller | Chicago Caribbean comedy blogger" class="img" />
           </div>
-          <h3 class="-worktitle">Onicia Muller </h3>
+          <h3 class="-worktitle">Onicia Muller (TV writer)</h3>
           <h4 class="-workdescrip">Wordpress multisite blog </h4>
         </a>
       </div><!-- /PortionPac -->
