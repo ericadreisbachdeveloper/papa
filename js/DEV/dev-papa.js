@@ -1,4 +1,4 @@
-/*! papa 09-10-2018 */
+/*! papa 08-19-2020 */
 $(document).ready(function() {
 
   // .-cssloaded to body
@@ -10,8 +10,6 @@ $(document).ready(function() {
     d.href = r, d.rel = "stylesheet", e.appendChild(d), n.onerror = function() {
         jQuery("body").addClass("-cssloaded"), t.removeChild(n)
     }, t.appendChild(n), n.src = r
-    console.log('stylesheet loaded')
-
 
 
   // smoothscroll + tab-accessible nav

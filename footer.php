@@ -163,8 +163,7 @@ $(document).ready(function(){
 
 <?php if($bodyclass == "home") : ?>
 <!-- home cooked stuff -->
-<script async="async" src="https://s3.amazonaws.com/darkblack-papa/papa.min.js?v1.0.5"></script>
-<!-- <script src="js/DEV/dev-papa.js"></script> -->
+<script async="async" src="https://darkblack-papa.s3.amazonaws.com/papa.min.v102.js"></script>
 <?php endif; ?>
 
 
