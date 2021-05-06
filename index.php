@@ -8,40 +8,12 @@
 <section id="top" class="septagon">
 
   <style scoped>
-
-  .septagon {
-    /*
-    background-image: url('https://d276vs7inno1cd.cloudfront.net/rani-ramli-geometric.jpg'), -webkit-linear-gradient(top, rgba(0,0,0, 0.5) 0, rgba(0,0,0, 0.5) 50%, rgba(0,0,0,0) 90%); */
-
-    background-image: url('https://s3.amazonaws.com/darkblack-papa/cobweb.jpg'), -webkit-linear-gradient(top, rgba(255,7,11, 1) 0, rgba(229,0,141, 1) 30%, rgba(0,0,0,1) 100%);
-
-    background-blend-mode: multiply;
-    background-position: 100% 100%;
-
-    min-height: 30em;
-    height: 500px;
-    height: calc(100vh - 6em);
-  }
-
-  .septagon > .-displaytable > .container { opacity: .5; filter: alpha(opacity=70); color: #fff; text-align: center; text-shadow: 1px 1px 3px #000; }
-  .septagon .-pagehead { line-height: 1; margin-top: 0; }
-  .septagon .-pagesubhead { font-style: italic; margin-top: .2em; }
-
-  .-pagehead, .-pagesubhead {
-    opacity: 0;
-    -webkit-transition: opacity .4s ease-in-out;
-     -moz-transition: opacity .4s ease-in-out;
-      -ms-transition: opacity .4s ease-in-out;
-       -o-transition: opacity .4s ease-in-out;
-        transition: opacity .4s ease-in-out;
-  }
-
-  .-cssloaded .-pagehead, .-cssloaded .-pagesubhead { opacity: 1; }
+  <?php include('css/home-scoped.php'); ?>
 
   </style>
 
-  <div class="container-fluid-width -displaytable">
-    <div class="container -displaytablecell" style="">
+  <div class="container-fluid-width -displayflex">
+    <div class="container">
         <h1 class="-pagehead">erica dreisbach </h1>
         <h2 class="-pagesubhead">web developer </h2>
         <!-- <p class="-bigpadding">
@@ -54,11 +26,8 @@
 
 
 <!-- Styles -->
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
 
-
-
-<?php include('nav.php'); ?>
 
 
 
@@ -295,7 +264,7 @@
         <div class="circle">
           <div class="-circlewrap">
             <span class="-circlesmalls">DEVELOPMENT LEAD ON</span><br />
-            <span class="-circleextrabigs">52 </span><br />
+            <span class="-circleextrabigs">53 </span><br />
             <span class="-circlesmalls">WEBSITES<span style="letter-spacing: 0; font-style: italic;">and counting!</span> </span>
           </div>
         </div>
