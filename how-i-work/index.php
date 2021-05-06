@@ -63,7 +63,7 @@
 
           <ul class="p">
             <li><a href="https://ericadreisbach.com/" title="erica dreisbach | web designer" class="a">ericadreisbach.com</a> </li>
-            <li><a href="https://renegadeadacheng.com" title="Renegade Ada Cheng | web design by erica dreisbach" class="a">Renegade Ada Cheng</a> </li>
+            <li><a href="https://renegadeadacheng.com" target="_blank" rel="noopener" title="Renegade Ada Cheng | web design by erica dreisbach" class="a">Renegade Ada Cheng</a> </li>
             <li><a title="Nousot | web design by erica dreisbach" class="a" href="https://nousot.com" target="_blank" rel="noopener">Nousot</a> </li>
             <li><a href="../worsham" title="Worsham College | web design by erica dreisbach" class="a">Worsham&nbsp;College</a> </li>
             <li><a href="../howl2go" title="Howl2GO | web design by erica dreisbach" class="a">Howl2GO</a> </li>
