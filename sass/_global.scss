@@ -25,6 +25,11 @@ body {
   height: 100%;
 }
 
+.-displayflex {
+  @include flex;
+}
+
+
 .offscreen {
   position: absolute;
    left: -9999px;
@@ -37,36 +42,24 @@ body {
   display: none;
 }
 
-.home {
-  .-pagehead {
-    font-size: 7rem;         // h1
-  }
-
-  .-pagesubhead {
-    font-size: 3.8rem;      // top slide h2
-  }
-
-  .-sectionhead {           // page h2
-    font-size: 6rem;
-    margin: 0;
-    padding-bottom: .5em;
-    text-transform: lowercase;
-  }
-}
 
 
 
 .work, .page {            // .work = Sentegrity, Educare, &c. pages
                           // .page = How I Work, Testimonials
   .-pagehead {
-    font-size: 4.3rem;    // h1
+    font-size: 3rem;    // h1
+    font-weight: 400;
     margin-bottom: 0;
   }
+
   .-pagesubhead {
-    font-size: 2.3rem;    // h2
+    font-size: 2rem;    // h2
     margin-top: 0;
   }
+
 }
+
 
 
 .-worktitle {
@@ -219,6 +212,7 @@ img:not([src]){
   margin: .5em auto;
   padding-top: .5em;
   padding-bottom: .5em;
+  text-decoration: none;
   text-transform: uppercase;
   @include border-radius(2em);
   @include transition(all,.1s,ease-in-out);

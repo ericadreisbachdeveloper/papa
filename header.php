@@ -102,4 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 
-<?php if(isset($page)) { include('nav.php'); } ?>
+<a href="#maincontent" class="sr-only skip-nav">Skip Navigation </a>
+
+
+<?php include('nav.php'); ?>

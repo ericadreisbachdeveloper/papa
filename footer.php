@@ -33,17 +33,22 @@
 
 <!-- Contact validation -->
 <?php if($bodyclass == 'home') : ?>
+  <!--
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"> </script>
 <script async="async" src="https://s3.amazonaws.com/darkblack-papa/jquery-form-v1.1.0.min.js"> </script>
 
-<script>
+-->
 
+<script>
+/*
 $(document).ready(function(){
   // set contact form wrapper height inline
   // so that success message is vertically aligned: middle
   var contacth = $('#contactform').height();
   $('#contactformwrapper').height(contacth);
 });
+*/
+
 
 jQuery.validator.addMethod('answercheck', function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value);

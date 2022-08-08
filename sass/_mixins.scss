@@ -11,11 +11,27 @@
   @include transition($el,.1s,ease-in-out);
 }
 
+@mixin transition-multi($multi...) {
+  -webkit-transition: $multi;
+   -moz-transition: $multi;
+    -ms-transition: $multi;
+     -o-transition: $multi;
+      transition: $multi;
+}
+
 
 @mixin clear {
   content: '';
   display: block;
   clear: both;
+}
+
+@mixin flex {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: flex;
 }
 
 
@@ -115,6 +131,15 @@
       -ms-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
 }
 
+@mixin rotate($deg) {
+  transform: rotate($deg);
+   -webkit-transform: rotate($deg);
+    -moz-transform: rotate($deg);
+     -o-transform: rotate($deg);
+      -ms-transform: rotate($deg);
+}
+
+
 @mixin hover {
   &:hover{ @content; }
 	 &:active{ @content; }
@@ -163,7 +188,6 @@
 
 // Animations are a three part thing
 // this is Part One
-
 @mixin keyframes($animationName) {
     @-webkit-keyframes #{$animationName} {
         @content;
@@ -180,7 +204,7 @@
 }
 
 // Timing: linear;  duration in s
-@mixin cssanimate($animation, $timing, $iterations, $duration) {
+@mixin animation($animation, $timing, $iterations, $duration) {
   -webkit-animation-name: $animation;
   -webkit-animation-timing-function: $timing;
   -webkit-animation-iteration-count: $iterations;
@@ -210,16 +234,6 @@
     50% { transform: scale(1.2); transform-origin: center center; }
     0%, 100% { transform: scale(1); transform-origin: center center; }
 }
-
-
-@include keyframes(numbers) {
-    0%   { content: '32'; }
-    25%  { content: '33'; }
-    50%  { content: '34'; }
-    75%  { content: '35'; }
-    100% { content: '36'; }
-}
-
 
 
 

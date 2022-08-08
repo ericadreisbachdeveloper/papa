@@ -1,0 +1,691 @@
+/* ------------------------
+  Bootstrap - but dieted down to the ESSENTIALS of structure
+------------------------ */
+
+// NOTES
+// give top level nav <li> items class .nav-li
+// give top level nav <a> items class .nav-a
+// give dropdown      <li>  class .dropdown-li
+// target dropdown    <a>   with  .dropdown-li [href]
+
+
+// Mixins
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	 -moz-transition: $transition-property $transition-time $method;
+	  -ms-transition: $transition-property $transition-time $method;
+	   -o-transition: $transition-property $transition-time $method;
+	    transition: $transition-property $transition-time $method;
+}
+
+@mixin transition-one($el) {
+  @include transition($el,.1s,ease-in-out);
+}
+
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+@mixin animation($animation, $timing, $iterations, $duration) {
+  -webkit-animation-name: $animation;
+  -webkit-animation-timing-function: $timing;
+  -webkit-animation-iteration-count: $iterations;
+  -webkit-animation-duration: $duration;
+
+  animation-name: $animation;
+  animation-timing-function: $timing;
+  animation-iteration-count: $iterations;
+  animation-duration: $duration;
+}
+
+@mixin rotate($deg) {
+  transform: rotate($deg);
+   -webkit-transform: rotate($deg);
+    -moz-transform: rotate($deg);
+     -o-transform: rotate($deg);
+      -ms-transform: rotate($deg);
+}
+
+// $rotate and $skew with deg, a la "90deg"
+// skew is in degrees, 0 is default
+@mixin transform($rotate, $scale, $skew, $translatex, $translatey) {
+  transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+   -webkit-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+    -moz-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+     -o-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+      -ms-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+}
+
+@include keyframes(toggle_top) {
+  0% { @include transform(0deg, (1,1), 0, 0, 0); top: .7rem; }
+  50% { @include transform(0deg, (1,1), 0, 0, 0); top: 1.3rem; }
+  100% { @include transform(45deg, (1,1), 0, 0, 0); top: 1.3rem; }
+}
+
+@include keyframes(toggle_top_collapsed) {
+  100% { @include transform(0deg, (1,1), 0, 0, 0); top: .7rem; }
+  50% { @include transform(0deg, (1,1), 0, 0, 0); top: 1.3rem; }
+  0% { @include transform(45deg, (1,1), 0, 0, 0); top: 1.3rem; }
+}
+
+@include keyframes(toggle_bottom) {
+  0% { @include transform(0deg, (1,1), 0, 0, 0); top: 2.25rem; }
+  50% { @include transform(0deg, (1,1), 0, 0, 0); top: 1.3rem; }
+  100% { @include transform(-45deg, (1,1), 0, 0, 0); top: 1.3rem; }
+}
+
+@include keyframes(toggle_bottom_collapsed) {
+  100% { @include transform(0deg, (1,1), 0, 0, 0); top: 2.25rem; }
+  50% { @include transform(0deg, (1,1), 0, 0, 0); top: 1.3rem; }
+  0% { @include transform(-45deg, (1,1), 0, 0, 0); top: 1.3rem; }
+}
+
+
+
+
+// Variables
+$navh: 3.125rem;
+$pad: 1.5rem;
+
+@mixin containerw {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+[class~="row"] { margin-right: -$pad; margin-left: -$pad; }
+
+%containerw,
+%navcontainerw,
+.container-fluid-width {
+  @include containerw;
+}
+
+
+// Structure
+* { box-sizing: border-box; }
+
+.container {
+  @extend %containerw;
+}
+
+.nav-container {
+  @extend %navcontainerw;
+}
+
+
+
+.clearfix:after,
+.clearfix:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
+.container:before,
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
+.navbar-header:after,
+.navbar-header:before,
+.navbar:after,
+.navbar:before,
+[class~="row"]:before,
+[class~="row"]:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+
+button {
+  &:hover,
+   &:active,
+    &:focus,
+     &:target {
+       cursor: pointer;
+  }
+}
+
+
+%sr-only {
+  width: 1px;
+  height: 1px;
+
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+
+  position: absolute;
+}
+
+
+
+.sr-only { @extend %sr-only; }
+
+.hidden { @extend %sronly; display: none; }
+
+
+// Nav
+// Nav - default
+// Nav - mobile
+.navbar, .navbar-brand { min-height: $navh; height: $navh; }
+
+.container > .navbar-header {
+  margin-right: -$pad;
+  margin-left: -$pad;
+}
+
+.navbar-brand {
+  float: left;
+  padding-left: .666rem;
+  text-decoration: none;
+
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: flex;
+
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+
+// Nav controls
+.navbar-toggle { float: right; }
+
+.collapse { display: none; }
+
+.navbar .navbar-collapse { padding: 0; }
+
+.navbar .navbar-collapse > .navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-collapse.in { overflow-y: auto; }
+
+.collapse.in { display: block; }
+
+.collapsing {
+  height: 0;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.navbar-toggle {
+  width: 3.001rem;
+  height: 3.001rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+
+  position: absolute;
+   top: 0;
+   right: 1rem;
+
+  z-index: 910;
+
+  .icon-bar {
+    width: 80%;
+    height: .2rem;
+    background: gray;
+    display: block;
+
+    &.-middle {
+      @include transition-one(opacity);
+      top: 1.5rem;
+    }
+  }
+}
+
+
+// Toggle 1. default state on load
+.navbar-header .icon-bar {
+  &.-top    { top: .7rem; }
+  &.-bottom { top: 2.25rem; }
+}
+
+
+// Toggle 2. after clicking hamburger
+.navbar-toggle {
+
+  // [data-user] added to toggle after a user clicks
+  // so that these sweet little css animations
+  // don't run on pageload
+
+  // the hamburger
+  &[data-toggle="collapse"].collapsed[data-userevent] .icon-bar {
+    &.-top,
+    &.-bottom {
+      @include rotate(0deg);
+    }
+
+    &.-middle { opacity: 1; }
+
+    &.-top {
+      @include animation(toggle_top_collapsed, ease-in-out, 1, .2s);
+      @include transform(0deg, (1,1), 0, 0, 0);
+      top: .7rem;
+    }
+
+    &.-bottom {
+    @include animation(toggle_bottom_collapsed, ease-in-out, 1, .2s);
+      @include transform(0deg, (1,1), 0, 0, 0);
+      top: 2.25rem;
+    }
+  }
+
+
+  // the x
+  &[data-toggle="collapse"][data-userevent] .icon-bar {
+    &.-top {
+      @include animation(toggle_top, ease-in-out, 1, .2s);
+      @include transform(45deg, (1,1), 0, 0, 0);
+      top: 1.3rem;
+    }
+
+    &.-bottom {
+      @include animation(toggle_bottom, ease-in-out, 1, .2s);
+      @include transform(-45deg, (1,1), 0, 0, 0);
+      top: 1.3rem;
+    }
+
+    &.-middle { opacity: 0; }
+  }
+}
+
+
+
+
+
+
+// Collapse
+.navbar .navbar-collapse:not(.in):not(.collapsing) {
+  min-height: $navh;
+}
+
+.navbar .navbar-collapse {
+  width: 100%;
+  background: white;
+
+  position: absolute;
+    top: $navh;
+    left: 0;
+
+  overflow-x: visible;
+   -webkit-overflow-scrolling: touch;
+
+   &.collapsing,
+   &.in { width: 100%; }
+
+  [href] {
+    color: black;
+    text-decoration: none;
+  }
+
+  .navbar-nav {
+    width: calc(100% - 3rem);
+    margin-left: $pad;
+  }
+
+  .navbar-nav, .dropdown-menu {       // .ul
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+}
+
+
+
+// Dropdown
+.caret {
+  width: 0;
+  height: 0;
+
+  border-top: .4rem dashed;
+  border-top: .4rem solid;
+  border-right: .4rem solid transparent;
+  border-left: .4rem solid transparent;
+
+  display: inline-block;
+  margin-left: 0;
+
+  vertical-align: middle;
+}
+
+
+.navbar-nav [aria-expanded="false"] + .dropdown-menu {
+  max-height: 0;
+  overflow: hidden;
+}
+
+
+.nav-a, .dropdown-li [href] {
+  display: block;
+}
+
+.nav-a              { padding: 1rem; }
+.dropdown-li        { font-size: 1.5rem; }
+
+.dropdown-li [href] {
+  padding-top: .75rem;
+  padding-right: .75rem;
+  padding-bottom: .75rem;
+  padding-left: 2rem;
+}
+
+
+
+// Grid - default
+// Grid - mobile
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+
+  padding-right: $pad;
+  padding-left: $pad;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+.col-xs-11 {
+  width: 91.66666667%;
+}
+.col-xs-10 {
+  width: 83.33333333%;
+}
+.col-xs-9 {
+  width: 75%;
+}
+.col-xs-8 {
+  width: 66.66666667%;
+}
+.col-xs-7 {
+  width: 58.33333333%;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-xs-5 {
+  width: 41.66666667%;
+}
+.col-xs-4 {
+  width: 33.33333333%;
+}
+.col-xs-3 {
+  width: 25%;
+}
+.col-xs-2 {
+  width: 16.66666667%;
+}
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+
+
+
+
+
+// Medium
+// @media (min-width: 768px) {
+@media (min-width: 48em) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+
+  %containerw {
+    //width: 750px;
+    width: 45em;
+  }
+}
+
+
+
+// Large
+// @media (min-width: 992px) {
+@media (min-width: 62em) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+
+  %containerw, %navcontainerw {
+    //width: 970px;
+    width: 59em;
+  }
+}
+
+
+
+// @media (min-width: 1200px) {
+// Extra large devices
+@media (min-width: 75em) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+
+  %containerw, %navcontainerw {
+    width: 72em;
+  }
+}
+
+
+
+
+
+
+
+// Nav - medium
+
+// Medium
+@media (min-width: 48rem) {
+
+  .navbar-toggle { display: none; }
+
+  .navbar-nav, .navbar-right { float: right; }
+
+  .navbar-header { float: left; }
+
+  .navbar .navbar-collapse {
+    width: auto;
+    float: right;
+     top: 0;
+
+    &.collapsing,
+    &.in { width: auto; }
+  }
+
+  .collapse.navbar-collapse {
+    display: block;
+    position: static;
+  }
+
+  .navbar .navbar-collapse .navbar-nav { width: auto; }
+
+  .nav-container, .collapse.navbar-collapse,
+  .navbar-nav, .nav-li,
+  .nav-a {
+    height: 100%;
+  }
+
+
+
+  // Nav Top Level - medium
+  // Nav Top-level - medium
+  .nav-li, .nav-a {
+    display: inline-block;
+  }
+
+  .nav-li {
+    line-height: 1.9;
+    vertical-align: middle;
+    position: relative;
+  }
+
+
+  // cheat this for focus ring
+  .nav-a {
+    height: calc(100% - 2px);
+    line-height: calc(3rem - 2px);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+
+  // Dropdown - medium
+  .navbar-nav [aria-expanded] + .dropdown-menu {
+    background: white;
+    position: absolute;
+  }
+
+  .navbar-nav [aria-expanded="true"] + .dropdown-menu {
+    width: 18rem;
+     right: 0;
+  }
+
+  .dropdown-li { font-size: 1.3rem; line-height: 1.3; }
+  .dropdown-li [href] { padding-top: .666rem; padding-bottom: .666rem; }
+
+
+}

@@ -48,9 +48,9 @@
       <div class="col-md-2"> </div>
 
       <div class="col-md-8 col-content">
-        <p class="p -txtcenter -medium">Wordpress &bull;&nbsp;Bootstrap 3 &bull;&nbsp;slideshows &bull;&nbsp;custom&nbsp;post&nbsp;types &bull;&nbsp;responsive &bull;&nbsp;Ajax &bull;&nbsp;HTML5&nbsp;video</p>
+        <p class="p -txtcenter -medium">Wordpress &bull;&nbsp;Bootstrap 3 &bull;&nbsp;slideshows &bull;&nbsp;custom&nbsp;post&nbsp;types &bull;&nbsp;responsive &bull;&nbsp;Ajax &bull;&nbsp;HTML5&nbsp;video </p>
 
-        <p class="p">Wordpress theme development built with <a href="http://www.getbootstrap.com/" target="_blank" rel="noopener" class="a">Bootstrap&nbsp;3</a> for a creative marketing agency in Chicago. Makes significant use of <a href="http://www.advancedcustomfields.com/" target="_blank" rel="noopener" class="a">Advanced Custom Fields</a> and Custom Post Types to deliver content, and CSS3 animations triggered with jQuery for visually dynamic page elements with minimum stress to pageload and browser&nbsp;engine. HTML5 video included on homepage and Ajax&#8209;loaded content on <a class="a" href="http://www.teamodea.com/about/#why-us" target="_blank" rel="noopener">About&nbsp;pages</a>. Design created in house by&nbsp;<a class="a" href="http://www.teamodea.com" target="_blank" rel="noopener">Odea</a>.</p>
+        <p class="p">Wordpress theme development built with <a href="http://www.getbootstrap.com/" target="_blank" rel="noopener" class="a">Bootstrap&nbsp;3</a> for a creative marketing agency in Chicago. Makes significant use of <a href="http://www.advancedcustomfields.com/" target="_blank" rel="noopener" class="a">Advanced Custom Fields</a> and Custom Post Types to deliver content, and CSS3 animations triggered with jQuery for visually dynamic page elements with minimum stress to pageload and browser&nbsp;engine. HTML5 video included on homepage and Ajax&#8209;loaded content on <a class="a" href="http://www.teamodea.com/about/#why-us" target="_blank" rel="noopener">About&nbsp;pages</a>. Design created in house by&nbsp;<a class="a" href="http://www.teamodea.com" target="_blank" rel="noopener">Odea</a>. </p>
       </div>
 
       <div class="col-md-2"> </div>

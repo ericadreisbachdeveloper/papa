@@ -90,7 +90,7 @@
           <h3 class="-worktitle">Onicia Muller (TV writer)</h3>
           <h4 class="-workdescrip">Wordpress multisite blog </h4>
         </a>
-      </div><!-- /PortionPac -->
+      </div><!-- / Onicia -->
 
       <div class="col-xs-6 col-md-5 work-cell">
         <a href="odea" class="a">

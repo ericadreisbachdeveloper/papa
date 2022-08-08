@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>test</title>
+
+
+
+
+<style>
+
+body { margin: 0; }
+
+
+.section {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  float: left;
+  clear: all;
+}
+
+h1, h2 { margin: 0; padding-top: 2rem; text-align: center; }
+
+.section:nth-of-type(1) { background: yellow; }
+.section:nth-of-type(2) { background: lightgreen; }
+.section:nth-of-type(3) { background: dodgerblue; }
+.section:nth-of-type(4) { background: orangered; }
+.fortsection.section { background: red; }
+
+
+.fortsection h2 {
+  padding-top: 10rem;
+}
+</style>
+
+<script>
+
+
+</script>
+
+</head>
+
+
+<body>
+
+  <div class="navbar w-nav">
+    Nav
+  </div>
+
+
+  <section class="section">
+    <h1>Hero </h1>
+  </section>
+
+
+  <section class="section">
+    <h2>Second Section </h2>
+  </section>
+
+
+  <section class="section">
+    <h2>Third Section </h2>
+  </section>
+
+
+  <section class="section">
+    <h2>Fourth Section </h2>
+  </section>
+
+
+
+
+
+  <section class="fortsection section">
+    <div class="inner">hi
+      <h2>Fifth Section </h2>
+    </div>
+  </section>
+
+
+
+<style>
+  .-scroll {
+    position: absolute;
+     top: calc(100vh + 5rem);
+     left: 0;
+  }
+
+  /* overriding webflow default */
+  .brand {
+    -webkit-transition: width .2s ease-in-out, height .2s ease-in-out, -webkit-transform .2s ease-in-out;
+     -moz-transition: width .2s ease-in-out, height .2s ease-in-out, -moz-transform .2s ease-in-out;
+      -ms-transition: width .2s ease-in-out, height .2s ease-in-out, -ms-transform .2s ease-in-out;
+       -o-transition: width .2s ease-in-out, height .2s ease-in-out, -o-transform .2s ease-in-out;
+    transition: width .2s ease-in-out, height .2s ease-in-out, transform .2s ease-in-out;
+  }
+
+  .-scroll + .pagewrapper > .navbar.w-nav,
+  .-scroll + .navbar.w-nav {
+    -webkit-transition: background .2s ease-in-out;
+     -moz-transition: background .2s ease-in-out;
+      -ms-transition: background .2s ease-in-out;
+       -o-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out;
+  }
+
+
+  /* page - default semi-opaque blue bg */
+  .-scroll + .navbar.w-nav {
+    background: rgba(18, 63, 94, .75);
+  }
+
+  .-scroll.scrolled + .pagewrapper > .navbar.w-nav,
+  .-scroll.scrolled + .navbar.w-nav {
+    background: #123f5e;
+  }
+
+  /* pages */
+  .-scroll.scrolled + .navbar.w-nav .brand.w-nav-brand > [src],
+  /* home */
+  .-scroll.scrolled + .pagewrapper > .navbar.w-nav .brand.w-nav-brand > [src] { display: none; }
+
+  /* pages */
+  .-scroll.scrolled + .navbar.w-nav .brand.w-nav-brand,
+  /* home */
+  .-scroll.scrolled + .pagewrapper > .navbar.w-nav .brand.w-nav-brand {
+    width: 10rem;
+    height: 4rem;
+    background-image: url('https://uploads-ssl.webflow.com/614898ee29dd4272c634030c/61e8669b53bb51398cc3674a_crm-copilot-icon.svg');
+    background-position: 0 70%;
+    background-size: 2.9rem;
+    background-repeat: no-repeat;
+  }
+
+</style>
+
+
+
+  <script>
+
+    window.onload = () => {
+
+      // define const body
+      const body = document.body;
+
+      // create div windowh
+      const windowh = document.createElement('div');
+
+      // assign windowh div class -scroll
+      // CSS rules: height 100vh + 5rem
+      windowh.setAttribute('class','-scroll');
+
+      // append windowh div as first child of body (before nav)
+      body.insertBefore(windowh, body.firstChild);
+
+
+
+      // on scroll, run handleScrollAnimation function
+      window.addEventListener("scroll", () => {
+        handleScrollAnimation();
+      });
+
+
+      // define scroll element(s)
+      const scrollElements = document.querySelectorAll(".-scroll");
+
+      // define element in view
+      const elementInView = (el, dividend = 1)   => {
+        const elementTop = el.getBoundingClientRect().top;
+
+        return (
+          elementTop <=
+          (window.innerHeight || document.documentElement.clientHeight) / dividend
+        );
+      };
+
+      // define element out of view
+      const elementOutofView = (el) => {
+        const elementTop = el.getBoundingClientRect().top;
+
+        return (
+          elementTop > (window.innerHeight || document.documentElement.clientHeight)
+        );
+      };
+
+      // add .scrolled to scroll element(s) if in view
+      const displayScrollElement = (element) => {
+        element.classList.add("scrolled");
+      };
+
+      // remove .scrolled from scroll element(s) if out of view
+      const hideScrollElement = (element) => {
+        element.classList.remove("scrolled");
+      };
+
+      const handleScrollAnimation = () => {
+        scrollElements.forEach((el) => {
+          if (elementInView(el, 1.15)) {
+            displayScrollElement(el);
+          } else if (elementOutofView(el)) {
+            hideScrollElement(el)
+          }
+        })
+      }
+    }
+
+</script>
+
+
+</body>
+</html>

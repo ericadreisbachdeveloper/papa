@@ -12,8 +12,6 @@ Home
 
 
 .home {
-
-	/*
   #top {
 		&.alive {
 			background-color: transparent !important;
@@ -26,18 +24,17 @@ Home
 			}
 		}
   }
-	*/
 
 
 
 	.work-section  {
-		//padding-top: 5rem;
-		padding-bottom: 3rem;
+		padding-top: 5em;
+		padding-bottom: 3em;
 
 		&> .container  > .row > .work-cell {
-			padding-top: 1rem;
+			padding-top: 1em;
 			padding-right: 0;
-			padding-bottom: 1rem;
+			padding-bottom: 1em;
 			padding-left: 0;
 
 			&> .a {
@@ -50,7 +47,7 @@ Home
 					 top: 30%;
 					 left: 0;
 					width: 100%;
-					height: 2.5rem;
+					height: 2.5em;
 					background: rgba(255,0,0,.9);
 					color: white;
 					content: 'Award Winning';
@@ -59,7 +56,7 @@ Home
 					font-size: 1.4rem;
 					font-style: italic;
 					letter-spacing: 1px;
-					padding-top: .6rem;
+					padding-top: .6em;
 					text-transform: uppercase;
 					z-index: 10;
 				}
@@ -76,14 +73,14 @@ Home
 
 					&:after {
 						width: 100%;
-						height: 2rem;
+						height: 2em;
 						background-color: red;
 						background: url('https://s3.amazonaws.com/darkblack-papa/shadow-v1.1.0.svg') no-repeat 50% 0;
 						background-size: contain;
 						content: '';
 						display: block;
 						position: absolute;
-						 bottom: -2rem;
+						 bottom: -2em;
 					}
 				}
 			}
@@ -93,12 +90,12 @@ Home
 
 
 	.about-section > .container {
-		padding-top: 2rem;
+		padding-top: 2em;
 	}
 
 	.skills-section > .container {
-		padding-top: 2rem;
-		padding-bottom: 4rem;
+		padding-top: 2em;
+		padding-bottom: 4em;
 
 		&> .row > .col-circle {
 
@@ -108,8 +105,8 @@ Home
 
 			&> .circle {
 				line-height: 1;
-				padding-top: 3rem;
-				padding-bottom: 3rem;
+				padding-top: 3em;
+				padding-bottom: 3em;
 				text-align: center;
 
 				&> .-circlewrap {
@@ -136,8 +133,8 @@ Home
 
 .google-bragging {
 	color: white;
-	margin-top: 6rem;
-	padding-top: 4.5rem;
+	margin-top: 6em;
+	padding-top: 4.5em;
 	@include lineargradient($red, orange);
 
 	&> .container .p {

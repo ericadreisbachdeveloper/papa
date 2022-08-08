@@ -1,0 +1,5 @@
+PSEUDO CODE
+
+- home scoped is essential above-the-fold styling
+  - septagon
+  - nav

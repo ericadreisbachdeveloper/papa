@@ -1,0 +1,394 @@
+// $ sass --watch sass/home-scoped.scss:css/home-scoped.php --style compressed
+
+
+@import '_bootstrap-skinny.scss';
+
+
+// Structure + Mixins
+@mixin flex {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: flex;
+}
+
+.-displayflex { @include flex; }
+
+
+@mixin hover {
+  &:hover{ @content; }
+	 &:active{ @content; }
+	  &:focus{ @content; }
+	   &:target{ @content; }
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	 -moz-transition: $transition-property $transition-time $method;
+	  -ms-transition: $transition-property $transition-time $method;
+	   -o-transition: $transition-property $transition-time $method;
+	    transition: $transition-property $transition-time $method;
+}
+
+@mixin transition-one($el) {
+  @include transition($el,.1s,ease-in-out);
+}
+
+@mixin transition-multi($multi...) {
+  -webkit-transition: $multi;
+   -moz-transition: $multi;
+    -ms-transition: $multi;
+     -o-transition: $multi;
+      transition: $multi;
+}
+
+
+$red: #ff4500;
+$ashblack: rgba(0,0,0,.2);
+$lightgrey: #e7e7e7;
+
+
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+@mixin animation($animation, $timing, $iterations, $duration) {
+  -webkit-animation-name: $animation;
+  -webkit-animation-timing-function: $timing;
+  -webkit-animation-iteration-count: $iterations;
+  -webkit-animation-duration: $duration;
+
+  animation-name: $animation;
+  animation-timing-function: $timing;
+  animation-iteration-count: $iterations;
+  animation-duration: $duration;
+}
+
+@include keyframes(logrow) {
+    50% { transform: scale(1.2); transform-origin: center center; }
+    0%, 100% { transform: scale(1); transform-origin: center center; }
+}
+
+@mixin simple-box-shadow ($vert, $horiz, $blur, $color) {
+  -webkit-box-shadow: $vert $horiz $blur $color;
+   box-shadow: $vert $horiz $blur $color;
+}
+
+@mixin rotate($deg) {
+  transform: rotate($deg);
+   -webkit-transform: rotate($deg);
+    -moz-transform: rotate($deg);
+     -o-transform: rotate($deg);
+      -ms-transform: rotate($deg);
+}
+
+// $rotate and $skew with deg, a la "90deg"
+// skew is in degrees, 0 is default
+@mixin transform($rotate, $scale, $skew, $translatex, $translatey) {
+  transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+   -webkit-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+    -moz-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+     -o-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+      -ms-transform: rotate($rotate) scale($scale) skew($skew) translateX($translatex) translateY($translatey);
+}
+
+@include keyframes(toggle_top) {
+  0% { @include transform(0deg, (1,1), 0, 0, 0); top: .7rem; }
+  50% { @include transform(0deg, (1,1), 0, 0, 0); top: 1.3rem; }
+  100% { @include transform(45deg, (1,1), 0, 0, 0); top: 1.3rem; }
+}
+
+@include keyframes(toggle_top_collapsed) {
+  100% { @include transform(0deg, (1,1), 0, 0, 0); top: .7rem; }
+  50% { @include transform(0deg, (1,1), 0, 0, 0); top: 1.3rem; }
+  0% { @include transform(45deg, (1,1), 0, 0, 0); top: 1.3rem; }
+}
+
+@include keyframes(toggle_bottom) {
+  0% { @include transform(0deg, (1,1), 0, 0, 0); top: 2.25rem; }
+  50% { @include transform(0deg, (1,1), 0, 0, 0); top: 1.3rem; }
+  100% { @include transform(-45deg, (1,1), 0, 0, 0); top: 1.3rem; }
+}
+
+@include keyframes(toggle_bottom_collapsed) {
+  100% { @include transform(0deg, (1,1), 0, 0, 0); top: 2.25rem; }
+  50% { @include transform(0deg, (1,1), 0, 0, 0); top: 1.3rem; }
+  0% { @include transform(-45deg, (1,1), 0, 0, 0); top: 1.3rem; }
+}
+
+
+
+// Type
+.home {
+  .-pagehead {
+    font-size: 7rem;         // h1
+  }
+
+  .-pagesubhead {
+    font-size: 3.8rem;      // top slide h2
+  }
+
+  .-sectionhead {           // page h2
+    font-size: 6rem;
+    margin: 0;
+    padding-bottom: .5em;
+    text-transform: lowercase;
+  }
+}
+
+
+
+
+
+// Hero
+// septagon
+.septagon {
+  min-height: 30rem;
+  height: calc( (100vh - 2rem) * .97);
+
+  background-image: url('https://s3.amazonaws.com/darkblack-papa/cobweb.jpg'), -webkit-linear-gradient(top, rgba(255,7,11, 1) 0, rgba(229,0,141, 1) 30%, rgba(0,0,0,1) 100%);
+
+  background-blend-mode: multiply;
+  background-position: 100% 100%;
+
+	-webkit-clip-path: polygon(100% 0, 100% 97%, 55% 97%, 50% 100%, 45% 97%, 0 97%, 0 0);
+	clip-path: polygon(100% 0, 100% 97%, 55% 97%, 50% 100%, 45% 97%, 0 97%, 0 0);
+}
+
+
+.septagon  {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.septagon .-displayflex {
+  height: 100%;
+
+  -webkit-align-items: center;
+  align-items: center;
+
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+
+
+.septagon .-pagehead    { font-size: 4.5rem;  line-height: 1; margin-top: 0; margin-bottom: .75rem; }
+.septagon .-pagesubhead { font-size: 2.75rem; font-style: italic; margin-top: .2rem; }
+
+.septagon {
+  .-pagehead, .-pagesubhead {
+    font-weight: 500;
+    opacity: .5;
+    -webkit-transition: opacity .4s ease-in-out;
+     -moz-transition: opacity .4s ease-in-out;
+      -ms-transition: opacity .4s ease-in-out;
+       -o-transition: opacity .4s ease-in-out;
+        transition: opacity .4s ease-in-out;
+    }
+}
+
+.-cssloaded .-pagehead, .-cssloaded .-pagesubhead { opacity: 1; }
+
+
+
+// Nav
+.navbar {
+  background: rgba(255,255,255,0);            // transparent on top frame
+
+  @include transition-multi(background 3s ease-in-out, border-bottom 3s ease-in-out);
+  margin-bottom: 0;
+
+  &.affix {
+    background: rgba(255,255,255,1);   // opaque on scroll past top frame
+    border-bottom: .05rem solid $lightgrey;
+
+    @include transition-multi(background 3s ease-in-out, border-bottom 3s ease-in-out);
+  }
+}
+
+
+
+
+
+
+
+
+
+// Work
+.home .work-section  { padding-top: 5rem; }
+
+
+
+
+
+// Contact
+.home .-contactsectionhead.-sectionhead { padding-top: 0; }
+
+
+
+// Medium non-retina devices (tablets, 48em and up)
+@media (min-width: 48em) and (-webkit-max-device-pixel-ratio: 1.1) {
+  .picture, .septagon { background-attachment: fixed;  }
+}
+
+
+
+
+
+
+// Medium
+@media (min-width: 48em) {
+
+  $arroww: 2rem;
+
+  .septagon {
+    -webkit-clip-path: polygon(
+      100% 0,
+      100% calc(100% - #{$arroww}),
+      calc(50% + #{$arroww}) calc(100% - #{$arroww}),
+      50% 100%,
+      calc(50% - #{$arroww}) calc(100% - #{$arroww}),
+      0 calc(100% - #{$arroww}),
+      0 0
+    );
+
+    clip-path: polygon(
+      100% 0,
+      100% calc(100% - #{$arroww}),
+      calc(50% + (1.5 * #{$arroww})) calc(100% - #{$arroww}),
+      50% 100%,
+      calc(50% - (1.5 * #{$arroww})) calc(100% - #{$arroww}),
+      0 calc(100% - #{$arroww}),
+      0 0
+    );
+  }
+
+  .home #top {
+    margin-bottom: 3.125rem; // so that #work anchor shows nav
+    z-index: 30;             // put the spiderweb image on top of the nav
+  }
+
+  .home .-pagehead     { font-size: 6rem; }         // h1
+
+  .home .-pagesubhead  { font-size: 3.5rem;  }      // h2
+
+  .-awardwinning {
+    position: relative;
+
+    &:before, &:after {
+      width: calc(80% + 2em);
+      left: calc(10% - 1em);
+    }
+
+    &:before {
+       left: calc(10% - 1em);
+       top: calc(50% - 3.8em);
+    }
+
+    &:after {
+      position: absolute;
+       top: calc(50% - 4.75em);
+      height: 1em;
+      background: $red;
+      content: '';
+      display: block;
+      z-index: 0;
+      -webkit-clip-path: polygon(0 100%, 10% 0, 90% 0, 100% 100%);
+      clip-path: polygon(0 100%, 10% 0, 90% 0, 100% 100%);
+    }
+  }
+
+
+
+  .home {
+
+    .work-cell {
+      padding-top: 2em;
+      padding-right: 15px;
+      padding-bottom: 2em;
+      padding-left: 15px;
+
+      &> .a > .img-wrap {
+  	     width: 80%;
+         margin: 0 auto;
+       }
+     }
+
+     .about-section > .container {
+       padding-top: 4em;
+     }
+
+     .skills-section > .container > .row > .col-content > .p {
+       font-size: 2.2rem;
+      }
+
+      .skills-section > .container {
+
+        &> .row.skill-circles {
+          padding-top: 4em;
+          padding-bottom: 1em;
+
+          &> .col-circle {
+            &.border-bottom {
+              border: none;
+            }
+
+            &> .circle {
+              border: 1px solid black;
+              height: 20em;
+              width: 20em;
+              border-radius: 10em;
+              margin: 0 auto;
+
+              &> .-circlewrap {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+            }
+          }
+        }
+      }
+
+
+      // Contact
+      .contact-section > .container {
+        padding-top: 6em;
+        padding-bottom: 8em;
+      }
+
+      .contact-section .p {
+        max-width: 25em;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .contact-section .pform {
+        max-width: none;
+      }
+
+      #thankyou {
+        font-size: 5rem;
+      }
+   }
+
+}
+
+
+
+
+@import '_nav.scss';

@@ -3,113 +3,91 @@ Nav
 ------------------------ */
 
 
-.work .navbar,
-.page .navbar {
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid rgba(0,0,0,.1);
-  border-left: 0;
-}
-
-.navbar-default  { border: none; }
 
 
-.home .navbar {
-  background: rgba(255,255,255,0);            // transparent on top frame
-  @include transition(all,.1s,ease-in-out);
-  margin-bottom: 0;
 
-  &.affix {
-    background: rgba(255,255,255,1);          // opaque on scroll past top frame
-    @include transition(all,.1s,ease-in-out);
-  }
+// Variables
+$navh: 3.125rem;
 
-  &>.nav-container > .navbar-header > .navbar-brand {
-    display: none;      // hide logo on mobile on top frame
-  }
 
-  &.affix-top {         // .affix-top = top frame
-    border-top: 0;
-    border-right: 0;
-    border-bottom: 1px solid transparent;
-    border-left: 0;
-  }
+// Skip Nav
+.skip-nav {
+  background: $lightgrey;
+  color: black;
+  float: left;
+  margin-top: .1rem;
+  margin-right: unset;
+  margin-bottom: unset;
+  margin-left: .1rem;
+  padding: .5rem 1rem;
 
-  &.affix {             // .affix = scroll past top frame
-    border-top: 0;
-    border-right: 0;
-    border-bottom: 1px solid rgba(0,0,0,.1) !important;
-    border-left: 0;
-
-    &> .nav-container > .navbar-header > .navbar-brand {
-      display: block;   // show logo on mobile after scroll past top frame
-    }
+  @include hover {
+    width: auto;
+    height: auto;
+    clip: auto;
+    margin: 0;
+    overflow: visible;
+    position: absolute;
+     top: .05rem;
+     left: .05rem;
+    text-decoration: none;
+   z-index: 999;
   }
 }
 
 
 
-
-
-
+// Actual Nav
 .navbar {
   width: 100%;
   background: rgba(255,255,255,1);
+  border-top: 0;
+  border-right: 0;
+  border-bottom: .05rem solid $lightgrey;
+  border-left: 0;
   position: fixed;
    top: 0;
   z-index: 25;
-  @include border-radius(0);
 
   // hamburger button
   .navbar-toggle {
+    background: transparent;
     border: none;
 
-    // position:relative and z-index:20
-    // so that collapsed nav is on top of spider image on mobile
-    // and behind spider image on desktop
     position: relative;
     z-index: 20;
-    @include hover { background: #eee; }
+
+    @include transition-one(background);
+    @include hover { background: $lightgrey; }
 
     .icon-bar {
       background-color: black;
+      position: absolute;
+       left: 10%;
     }
   }
 
   .navbar-brand {
+    @include flex;
     position: relative;
-    z-index: 15;      // so logo shows on .navbar-toggle click while on top frame
-    @include hover { &> .navbar-logo { @include cssanimate(logrow, none, 1, .5s); } }
 
-    &> .navbar-logo {
-      width: 1.7em;
-      float: left;
-      position: relative;
-       top: -.3em;
-       left: -.2em;
-    }
-
-    &> .navbar-name {
-      font-size: 1.5em;
+    @include hover {
+      &> .navbar-logo { @include animation(logrow, none, 1, .5s); }
     }
   }
 
 
   .navbar-collapse {      // .navbar-collapse = div container for ul.nav
-    width: 100%;
+    max-height: calc(100vh - #{$navh});
     background: white;
-    border-bottom: 1px solid $ashblack;
-    position: absolute;
-     top: 0;
-    @include box-shadow(inset,0,0,0,transparent);
 
-    &> .navbar-nav {       // .ul
+    .navbar-nav {       // .ul
       margin-top: 0;
       margin-bottom: 0;
-      padding-top: 50px;
+      padding-left: 0;
 
-      &> li {
-        font-size: 1.9rem;
+      .nav-li  {
+        font-size: 1.666rem;
         text-transform: lowercase;
 
         &> .dropdown-menu {
@@ -122,22 +100,29 @@ Nav
             background: $lightgrey;
           }
 
-          &> li {
-            font-size: 1.8rem;
+          &> .dropdown-li {
             text-transform: none;
           }
         }
       }
-
-      &> .open > .dropdown-menu > li > a {
-        color: black;
-        padding-top: .5em;
-        padding-bottom: .5em;
-        @include hover { color: $red; }
-      }
     }
   }
 }
+
+
+.navbar-brand { padding-left: 2.25rem; }
+
+.navbar-logo {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+   left: 0;
+ }
+
+.navbar-name { font-size: 1.7rem; line-height: 0; }
+
+
+
 
 
 
@@ -145,9 +130,70 @@ Nav
 // hover colors
 .navbar-default {
   .navbar-brand,
-  .navbar-nav>li>a {
+  .navbar-nav > li a {
     color: black;
     @include transition(color, .15s, ease-in-out);
     @include hover { color: $red; @include transition(color, .15s, ease-in-out); }
   }
+}
+
+
+
+
+.work .navbar,
+.page .navbar {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-left: 0;
+}
+
+
+
+
+
+
+// Medium
+@media (min-width: 48rem) {
+  .navbar {
+
+    .navbar-collapse {
+      border-bottom: none;
+
+      .navbar-nav {
+        padding-top: 0;
+
+        &> .nav-li {
+
+          &.open > .dropdown-menu {
+            border-right: 1px solid rgba(0,0,0,.1);
+            border-bottom: 1px solid rgba(0,0,0,.15);
+            border-left: 1px solid rgba(0,0,0,.1);
+          }
+
+          &.dropdown-menu > li {
+            font-size: 1.85rem;   // subnav font size
+          }
+        }
+      }
+    }
+
+    // Medium
+    .navbar-brand > .navbar-name {
+      font-size: 2.4rem;
+    }
+  }
+
+  .nav-a {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+}
+
+
+
+
+@media (min-width: 62em) {
+  .navbar-nav { margin-right: -1.5rem; }
 }
